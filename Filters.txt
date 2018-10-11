@@ -883,23 +883,22 @@ searchdns.netcraft.com##.advert-tag
 ||4dsbanner.net^$subdocument,important
 @@||content*.*.*/virtuagirl.com/*/*.jpg$image
 
-!##[href*="http://tracking.pacharge.com/zone/"]
-!##div.whitebnr:nth-of-type(3) > [href*="/click/o"]
-!##div:nth-of-type(2) > [href*="/click/o/"]
-
 !Random banners using the <class> attribute
 ##div[class^="banner"]
 ##div[class^="banner-block"]
 ##div[class^="ownerbanner"]
 
-!##div:nth-of-type(5) > [href*="signup"]
-!##[src*=".com/0.jpg"]
-!##[src*=".com/1.jpg"]
-!##[src*=".com/2.jpg"]
-!##[href*="/clicks.cgi"]
-!##div:nth-of-type(4) > [href*="go.php"]
-!##div:nth-of-type(4) > [href*=".com/home/"]
-!##div:nth-of-type(31) > [href*=".com/home/"]
+!Secondary banners that aren't using the <class> attribute
+##.block-center > [href*=".com"]
+##[src*=".com/0.jpg"]
+##[src*=".com/1.jpg"]
+##[src*=".com/2.jpg"]
+##[href*="/click/o/"]
+##div:last-child > [href*="/cgi-bin/clicks.cgi"]
+##div:last-child > [href*="go.php"]
+##div:last-child > [href*="signup"]
+##div:last-child > [href*=".com/home/"]
+##div:last-child > [href*="/click/o/bigtitsatwork.com"]
 
 !Porn gallery sites
 
@@ -1060,10 +1059,8 @@ www.babecentrum.com##div:nth-of-type(2) > table > tbody > tr > td:nth-of-type(2)
 www.babecentrum.com###eXo1
 
 !dirtyyoungbitches.com
-www.dirtyyoungbitches.com###ranked-top-container > .site > .zone-on-top.zone
+www.dirtyyoungbitches.com##.zone-on-top.zone
 www.dirtyyoungbitches.com##.zone-on-bottom.zone
-www.dirtyyoungbitches.com##.cont-dark.container:nth-of-type(3) > .site > .zone-on-top.zone > .two-adv
-www.dirtyyoungbitches.com##.cont-dark.container:nth-of-type(3) > .site > .zone-on-top.zone
 
 !sexyaporno.com
 www.sexyaporno.com##.adcontainer
@@ -1502,8 +1499,7 @@ kdocx.com##.fa-chevron-up.fa
 www.wikifeet.com##div.dash2:nth-of-type(2)
 
 !redpornblog.com
-www.redpornblog.com###adsbanner
-www.redpornblog.com##div#ads
+www.redpornblog.com###ads
 
 !galleriesifg.stiffia.com
 galleriesifg.stiffia.com##.secure
@@ -1752,9 +1748,6 @@ www.morazzia.com##[src="/acenter"]
 !babesandgirls.com
 www.babesandgirls.com###block-block-6 > .content > div
 
-!novoporn.com
-!www.novoporn.com##div.banner-block:nth-of-type(6)
-
 !sexykittenporn.com
 www.sexykittenporn.com###z1jk-zj0o5-9qxav
 www.sexykittenporn.com##body > div:nth-of-type(3)
@@ -1802,9 +1795,6 @@ www.silkengirl.com##.spots
 
 !babes.com
 www.babes.com##.floating-footer.js-floating-footer
-
-!nightdreambabe.com
-www.nightdreambabe.com##.ownerbanner
 
 !pleasuregirl.net
 www.pleasuregirl.net###scroller
@@ -1875,12 +1865,10 @@ wikia.com##.cta-banner
 www.sensualgirls.org###box_600
 www.sensualgirls.org###bTIe1QTa
 www.sensualgirls.org###yFw5CViM
-www.sensualgirls.org###yFw5CViM
 www.sensualgirls.org###box_489
 www.sensualgirls.org###box_634
 www.sensualgirls.org###box_577
 www.sensualgirls.org###box_597
-www.sensualgirls.org##div:nth-of-type(19)
 www.sensualgirls.org###box_574
 www.sensualgirls.org###box_490
 www.sensualgirls.org###box_579
@@ -1888,9 +1876,6 @@ www.sensualgirls.org###box_596
 www.sensualgirls.org###box_632
 www.sensualgirls.org###box_441
 www.sensualgirls.org###box_575
-www.sensualgirls.org##div:nth-of-type(23)
-www.sensualgirls.org##div:nth-of-type(43) > [href^="http://refer.ccbill.com/cgi-bin/clicks.cgi"]
-www.sensualgirls.org##div:nth-of-type(4) > [href^="http://refer.ccbill.com/cgi-bin/clicks.cgi"]
 
 !mainbabes.com
 www.mainbabes.com##.button_help
@@ -1921,6 +1906,7 @@ www.silkengirl.net###scrollUp
 
 !livejasminbabes.net
 www.livejasminbabes.net##.visitref.bold.center.inline.size5.text-yellow
+www.livejasminbabes.net##body.gallery .rate-wrapper
 
 !hottystop.com
 www.hottystop.com##div.Box_Small:nth-of-type(1)
@@ -2040,3 +2026,8 @@ www.cherrynudes.com##.ContainerLeft > h1
 !123movies sites
 123movieshub.*,www4.0123movies.org##+js(abort-on-property-read.js, zfgloadedpopup)
 
+!babeimpact.com
+www.babeimpact.com##.mb30.topbabe
+
+!novoglam.com
+www.novoglam.com##div.zone250-double
