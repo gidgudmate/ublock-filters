@@ -882,19 +882,27 @@ searchdns.netcraft.com##.advert-tag
 /2wwu4KB
 ||4dsbanner.net^$subdocument,important
 @@||content*.*.*/virtuagirl.com/*/*.jpg$image
-##[href*="http://tracking.pacharge.com/zone/"]
-##div.whitebnr:nth-of-type(3) > [href*="/click/o"]
-##div:nth-of-type(2) > [href*="/click/o/"]
+
+!##[href*="http://tracking.pacharge.com/zone/"]
+!##div.whitebnr:nth-of-type(3) > [href*="/click/o"]
+!##div:nth-of-type(2) > [href*="/click/o/"]
+
+!Random banners using the <class> attribute
 ##div[class^="banner"]
 ##div[class^="banner-block"]
-##div:nth-of-type(5) > [href*="signup"]
-##[src*=".com/0.jpg"]
-##[src*=".com/1.jpg"]
-##[src*=".com/2.jpg"]
+##div[class^="ownerbanner"]
+
+!##div:nth-of-type(5) > [href*="signup"]
+!##[src*=".com/0.jpg"]
+!##[src*=".com/1.jpg"]
+!##[src*=".com/2.jpg"]
 !##[href*="/clicks.cgi"]
-##div:nth-of-type(4) > [href*="go.php"]
-##div:nth-of-type(4) > [href*=".com/home/"]
-##div:nth-of-type(31) > [href*=".com/home/"]
+!##div:nth-of-type(4) > [href*="go.php"]
+!##div:nth-of-type(4) > [href*=".com/home/"]
+!##div:nth-of-type(31) > [href*=".com/home/"]
+
+!Porn gallery sites
+
 sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.net,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,silkengirl.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org##+js(abort-on-property-read.js, ExoLoader)
 sensualgirls.org,deliciousbabes.org,girlsofdesire.org##+js(abort-on-property-read.js, CustomEvent)
 mainbabes.com,silkengirl.net,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,silkengirl.com,pleasuregirl.net,babesinporn.com,hotstunners.com##+js(abort-on-property-read.js, loadTool)
@@ -2031,3 +2039,4 @@ www.cherrynudes.com##.ContainerLeft > h1
 
 !123movies sites
 123movieshub.*,www4.0123movies.org##+js(abort-on-property-read.js, zfgloadedpopup)
+
