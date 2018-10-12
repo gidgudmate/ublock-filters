@@ -910,17 +910,17 @@ mainbabes.com,silkengirl.net,vibraporn.com,eroluv.com,rabbitsfun.com,decorativem
 !puremature.com
 puremature.com##.popup3.epoch-box
 
-!translate.googleusercontent.com
-translate.googleusercontent.com###adultModalContainer
-
 !dailycaller.com
 dailycaller.com##.io.columns.small-6.float-bar.options-social-bar
 dailycaller.com##.hide-for-small.hide-for-medium.on.dc-go-top
 dailycaller.com###share-wrapper > .columns.socialbuttons
 
 !eiheispot1.blog.fc2.com
-eiheispot1.blog.fc2.com##.cAmazon.body4
-eiheispot1.blog.fc2.com##.cAmazonFluct.body3
+eiheispot1.blog.fc2.com##.cAmazonFluct
+eiheispot1.blog.fc2.com##div.body3:nth-of-type(4)
+eiheispot1.blog.fc2.com##.cAccessRanking
+eiheispot1.blog.fc2.com##div[class*="cSponsored_Link"]
+eiheispot1.blog.fc2.com##.headline
 
 !nudeyoga.net
 nudeyoga.net##.adv
