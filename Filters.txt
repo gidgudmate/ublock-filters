@@ -927,8 +927,7 @@ nudeyoga.net##.adv
 ||nudeyoga.net/player/html.php$subdocument,first-party
 
 !powerbot.org
-www.powerbot.org###julymaybe
-www.powerbot.org###augmaybe
+www.powerbot.org##div[id*="maybe"]
 www.powerbot.org##[href^="https://discord.gg/"]
 
 !nudelas.com
