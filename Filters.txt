@@ -952,24 +952,15 @@ www.foxnews.com###video
 www.foxnews.com##.enabled.slideshow
 
 !camwhoreshd.com
-www.camwhoreshd.com###pe0a-9d3ac-4oo21
-www.camwhoreshd.com###f8bhc-zt9b3-nuf9t
-www.camwhoreshd.com###qmozp-qxwl8-v1hsx
-www.camwhoreshd.com###h0wm-xk49i-je9j1
+@@||wpnrtnmrewunrtok.xyz^$media
 www.camwhoreshd.com##body > div:nth-of-type(3)
 www.camwhoreshd.com##.spots--cards.spots
-www.camwhoreshd.com###psb7m-rzjuu-u23sh
-www.camwhoreshd.com###hlz6q-s4572-mgykz
-www.camwhoreshd.com###vn3x3-hpx7l-gxzz5
-www.camwhoreshd.com###tupm-fiqum-1as6d
-www.camwhoreshd.com###egkle-gthah-svsyw
-www.camwhoreshd.com###mpo3d-zff0j-rjfod
-www.camwhoreshd.com###h6783-k45o0-w6tc4
-www.camwhoreshd.com###fuij8-i9iyn-mchl1
-www.camwhoreshd.com###uasd5-0flkk-nvh7v
-www.camwhoreshd.com###gqv2p-xppou-2zzo3
-www.camwhoreshd.com###v3agg-iws5r-9mo9a
-www.camwhoreshd.com###ip06m-bxwmx-49ovr
+www.camwhoreshd.com##.hola_top_element
+www.camwhoreshd.com##.topad
+www.camwhoreshd.com##[src*="http://www.camsoda1.com/promos/iframe/cw.php"]
+www.camwhoreshd.com###list_videos_friends
+www.camwhoreshd.com##.page__header:style(position: absolute !important)
+www.camwhoreshd.com###back-to-top
 
 !txxx.com
 ||api.revivalcenter.club/scripts/sweet/?img=*$image
