@@ -897,7 +897,7 @@ searchdns.netcraft.com##.advert-tag
 ##div:last-child > [href*="/cgi-bin/clicks.cgi"]
 ##div:last-child > [href*="go.php"]
 ##div:last-child > [href*="/click/o/bigtitsatwork.com"]
-##[href*="join"] > div
+!##[href*="join"] > div
 
 !Porn gallery sites
 sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.net,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,silkengirl.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org##+js(abort-on-property-read.js, ExoLoader)
@@ -962,7 +962,7 @@ www.camwhoreshd.com##.page__header:style(position: absolute !important)
 www.camwhoreshd.com###back-to-top
 
 !txxx.com
-||api.revivalcenter.club/scripts/sweet/?img=*$image
+||out.tubecorporate.com^$popup
 www.txxx.com##.col--size--s.col--move-down.col > .heading--dark.heading > .heading__title
 
 !thetimes.co.uk
