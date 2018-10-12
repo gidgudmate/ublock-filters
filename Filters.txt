@@ -929,7 +929,7 @@ nudeyoga.net##.adv
 !powerbot.org
 www.powerbot.org###julymaybe
 www.powerbot.org###augmaybe
-www.powerbot.org###[href^="https://discord.gg/"]
+www.powerbot.org##[href^="https://discord.gg/"]
 
 !nudelas.com
 www.nudelas.com###adstopo
