@@ -928,8 +928,8 @@ nudeyoga.net##.adv
 
 !powerbot.org
 www.powerbot.org###julymaybe
-www.powerbot.org##[href="https://discord.gg/r9gfMxr"] > .ipsResponsive_hidePhone
-www.powerbot.org###adMoveHere
+www.powerbot.org###augmaybe
+www.powerbot.org###[href^="https://discord.gg/"]
 
 !nudelas.com
 www.nudelas.com###adstopo
