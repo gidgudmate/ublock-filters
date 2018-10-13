@@ -995,16 +995,8 @@ www.vintageporntubes.com##.VPT_video_hors
 www.vintageporntubes.com##.VPT_hor_bl
 www.vintageporntubes.com##.VPT_player_ads
 
-!my-my-my.com
-my-my-my.com##.mc-layout__modalContent > iframe[src="about:blank"]
-my-my-my.com##.mc-layout__modalContent
-
 !retrosexporn.com
-www.retrosexporn.com##.player-right-b-3.player-right-b > .admin-frame-wrap
-www.retrosexporn.com###topbar > .admin-frame-wrap
-www.retrosexporn.com###topbar
 www.retrosexporn.com##.player-right-b-3.player-right-b
-www.retrosexporn.com##.player-right-b-2.player-right-b > .admin-frame-wrap
 www.retrosexporn.com##.player-spots
 
 !twitch.tv
