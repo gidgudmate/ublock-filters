@@ -1002,12 +1002,6 @@ www.retrosexporn.com##.player-spots
 !twitch.tv
 www.twitch.tv##.button--icon-only.button.conversations-list-icon
 
-!disneyfilms.org
-www.disneyfilms.org##a[href^="http://www.facebook.com/share.php"]
-www.disneyfilms.org##a[href^="http://twitter.com/share"]
-www.disneyfilms.org##a[href^="https://plus.google.com/share"]
-www.disneyfilms.org##.bitz
-
 !xbabe.com
 xbabe.com###side_col
 xbabe.com###ipa-s
