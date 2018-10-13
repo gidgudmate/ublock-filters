@@ -1886,7 +1886,7 @@ www.shameless.com##.pause-adv__close
 www.shameless.com##.adv
 
 !thetechgame.com
-www.thetechgame.com##.bold > .hidden-link:style(background-color: #343434 !important)
+www.thetechgame.com##span.hidden-link:style(background-color: #343434 !important)
 www.thetechgame.com##.scroll-top-arrow
 
 !the123movieshub.net
