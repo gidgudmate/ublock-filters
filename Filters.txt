@@ -868,7 +868,6 @@ searchdns.netcraft.com##.advert-tag
 ||wss://ws.peer5.com
 ||orgalso.com
 ||checkabil.com
-||stripcdn.com
 ||pl2121.puserving.com
 ||nlkdom.com
 ||pics.xme.net/info/*/*.jpg$image
@@ -975,18 +974,13 @@ members.twistys.com##.common-content-box.trusted-partners > .clearfix.box-conten
 !javkitty.blogspot.com
 javkitty.blogspot.com###h237
 
-!download.televisionfanatic.com
-download.televisionfanatic.com###main_rr
-
 !porntube.com
-||www.porntube.com/ade/baloo.php
-||cdn1b.sites.porntube.com/tb/banner/*/*/*/*/*/*/*/*/*/*.jpg$image
-www.porntube.com##.ootlPpw2
-www.porntube.com##.x1zDWtWk
-www.porntube.com##.cpp
-www.porntube.com##.footer-la-jesi > .container > .row > .col-xs-12 > ul
-www.porntube.com##.ex-ba
-www.porntube.com##.la-vane-frame
+www.porntube.com##.webcam-shelve
+www.porntube.com##div.col-6.col-sm-6.col-md-3:nth-of-type(4)
+www.porntube.com##.ugc.transparent-button
+www.porntube.com##.related-kodplayer
+www.porntube.com##.hidden-xs-down.video-added
+www.porntube.com##.vjs-autonext-ad-container
 
 !cliphunter.com
 ||www.cliphunter.com/superscript.php
