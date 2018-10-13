@@ -993,6 +993,7 @@ pornovideoshub.com###colophon
 !vintageporntubes.com
 www.vintageporntubes.com##.VPT_video_hors
 www.vintageporntubes.com##.VPT_hor_bl
+www.vintageporntubes.com##.VPT_player_ads
 
 !my-my-my.com
 my-my-my.com##.mc-layout__modalContent > iframe[src="about:blank"]
