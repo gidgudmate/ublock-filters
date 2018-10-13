@@ -1886,12 +1886,7 @@ www.shameless.com##.pause-adv__close
 www.shameless.com##.adv
 
 !thetechgame.com
-www.thetechgame.com###ad-bottom-38970873
-www.thetechgame.com###ad-foot-3897088
-www.thetechgame.com##.mt.clear-fix.wrapper
-www.thetechgame.com##.buy-premium-bar > [href="/Premium.html"]
-www.thetechgame.com##.ad-height-250.add2
-www.thetechgame.com###ad-forum-below
+www.thetechgame.com##.bold > .hidden-link:style(background-color: #343434 !important)
 www.thetechgame.com##.scroll-top-arrow
 
 !the123movieshub.net
