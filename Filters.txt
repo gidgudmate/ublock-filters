@@ -1004,7 +1004,6 @@ www.twitch.tv##.button--icon-only.button.conversations-list-icon
 
 !xbabe.com
 xbabe.com###side_col
-xbabe.com###ipa-s
 
 !upornia.com
 upornia.com##.sidebar
