@@ -896,7 +896,7 @@ searchdns.netcraft.com##.advert-tag
 ##div:last-child > [href*="/cgi-bin/clicks.cgi"]
 ##div:last-child > [href*="go.php"]
 ##div:last-child > [href*="/click/o/bigtitsatwork.com"]
-!##[href*="join"] > div
+##[style*="base64"]
 
 !Porn gallery sites
 sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.net,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,silkengirl.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org##+js(abort-on-property-read.js, ExoLoader)
