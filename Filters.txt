@@ -2010,3 +2010,15 @@ cocogals.com##a[target*="_blank"][rel*="nofollow"]
 !babesxworld.com
 babesxworld.com##a[target*="_blank"][rel*="nofollow"]
 babesxworld.com##div.row:last-child
+
+!foxhq.com
+www.foxhq.com##a[target*="new"]
+www.foxhq.com##a[href*="hit.php"]
+www.foxhq.com##[href*="/?p="]
+www.foxhq.com##td:first-child > center:nth-of-type(6)
+
+!primecurves.com
+www.primecurves.com##a[href*="/cgi-bin/clicks.cgi"]
+www.primecurves.com##a[href*="hit.php"]
+www.primecurves.com##a[href*="new.php"]
+www.primecurves.com##h2
