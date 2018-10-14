@@ -888,6 +888,8 @@ searchdns.netcraft.com##.advert-tag
 ##div[class^="ownerbanner"]
 
 !Secondary banners that aren't using the <class> attribute
+girlsofdesire.org,sensualgirls.org,deliciousbabes.org##[style*="base64"]
+
 ##.block-center > [href*=".com"]
 ##[src*=".com/0.jpg"]
 ##[src*=".com/1.jpg"]
@@ -896,7 +898,7 @@ searchdns.netcraft.com##.advert-tag
 ##div:last-child > [href*="/cgi-bin/clicks.cgi"]
 ##div:last-child > [href*="go.php"]
 ##div:last-child > [href*="/click/o/bigtitsatwork.com"]
-##[style*="base64"]
+!##[style*="base64"]
 ##[href^="https://desklks.com/"] > .pthumb
 
 !Porn gallery sites
