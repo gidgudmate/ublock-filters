@@ -1027,9 +1027,9 @@ drugabuse.com##.cr-stickybar > .container-fluid
 yourporn.sexy##.vid_container_poster_wrap > .vid_container > .tdn > .transition.maxi_post_player_img
 
 !babecentrum.com
-www.babecentrum.com##.cFb1uvon
 www.babecentrum.com##div:nth-of-type(2) > table > tbody > tr > td:nth-of-type(2)
 www.babecentrum.com###eXo1
+www.babecentrum.com##a[target*="_blank"][href*="click/o/"]
 
 !dirtyyoungbitches.com
 www.dirtyyoungbitches.com##.zone-on-top.zone
