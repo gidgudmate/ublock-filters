@@ -2000,7 +2000,6 @@ www.novoglam.com##div.zone250-double
 !baberoad.com
 kliktrkr.com/cdn/zp63
 baberoad.com##tr:style(background: transparent !important)
-baberoad.com###bottom_plugs > tbody:first-child > tr:first-child > td
 
 !cocogals.com
 cocogals.com##.thumbs:nth-of-type(4) .item:nth-of-type(9)
