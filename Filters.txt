@@ -1875,6 +1875,7 @@ www.deliciousbabes.org###box_537
 
 !silkengirl.net
 www.silkengirl.net###scrollUp
+www.silkengirl.net##.spots_long
 
 !penthouse.com
 ||penthouse.com/assets/img/*.png$image
