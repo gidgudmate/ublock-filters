@@ -1933,6 +1933,7 @@ www.instagram.com##.Fzijm.bR_3v
 !decorativemodels.com
 www.decorativemodels.com##[src="/smallfr/"]
 www.decorativemodels.com##.block > .block
+www.decorativemodels.com##.contentbanner
 
 !fooxybabes.com
 www.fooxybabes.com###scrollUp
