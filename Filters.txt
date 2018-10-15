@@ -834,7 +834,7 @@ searchdns.netcraft.com##.advert-tag
 ||demo*.piwik.org/piwik.php$first-party,important
 
 # sh.st
-# To counter shorte.st in hpHosts’ Ad and tracking servers and Dan Pollock’s hosts file (unable to follow links).
+# To counter shorte.st in hpHostsï¿½ Ad and tracking servers and Dan Pollockï¿½s hosts file (unable to follow links).
 @@||static.shorte.st^$domain=sh.st
 
 # realitykings.com
@@ -885,7 +885,7 @@ t0p0ff3rs.com
 @@||content*.*.*/virtuagirl.com/*/*.jpg$image
 
 !Random banners using the <class> attribute
-##div[class^="banner"]
+!##div[class^="banner"]
 ##div[class^="banner-block"]
 ##div[class^="ownerbanner"]
 
@@ -2034,3 +2034,9 @@ http://cf.static.xxxbunker.com/preroll/*.mp4
 !hellporno.com
 @@||js.helltraffic.com/fluidplayer/*$script,domain=hellporno.com
 @@||js.helltraffic.com/fluidplayer/images/fluid_icons.svg$image,domain=hellporno.com
+
+!vporn.com
+www.vporn.com##.single-video > [id]
+www.vporn.com##.col-lg-3
+www.vporn.com##.footer-share
+www.vporn.com##.temp-info-holder
