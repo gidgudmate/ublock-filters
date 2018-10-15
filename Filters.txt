@@ -1043,6 +1043,7 @@ www.sexyaporno.com##.adcontainer
 !wildfanny.com
 www.wildfanny.com###djsg7-r2q7h-dbsma
 www.wildfanny.com##body > div:nth-of-type(5)
+www.wildfanny.com##.block > center
 
 !x-art.com
 www.x-art.com###promo_bar
@@ -1742,10 +1743,8 @@ www.girlsofdesire.org###box_826
 
 !8boobs.com
 www.8boobs.com##.join
-www.8boobs.com##[href="/click/o/cherrypimps.com"]
-www.8boobs.com##div.photo:nth-of-type(3) > [href^="https://desklks.com/"]
 www.8boobs.com##.top-link
-www.8boobs.com##[href="/click/o/twistys.com"]
+www.8boobs.com##a[href$=".com"]
 
 !wantedbabes.com
 www.wantedbabes.com###scroller
@@ -2048,3 +2047,15 @@ www.vporn.com##.temp-info-holder
 
 !vibraporn.com
 www.vibraporn.com##.owner_w
+
+!nakedneighbour.com
+www.nakedneighbour.com##.bordered.alone.banner
+
+!sexynakeds.com
+www.sexynakeds.com##.aff_banner
+
+!babesbang.com
+babesbang.com##.block-center > [href*=".com"]
+babesbang.com##[src*=".com/0.jpg"]
+babesbang.com##[src*=".com/1.jpg"]
+babesbang.com##[src*=".com/2.jpg"]
