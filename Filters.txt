@@ -1989,6 +1989,8 @@ www.pussystate.com##.thumbs > li:nth-of-type(10)
 
 !rabbitsfun.com
 www.rabbitsfun.com##.top-mobile
+www.rabbitsfun.com##.gallery-inner > .gallery-banner
+www.rabbitsfun.com##.picture-banner
 
 !cherrynudes.com
 www.cherrynudes.com##.TextM
