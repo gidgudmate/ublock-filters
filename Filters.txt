@@ -2042,3 +2042,6 @@ www.vporn.com##.single-video > [id]
 www.vporn.com##.col-lg-3
 www.vporn.com##.footer-share
 www.vporn.com##.temp-info-holder
+
+!vibraporn.com
+www.vibraporn.com##.owner_w
