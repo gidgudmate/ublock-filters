@@ -1,4 +1,4 @@
-# Title: uBlock Filters +
+﻿# Title: uBlock Filters +
 # License: https://creativecommons.org/licenses/by-sa/4.0/
 
 # Homepage: https://github.com/IDKwhattoputhere/uBlock-Filters-Plus
@@ -1130,9 +1130,9 @@ svscomics.com##.at-svc-facebook.at-share-btn > .at-icon-wrapper
 svscomics.com###at4-share
 
 !tomshardware.com
-www.tomshardware.com###rightcol_top_tmntag_inline_ > iframe
-www.tomshardware.com###rightcol_top_tmntag_inline_
-www.tomshardware.com###rightcol_top
+www.tomshardware.com##div[id*="_ad"]
+www.tomshardware.com###footer_leaderboard
+www.tomshardware.com##.lazy.loaded
 
 !load.to
 ||load.to/static/u/*.gif$image
