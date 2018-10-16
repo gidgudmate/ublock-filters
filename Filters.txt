@@ -884,24 +884,13 @@ clcknads.pro/v1/
 t0p0ff3rs.com
 @@||content*.*.*/virtuagirl.com/*/*.jpg$image
 
-!Random banners using the <class> attribute
-!##div[class^="banner"]
-##div[class^="banner-block"]
-##div[class^="ownerbanner"]
-
 !Secondary banners that aren't using the <class> attribute
 girlsofdesire.org,sensualgirls.org,deliciousbabes.org##[style*="base64"]
 
-##.block-center > [href*=".com"]
-##[src*=".com/0.jpg"]
-##[src*=".com/1.jpg"]
-##[src*=".com/2.jpg"]
-##[href*="/click/o/"]
-##div:last-child > [href*="/cgi-bin/clicks.cgi"]
-##div:last-child > [href*="go.php"]
-##div:last-child > [href*="/click/o/bigtitsatwork.com"]
-!##[style*="base64"]
-##[href^="https://desklks.com/"] > .pthumb
+babesbang.com,www.100bucksbabes.com##[src*=".com/0.jpg"]
+
+bustybloom.com,exgirlfriendmarket.com###sponsorfeature
+bustybloom.com,exgirlfriendmarket.com###freetour
 
 !Porn gallery sites
 sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.net,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,silkengirl.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org,babesxworld.com,cocogals.com##+js(abort-on-property-read.js, ExoLoader)
@@ -1754,6 +1743,7 @@ www.grabpussy.com##.as4gW0HX
 www.grabpussy.com##.own-gallery-images.gal > .ban-bl > .two-adv
 www.grabpussy.com##.vVKl1s5J
 www.grabpussy.com##.gal:nth-of-type(11) > .ban-bl > .two-adv
+www.grabpussy.com##.ban-bl
 
 !porndoo.com
 porndoo.com##+js(addEventListener-defuser.js, mousedown, popReverse)
@@ -1771,6 +1761,8 @@ www.babes.com##.floating-footer.js-floating-footer
 
 !pleasuregirl.net
 www.pleasuregirl.net###scroller
+www.pleasuregirl.net##.banner-center
+www.pleasuregirl.net##[href^="https://desklks.com/"]
 
 !novohot.com
 www.novohot.com##div.zone_b.place2x2
@@ -1778,6 +1770,7 @@ www.novohot.com##.mainBanner
 
 !babesinporn.com
 www.babesinporn.com##div.block:nth-of-type(5) > .center
+www.babesinporn.com##a[href^="http://nlkdom.com/"]
 
 !destinytracker.com
 destinytracker.com##+js(abort-on-property-read.js, checkSiteNotifications)
@@ -1989,8 +1982,8 @@ www.pussystate.com##.thumbs > li:nth-of-type(10)
 
 !rabbitsfun.com
 www.rabbitsfun.com##.top-mobile
-www.rabbitsfun.com##.gallery-inner > .gallery-banner
 www.rabbitsfun.com##.picture-banner
+www.rabbitsfun.com##.gallery-banner
 
 !cherrynudes.com
 www.cherrynudes.com##.TextM
@@ -2004,6 +1997,7 @@ www.babeimpact.com##.mb30.topbabe
 
 !novoglam.com
 www.novoglam.com##div.zone250-double
+www.novoglam.com##.owner
 
 !baberoad.com
 kliktrkr.com/cdn/zp63
@@ -2059,3 +2053,24 @@ babesbang.com##.block-center > [href*=".com"]
 babesbang.com##[src*=".com/0.jpg"]
 babesbang.com##[src*=".com/1.jpg"]
 babesbang.com##[src*=".com/2.jpg"]
+
+!novoporn.com
+www.novoporn.com##.banner-block
+
+!glam0ur.com
+www.glam0ur.com##a[href$=".com"]
+
+!100bucksbabes.com
+www.100bucksbabes.com##.bannerholder
+
+!novostrong.com
+www.novostrong.com##.owner
+
+!thousandbabes.com
+www.thousandbabes.com##.sponsorholder
+
+!babesmachine.com
+www.babesmachine.com##.banner
+
+!babesaround.com
+www.babesaround.com##.top_banner
