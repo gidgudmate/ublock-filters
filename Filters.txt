@@ -862,7 +862,7 @@ searchdns.netcraft.com##.advert-tag
 ||promo-bc.com
 ||stripchat/
 ||avanti.php
-||cloudflare-static/email-decode.min.js
+||cloudflare-static/email-decode.min.js$script
 ||google.com/favicon.ico
 ||hyphenatedion.com
 ||wss://ws.peer5.com
@@ -884,11 +884,16 @@ clcknads.pro/v1/
 t0p0ff3rs.com
 @@||content*.*.*/virtuagirl.com/*/*.jpg$image
 
+!Random banners using the <class> attribute
+babesbang.com,##div[class^="banner"]
+babesbang.com,##div[class^="banner-block"]
+theomegaproject.org,##div[class^="banner_block"]
+babesbang.com,##div[class^="ownerbanner"]
+eroluv.com,##div[id^="banner"]
+
 !Secondary banners that aren't using the <class> attribute
 girlsofdesire.org,sensualgirls.org,deliciousbabes.org##[style*="base64"]
-
 babesbang.com,www.100bucksbabes.com##[src*=".com/0.jpg"]
-
 bustybloom.com,exgirlfriendmarket.com###sponsorfeature
 bustybloom.com,exgirlfriendmarket.com###freetour
 
@@ -1275,9 +1280,6 @@ lingerie-wholesale.biz###ue_launcherAvatar
 www.chickteases.com###lxf8i-hpw8x-bk3su
 www.chickteases.com###x1511-kj7j8-td5a5
 
-!novostrong.com
-www.novostrong.com##center
-
 !hqsluts.com
 www.hqsluts.com###share
 www.hqsluts.com###c_gallery_sponsor
@@ -1464,6 +1466,7 @@ www.wikifeet.com##div.dash2:nth-of-type(2)
 
 !redpornblog.com
 www.redpornblog.com###ads
+www.redpornblog.com###adsbanner
 
 !galleriesifg.stiffia.com
 galleriesifg.stiffia.com##.secure
@@ -1737,6 +1740,7 @@ www.8boobs.com##a[href$=".com"]
 
 !wantedbabes.com
 www.wantedbabes.com###scroller
+www.wantedbabes.com##.banner-center
 
 !grabpussy.com
 www.grabpussy.com##.as4gW0HX
@@ -1943,6 +1947,7 @@ www.temptingangels.org###box_576
 www.temptingangels.org###box_557
 www.temptingangels.org###box_524
 www.temptingangels.org###box_537
+www.temptingangels.org##.banner
 
 !freeporn.hu
 ||pic.freeporn.hu/images/banners/virtuagirlhd/*.gif$image
@@ -2052,7 +2057,6 @@ www.sexynakeds.com##.aff_banner
 
 !babesbang.com
 babesbang.com##.block-center > [href*=".com"]
-babesbang.com##[src*=".com/0.jpg"]
 babesbang.com##[src*=".com/1.jpg"]
 babesbang.com##[src*=".com/2.jpg"]
 
@@ -2079,3 +2083,12 @@ www.babesaround.com##.top_banner
 
 !bustynudebabes.com
 www.bustynudebabes.com##.bnr
+
+!dattr.com
+@@||edenporn.com/cdn/cam/*$media,domain=dattr.com
+
+!www.babesandbitches.net
+www.babesandbitches.net###gallery-text
+
+!slutsandangels.com
+www.slutsandangels.com##.posts > div
