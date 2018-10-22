@@ -883,17 +883,20 @@ searchdns.netcraft.com##.advert-tag
 clcknads.pro/v1/
 t0p0ff3rs.com
 @@||content*.*.*/virtuagirl.com/*/*.jpg$image
-
-!Random banners using the <class> attribute
-babesbang.com,##div[class^="banner"]
-babesbang.com,##div[class^="banner-block"]
-theomegaproject.org,##div[class^="banner_block"]
-babesbang.com,##div[class^="ownerbanner"]
-eroluv.com,##div[id^="banner"]
+##[href^="https://desklks.com/"]
 
 !Secondary banners that aren't using the <class> attribute
 girlsofdesire.org,sensualgirls.org,deliciousbabes.org##[style*="base64"]
-babesbang.com,www.100bucksbabes.com##[src*=".com/0.jpg"]
+babesbang.com,100bucksbabes.com,babeimpact.com,8boobs.com,theomegaproject.org##[src*="/0.jpg"]
+babesbang.com,100bucksbabes.com,babeimpact.com,8boobs.com,theomegaproject.org##[src*="/1.jpg"]
+babesbang.com,100bucksbabes.com,babeimpact.com,8boobs.com,theomegaproject.org##[src*="/2.jpg"]
+babesbang.com,100bucksbabes.com,babeimpact.com,8boobs.com,theomegaproject.org##[src*="/3.jpg"]
+babesbang.com,100bucksbabes.com,babeimpact.com,8boobs.com,theomegaproject.org##[src*="/4.jpg"]
+babesbang.com,100bucksbabes.com,babeimpact.com,8boobs.com,theomegaproject.org##[src*="/5.jpg"]
+babesbang.com,100bucksbabes.com,babeimpact.com,8boobs.com,theomegaproject.org##[src*="/6.jpg"]
+babesbang.com,100bucksbabes.com,babeimpact.com,8boobs.com,theomegaproject.org##[src*="/7.jpg"]
+babesbang.com,100bucksbabes.com,babeimpact.com,8boobs.com,theomegaproject.org##[src*="/8.jpg"]
+babesbang.com,100bucksbabes.com,babeimpact.com,8boobs.com,theomegaproject.org##[src*="/9.jpg"]
 bustybloom.com,exgirlfriendmarket.com###sponsorfeature
 bustybloom.com,exgirlfriendmarket.com###freetour
 
@@ -902,7 +905,7 @@ sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.net,vibraporn.com,e
 
 sensualgirls.org,deliciousbabes.org,girlsofdesire.org##+js(abort-on-property-read.js, CustomEvent)
 
-mainbabes.com,silkengirl.net,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,silkengirl.com,pleasuregirl.net,babesinporn.com,hotstunners.com,babesxworld.com,cocogals.com##+js(abort-on-property-read.js, loadTool)
+mainbabes.com,silkengirl.net,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,silkengirl.com,pleasuregirl.net,babesinporn.com,hotstunners.com,babesxworld.com,cocogals.com,hottystop.com,erosberry.com##+js(abort-on-property-read.js, loadTool)
 
 !puremature.com
 puremature.com##.popup3.epoch-box
@@ -920,8 +923,8 @@ eiheispot1.blog.fc2.com##div[class*="cSponsored_Link"]
 eiheispot1.blog.fc2.com##.headline
 
 !nudeyoga.net
-nudeyoga.net##.adv
 ||nudeyoga.net/player/html.php$subdocument,first-party
+nudeyoga.net##.adv
 
 !powerbot.org
 www.powerbot.org##div[id*="maybe"]
@@ -1190,7 +1193,6 @@ www.pcsteps.com##.top-fade-out.top-is-visible.to-top
 discordapp.com##.height36-13sPn7.weightMedium-13x9Y8.size14-1wjlWP.notice-3I4-y_.noticeDefault-16Om2m
 
 !putlockers.tf
-putlockers.tf##.g9x203eu50I0
 putlockers.tf##.g9x203eu50I0
 
 !speedrun.com
@@ -1736,8 +1738,8 @@ www.girlsofdesire.org###box_826
 !8boobs.com
 www.8boobs.com##.join
 www.8boobs.com##.top-link
-www.8boobs.com##a[href$=".com"]
-
+www.8boobs.com##div.banners
+www.8boobs.com###topmenu > ul > li:nth-child(4)
 !wantedbabes.com
 www.wantedbabes.com###scroller
 www.wantedbabes.com##.banner-center
@@ -1882,6 +1884,8 @@ www.livejasminbabes.net##body.gallery .rate-wrapper
 
 !hottystop.com
 www.hottystop.com##div.Box_Small:nth-of-type(1)
+www.hottystop.com##a[href$=".html"][target*="new"]
+www.hottystop.com##[href^="http://nlkdom.com/"]
 
 !shameless.com
 www.shameless.com##.active.pause-adv
@@ -1953,6 +1957,8 @@ www.temptingangels.org##.banner
 ||pic.freeporn.hu/images/banners/virtuagirlhd/*.gif$image
 freeporn.hu###adbritepartnersbox
 freeporn.hu##div.righthead:nth-of-type(5)
+freeporn.hu##[src*="banner.gif"]
+freeporn.hu##div.rightbhead:nth-of-type(15)
 
 !celebrity-leaks.net
 celebrity-leaks.net##.code-block-8.code-block
@@ -1981,6 +1987,7 @@ www.pureandsexy.org###box_576
 www.pureandsexy.org###box_557
 www.pureandsexy.org###box_537
 www.pureandsexy.org##div:nth-of-type(2) > .b3c
+www.pureandsexy.org##.banner
 
 !pussystate.com
 www.pussystate.com##.thumbs > li:nth-of-type(10)
@@ -2034,7 +2041,7 @@ www.primecurves.com##a[href*="new.php"]
 www.primecurves.com##h2
 
 !xxxbunker.com
-http://cf.static.xxxbunker.com/preroll/*.mp4
+http://cf.static.xxxbunker.com/preroll/*.mp4$media
 
 !hellporno.com
 @@||js.helltraffic.com/fluidplayer/*$script,domain=hellporno.com
@@ -2057,8 +2064,6 @@ www.sexynakeds.com##.aff_banner
 
 !babesbang.com
 babesbang.com##.block-center > [href*=".com"]
-babesbang.com##[src*=".com/1.jpg"]
-babesbang.com##[src*=".com/2.jpg"]
 
 !novoporn.com
 www.novoporn.com##.banner-block
@@ -2092,3 +2097,27 @@ www.babesandbitches.net###gallery-text
 
 !slutsandangels.com
 www.slutsandangels.com##.posts > div
+
+!fineartteens.com
+fineartteens.com##[src*="banners"]
+
+!nightdreambabe.com
+www.nightdreambabe.com##.banner_place
+www.nightdreambabe.com##.ownerbanner
+
+!passion-hd.com
+passion-hd.com##.payment-popup
+
+!bravoerotica.com
+/erotic-tube/player/html.php
+www.bravoerotica.com##.review_scr
+
+!erosberry.com
+www.erosberry.com##.containerBanner
+www.erosberry.com###sidebar_l > div.title_bar:first-child
+
+!pornstarsmachine.com
+pornstarsmachine.com##[src="/html/hor3.jsp"]
+pornstarsmachine.com##[src="/html/hor4.jsp"]
+pornstarsmachine.com##[href="/949100/"]
+pornstarsmachine.com##[href="/1263997/"]
