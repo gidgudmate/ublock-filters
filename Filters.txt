@@ -1385,7 +1385,9 @@ www.vg247.com###sp_message_id1530094298094
 www.vg247.com##.sp_veil1530094298094
 
 !playvids.com
+playvids.com##+js(window.open-defuser.js)
 www.playvids.com##.col-lg-auto.col-12
+www.playvids.com##.col-xl-4
 
 !dailymotion.com
 www.dailymotion.com##.VideoQueue__videoWrapper___1zW3S > div:nth-of-type(2)
@@ -1732,12 +1734,12 @@ www.sexykittenporn.com##.banners > .contentbanner
 
 !girlsofdesire.org
 www.girlsofdesire.org###box_671
-www.girlsofdesire.org###box_671
 www.girlsofdesire.org###box_669
 www.girlsofdesire.org###box_825
 www.girlsofdesire.org###box_10 > div
 www.girlsofdesire.org###box_738
 www.girlsofdesire.org###box_826
+www.girlsofdesire.org###box_741
 
 !8boobs.com
 www.8boobs.com##.join
@@ -1775,6 +1777,7 @@ www.babes.com##.floating-footer.js-floating-footer
 www.pleasuregirl.net###scroller
 www.pleasuregirl.net##.banner-center
 www.pleasuregirl.net##[href^="https://desklks.com/"]
+www.pleasuregirl.net##.new
 
 !novohot.com
 www.novohot.com##div.zone_b.place2x2
@@ -1987,7 +1990,6 @@ celebrity-leaks.net##.code-block-5.code-block > center
 !tnaflix.com
 www.tnaflix.com##.feedbackFixed
 www.tnaflix.com##.darkSwitcher
-www.tnaflix.com##.feedbackFixed
 
 !isselecta.co
 isselecta.com###top-message-wrapper
