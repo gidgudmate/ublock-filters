@@ -834,7 +834,7 @@ searchdns.netcraft.com##.advert-tag
 ||demo*.piwik.org/piwik.php$first-party,important
 
 # sh.st
-# To counter shorte.st in hpHosts� Ad and tracking servers and Dan Pollock�s hosts file (unable to follow links).
+# To counter shorte.st in hpHosts’ Ad and tracking servers and Dan Pollock’s hosts file (unable to follow links).
 @@||static.shorte.st^$domain=sh.st
 
 # realitykings.com
@@ -1033,6 +1033,8 @@ www.babecentrum.com##a[target*="_blank"][href*="click/o/"]
 !dirtyyoungbitches.com
 www.dirtyyoungbitches.com##.zone-on-top.zone
 www.dirtyyoungbitches.com##.zone-on-bottom.zone
+www.dirtyyoungbitches.com##.go-galleries:style(margin-left: 300px !important)
+www.dirtyyoungbitches.com##.go-slideshow:style(margin-left: 300px !important)
 
 !sexyaporno.com
 www.sexyaporno.com##.adcontainer
@@ -1048,6 +1050,7 @@ www.x-art.com###promo_bar
 !peekvids.com
 www.peekvids.com##.invideoBlock
 www.peekvids.com##.container > .row > .col-lg-auto.col-12
+peekvids.com##+js(window.open-defuser.js)
 
 !veronicca.com
 www.veronicca.com##.undervideo_banner
@@ -1281,6 +1284,7 @@ lingerie-wholesale.biz###ue_launcherAvatar
 !chickteases.com
 www.chickteases.com###lxf8i-hpw8x-bk3su
 www.chickteases.com###x1511-kj7j8-td5a5
+www.chickteases.com##.adv
 
 !hqsluts.com
 www.hqsluts.com###share
@@ -1740,9 +1744,11 @@ www.8boobs.com##.join
 www.8boobs.com##.top-link
 www.8boobs.com##div.banners
 www.8boobs.com###topmenu > ul > li:nth-child(4)
+
 !wantedbabes.com
 www.wantedbabes.com###scroller
 www.wantedbabes.com##.banner-center
+www.wantedbabes.com##.banners
 
 !grabpussy.com
 www.grabpussy.com##.as4gW0HX
@@ -1773,6 +1779,7 @@ www.pleasuregirl.net##[href^="https://desklks.com/"]
 !novohot.com
 www.novohot.com##div.zone_b.place2x2
 www.novohot.com##.mainBanner
+www.novohot.com##div.thumb180x270
 
 !babesinporn.com
 www.babesinporn.com##div.block:nth-of-type(5) > .center
@@ -1804,34 +1811,35 @@ strategywiki.org###mw-panel
 www.socialbuckets.com###right-pannal > .image_title
 www.socialbuckets.com###right-pannal
 
-!wikia.com
-wikia.com###WikiaBarWrapper
-wikia.com###msg_5104
-wikia.com###RECIRCULATION_RAIL > .recirculation-unit.module.recirculation-rail
-wikia.com###CommunityPageBenefitsModal
-wikia.com###CommunityPageBenefitsModal > section
-wikia.com###CommunityPageBenefitsModal > section > .community-page-benefits-image
-wikia.com###msg_4190
-wikia.com##.module.community-page-entry-point-module
-wikia.com##.oo-state-screen-selectable
-wikia.com##.oo-animate-fade.oo-fading-underlay
-wikia.com##.oo-pause-screen.oo-state-screen
-wikia.com##.oo-player-skin
-wikia.com###ooyala-plugins-element
-wikia.com###ooyala-inner-wrapper-y8ei
-wikia.com###ooyala-article-video
-wikia.com##.video-container
-wikia.com###article-video
-wikia.com##.wikia-bar-anon.wikia-bar
-wikia.com##.custom > div
-wikia.com##.jw-reset.jw-video
-wikia.com##.jw-reset.jw-media
-wikia.com##.jw-reset.jw-aspect
-wikia.com##.featured-video__label
-wikia.com##.featured-video__details
-wikia.com##.featured-video__player-container
-wikia.com##.featured-video
-wikia.com##.cta-banner
+!fandom.com / wikia.com
+wikia.com,fandom.com###WikiaBar
+wikia.com,fandom.com###msg_5104
+wikia.com,fandom.com###RECIRCULATION_RAIL > .recirculation-unit.module.recirculation-rail
+wikia.com,fandom.com###CommunityPageBenefitsModal
+wikia.com,fandom.com###CommunityPageBenefitsModal > section
+wikia.com,fandom.com###CommunityPageBenefitsModal > section > .community-page-benefits-image
+wikia.com,fandom.com###msg_4190
+wikia.com,fandom.com##.module.community-page-entry-point-module
+wikia.com,fandom.com##.oo-state-screen-selectable
+wikia.com,fandom.com##.oo-animate-fade.oo-fading-underlay
+wikia.com,fandom.com##.oo-pause-screen.oo-state-screen
+wikia.com,fandom.com##.oo-player-skin
+wikia.com,fandom.com###ooyala-plugins-element
+wikia.com,fandom.com###ooyala-inner-wrapper-y8ei
+wikia.com,fandom.com###ooyala-article-video
+wikia.com,fandom.com##.video-container
+wikia.com,fandom.com###article-video
+wikia.com,fandom.com##.wikia-bar-anon.wikia-bar
+wikia.com,fandom.com##.custom > div
+wikia.com,fandom.com##.jw-reset.jw-video
+wikia.com,fandom.com##.jw-reset.jw-media
+wikia.com,fandom.com##.jw-reset.jw-aspect
+wikia.com,fandom.com##.featured-video__label
+wikia.com,fandom.com##.featured-video__details
+wikia.com,fandom.com##.featured-video__player-container
+wikia.com,fandom.com##.featured-video
+wikia.com,fandom.com##.cta-banner
+wikia.com,fandom.com##.featured-video__wrapper
 
 !sensualgirls.org
 www.sensualgirls.org###box_600
@@ -1881,6 +1889,7 @@ www.silkengirl.net##.spots_long
 !livejasminbabes.net
 www.livejasminbabes.net##.visitref.bold.center.inline.size5.text-yellow
 www.livejasminbabes.net##body.gallery .rate-wrapper
+www.livejasminbabes.net###nat_top
 
 !hottystop.com
 www.hottystop.com##div.Box_Small:nth-of-type(1)
@@ -1919,6 +1928,10 @@ www.rossoporn.com##.owner
 
 !pbabes.com
 www.pbabes.com##.banner
+www.pbabes.com###box_613
+www.pbabes.com##h1
+www.pbabes.com###menu
+www.pbabes.com###___plusone_0
 
 !hqbabes.com
 www.hqbabes.com###share
@@ -2121,3 +2134,6 @@ pornstarsmachine.com##[src="/html/hor3.jsp"]
 pornstarsmachine.com##[src="/html/hor4.jsp"]
 pornstarsmachine.com##[href="/949100/"]
 pornstarsmachine.com##[href="/1263997/"]
+
+!exgirlfriendmarket.com
+www.exgirlfriendmarket.com###nat_top
