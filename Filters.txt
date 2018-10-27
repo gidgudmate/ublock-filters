@@ -955,7 +955,6 @@ www.foxnews.com##.enabled.slideshow
 @@||wpnrtnmrewunrtok.xyz^$media
 www.camwhoreshd.com##body > div:nth-of-type(3)
 www.camwhoreshd.com##.spots--cards.spots
-www.camwhoreshd.com##.hola_top_element
 www.camwhoreshd.com##.topad
 www.camwhoreshd.com##[src*="http://www.camsoda1.com/promos/iframe/cw.php"]
 www.camwhoreshd.com###list_videos_friends
@@ -1046,6 +1045,8 @@ www.wildfanny.com##.block > center
 
 !x-art.com
 www.x-art.com###promo_bar
+www.x-art.com##.mute
+www.x-art.com##.btn-tour
 
 !peekvids.com
 www.peekvids.com##.invideoBlock
@@ -1790,9 +1791,8 @@ www.babesinporn.com##a[href^="http://nlkdom.com/"]
 
 !destinytracker.com
 destinytracker.com##+js(abort-on-property-read.js, checkSiteNotifications)
-destinytracker.com##+js(abort-on-property-read.js, adBlockDetected)
+destinytracker.com##+js(abort-on-property-write.js, adBlockDetected)
 destinytracker.com##.ad-box
-destinytracker.com##.upsell
 
 !nudogram.com
 nudogram.com##[src="https://nudogram.com/graphics/banned.png"]
@@ -1815,6 +1815,8 @@ www.socialbuckets.com###right-pannal > .image_title
 www.socialbuckets.com###right-pannal
 
 !fandom.com / wikia.com
+fandom.com##+js(nowebrtc.js)
+fandom.com##+js(abort-on-property-write.js, _sp_)
 wikia.com,fandom.com###WikiaBar
 wikia.com,fandom.com###msg_5104
 wikia.com,fandom.com###RECIRCULATION_RAIL > .recirculation-unit.module.recirculation-rail
@@ -1913,7 +1915,6 @@ www5.the123movieshub.net###comment_dis
 
 !leakedblack.com
 leakedblack.com##+js(addEventListener-defuser.js, click, stagedPopUnder)
-leakedblack.com##+js(abort-current-inline-script.js, onclick, stagedPopUnder)
 leakedblack.com###custom_html-2
 leakedblack.com###scroll-to-top
 leakedblack.com##[href="/g/bsb"]
@@ -2017,7 +2018,7 @@ www.cherrynudes.com##.TextM
 www.cherrynudes.com##.ContainerLeft > h1
 
 !123movies sites
-123movieshub.*,www4.0123movies.org##+js(abort-on-property-read.js, zfgloadedpopup)
+123movieshub.*,0123movies.org##+js(abort-on-property-read.js, zfgloadedpopup)
 
 !babeimpact.com
 www.babeimpact.com##.mb30.topbabe
@@ -2139,3 +2140,6 @@ pornstarsmachine.com##[href="/1263997/"]
 
 !exgirlfriendmarket.com
 www.exgirlfriendmarket.com###nat_top
+
+!temp-mail.org
+temp-mail.org##.block-control:style(position: sticky !important)
