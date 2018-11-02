@@ -885,7 +885,7 @@ t0p0ff3rs.com
 @@||content*.*.*/virtuagirl.com/*/*.jpg$image
 ##[href^="https://desklks.com/"]
 
-!Secondary banners that aren't using the <class> attribute
+!Banners
 girlsofdesire.org,sensualgirls.org,deliciousbabes.org##[style*="base64"]
 babesbang.com,100bucksbabes.com,babeimpact.com,8boobs.com,theomegaproject.org##[src*="/0.jpg"]
 babesbang.com,100bucksbabes.com,babeimpact.com,8boobs.com,theomegaproject.org##[src*="/1.jpg"]
@@ -1225,6 +1225,7 @@ gyazo.com##.pro-induction-popup-header
 gyazo.com##.ocr.pro-induction-popup
 gyazo.com##.show-ad.prev-navigation.navigation
 gyazo.com##.drawing.pro-induction-popup
+gyazo.com##.teams-induction-popup
 
 !pastebin.com
 pastebin.com###wrapperDiv_eede4173-9bb2-d503-b5be-95d4ee7daed1
@@ -1614,11 +1615,14 @@ www.21naturals.com##.tlcLeftArrowContainer
 www.21naturals.com##.tlcRightArrowContainer
 
 !ddf.com
-hwnds.ddfstatic.com/resources/ddf/images/responsive/arrows-prev
 ddfbusty.com###join_widget_access
 ddfbusty.com##.fixed-social
 ddfnetwork.com##.fixed-social
 ddfnetwork.com##.slick-slider.slick-initialized.portrait.featured.new-slider > .slick-arrow.slick-prev
+ddfnetwork.com###bottomFloater
+ddfnetwork.com##.banner-title
+ddfnetwork.com##.my-2
+ddfnetwork.com##.packages
 
 !youporn.com
 @@||phncdn.com/stattracker-1.4.2.js$domain=www.youporn.com
@@ -1705,7 +1709,7 @@ wifiondemand.xfinity.com##.notificationArea
 smartlock.google.*/iframe/request?
 www.pinterest.com##body > div:nth-of-type(2) > div > div > div > div > div:nth-of-type(3) > div
 www.pinterest.com##div > div > .active.noButtonStyles
-www.pinterest.com##._j._4q._xt._h._76._75._4k._4j._4g._3z._2t._13
+www.pinterest.com##._j._4q._z6._h._76._75._4k._4j._4g._37._2y._13
 
 !avgle.com
 avgle.com##[src = "https://isafe.pro/img/b_a.gif?123"]
@@ -1802,6 +1806,7 @@ www.hotstunners.com##[href^="https://desklks.com/"]
 www.hotstunners.com##div.photo:nth-of-type(2) > [href^="http://nlkdom.com/"]
 www.hotstunners.com##body > div:nth-of-type(4)
 www.hotstunners.com##.top-link
+www.hotstunners.com##[src*="banners/"]
 
 !join2babes.com
 www.join2babes.com##div.zone_b.gallery-inner-zone
@@ -2018,7 +2023,7 @@ www.cherrynudes.com##.TextM
 www.cherrynudes.com##.ContainerLeft > h1
 
 !123movies sites
-123movieshub.*,0123movies.org##+js(abort-on-property-read.js, zfgloadedpopup)
+123movieshub.*##+js(abort-on-property-read.js, zfgloadedpopup)
 
 !babeimpact.com
 www.babeimpact.com##.mb30.topbabe
@@ -2038,7 +2043,6 @@ cocogals.com##.thumbs:nth-of-type(4) .item:nth-of-type(9)
 cocogals.com##a[target*="_blank"][rel*="nofollow"]
 
 !babesxworld.com
-||lazyload.js$script,domain=www.babesxworld.com
 babesxworld.com##a[target*="_blank"][rel*="nofollow"]
 babesxworld.com##div.row:last-child
 www.babesxworld.com##div.toplists.row
@@ -2143,3 +2147,7 @@ www.exgirlfriendmarket.com###nat_top
 
 !temp-mail.org
 temp-mail.org##.block-control:style(position: sticky !important)
+
+!porkjizz.com
+porkjizz.com##.happy-header-mobile
+porkjizz.com##.under-player-ad
