@@ -852,11 +852,11 @@ searchdns.netcraft.com##.advert-tag
 !Start My custom filters
 
 !Other
-||content*.*.*/images/*.*/istripper/*_*.gif$image
+!||content*.*.*/images/*.*/istripper/*_*.gif$image
 ||content*.*.*/images/*.*/join*.png$image
 ||content*.*.*/images/*.*/top-link.png$image
 ||content*.*.*/images/*.*/*/pinupfiles/*.jpg$image
-||content*.*.*/images/*.com/istripper*.gif$image
+!||content*.*.*/images/*.com/istripper*.gif$image
 ||content*.*.*/images/*.com/*/banner/*.gif$image
 ||assets/new-mastheads
 ||promo-bc.com
@@ -883,7 +883,6 @@ searchdns.netcraft.com##.advert-tag
 clcknads.pro/v1/
 t0p0ff3rs.com
 @@||content*.*.*/virtuagirl.com/*/*.jpg$image
-##[href^="https://desklks.com/"]
 
 !Banners
 girlsofdesire.org,sensualgirls.org,deliciousbabes.org##[style*="base64"]
@@ -901,11 +900,13 @@ bustybloom.com,exgirlfriendmarket.com###sponsorfeature
 bustybloom.com,exgirlfriendmarket.com###freetour
 
 !Porn gallery sites
-sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.net,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,silkengirl.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org,babesxworld.com,cocogals.com##+js(abort-on-property-read.js, ExoLoader)
+sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org,babesxworld.com,cocogals.com##+js(abort-on-property-read.js, ExoLoader)
 
 sensualgirls.org,deliciousbabes.org,girlsofdesire.org##+js(abort-on-property-read.js, CustomEvent)
 
-mainbabes.com,silkengirl.net,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,silkengirl.com,pleasuregirl.net,babesinporn.com,hotstunners.com,babesxworld.com,cocogals.com,hottystop.com,erosberry.com##+js(abort-on-property-read.js, loadTool)
+mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,babesxworld.com,cocogals.com,hottystop.com,erosberry.com,spicybabe.net##+js(abort-on-property-read.js, loadTool)
+
+sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org,babesxworld.com,cocogals.com##+js(abort-on-property-read.js, reload2)
 
 !puremature.com
 puremature.com##.popup3.epoch-box
@@ -1751,6 +1752,7 @@ www.8boobs.com##.join
 www.8boobs.com##.top-link
 www.8boobs.com##div.banners
 www.8boobs.com###topmenu > ul > li:nth-child(4)
+www.8boobs.com##.alignleft.sidebar > div.photo:nth-child(3)
 
 !wantedbabes.com
 www.wantedbabes.com###scroller
@@ -1769,11 +1771,16 @@ porndoo.com##+js(addEventListener-defuser.js, mousedown, popReverse)
 porndoo.com##.m-b-5.p-5.media.card
 porndoo.com###linkTop
 
-!silkengirl.com
-www.silkengirl.com##.spots_long
+!silkengirl domains
+www.silkengirl.com,silkengirl.net##.spots_long
 www.silkengirl.com##body > div:nth-of-type(3)
-www.silkengirl.com###scrollUp
+www.silkengirl.com,silkengirl.net###scrollUp
 www.silkengirl.com##.spots
+www.silkengirl.com##p:nth-child(2)
+www.silkengirl.com##.button_more
+www.silkengirl.com##.thumb33.thumb:nth-child(6)
+www.silkengirl.com##.thumb33.thumb:nth-child(9)
+www.silkengirl.com###thumbs_left > div.thumb_aside:nth-child(1)
 
 !babes.com
 www.babes.com##.floating-footer.js-floating-footer
@@ -1871,6 +1878,7 @@ www.sensualgirls.org###box_575
 www.mainbabes.com##.button_help
 www.mainbabes.com###scrollUp
 www.mainbabes.com##.spots_large
+www.mainbabes.com###thumbs_left > div.row:nth-of-type(2)
 
 !deliciousbabes.org
 www.deliciousbabes.org###box_547
@@ -1888,10 +1896,6 @@ www.deliciousbabes.org###box_517
 www.deliciousbabes.org###box_474
 www.deliciousbabes.org###box_549
 www.deliciousbabes.org###box_537
-
-!silkengirl.net
-www.silkengirl.net###scrollUp
-www.silkengirl.net##.spots_long
 
 !penthouse.com
 ||penthouse.com/assets/img/*.png$image
@@ -2151,3 +2155,10 @@ temp-mail.org##.block-control:style(position: sticky !important)
 !porkjizz.com
 porkjizz.com##.happy-header-mobile
 porkjizz.com##.under-player-ad
+
+!spicybabe.net
+www.spicybabe.net##.gallbox > [href*=".com"]
+www.spicybabe.net##.ad_reg1
+www.spicybabe.net##.ad_reg2 > p
+www.spicybabe.net##.gallbox_item0 > [href*=".com"]
+www.spicybabe.net##.ad_reg3 > p
