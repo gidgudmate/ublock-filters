@@ -1499,6 +1499,7 @@ www.private.com##.pups-offer-10
 !xhamster.com
 &adb=$subdocument,other
 ||static-ec-2.xhcdn.com/id1e6bcdd6df11ced9c4640d20f182afcaaac079d3/xh-tpl3/images/welcome.png$image
+||xhcdn.com/xh-mobile/js/*.pop.js$script
 xhamsterpremium.com/p/xhamster-related
 xhamster.com##.xh-modal-footer
 xhamster.com##.xh-modal-body
