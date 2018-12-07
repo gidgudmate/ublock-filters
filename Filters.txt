@@ -1534,6 +1534,10 @@ xhamster.com##.list-items.wid-spot-container.right-rectangle
 xhamster.com##.wid-spot-container.no-popunder.wid-static-banner.right-rectangle--backing.right-rectangle
 xhamster.com##.up-arrow
 xhamster.com##.xplayer-hover-menu
+m.xhamster.com##.wid-cams-widget
+m.xhamster.com##.promo-message__with-button
+m.xhamster.com##.popup
+m.xhamster.com##.premium-overlay
 
 !pornhub.com
 ||d1zqiu3u1zvqy8.cloudfront.net/x.swf$object
