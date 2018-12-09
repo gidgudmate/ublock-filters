@@ -108,8 +108,8 @@ primewire.ag,primewire.in,primewire.org##[onclick*="'bt_stream'"]
 !viptube.com
 ||cnt.viptube.com^
 ||viptube.com/_
-@@||viptube.com^$generichide
 ||t.vptbn.com^$popup
+@@||viptube.com^$generichide
 viptube.com###adx_ad
 viptube.com##.footer_adv
 
@@ -811,11 +811,11 @@ searchdns.netcraft.com##.advert-tag
 
 !Other
 !||content*.*.*/images/*.*/istripper/*_*.gif$image
-||content*.*.*/images/*.*/join*.png$image
-||content*.*.*/images/*.*/top-link.png$image
-||content*.*.*/images/*.*/*/pinupfiles/*.jpg$image
+!||content*.*.*/images/*.*/join*.png$image
+!||content*.*.*/images/*.*/top-link.png$image
+!||content*.*.*/images/*.*/*/pinupfiles/*.jpg$image
 !||content*.*.*/images/*.com/istripper*.gif$image
-||content*.*.*/images/*.com/*/banner/*.gif$image
+!||content*.*.*/images/*.com/*/banner/*.gif$image
 ||assets/new-mastheads
 ||promo-bc.com
 ||stripchat/
@@ -841,7 +841,7 @@ searchdns.netcraft.com##.advert-tag
 clcknads.pro/v1/
 ||t0p0ff3rs.com
 ||housineschard.info^
-@@||content*.*.*/virtuagirl.com/*/*.jpg$image
+!@@||content*.*.*/virtuagirl.com/*/*.jpg$image
 
 !Banners
 girlsofdesire.org,sensualgirls.org,deliciousbabes.org##[style*="base64"]
@@ -858,6 +858,10 @@ babesbang.com,100bucksbabes.com,babeimpact.com,8boobs.com,theomegaproject.org##[
 bustybloom.com,exgirlfriendmarket.com###sponsorfeature
 bustybloom.com,exgirlfriendmarket.com###freetour
 
+!counters popups from out.tubecorporate.com
+txxx.com,hclips.com,hotmovs.com,upornia.com,hdzog.com##.nopop
+txxx.com,hclips.com,hotmovs.com,upornia.com,hdzog.com##.hYbusCont
+
 !Porn gallery sites
 sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org,babesxworld.com,cocogals.com##+js(abort-on-property-read.js, ExoLoader)
 
@@ -865,7 +869,7 @@ sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,ero
 sensualgirls.org,deliciousbabes.org,girlsofdesire.org##+js(abort-on-property-read.js, CustomEvent)
 
 !iStripper popup tool
-mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,babesxworld.com,cocogals.com,hottystop.com,erosberry.com,spicybabe.net,slutsandangels.com##+js(abort-on-property-read.js, loadTool)
+mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,babesxworld.com,cocogals.com,hottystop.com,erosberry.com,spicybabe.net,slutsandangels.com,simplemetart.com,cherrynudes.com##+js(abort-on-property-read.js, loadTool)
 
 !Stops the galleries from auto fetching images when scrolling
 sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org,babesxworld.com,cocogals.com,babesandgirls.com,nudity911.com,sexykittenporn.com##+js(abort-on-property-read.js, reload2)
@@ -926,7 +930,9 @@ www.camwhoreshd.com###back-to-top
 
 !txxx.com
 ||out.tubecorporate.com^$popup
+@@||yurivideo.com^$image,domain=txxx.com
 www.txxx.com##.col--size--s.col--move-down.col > .heading--dark.heading > .heading__title
+m.txxx.com##.mobile-channel-info
 
 !thetimes.co.uk
 www.thetimes.co.uk###jqqpj9oi2ggg0y7g01cerk9
@@ -1025,6 +1031,7 @@ www.eporner.com##.vjs-inplayer-resume-button-text
 www.eporner.com##.vjs-inplayer-container
 www.eporner.com##.vjs-docker
 www.eporner.com###movieplayer-box-adv
+www.eporner.com###ad-top-2
 
 !thirdage.com
 ||thirdage-assets.thirdage.com/field/image/*.png$image
@@ -1589,13 +1596,13 @@ www.21naturals.com##.tlcRightArrowContainer
 
 !ddf.com
 ddfbusty.com###join_widget_access
-ddfbusty.com##.fixed-social
-ddfnetwork.com##.fixed-social
+ddfnetwork.com,ddfbusty.com##.fixed-social
 ddfnetwork.com##.slick-slider.slick-initialized.portrait.featured.new-slider > .slick-arrow.slick-prev
 ddfnetwork.com###bottomFloater
 ddfnetwork.com##.banner-title
 ddfnetwork.com##.my-2
 ddfnetwork.com##.packages
+ddfnetwork.com##.aoembed
 
 !youporn.com
 @@||phncdn.com/stattracker-1.4.2.js$domain=www.youporn.com
@@ -1924,6 +1931,8 @@ www.hqbabes.com###share
 !porntrex.com
 www.porntrex.com##.fp-embed
 www.porntrex.com##.table
+www.porntrex.com##div[class*="fake-player"]
+www.porntrex.com##.open-tool.pop-fade
 
 !instagram.com
 www.instagram.com##.Fzijm.bR_3v
@@ -1995,8 +2004,14 @@ www.rabbitsfun.com##.picture-banner
 www.rabbitsfun.com##.gallery-banner
 
 !cherrynudes.com
+||www.cherrynudes.com/sponsors/*.jpg$image
 www.cherrynudes.com##.TextM
 www.cherrynudes.com##.ContainerLeft > h1
+cherrynudes.com##[href^="http://www.g4mz.com"]
+cherrynudes.com##center:nth-of-type(4) > h1
+cherrynudes.com##[href^="http://refer.ccbill.com/cgi-bin/clicks.cgi"]
+cherrynudes.com##center:hast-text(sex games)
+cherrynudes.com##center > font
 
 !123movies sites
 123movieshub.*##+js(abort-on-property-read.js, zfgloadedpopup)
@@ -2051,6 +2066,7 @@ www.vporn.com##.temp-info-holder
 
 !vibraporn.com
 www.vibraporn.com##.owner_w
+www.vibraporn.com##.contentbanner
 
 !nakedneighbour.com
 www.nakedneighbour.com##.bordered.alone.banner
@@ -2170,3 +2186,32 @@ feet9.com##.hvr-pulse
 
 !fullsextape.top
 fullsextape.top##.preview_thumb_main
+
+!pornstarnaked.com
+pornstarnaked.com##div[id*="preloader"]
+
+!taxi69.com
+taxi69.com##+js(abort-current-inline-script.js, CustomEvent, getexoloader)
+m.taxi69.com###header:style(position: relative !important)
+m.taxi69.com##.ad_kimia
+
+!lustcinema.com
+lustcinema.com##.exitpopnews
+
+!celebsroulette.com
+celebsroulette.com###list_videos_friends_2_items
+
+!sexwinks.com
+sexwinks.com##+js(abort-current-inline-script.js, CustomEvent, getexoloader)
+sexwinks.com##+js(abort-on-property-write.js, adcashMacros)
+sexwinks.com##.navbar-fixed-top
+
+!anybunny.com
+anybunny.com##table:nth-of-type(2) > tbody > tr > td:nth-of-type(2)
+
+!hotlegsandfeet.com
+hotlegsandfeet.com##.banner-title
+hotlegsandfeet.com##.packages
+
+!wcdem2015.org
+wcdem2015.org##.banner
