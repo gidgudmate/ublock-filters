@@ -339,6 +339,8 @@ accountkiller.com##[onclick^="trackLinkClick('outbound', 'cancel_removal_link'"]
 !gotporn.com
 /exo-loader/frontend_loader.js
 /statserv/video/view
+||gotporn.com/js/neverblock/block-detect.js$script
+gotporn.com##+js(abort-current-inline-script.js, CustomEvent, getexoloader)
 
 !thehackernews.com
 thehackernews.com##A[href^="http://ow.ly/"]
@@ -1360,6 +1362,7 @@ www.vg247.com##.sp_veil1530094298094
 playvids.com##+js(window.open-defuser.js)
 www.playvids.com##.col-lg-auto.col-12
 www.playvids.com##.col-xl-4
+www.playvids.com##.block-advert
 
 !dailymotion.com
 www.dailymotion.com##.VideoQueue__videoWrapper___1zW3S > div:nth-of-type(2)
@@ -1716,6 +1719,7 @@ www.sexykittenporn.com###whsjx-ym7bo-vo80d
 www.sexykittenporn.com##.center:nth-of-type(1) > a[href="/click/o/nshoneys.com"]
 www.sexykittenporn.com###ff14d-n6mn3-cvwsp
 www.sexykittenporn.com##.banners > .contentbanner
+www.sexykittenporn.com##.banners
 
 !girlsofdesire.org
 www.girlsofdesire.org###box_671
@@ -1725,6 +1729,7 @@ www.girlsofdesire.org###box_10 > div
 www.girlsofdesire.org###box_738
 www.girlsofdesire.org###box_826
 www.girlsofdesire.org###box_741
+www.girlsofdesire.org##.banners
 
 !8boobs.com
 www.8boobs.com##.join
@@ -1760,6 +1765,7 @@ www.silkengirl.com##.button_more
 www.silkengirl.com##.thumb33.thumb:nth-child(6)
 www.silkengirl.com##.thumb33.thumb:nth-child(9)
 www.silkengirl.com###thumbs_left > div.thumb_aside:nth-child(1)
+www.silkengirl.com##.spots_middle
 
 !babes.com
 www.babes.com##.floating-footer.js-floating-footer
@@ -1778,6 +1784,8 @@ www.novohot.com##div.thumb180x270
 !babesinporn.com
 www.babesinporn.com##div.block:nth-of-type(5) > .center
 www.babesinporn.com##a[href^="http://nlkdom.com/"]
+www.babesinporn.com##.contentbanner
+www.babesinporn.com##.tagslink
 
 !destinytracker.com
 destinytracker.com##+js(abort-on-property-read.js, checkSiteNotifications)
@@ -1838,6 +1846,7 @@ wikia.com,fandom.com##.cta-banner
 wikia.com,fandom.com##.featured-video__wrapper
 
 !sensualgirls.org
+sens_fl.js$script,domain=sensualgirls.org
 www.sensualgirls.org###box_600
 www.sensualgirls.org###bTIe1QTa
 www.sensualgirls.org###yFw5CViM
@@ -1852,6 +1861,8 @@ www.sensualgirls.org###box_596
 www.sensualgirls.org###box_632
 www.sensualgirls.org###box_441
 www.sensualgirls.org###box_575
+www.sensualgirls.org##+js(abort-current-inline-script.js, CustomEvent, getexoloader)
+www.sensualgirls.org##.banners
 
 !mainbabes.com
 www.mainbabes.com##.button_help
@@ -1917,6 +1928,7 @@ www.adultempire.com##.m-b-2.p-a-1.bg-lightgrey
 
 !rossoporn.com
 www.rossoporn.com##.owner
+www.rossoporn.com##center > .mz-top.zoomed.mz0
 
 !pbabes.com
 www.pbabes.com##.banner
@@ -1927,6 +1939,9 @@ www.pbabes.com###___plusone_0
 
 !hqbabes.com
 www.hqbabes.com###share
+www.hqbabes.com##.ad
+www.hqbabes.com##.mpt
+www.hqbabes.com###ad_hqsluts
 
 !porntrex.com
 www.porntrex.com##.fp-embed
@@ -2088,6 +2103,7 @@ www.100bucksbabes.com##.bannerholder
 
 !novostrong.com
 www.novostrong.com##.owner
+www.novostrong.com##.gallery_images_background > center
 
 !thousandbabes.com
 www.thousandbabes.com##.sponsorholder
@@ -2215,3 +2231,9 @@ hotlegsandfeet.com##.packages
 
 !wcdem2015.org
 wcdem2015.org##.banner
+
+!nextdoordolls.com
+nextdoordolls.com##+js(abort-on-property-read.js, anOptions)
+
+!babesandbitches.net
+babesandbitches.net##.banners
