@@ -1011,6 +1011,8 @@ www.dirtyyoungbitches.com##.go-galleries:style(margin-left: 300px !important)
 www.dirtyyoungbitches.com##.go-slideshow:style(margin-left: 300px !important)
 www.dirtyyoungbitches.com##.ads
 www.dirtyyoungbitches.com##.mz0
+www.dirtyyoungbitches.com##.swiper-slide-active.swiper-bonus.swiper-slide
+www.dirtyyoungbitches.com##.swiper-slide-next.swiper-bonus
 
 !sexyaporno.com
 www.sexyaporno.com##.adcontainer
@@ -1274,9 +1276,6 @@ www.chickteases.com##[src*="banners"]
 www.hqsluts.com###share
 www.hqsluts.com###c_gallery_sponsor
 www.hqsluts.com##.ad
-
-!yespornplease.com
-yespornplease.com##.hta3rdpOverlay
 
 !camvideos.tv
 ||www.camvideos.tv/images/*.gif$image
@@ -1608,6 +1607,8 @@ www.21naturals.com###SidebarPitch
 www.21naturals.com##.inlineLabels
 www.21naturals.com##.tlcLeftArrowContainer
 www.21naturals.com##.tlcRightArrowContainer
+m.21naturals.com##.productDescription
+m.21naturals.com###backToTop
 
 !ddf.com
 ddfbusty.com###join_widget_access
@@ -1641,6 +1642,7 @@ www.tube8.com###b796c399
 www.tube8.com##.footerBanner > .scale_4k
 www.tube8.com##.footerBanner
 www.tube8.com##.level-up-popup
+www.tube8.*##top-adblock
 
 !facebook.com
 www.facebook.com##.e_1710e1xp16.pagelet > ._1-ia > ._4-u8._20os._2tyk._1-ib._4-u2
@@ -1725,6 +1727,10 @@ www.babesandgirls.com###block-block-6 > .content > div
 www.babesandgirls.com##.owner
 
 !sexykittenporn.com
+@@||content*.sexykittenporn.com/images/sexykittenporn.com/*/jquery-1.10.2.min.js$script,domain=www.sexykittenporn.com
+@@||content*.sexykittenporn.com/images/sexykittenporn.com/*/jquery.mmenu.min.all.js$script,domain=www.sexykittenporn.com
+@@||content*.sexykittenporn.com/images/sexykittenporn.com/*/base.min.js$script,domain=www.sexykittenporn.com
+sexykittenporn.com##+js(abort-on-property-read.js, reload2)
 www.sexykittenporn.com###z1jk-zj0o5-9qxav
 www.sexykittenporn.com##body > div:nth-of-type(3)
 www.sexykittenporn.com###jqrkd-jvnmz-qs04m
@@ -1910,6 +1916,8 @@ www.deliciousbabes.org###box_537
 www.livejasminbabes.net##.visitref.bold.center.inline.size5.text-yellow
 www.livejasminbabes.net##body.gallery .rate-wrapper
 www.livejasminbabes.net###nat_top
+www.livejasminbabes.net##[href="/click/o/only-opaques.com"] > .rounded-top-right.inner-border
+www.livejasminbabes.net##.rounded-top-left.inner-border > .container
 
 !hottystop.com
 www.hottystop.com##div.Box_Small:nth-of-type(1)
@@ -1979,6 +1987,7 @@ www.decorativemodels.com##.contentbanner
 adbidgo.com/notice.php$script,domain=fooxybabes.com
 www.fooxybabes.com###scrollUp
 www.fooxybabes.com##.button_help
+www.fooxybabes.com##.spot
 
 !spicybabe.net
 www.spicybabe.net##.topbutton
@@ -2097,6 +2106,7 @@ http://cf.static.xxxbunker.com/preroll/*.mp4$media
 @@||js.helltraffic.com/fluidplayer/*$script,domain=hellporno.com
 @@||js.helltraffic.com/fluidplayer/images/fluid_icons.svg$image,domain=hellporno.com
 m.hellporno.com###fltd-inner
+m.hellporno.com###fltd
 
 !vporn.com
 www.vporn.com##.single-video > [id]
@@ -2207,11 +2217,11 @@ hotmovs.com###channel-video-banner
 
 !yespornplease.com
 ||https://6l1twlw9fy.com/95/d1/2b/*.js$script,domain=yespornplease.com
-yespornplease.com##+js(abort-on-property-write.js, _0xf75e)
+yespornplease.com##+js(abort-on-property-read.js, _0xf75e)
 yespornplease.com##+js(abort-current-inline-script.js, _0x3f11)
 yespornplease.com##+js(abort-on-property-read.js, AaDetector)
-yespornplease.com##^script:has-text(absda)
 yespornplease.com##.exclusive-link
+yespornplease.com##.hta3rdpOverlay
 
 !mentalfloss.com
 @@||quora.com$script,domain=mentalfloss.com
@@ -2287,6 +2297,7 @@ www.nudity911.com##[src*="banners"]
 !pornflip.com
 pornflip.com##.banner-top
 pornflip.com##.horiz-content > .a-label
+m.pornflip.com##div[class*="banners"]
 
 !sexybabes.club
 www.sexybabes.club##.bannermob
@@ -2347,6 +2358,30 @@ m.realityjunkies.com###inline_banner2
 
 !fapality.com
 m.fapality.com##.divExoCustomLayer
+m.fapality.com##.fluid-b
 
 !planetsuzy.org
 www.planetsuzy.org##._ln-floater
+
+!hotxxxpussy.com
+/xtube.php
+hotxxxpussy.com##+js(window.open-defuser.js)
+
+!pornwhite.com
+m.pornwhite.com##.spot
+m.pornwhite.com##.pop-fade
+
+!spicylingerie.com
+www.spicylingerie.com##.sw-banner
+
+!issuu.com
+issuu.com##.Ads__primary--3fFB3
+
+!groobygirls.com
+www.groobygirls.com##.some_of_our_stars
+www.groobygirls.com##.rabbits > center
+
+!vidmo.org
+||vidmo.org/*frame_*.php$subdocument
+vidmo.org###afrb
+vidmo.org##.items:nth-of-type(17)
