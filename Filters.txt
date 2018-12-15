@@ -1,8 +1,8 @@
 !Title: uBlock Filters +
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 
-!Homepage: https://github.com/gidgudmate/ublock-filters
-!Support: https://github.com/gidgudmate/ublock-filters/issues
+!Homepage: https://github.com/dumbusernameidk/ublock-filters
+!Support: https://github.com/dumbusernameidk/ublock-filters/issues
 
 !adf.ly
 ||adplxmd.com^
@@ -936,13 +936,15 @@ www.camwhoreshd.com###back-to-top
 @@||yurivideo.com^$image,domain=txxx.com
 www.txxx.com##.col--size--s.col--move-down.col > .heading--dark.heading > .heading__title
 m.txxx.com##.mobile-channel-info
+m.txxx.com###ud-m
 
 !thetimes.co.uk
 www.thetimes.co.uk###jqqpj9oi2ggg0y7g01cerk9
 
-!members.twistys.com
+!twistys.com
 ||a.pabbp.com/frogs/*=*$subdocument
 members.twistys.com##.common-content-box.trusted-partners > .clearfix.box-content
+www.twistys.com###footer-banners
 
 !javkitty.blogspot.com
 javkitty.blogspot.com###h237
@@ -954,6 +956,7 @@ www.porntube.com##.ugc.transparent-button
 www.porntube.com##.related-kodplayer
 www.porntube.com##.hidden-xs-down.video-added
 www.porntube.com##.vjs-autonext-ad-container
+m.porntube.com##.related-kodplayer
 
 !cliphunter.com
 ||www.cliphunter.com/superscript.php
@@ -1006,6 +1009,8 @@ www.dirtyyoungbitches.com##.zone-on-top.zone
 www.dirtyyoungbitches.com##.zone-on-bottom.zone
 www.dirtyyoungbitches.com##.go-galleries:style(margin-left: 300px !important)
 www.dirtyyoungbitches.com##.go-slideshow:style(margin-left: 300px !important)
+www.dirtyyoungbitches.com##.ads
+www.dirtyyoungbitches.com##.mz0
 
 !sexyaporno.com
 www.sexyaporno.com##.adcontainer
@@ -1015,6 +1020,7 @@ www.wildfanny.com###djsg7-r2q7h-dbsma
 www.wildfanny.com##body > div:nth-of-type(5)
 www.wildfanny.com##.block > center
 www.wildfanny.com##.banners
+www.wildfanny.com##.contentbanner
 
 !x-art.com
 www.x-art.com###promo_bar
@@ -1543,6 +1549,8 @@ www.redtube.com##.hd.w28t0dur47g333z2ve1u.w28t0dur47g333z2ve1r
 www.4tube.com###\32 3403 > a[href^="/adc/4tube_b2.php"]
 www.4tube.com##.la-vane-frame
 www.4tube.com##.footer-la-vane
+m.4tube.com###playlists
+m.4tube.com##.vane_hor.vane
 
 !pornpicture.org
 www.xxxpornsexmovies.xxx/banners/ebinamode
@@ -1792,6 +1800,7 @@ www.babesinporn.com##div.block:nth-of-type(5) > .center
 www.babesinporn.com##a[href^="http://nlkdom.com/"]
 www.babesinporn.com##.contentbanner
 www.babesinporn.com##.tagslink
+www.babesinporn.com##.banners
 
 !destinytracker.com
 destinytracker.com##+js(abort-on-property-read.js, checkSiteNotifications)
@@ -1936,6 +1945,7 @@ www.adultempire.com##.m-b-2.p-a-1.bg-lightgrey
 !rossoporn.com
 www.rossoporn.com##.owner
 www.rossoporn.com##center > .mz-top.zoomed.mz0
+www.rossoporn.com##.mz0
 
 !pbabes.com
 www.pbabes.com##.banner
@@ -2018,9 +2028,13 @@ www.pureandsexy.org###box_557
 www.pureandsexy.org###box_537
 www.pureandsexy.org##div:nth-of-type(2) > .b3c
 www.pureandsexy.org##.banner
+www.pureandsexy.org##.mz0
 
 !pussystate.com
 www.pussystate.com##.thumbs > li:nth-of-type(10)
+www.pussystate.com##.mz0
+www.pussystate.com##.owner
+www.pussystate.com##div[class*="zone"]
 
 !rabbitsfun.com
 www.rabbitsfun.com##.top-mobile
@@ -2082,6 +2096,7 @@ http://cf.static.xxxbunker.com/preroll/*.mp4$media
 !hellporno.com
 @@||js.helltraffic.com/fluidplayer/*$script,domain=hellporno.com
 @@||js.helltraffic.com/fluidplayer/images/fluid_icons.svg$image,domain=hellporno.com
+m.hellporno.com###fltd-inner
 
 !vporn.com
 www.vporn.com##.single-video > [id]
@@ -2116,9 +2131,12 @@ www.100bucksbabes.com##.bannerholder
 !novostrong.com
 www.novostrong.com##.owner
 www.novostrong.com##.gallery_images_background > center
+www.novostrong.com##.topheader_background
 
 !thousandbabes.com
 www.thousandbabes.com##.sponsorholder
+www.thousandbabes.com##.mz0
+www.thousandbabes.com##.ads
 
 !babesmachine.com
 www.babesmachine.com##.banner
@@ -2145,6 +2163,8 @@ fineartteens.com##[src*="banners"]
 !nightdreambabe.com
 www.nightdreambabe.com##.banner_place
 www.nightdreambabe.com##.ownerbanner
+www.nightdreambabe.com##.mz0
+www.nightdreambabe.com##.owner
 
 !passion-hd.com
 passion-hd.com##.payment-popup
@@ -2186,11 +2206,17 @@ hotmovs.com##.nopop
 hotmovs.com###channel-video-banner
 
 !yespornplease.com
-yespornplease.com##+js(abort-on-property-read.js, _0xf75e)
+||https://6l1twlw9fy.com/95/d1/2b/*.js$script,domain=yespornplease.com
+yespornplease.com##+js(abort-on-property-write.js, _0xf75e)
+yespornplease.com##+js(abort-current-inline-script.js, _0x3f11)
+yespornplease.com##+js(abort-on-property-read.js, AaDetector)
+yespornplease.com##^script:has-text(absda)
 yespornplease.com##.exclusive-link
 
 !mentalfloss.com
 @@||quora.com$script,domain=mentalfloss.com
+www.mentalfloss.com##.fixed-header-section
+www.mentalfloss.com##.ad-container
 
 !wankflix.com
 wankflix.com^$popunder,popup
@@ -2242,6 +2268,9 @@ anybunny.com##.scrollToTop
 !hotlegsandfeet.com
 hotlegsandfeet.com##.banner-title
 hotlegsandfeet.com##.packages
+hotlegsandfeet.com###upperFloaterBar
+hotlegsandfeet.com###bottomFloaterBar
+hotlegsandfeet.com###rrAsync1034
 
 !wcdem2015.org
 wcdem2015.org##.banner
@@ -2277,3 +2306,47 @@ devporn.net##.overlay1
 !toydemon.com
 www.toydemon.com##.uk-slideshow
 www.toydemon.com##.cms2.pad15
+
+!theomegaproject.org
+www.theomegaproject.org##.ads
+
+!plings.info
+/pornxxx.php$script,domain=plings.info
+
+!sexybabesz.com
+www.sexybabesz.com##.bannermob
+www.sexybabesz.com##.deskbanner
+www.sexybabesz.com##.bannerblock
+
+!vid123.net
+vid123.net###tstop
+vid123.net###tsmiddle
+vid123.net###tsbottom
+vid123.net###back_top_top
+
+!veporns.com
+veporns.com#@#.advertisment
+veporns.com#@##topAds
+veporns.com##.announcement
+
+!pornoeggs.com
+m.pornoeggs.com##.banner-top
+m.pornoeggs.com##.banner-bottom
+
+!isea2016.info
+isea2016.info##.mediabox.row > .thumbs
+isea2016.info##.girl
+isea2016.info##.side_box[class] > div:has(a[href])
+isea2016.info##.side_box:nth-child(-n+2)
+isea2016.info##.side_box:last-child
+isea2016.info##a[href*="/porngirl.php"]:nth-child(4)
+
+!realityjunkies.com
+m.realityjunkies.com##.opened.minimized
+m.realityjunkies.com###inline_banner2
+
+!fapality.com
+m.fapality.com##.divExoCustomLayer
+
+!planetsuzy.org
+www.planetsuzy.org##._ln-floater
