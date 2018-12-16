@@ -2482,3 +2482,11 @@ m.pornoxo.com##.overlay-play-button
 
 !recorded-webcams.com
 www.recorded-webcams.com##.embed-container
+
+
+!-------------------------------------------------------------------------------------------------------------------------------------!
+
+!Adguard App filters for Android
+||roundrobin-log.agoop.net^$app=com.sprint.zone
+/log_event?$app=com.google.android.youtube
+/generate_204$app=com.google.android.youtube
