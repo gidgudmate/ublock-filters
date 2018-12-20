@@ -845,6 +845,7 @@ searchdns.netcraft.com##.advert-tag
 clcknads.pro/v1/
 ||t0p0ff3rs.com
 ||housineschard.info^
+@@||wpnrtnmrewunrtok.xyz^$media
 
 !Banners
 girlsofdesire.org,sensualgirls.org,deliciousbabes.org##[style*="base64"]
@@ -922,14 +923,18 @@ www.foxnews.com###video
 www.foxnews.com##.enabled.slideshow
 
 !camwhoreshd.com
-@@||wpnrtnmrewunrtok.xyz^$media,domain=camwhoreshd.com
+||go.strpjmp.com/smartpop/*$subdocument
+@@||camwhoreshd.com$csp
 www.camwhoreshd.com##body > div:nth-of-type(3)
 www.camwhoreshd.com##.spots--cards.spots
 www.camwhoreshd.com##.topad
 www.camwhoreshd.com##[src*="http://www.camsoda1.com/promos/iframe/cw.php"]
 www.camwhoreshd.com###list_videos_friends
-www.camwhoreshd.com##.page__header:style(position: absolute !important)
+www.camwhoreshd.com##.page__header:style(position:absolute!important;)
 www.camwhoreshd.com###back-to-top
+www.camwhoreshd.com##.trailer__row
+www.camwhoreshd.com##.top
+www.camwhoreshd.com##.page__header > :nth-child(2)
 
 !txxx.com
 ||out.tubecorporate.com^$popup
@@ -1190,6 +1195,9 @@ putlockers.tf##.g9x203eu50I0
 
 !speedrun.com
 www.speedrun.com###maincontainer > div:nth-of-type(1)
+www.speedrun.com###sidebar > div:has-text(Advertisement)
+www.speedrun.com##.col-xs-12 > .visible-sm.visible-xs
+www.speedrun.com###main > .visible-sm.visible-xs
 
 !theclassicporn.com
 www.theclassicporn.com##.pl_showtime1
@@ -2483,6 +2491,21 @@ m.pornoxo.com##.overlay-play-button
 !recorded-webcams.com
 www.recorded-webcams.com##.embed-container
 
+!fashionyip.info
+fashionyip.info##+js(setTimeout-defuser.js, parent_popup)
+fashionyip.info###fh5co-author > .container > .row > .col-md-offset-2.col-md-8 > div.animated-fast.fadeInUp.animate-box.text-center.col-md-4
+
+!imgtown.pw
+@@||imgtown.net/i/*/*.jpg$image,domain=imgtown.pw
+@@||it*.imgtown.net^$image,domain=imgtown.pw
+
+!celebsunmasked.com
+celebsunmasked.com##.afc_popup
+
+!healthline.com
+www.healthline.com##.e2muz2j0
+www.healthline.com##.css-bzwr8d
+www.healthline.com##.css-c078th
 
 !-------------------------------------------------------------------------------------------------------------------------------------!
 
