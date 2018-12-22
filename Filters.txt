@@ -345,9 +345,10 @@ accountkiller.com##[onclick^="trackLinkClick('outbound', 'cancel_removal_link'"]
 !gotporn.com
 /exo-loader/frontend_loader.js
 /statserv/video/view
-||gotporn.com/js/neverblock/block-detect.js$script
+||cdn3b-static.gotporn.com/main/js/neverblock/block-detect.js$script,domain=www.gotporn.com
 gotporn.com##+js(abort-current-inline-script.js, CustomEvent, getexoloader)
 www.gotporn.com###floaterBanner
+www.gotporn.com##[href="https://www.gotporn.com/casino"]
 
 !thehackernews.com
 thehackernews.com##A[href^="http://ow.ly/"]
@@ -848,17 +849,6 @@ clcknads.pro/v1/
 @@||wpnrtnmrewunrtok.xyz^$media
 
 !Banners
-girlsofdesire.org,sensualgirls.org,deliciousbabes.org##[style*="base64"]
-babesbang.com,100bucksbabes.com,babeimpact.com,8boobs.com,theomegaproject.org##[src*="/0.jpg"]
-babesbang.com,100bucksbabes.com,babeimpact.com,8boobs.com,theomegaproject.org##[src*="/1.jpg"]
-babesbang.com,100bucksbabes.com,babeimpact.com,8boobs.com,theomegaproject.org##[src*="/2.jpg"]
-babesbang.com,100bucksbabes.com,babeimpact.com,8boobs.com,theomegaproject.org##[src*="/3.jpg"]
-babesbang.com,100bucksbabes.com,babeimpact.com,8boobs.com,theomegaproject.org##[src*="/4.jpg"]
-babesbang.com,100bucksbabes.com,babeimpact.com,8boobs.com,theomegaproject.org##[src*="/5.jpg"]
-babesbang.com,100bucksbabes.com,babeimpact.com,8boobs.com,theomegaproject.org##[src*="/6.jpg"]
-babesbang.com,100bucksbabes.com,babeimpact.com,8boobs.com,theomegaproject.org##[src*="/7.jpg"]
-babesbang.com,100bucksbabes.com,babeimpact.com,8boobs.com,theomegaproject.org##[src*="/8.jpg"]
-babesbang.com,100bucksbabes.com,babeimpact.com,8boobs.com,theomegaproject.org##[src*="/9.jpg"]
 bustybloom.com,exgirlfriendmarket.com###sponsorfeature
 bustybloom.com,exgirlfriendmarket.com###freetour
 
@@ -867,7 +857,7 @@ txxx.com,hclips.com,hotmovs.com,upornia.com,hdzog.com##.nopop
 txxx.com,hclips.com,hotmovs.com,upornia.com,hdzog.com##.hYbusCont
 
 !Porn gallery sites
-sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org,babesxworld.com,cocogals.com,sexybabes.club##+js(abort-on-property-read.js, ExoLoader)
+sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org,babesxworld.com,cocogals.com,sexybabes.club,papajizz.com##+js(abort-on-property-read.js, ExoLoader)
 
 !exoloader customevent 
 sensualgirls.org,deliciousbabes.org,girlsofdesire.org##+js(abort-on-property-read.js, CustomEvent)
@@ -876,7 +866,7 @@ sensualgirls.org,deliciousbabes.org,girlsofdesire.org##+js(abort-on-property-rea
 mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,babesxworld.com,cocogals.com,hottystop.com,erosberry.com,spicybabe.net,slutsandangels.com,simplemetart.com,cherrynudes.com##+js(abort-on-property-read.js, loadTool)
 
 !Stops the galleries from auto fetching images when scrolling
-sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org,babesxworld.com,cocogals.com,babesandgirls.com,nudity911.com,sexykittenporn.com##+js(abort-on-property-read.js, reload2)
+sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org,babesxworld.com,cocogals.com,babesandgirls.com,nudity911.com,sexykittenporn.com,morazzia.com##+js(abort-on-property-read.js, reload2)
 
 !puremature.com
 puremature.com##.popup3.epoch-box
@@ -1009,6 +999,7 @@ drugabuse.com##.cr-stickybar > .container-fluid
 
 !yourporn.sexy
 yourporn.sexy##.vid_container_poster_wrap > .vid_container > .tdn > .transition.maxi_post_player_img
+yourporn.sexy##.cbd
 
 !babecentrum.com
 www.babecentrum.com##div:nth-of-type(2) > table > tbody > tr > td:nth-of-type(2)
@@ -1534,6 +1525,7 @@ m.xhamster.com##.wid-cams-widget
 m.xhamster.com##.promo-message__with-button
 m.xhamster.com##.popup
 m.xhamster.com##.premium-overlay
+m.xhamster.com##.red-round
 
 !pornhub.com
 ||d1zqiu3u1zvqy8.cloudfront.net/x.swf$object
@@ -1661,6 +1653,7 @@ www.tube8.com##.footerBanner
 www.tube8.com##.level-up-popup
 www.tube8.*##top-adblock
 www.tube8.com##.banner-no-sponsor
+www.tube8.*##bottom-adblock
 
 !facebook.com
 www.facebook.com##.e_1710e1xp16.pagelet > ._1-ia > ._4-u8._20os._2tyk._1-ib._4-u2
@@ -2143,6 +2136,7 @@ www.sexynakeds.com##.aff_banner
 
 !babesbang.com
 babesbang.com##.block-center > [href*=".com"]
+babesbang.com##.ownerbanner
 
 !novoporn.com
 www.novoporn.com##.banner-block
@@ -2507,6 +2501,20 @@ www.healthline.com##.e2muz2j0
 www.healthline.com##.css-bzwr8d
 www.healthline.com##.css-c078th
 
+!papajizz.com
+||wpcdn.com/pn-subs.php$script,domain=www.papajizz.com
+||www.papajizz.com/worker.js$script
+papajizz.com##+js(abort-on-property-read.js, decodeURIComponent)
+www.papajizz.com##.hildegarde
+www.papajizz.com##.shawanda
+
+!burningangel.com
+m.burningangel.com###PromoBannerOverlay
+m.burningangel.com###inline_banner2
+
+!mofosex.com
+www.mofosex.com##.head-con > div > div:first-child > div:has-text(Advertisement)
+www.mofosex.com##.message
 !-------------------------------------------------------------------------------------------------------------------------------------!
 
 !Adguard App filters for Android
