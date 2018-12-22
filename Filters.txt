@@ -1576,7 +1576,7 @@ pornpicture.org###left > center
 www.veporn.net##.sidebar-social
 
 !tubepornclassic.com
-api.revivalcenter.club/scripts/sweet/?img=aHR0cDovL2NkbjFodC50cmFmZmljaGF1cy5jb20vdXBsb2Fkcy8
+api.revivalcenter.club/scripts/sweet/?img=*
 tubepornclassic.com##+js(abort-on-property-read.js, ExoLoader)
 tubepornclassic.com##.nopop
 tubepornclassic.com##.bottom-adv.box
@@ -2189,6 +2189,7 @@ www.nightdreambabe.com##.owner
 
 !passion-hd.com
 passion-hd.com##.payment-popup
+passion-hd.com##.sale-special-container
 
 !bravoerotica.com
 /erotic-tube/player/html.php
@@ -2227,10 +2228,10 @@ hotmovs.com##.nopop
 hotmovs.com###channel-video-banner
 
 !yespornplease.com
-||https://6l1twlw9fy.com/95/d1/2b/*.js$script,domain=yespornplease.com
-yespornplease.com##+js(abort-on-property-read.js, _0xf75e)
-yespornplease.com##+js(abort-current-inline-script.js, _0x3f11)
-yespornplease.com##+js(abort-on-property-read.js, AaDetector)
+
+
+
+yespornplease.com##body > div:has-text(ADBLOCK)
 yespornplease.com##.exclusive-link
 yespornplease.com##.hta3rdpOverlay
 
