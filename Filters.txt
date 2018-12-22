@@ -2504,6 +2504,8 @@ www.healthline.com##.css-c078th
 !papajizz.com
 ||wpcdn.com/pn-subs.php$script,domain=www.papajizz.com
 ||www.papajizz.com/worker.js$script
+||wpncdn.com/pn.php$script,domain=www.papajizz.com
+||www.papajizz.com/31.js$script
 papajizz.com##+js(abort-on-property-read.js, decodeURIComponent)
 www.papajizz.com##.hildegarde
 www.papajizz.com##.shawanda
