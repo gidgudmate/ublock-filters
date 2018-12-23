@@ -1228,7 +1228,7 @@ pastebin.com##.cd-is-visible.cd-top
 pastebin.com###float-box-2
 
 !spankwire.com
-api.freewebfonts.org/lib/
+api.freewebfonts.org/lib/*
 www.spankwire.com###header-grid-container > div:nth-of-type(2)
 www.spankwire.com###abMessage
 www.spankwire.com###videoContainer > div:nth-of-type(2)
@@ -1242,6 +1242,7 @@ www.spankwire.com###\33 2177 > article
 www.spankwire.com###header-grid-center
 www.spankwire.com###wrapper > div:nth-of-type(6)
 www.spankwire.com###wrapper > .align-center
+www.spankwire.om##.adv_wrapper
 
 !pron.tv
 pron.tv###stickyfloater > ins > iframe
@@ -1494,7 +1495,6 @@ xhamster.com##.xh-modal-header
 xhamster.com##.flow-buttons > .xh-button:nth-of-type(1)
 xhamster.com##.flow-buttons > .xh-button:nth-of-type(2)
 xhamster.com##.cookie-announce.bottom-announce > .width-wrap
-xhamster.com##.cookie-announce.bottom-announce
 xhamster.com##.player-ad-close
 xhamster.com##.player-ad-overlay
 xhamster.com###\34 250541 > a[href^="https://go.xhamsterlive.com/"] > .img
@@ -1526,6 +1526,7 @@ m.xhamster.com##.promo-message__with-button
 m.xhamster.com##.popup
 m.xhamster.com##.premium-overlay
 m.xhamster.com##.red-round
+m.xhamster.com##.ul.clearfix:nth-child(2)
 
 !pornhub.com
 ||d1zqiu3u1zvqy8.cloudfront.net/x.swf$object
@@ -1642,6 +1643,7 @@ www.vqporn.com##.table
 www.vqporn.com##.footer-margin > .content
 www.vqporn.com###onesignal-popover-dialog
 www.vqporn.com##.sponsor > center
+www.vqporn.com##.network
 
 !tube8.com
 www.tube8.com##.float-right.e8d6e24b
@@ -1651,9 +1653,9 @@ www.tube8.com###b796c399
 www.tube8.com##.footerBanner > .scale_4k
 www.tube8.com##.footerBanner
 www.tube8.com##.level-up-popup
-www.tube8.*##top-adblock
+www.tube8.com##top-adblock
 www.tube8.com##.banner-no-sponsor
-www.tube8.*##bottom-adblock
+www.tube8.com##bottom-adblock
 
 !facebook.com
 www.facebook.com##.e_1710e1xp16.pagelet > ._1-ia > ._4-u8._20os._2tyk._1-ib._4-u2
@@ -1786,16 +1788,16 @@ porndoo.com##.m-b-5.p-5.media.card
 porndoo.com###linkTop
 
 !silkengirl domains
-www.silkengirl.*##.spots_long
+www.silkengirl.com,silkengirl.net##.spots_long
 www.silkengirl.com##body > div:nth-of-type(3)
-www.silkengirl.*###scrollUp
+www.silkengirl.com,silkengirl.net###scrollUp
 www.silkengirl.com##.spots
 www.silkengirl.com##p:nth-child(2)
 www.silkengirl.com##.button_more
 www.silkengirl.com##.thumb33.thumb:nth-child(6)
 www.silkengirl.com##.thumb33.thumb:nth-child(9)
 www.silkengirl.com###thumbs_left > div.thumb_aside:nth-child(1)
-www.silkengirl.*##.spots_middle
+www.silkengirl.com,silkengirl.net##.spots_middle
 www.silkengirl.net##.spots > .holder
 
 !babes.com
@@ -2135,8 +2137,11 @@ www.nakedneighbour.com##.bordered.alone.banner
 www.sexynakeds.com##.aff_banner
 
 !babesbang.com
-babesbang.com##.block-center > [href*=".com"]
+babesbang.com##.block-center > [href]
 babesbang.com##.ownerbanner
+www.babesbang.com##.swiper-slide-active.swiper-bonus.swiper-slide
+www.babesbang.com##.ads
+www.babesbang.com##.banner-block
 
 !novoporn.com
 www.novoporn.com##.banner-block
@@ -2228,9 +2233,6 @@ hotmovs.com##.nopop
 hotmovs.com###channel-video-banner
 
 !yespornplease.com
-
-
-
 yespornplease.com##body > div:has-text(ADBLOCK)
 yespornplease.com##.exclusive-link
 yespornplease.com##.hta3rdpOverlay
@@ -2518,9 +2520,11 @@ m.burningangel.com###inline_banner2
 !mofosex.com
 www.mofosex.com##.head-con > div > div:first-child > div:has-text(Advertisement)
 www.mofosex.com##.message
-!-------------------------------------------------------------------------------------------------------------------------------------!
 
-!Adguard App filters for Android
-||roundrobin-log.agoop.net^$app=com.sprint.zone
-/log_event?$app=com.google.android.youtube
-/generate_204$app=com.google.android.youtube
+!definebabe.com
+www.definebabe.com##section:first-of-type
+
+!bustybloom.com
+www.bustybloom.com###header:style(position: absolute !important;)
+www.bustybloom.com###backtohome
+www.bustybloom.com##.block
