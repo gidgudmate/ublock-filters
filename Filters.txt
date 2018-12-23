@@ -835,7 +835,6 @@ searchdns.netcraft.com##.advert-tag
 ||nlkdom.com
 ||pics.xme.net/info/*/*.jpg$image
 ||pics.xme.net/info/*.gif$image
-||81.171.0.137^
 ||free.internetspeedtracker.com^
 ||replair.pro^
 ||www.reimageplus.com^
@@ -920,7 +919,7 @@ www.camwhoreshd.com##.spots--cards.spots
 www.camwhoreshd.com##.topad
 www.camwhoreshd.com##[src*="http://www.camsoda1.com/promos/iframe/cw.php"]
 www.camwhoreshd.com###list_videos_friends
-www.camwhoreshd.com##.page__header:style(position:absolute!important;)
+www.camwhoreshd.com##.page__header:style(position: absolute !important;)
 www.camwhoreshd.com###back-to-top
 www.camwhoreshd.com##.trailer__row
 www.camwhoreshd.com##.top
@@ -1526,7 +1525,7 @@ m.xhamster.com##.promo-message__with-button
 m.xhamster.com##.popup
 m.xhamster.com##.premium-overlay
 m.xhamster.com##.red-round
-m.xhamster.com##.ul.clearfix:nth-child(2)
+m.xhamster.com##ul.clearfix:nth-child(2)
 
 !pornhub.com
 ||d1zqiu3u1zvqy8.cloudfront.net/x.swf$object
@@ -2214,7 +2213,7 @@ pornstarsmachine.com##[href="/1263997/"]
 www.exgirlfriendmarket.com###nat_top
 
 !temp-mail.org
-temp-mail.org##.block-control:style(position: sticky !important)
+temp-mail.org##.block-control:style(position: sticky !important;)
 
 !porkjizz.com
 porkjizz.com##.happy-header-mobile
@@ -2271,7 +2270,7 @@ pornstarnaked.com##div[id*="preloader"]
 
 !taxi69.com
 taxi69.com##+js(abort-current-inline-script.js, CustomEvent, getexoloader)
-m.taxi69.com###header:style(position: relative !important)
+m.taxi69.com###header:style(position: relative !important;)
 m.taxi69.com##.ad_kimia
 
 !lustcinema.com
