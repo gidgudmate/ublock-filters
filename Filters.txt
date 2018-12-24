@@ -2488,7 +2488,7 @@ m.pornoxo.com##.overlay-play-button
 www.recorded-webcams.com##.embed-container
 
 !fashionyip.info
-fashionyip.info##+js(setTimeout-defuser.js, parent_popup)
+
 fashionyip.info###fh5co-author > .container > .row > .col-md-offset-2.col-md-8 > div.animated-fast.fadeInUp.animate-box.text-center.col-md-4
 
 !imgtown.pw
