@@ -1761,6 +1761,7 @@ www.girlsofdesire.org###box_738
 www.girlsofdesire.org###box_826
 www.girlsofdesire.org###box_741
 www.girlsofdesire.org##.banners
+www.girlsofdesire.org##.contentbanner
 
 !8boobs.com
 www.8boobs.com##.join
@@ -1937,6 +1938,7 @@ www.livejasminbabes.net##.rounded-top-left.inner-border > .container
 www.hottystop.com##div.Box_Small:nth-of-type(1)
 www.hottystop.com##a[href$=".html"][target*="new"]
 www.hottystop.com##[href^="http://nlkdom.com/"]
+www.hottystop.com##.Box_Large_Content > center
 
 !shameless.com
 www.shameless.com##.active.pause-adv
@@ -2036,6 +2038,7 @@ celebrity-leaks.net##.code-block-4.code-block > center
 celebrity-leaks.net##.code-block-5.code-block > center
 
 !tnaflix.com
+tnaflix.com##+js(abort-on-property-read.js, organicPop)
 www.tnaflix.com##.feedbackFixed
 www.tnaflix.com##.darkSwitcher
 
@@ -2527,3 +2530,13 @@ www.definebabe.com##section:first-of-type
 www.bustybloom.com###header:style(position: absolute !important;)
 www.bustybloom.com###backtohome
 www.bustybloom.com##.block
+
+!asspoint.com
+asspoint.com##+js(abort-on-property-read.js, url)
+www.asspoint.com##.wrap > :has-text(advertisement)
+
+!nudecelebforum.com
+www.nudecelebforum.com##._ln-floater
+
+!wikipedia.org
+www.wikipedia.org##[id*=portalBanner]
