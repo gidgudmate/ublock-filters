@@ -2038,7 +2038,7 @@ celebrity-leaks.net##.code-block-4.code-block > center
 celebrity-leaks.net##.code-block-5.code-block > center
 
 !tnaflix.com
-tnaflix.com##+js(abort-on-property-read.js, organicPop)
+
 www.tnaflix.com##.feedbackFixed
 www.tnaflix.com##.darkSwitcher
 
