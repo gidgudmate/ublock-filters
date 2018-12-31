@@ -845,6 +845,8 @@ searchdns.netcraft.com##.advert-tag
 clcknads.pro/v1/
 ||t0p0ff3rs.com
 ||housineschard.info^
+/coinimp-cache/*.js$script
+anonfile.com/lib/*.js$script
 @@||wpnrtnmrewunrtok.xyz^$media
 
 !Banners
@@ -866,6 +868,9 @@ mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemod
 
 !Stops the galleries from auto fetching images when scrolling
 sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org,babesxworld.com,cocogals.com,babesandgirls.com,nudity911.com,sexykittenporn.com,morazzia.com,fooxybabes.com##+js(abort-on-property-read.js, reload2)
+
+!setInterval-booster.js sites
+mitly.us,l24g.pw,wdupload.com,ewa.ac##+js(nano-setInterval-booster.js)
 
 !puremature.com
 puremature.com##.popup3.epoch-box
@@ -1674,6 +1679,7 @@ www.aznude.com##div.recommended.container:nth-of-type(5)
 www.aznude.com##div.container:nth-of-type(9)
 www.aznude.com##div.recommended.container:nth-of-type(8)
 www.aznude.com##div.container:nth-of-type(10)
+www.aznude.com##.player-position:style(position: sticky !important;)
 
 !4chan.org
 boards.4chan.org##.warning.notification
@@ -2123,6 +2129,7 @@ http://cf.static.xxxbunker.com/preroll/*.mp4$media
 
 !hellporno.com
 ||hellporno.com/_a_xb/*/*/*$script
+||hellporno.com/cb/cb.xb.js$script
 @@||js.helltraffic.com/fluidplayer/*$script,domain=hellporno.com
 @@||js.helltraffic.com/fluidplayer/images/fluid_icons.svg$image,domain=hellporno.com
 m.hellporno.com###fltd-inner
@@ -2474,6 +2481,7 @@ biqle.ru##.message-container
 
 !mrskin.com
 www.mrskin.com##.sk-so-collapsed.sk-so-dropdown-container > .sk-so-dropdown-link
+www.mrskin.com##.sk-so-dropdown-video
 
 !quora.com
 www.quora.com###__w2_wIYhvtOr1_signup_wall_wrapper
@@ -2503,6 +2511,7 @@ fashionyip.info###fh5co-author > .container > .row > .col-md-offset-2.col-md-8 >
 !imgtown.pw
 @@||imgtown.net/i/*/*.jpg$image,domain=imgtown.pw
 @@||it*.imgtown.net^$image,domain=imgtown.pw
+@@||imgtown.net/js/jquery-*.js$script,domain=imgtown.pw
 
 !celebsunmasked.com
 celebsunmasked.com##.afc_popup
@@ -2548,20 +2557,18 @@ www.nudecelebforum.com##._ln-floater
 www.wikipedia.org##[id*=portalBanner]
 
 !l24g.pw
-l24g.pw##+js(nano-setInterval-booster.js)
 l24g.pw##.adsbygoogle
+l24g.pw##.banner-inner
 
 !fileflares.com
 fileflares.com##+js(nano-setTimeout-booster.js)
 fileflares.com##[id*=Preload]
 
 !ewa.ac
-ewa.ac##+js(nano-setInterval-booster.js)
 ewa.ac##+js(abort-on-property-write.js, _pop)
 
 !mitly.us
 mitly.us##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
-mitly.us##+js(nano-setInterval-booster.js)
 mitly.us##.adsbygoogle
 mitly.us##.text-left
 mitly.us###link-view > p
@@ -2577,6 +2584,8 @@ healthcareforkids24.com##.adsbygoogle
 
 !winderline.win
 winderline.win##.adsbygoogle
+winderline.win##.text-left
+winderline.win##.box-main
 
 !shrinkearn.com
 shirnkearn.com##.banner
@@ -2590,10 +2599,30 @@ www.clkpays.com##.blog-item
 
 !cyahealth.com
 cyahealth.com##.banner-inner
+cyahealth.com##.col-md-10
 
 !tubedupe.com
 ||tubedupe.com/_td5.php$image
 
 !911asians.com
 ||911asians.com/player/html.php?aid=pause_html&video_*$subdocument
+911asians.com##+js(abort-on-property-read.js, phantomPopunder)
 www.911asians.com##.sponsor
+
+!anonfiles.com
+||anonfiles.com/sw_anonfiles.js$script,first-party
+anonfiles.com##+js(abort-on-property-read.js, miner)
+
+!mrskinbabes.com
+www.mrskinbabes.com###personalizedContent
+
+!blueporns.com
+||blue.b-cdn.net/js/js.php$script,domain=blueporns.com
+blueporns.com##.video_left_box
+
+!minfil.com
+||minfil.com/sw_minfil.js$script,first-party
+
+!clk.sh
+clk.sh##.banner
+clk.sh##.adsbygoogle
