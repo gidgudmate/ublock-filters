@@ -2580,6 +2580,7 @@ linkshrink.net##+js(window.open-defuser.js)
 www.nudepmates.com###preloader
 
 !healthcareforkids24.com
+healthcareforkids24.com##+js(abort-on-property-read.js, doFunction)
 healthcareforkids24.com##.adsbygoogle
 
 !winderline.win
@@ -2626,3 +2627,9 @@ blueporns.com##.video_left_box
 !clk.sh
 clk.sh##.banner
 clk.sh##.adsbygoogle
+
+!bejav.net
+bejav.net##.alert
+
+!cutpaid.com
+cutpaid.com##center
