@@ -847,8 +847,11 @@ clcknads.pro/v1/
 ||housineschard.info^
 /coinimp-cache/*.js$script
 anonfile.com/lib/*.js$script
+||go.strpjmp.com/smartpop/*$subdocument
+||13vm73vbmp.com^
+||pushengage.im/ntfc.php$script
 @@||wpnrtnmrewunrtok.xyz^$media
-
+--------------------------------------------------------------------------------------------------------------------------------------
 !Banners
 bustybloom.com,exgirlfriendmarket.com###sponsorfeature
 bustybloom.com,exgirlfriendmarket.com###freetour
@@ -869,9 +872,13 @@ mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemod
 !Stops the galleries from auto fetching images when scrolling
 sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org,babesxworld.com,cocogals.com,babesandgirls.com,nudity911.com,sexykittenporn.com,morazzia.com,fooxybabes.com##+js(abort-on-property-read.js, reload2)
 
-!setInterval-booster.js sites
+!setInterval-booster.js/setTimeout-booster
 mitly.us,l24g.pw,wdupload.com,ewa.ac##+js(nano-setInterval-booster.js)
+ayefiles.com,fileflares.com##+js(nano-setTimeout-booster.js)
 
+!adfly-defuser
+thouth.net##+js(adfly-defuser.js)
+-------------------------------------------------------------------------------------------------------------------------------------
 !puremature.com
 puremature.com##.popup3.epoch-box
 
@@ -917,7 +924,6 @@ www.foxnews.com###video
 www.foxnews.com##.enabled.slideshow
 
 !camwhoreshd.com
-||go.strpjmp.com/smartpop/*$subdocument
 @@||camwhoreshd.com$csp
 www.camwhoreshd.com##body > div:nth-of-type(3)
 www.camwhoreshd.com##.spots--cards.spots
@@ -1078,7 +1084,6 @@ www.empflix.com##.klDswt7S
 www.empflix.com##.eM1mb6Ss
 www.empflix.com##.vbApzG4N
 www.empflix.com##.lastLiAv.pInterstitialIn
-www.empflix.com##.darkSwitcher
 www.empflix.com##.feedbackFixed
 www.empflix.com##.lWoAHxOV.ah2TQPEM
 www.empflix.com##.zUnderPlayer
@@ -1086,6 +1091,8 @@ www.empflix.com##.pspBanner
 www.empflix.com##.eO0JaQnr.nrzKHmS8
 www.empflix.com##.pInterstitial
 www.empflix.com##.iP7zuFFd.jHNxIhpW
+m.empflix.com#@#.thumb
+m.empflix.com#@#.videoActions
 
 !platinmods.com
 platinmods.com###exposeMask
@@ -2561,7 +2568,6 @@ l24g.pw##.adsbygoogle
 l24g.pw##.banner-inner
 
 !fileflares.com
-fileflares.com##+js(nano-setTimeout-booster.js)
 fileflares.com##[id*=Preload]
 
 !ewa.ac
@@ -2633,3 +2639,70 @@ bejav.net##.alert
 
 !cutpaid.com
 cutpaid.com##center
+
+!torrentsearchweb.ws
+*$third-party,script,subdocument,xmlhttprequest,image,domain=torrentsearchweb.ws
+
+!pornerbros.com
+pornerbros.com##+js(set-constant.js, adsEnabled, false)
+
+!katfile.com
+katfile##+js(set-constant.js, adEnable, false)
+katfile##+js(window.open-defuser.js)
+
+!cuee.io
+cuee.io##+js(abort-on-property-read.js, doFunction)
+
+!linkfay.com
+linkfay.com#@#.banner-468x60
+
+!shortye.net
+||rich.worldpush.co^$script,domain=shortye.net
+shortye.net##^script:has-text(absda)
+
+!cutegirlporn.com
+www.cutegirlporn.com##.promo-item
+www.cutegirlporn.com##.gal-link
+
+!siska.tv
+www.siska.tv##.wrapper-0
+
+!0xxx.ws
+||0xxx.ws$image,first-party
+
+!orgasm.com
+m.orgasm.com##[id*=-ox-]
+
+!errrotica.com
+www.errrotica.com##.banners
+
+!fantasymassage.com
+www.fantasymassage.com###PromoBannerOverlay
+
+!sexxxyflix.com
+sexxxyflix.com##.mobile-show
+sexxxyflix.com##.cell-960-1-3
+sexxxyflix.com##[class*=-adrow-]
+
+!wildxxxhardcore.com
+www.wildxxxhardcore.com##.overlay99
+
+!flylink.io
+flylink.io##.banner
+flylink.io##.text-left
+
+!ally.sh
+ally.sh##.adsbygoogle
+
+!pss.pw
+pss.pw##[href^="http://mob1ledev1ces.com/r/"]
+
+!buyitonline.store
+buyitonline.store##.box-main > center
+
+!fta-fet.com
+fta-fet.com##.col-md-10
+fta-fet.com##.banner
+
+!healthereview.com
+healthereview.com##.banner
