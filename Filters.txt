@@ -1379,7 +1379,6 @@ www.experts-exchange.com###textComponent-id16 > .body > .section > .ctaSolutionS
 anon-v.com##div.opt:nth-of-type(1)
 anon-v.com##div.opt:nth-of-type(2)
 anon-v.com##div.opt:nth-of-type(3)
-anon-v.com##.content > div:nth-of-type(2)
 
 !vg247.com
 www.vg247.com###sp_message_id1530094298094
@@ -1647,7 +1646,7 @@ ddfnetwork.com##.aoembed
 www.youporn.com###EYP-scroll
 
 !vqporn.com
-vqporn.com/lolcs.php?mg=
+||vqporn.com/lolcs.php?mg=*
 www.vqporn.com##.background
 www.vqporn.com##.onesignal-bell-svg
 www.vqporn.com##.mFsyNOqC
@@ -2706,3 +2705,9 @@ fta-fet.com##.banner
 
 !healthereview.com
 healthereview.com##.banner
+
+!celebmasta.com
+celebmasta.com##+js(abort-on-property-read.js, dataPopUnder)
+
+!xnxx.com
+xnxx.com##+js(abort-on-property-read.js, fuckAdBlock)
