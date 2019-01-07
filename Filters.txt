@@ -7,7 +7,6 @@
 !adf.ly
 ||adplxmd.com^
 ||adplxmd.com^$popup
-||adnetworkperformance.com^
 ||adnetworkperformance.com^$popup
 ||adverkeyz.com^
 ||adverkeyz.com^$popup
@@ -1010,6 +1009,8 @@ drugabuse.com##.cr-stickybar > .container-fluid
 !yourporn.sexy
 yourporn.sexy##.vid_container_poster_wrap > .vid_container > .tdn > .transition.maxi_post_player_img
 yourporn.sexy##.cbd
+yourporn.sexy###overlay
+yourporn.sexy##.tbd
 
 !babecentrum.com
 www.babecentrum.com##div:nth-of-type(2) > table > tbody > tr > td:nth-of-type(2)
@@ -1120,6 +1121,7 @@ www.cnet.com###lightbox-d95387a0-75ad-4e1f-a17c-0767a8bacaab-1514256699549
 www.eroti.ga##.pm-video-watch-main.col-md-8.col-sm-12.col-xs-12 > .pm-ads-banner
 www.eroti.ga##.cc_container--open.cc_container.cc_banner
 www.eroti.ga##.container-footer.container-fluid > .pm-ads-banner
+www.eroti.ga###pm-social-share
 
 !svscomics.com
 svscomics.com##a[href="https://bit.ly/svscomics_k2s"]
@@ -1686,6 +1688,8 @@ www.aznude.com##div.container:nth-of-type(9)
 www.aznude.com##div.recommended.container:nth-of-type(8)
 www.aznude.com##div.container:nth-of-type(10)
 www.aznude.com##.player-position:style(position: sticky !important;)
+www.aznude.com##.ad-box
+www.aznude.com##.ad-box-video
 
 !4chan.org
 boards.4chan.org##.warning.notification
@@ -2711,3 +2715,12 @@ celebmasta.com##+js(abort-on-property-read.js, dataPopUnder)
 
 !xnxx.com
 xnxx.com##+js(abort-on-property-read.js, fuckAdBlock)
+www.xnxx.com##[id*=-ad-]
+www.xnxx.com###x-home-messages
+
+!bustyfilmes.com
+bustyfilmes.com##.pure-button
+
+!bobs-tube.com
+bobs-tube.com##.adv_nad_player
+bobs-tube.com##.content > .box
