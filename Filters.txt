@@ -2711,7 +2711,7 @@ fta-fet.com##.banner
 healthereview.com##.banner
 
 !celebmasta.com
-celebmasta.com##+js(abort-on-property-read.js, dataPopUnder)
+celebmasta.com##+js(abort-on-property-write.js, dataPopUnder)
 
 !xnxx.com
 xnxx.com##+js(abort-on-property-read.js, fuckAdBlock)
@@ -2720,6 +2720,7 @@ www.xnxx.com###x-home-messages
 
 !bustyfilmes.com
 bustyfilmes.com##.pure-button
+bustyfilmes.com##[id*=breaker-]
 
 !bobs-tube.com
 bobs-tube.com##.adv_nad_player
