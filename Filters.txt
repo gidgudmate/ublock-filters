@@ -2747,3 +2747,7 @@ www.datefilehost.com##[href^="https://www.freeonlinegames66.com"]
 www.datefilehost.com##[href^="http://answerking.com"]
 www.datefilehost.com##.row:nth-child(6)
 www.datefilehost.com##.container > div:nth-child(8)
+
+!indishare.me
+*$3p,image,domain=indishare.me
+s3.amazonaws.com$xhr,domain=indishare.me
