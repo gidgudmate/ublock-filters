@@ -824,8 +824,6 @@ searchdns.netcraft.com##.advert-tag
 ||promo-bc.com
 ||stripchat/
 ||avanti.php
-||cloudflare-static/email-decode.min.js$script
-||google.com/favicon.ico
 ||hyphenatedion.com
 ||wss://ws.peer5.com
 ||orgalso.com
@@ -838,9 +836,9 @@ searchdns.netcraft.com##.advert-tag
 ||replair.pro^
 ||www.reimageplus.com^
 ||www.clicksgear.com^
-||earn-bitcoins.net^$subdocument,important
+||earn-bitcoins.net^$subdocument
 /2wwu4KB
-||4dsbanner.net^$subdocument,important
+||4dsbanner.net^$subdocument
 clcknads.pro/v1/
 ||t0p0ff3rs.com
 ||housineschard.info^
@@ -849,7 +847,9 @@ anonfile.com/lib/*.js$script
 ||go.strpjmp.com/smartpop/*$subdocument
 ||13vm73vbmp.com^
 ||pushengage.im/ntfc.php$script
+1ea1sley.com^$third-party
 @@||wpnrtnmrewunrtok.xyz^$media
+##[href^="http://mob1ledev1ces.com/r/"]
 --------------------------------------------------------------------------------------------------------------------------------------
 !Banners
 bustybloom.com,exgirlfriendmarket.com###sponsorfeature
@@ -866,17 +866,14 @@ sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,ero
 sensualgirls.org,deliciousbabes.org,girlsofdesire.org##+js(abort-on-property-read.js, CustomEvent)
 
 !iStripper popup tool
-mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,babesxworld.com,cocogals.com,hottystop.com,erosberry.com,spicybabe.net,slutsandangels.com,simplemetart.com,cherrynudes.com,fooxybabes.com,hotbabeswanted.com##+js(abort-on-property-read.js, loadTool)
+mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,babesxworld.com,cocogals.com,hottystop.com,erosberry.com,spicybabe.net,slutsandangels.com,simplemetart.com,cherrynudes.com,fooxybabes.com,hotbabeswanted.com,ftopx.com##+js(abort-on-property-read.js, loadTool)
 
 !Stops the galleries from auto fetching images when scrolling
 sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org,babesxworld.com,cocogals.com,babesandgirls.com,nudity911.com,sexykittenporn.com,morazzia.com,fooxybabes.com##+js(abort-on-property-read.js, reload2)
 
 !setInterval-booster.js/setTimeout-booster
-mitly.us,l24g.pw,wdupload.com,ewa.ac##+js(nano-setInterval-booster.js)
-ayefiles.com,fileflares.com##+js(nano-setTimeout-booster.js)
-
-!adfly-defuser
-thouth.net##+js(adfly-defuser.js)
+mitly.us,l24g.pw,wdupload.com,ewa.ac,slaplink.com##+js(nano-setInterval-booster.js)
+ayefiles.com,fileflares.com,indishare.me##+js(nano-setTimeout-booster.js)
 -------------------------------------------------------------------------------------------------------------------------------------
 !puremature.com
 puremature.com##.popup3.epoch-box
@@ -1756,9 +1753,7 @@ www.babesandgirls.com###block-block-6 > .content > div
 www.babesandgirls.com##.owner
 
 !sexykittenporn.com
-@@||content*.sexykittenporn.com/images/sexykittenporn.com/*/jquery-1.10.2.min.js$script,domain=www.sexykittenporn.com
-@@||content*.sexykittenporn.com/images/sexykittenporn.com/*/jquery.mmenu.min.all.js$script,domain=www.sexykittenporn.com
-@@||content*.sexykittenporn.com/images/sexykittenporn.com/*/base.min.js$script,domain=www.sexykittenporn.com
+@@||sexykittenporn.com$script,1p
 sexykittenporn.com##+js(abort-on-property-read.js, reload2)
 www.sexykittenporn.com###z1jk-zj0o5-9qxav
 www.sexykittenporn.com##body > div:nth-of-type(3)
@@ -2698,7 +2693,7 @@ flylink.io##.text-left
 ally.sh##.adsbygoogle
 
 !pss.pw
-pss.pw##[href^="http://mob1ledev1ces.com/r/"]
+pss.pw##+js(abort-on-property-write.js, adcashMacros)
 
 !buyitonline.store
 buyitonline.store##.box-main > center
@@ -2725,3 +2720,30 @@ bustyfilmes.com##[id*=breaker-]
 !bobs-tube.com
 bobs-tube.com##.adv_nad_player
 bobs-tube.com##.content > .box
+
+!uploadbank.com
+uploadbank.com##+js(noeval.js)
+www.uploadbank.com###container > center
+www.uploadbank.com###container > font
+
+!ftopx.com
+ftopx.com##+js(abort-current-inline-script.js, CustomEvent, getexoloader)
+
+!dailyuploads.net
+dailyuploads.net##.inner > [href*="dailyapk.net"]
+
+!slaplink.com
+slaplink.com##.banner
+slaplink.com##h1:has-text(advertisement)
+
+!pornlovo.co
+pornlovo.co###text24 > .textwidget > p
+
+!bulbapedia.bulbagarden.net
+bulbapedia.bulbagarden.net###pmswba
+
+!datefilehost.com
+www.datefilehost.com##[href^="https://www.freeonlinegames66.com"]
+www.datefilehost.com##[href^="http://answerking.com"]
+www.datefilehost.com##.row:nth-child(6)
+www.datefilehost.com##.container > div:nth-child(8)
