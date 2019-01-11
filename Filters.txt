@@ -1,8 +1,8 @@
 !Title: uBlock Filters +
 !License: https://creativecommons.org/licenses/by-sa/4.0/
-
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
+!Update: 87
 
 !adf.ly
 ||adplxmd.com^
@@ -1552,7 +1552,6 @@ www.pornhub.com##.joinLinkWrapper
 !xvideos.com
 ||iwanttodeliver.com^$popup
 /popupclick/$popup
-www.xvideos.com##.text-center
 www.xvideos.com##.sponsor-popup
 www.xvideos.com###mobile-slogan
 www.xvideos.com###page-go-up
@@ -1777,9 +1776,10 @@ www.girlsofdesire.org##.contentbanner
 www.girlsofdesire.org##.block:has-text(Adblock)
 
 !8boobs.com
+||8boobs.com/images/*/banners$image
 www.8boobs.com##.join
 www.8boobs.com##.top-link
-www.8boobs.com##div.banners
+www.8boobs.com##.banners
 www.8boobs.com###topmenu > ul > li:nth-child(4)
 www.8boobs.com##.alignleft.sidebar > div.photo:nth-child(3)
 
@@ -2449,6 +2449,7 @@ www.hotbabeswanted.com##.bannermob
 www.hotbabeswanted.com##.deskbanner
 
 !collectionofbestporn.com
+collectionofbestporn.com##+js(abort-on-property-read.js, _0xbbc1)
 collectionofbestporn.com##._ln-floater
 collectionofbestporn.com###lower-ads
 collectionofbestporn.com##.banner-mobile-header
@@ -2751,3 +2752,21 @@ www.datefilehost.com##.container > div:nth-child(8)
 !indishare.me
 *$3p,image,domain=indishare.me
 s3.amazonaws.com$xhr,domain=indishare.me
+
+!faperplace.com
+faperplace.com##+js(abort-on-property-read.js, q7x69)
+
+!celeb.gate.cc
+celeb.gate.cc##+js(setTimeout-defuser.js, (), 20)
+
+!fuckup.xxx
+m.fuckup.xxx##.col-sm-12 > .text-center
+
+!namethatporn
+namethatporn.com###bfdam
+
+!porn2dl.net
+*3p,subdocument,domain=porn2dl.net
+
+!vipergirls.to
+vipergirls.to##[id*=adn]
