@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 90
+!Update: 91
 
 !adf.ly
 ||adplxmd.com^
@@ -2772,3 +2772,7 @@ namethatporn.com###bfdam
 
 !vipergirls.to
 vipergirls.to##[id*=adn]
+
+!pornstarsnaked.com
+pornstarsnaked.com##[id*=preloader]
+*$3p,script,domain=pornstarsnaked.com
