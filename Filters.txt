@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 89
+!Update: 90
 
 !adf.ly
 ||adplxmd.com^
@@ -1801,6 +1801,8 @@ porndoo.com##.m-b-5.p-5.media.card
 porndoo.com###linkTop
 
 !silkengirl domains
+||silkengirl.net/sw.js$1p,script
+*$3p,script,domain=silkengirl.net
 www.silkengirl.com,silkengirl.net##.spots_long
 www.silkengirl.com##body > div:nth-of-type(3)
 www.silkengirl.com,silkengirl.net###scrollUp
