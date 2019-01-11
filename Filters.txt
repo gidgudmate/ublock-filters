@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 91
+!Update: 92
 
 !adf.ly
 ||adplxmd.com^
@@ -849,6 +849,7 @@ anonfile.com/lib/*.js$script
 ||pushengage.im/ntfc.php$script
 ||1ea1sley.com^$3p
 @@||wpnrtnmrewunrtok.xyz^$media
+@@||cloudflare.com/ajax/libs/jquery$script
 ##[href^="http://mob1ledev1ces.com/r/"]
 --------------------------------------------------------------------------------------------------------------------------------------
 !Banners
