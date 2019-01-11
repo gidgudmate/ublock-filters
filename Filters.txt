@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 94
+!Update: 95
 
 !adf.ly
 ||adplxmd.com^
@@ -2760,7 +2760,7 @@ s3.amazonaws.com$xhr,domain=indishare.me
 faperplace.com##+js(abort-on-property-read.js, q7x69)
 
 !celeb.gate.cc
-celeb.gate.cc##+js(setTimeout-defuser.js, (), 20)
+celeb.gate.cc##+js(abort-on-property-read.js, decodeURIComponent)
 
 !fuckup.xxx
 m.fuckup.xxx##.col-sm-12 > .text-center
