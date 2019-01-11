@@ -849,7 +849,7 @@ anonfile.com/lib/*.js$script
 ||pushengage.im/ntfc.php$script
 ||1ea1sley.com^$3p
 @@||wpnrtnmrewunrtok.xyz^$media
-@@||cloudflare.com/ajax/libs/jquery$script
+@@||cloudflare.com/ajax/libs/*$script
 ##[href^="http://mob1ledev1ces.com/r/"]
 --------------------------------------------------------------------------------------------------------------------------------------
 !Banners
