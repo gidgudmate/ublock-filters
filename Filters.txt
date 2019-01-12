@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 95
+!Update: 96
 
 !adf.ly
 ||adplxmd.com^
@@ -2058,6 +2058,7 @@ celebrity-leaks.net##.code-block-4.code-block > center
 celebrity-leaks.net##.code-block-5.code-block > center
 
 !tnaflix.com
+tnaflix.com##+js(abort-on-property-read.js, exoUrl)
 www.tnaflix.com##.feedbackFixed
 
 !isselecta.co
