@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 97
+!Update: 98
 
 !adf.ly
 ||adplxmd.com^
@@ -28,11 +28,13 @@ adf.ly###fade
 ||oratosaeron.com^$popup
 
 !fantasti.cc
+||fantasti.cc/sw.js$script,1p
 ||officerrecordscale.info^
 ||officerrecordscale.info^$popup
 ||gmyze.com^
 ||fantasti.cc*/*track.php
 /antiadblock*$script
+@@||fantasti.cc^$xhr
 fantasti.cc##a[href*="/_b2.php?url="]
 
 !revclouds.com
@@ -851,7 +853,7 @@ anonfile.com/lib/*.js$script
 @@||wpnrtnmrewunrtok.xyz^$media
 @@||cloudflare.com/ajax/libs/*$script
 ##[href^="http://mob1ledev1ces.com/r/"]
---------------------------------------------------------------------------------------------------------------------------------------
+!--------------------------------------------------------------------------------------------------------------------------------------
 !Banners
 bustybloom.com,exgirlfriendmarket.com###sponsorfeature
 bustybloom.com,exgirlfriendmarket.com###freetour
@@ -875,7 +877,7 @@ sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,ero
 !setInterval-booster.js/setTimeout-booster
 mitly.us,l24g.pw,wdupload.com,ewa.ac,slaplink.com##+js(nano-setInterval-booster.js)
 ayefiles.com,fileflares.com,indishare.me##+js(nano-setTimeout-booster.js)
--------------------------------------------------------------------------------------------------------------------------------------
+!-------------------------------------------------------------------------------------------------------------------------------------
 !puremature.com
 puremature.com##.popup3.epoch-box
 
@@ -1076,6 +1078,7 @@ gostream.is##.zopim:nth-of-type(1)
 gostream.is###switch-mode
 
 !empflix.com
+empflix.com##+js(abort-on-property-write.js, exoUrl)
 www.empflix.com##.bsDMvplU
 www.empflix.com##.zPlayerRight:nth-of-type(1)
 www.empflix.com##.zPlayerRight:nth-of-type(2)
@@ -2760,9 +2763,6 @@ s3.amazonaws.com$xhr,domain=indishare.me
 !faperplace.com
 faperplace.com##+js(abort-on-property-read.js, q7x69)
 
-!celeb.gate.cc
-celeb.gate.cc##+js(abort-on-property-read.js, decodeURIComponent)
-
 !fuckup.xxx
 m.fuckup.xxx##.col-sm-12 > .text-center
 
@@ -2773,8 +2773,12 @@ namethatporn.com###bfdam
 *$3p,subdocument,script,domain=porn2dl.net
 
 !vipergirls.to
+viprgirls.to##+js(addEventListener-defuser.js, /^(?:click|mousedown|mousemove|touchstart|touchend|touchmove)$/)
 vipergirls.to##[id*=adn]
 
 !pornstarsnaked.com
 pornstarsnaked.com##[id*=preloader]
 *$3p,script,domain=pornstarsnaked.com
+
+!streamextreme.com
+streamextreme.com###site-navigation:style(position: sticky !important;)
