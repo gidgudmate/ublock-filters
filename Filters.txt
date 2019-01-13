@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 98.2
+!Update: 98.3
 
 !adf.ly
 ||adplxmd.com^
@@ -2780,5 +2780,5 @@ vipergirls.to##[id*=adn]
 pornstarsnaked.com##[id*=preloader]
 *$3p,script,domain=pornstarsnaked.com
 
-!streamextreme.com
-streamextreme.com###sitenavigation:style(position: sticky !important;)
+!streamextreme.cc
+streamextreme.ccm###site-navigation:style(position: sticky !important;)
