@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 98.4
+!Update: 98.5
 
 !adf.ly
 ||adplxmd.com^
@@ -2647,7 +2647,7 @@ bejav.net##.alert
 cutpaid.com##center
 
 !torrentsearchweb.ws
-*$third-party,script,subdocument,xmlhttprequest,image,domain=torrentsearchweb.ws
+*$3p,script,subdocument,xhr,image,domain=torrentsearchweb.ws
 
 !pornerbros.com
 pornerbros.com##+js(set-constant.js, adsEnabled, false)
@@ -2779,6 +2779,3 @@ vipergirls.to##[id*=adn]
 !pornstarsnaked.com
 pornstarsnaked.com##[id*=preloader]
 *$3p,script,domain=pornstarsnaked.com
-
-!streamextreme.cc
-streamextreme.cc###site-navigation:style(position: sticky !important;)
