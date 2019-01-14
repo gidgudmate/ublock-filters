@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 98.6
+!Update: 98.7
 
 !adf.ly
 ||adplxmd.com^
@@ -2487,9 +2487,6 @@ m.lesbian8.com##.ads
 
 !biqle.ru
 biqle.ru##.message-container
-
-!rabbit-rabbit.club
-||rabbit-rabbit.club/contents/other/player/*$image,1p
 
 !mrskin.com
 www.mrskin.com##.sk-so-collapsed.sk-so-dropdown-container > .sk-so-dropdown-link
