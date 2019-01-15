@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 98.7
+!Update: 106
 
 !adf.ly
 ||adplxmd.com^
@@ -2775,3 +2775,13 @@ vipergirls.to##[id*=adn]
 !pornstarsnaked.com
 pornstarsnaked.com##[id*=preloader]
 *$3p,script,domain=pornstarsnaked.com
+
+!xxxopenload.com
+xxxopenload.com##+js(abort-on-property-read.js, q7x69)
+
+!pornburst.xxx
+www.pornburst.xxx##.bg-special-offers
+www.pornburst.xxx##.advertisement
+
+!wikifeetx.com
+||www.wikifeetx.com/tlebanner.*$image
