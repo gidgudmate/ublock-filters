@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 106
+!Update: 100
 
 !adf.ly
 ||adplxmd.com^
@@ -1657,6 +1657,7 @@ www.vqporn.com##.footer-margin > .content
 www.vqporn.com###onesignal-popover-dialog
 www.vqporn.com##.sponsor > center
 www.vqporn.com##.network
+www.vqporn.com##.fancybox-opened
 
 !tube8.com
 www.tube8.com##.float-right.e8d6e24b
@@ -1899,6 +1900,7 @@ wikia.com,fandom.com##.featured-video__player-container
 wikia.com,fandom.com##.featured-video
 wikia.com,fandom.com##.cta-banner
 wikia.com,fandom.com##.featured-video__wrapper
+wikia.com,fandom.com##.top-bar
 
 !sensualgirls.org
 sens_fl.js$script,domain=sensualgirls.org
@@ -2614,12 +2616,12 @@ cyahealth.com##.col-md-10
 ||tubedupe.com/_td5.php$image
 
 !911asians.com
-||911asians.com/player/html.php?aid=pause_html&video_*$subdocument
-911asians.com##+js(abort-on-property-read.js, phantomPopunder)
+||911asians.com/player/html.php?aid=pause_html&video_*$frame
+911asians.com##+js(abort-on-property-write.js, phantomPopunder)
 www.911asians.com##.sponsor
 
 !anonfiles.com
-||anonfiles.com/sw_anonfiles.js$script,first-party
+||anonfiles.com/sw_anonfiles.js$script,1p
 anonfiles.com##+js(abort-on-property-read.js, miner)
 
 !mrskinbabes.com
@@ -2630,7 +2632,7 @@ www.mrskinbabes.com###personalizedContent
 blueporns.com##.video_left_box
 
 !minfil.com
-||minfil.com/sw_minfil.js$script,first-party
+||minfil.com/sw_minfil.js$script,1p
 
 !clk.sh
 clk.sh##.banner
@@ -2643,7 +2645,7 @@ bejav.net##.alert
 cutpaid.com##center
 
 !torrentsearchweb.ws
-*$3p,script,subdocument,xhr,image,domain=torrentsearchweb.ws
+*$3p,script,frame,xhr,image,domain=torrentsearchweb.ws
 
 !pornerbros.com
 pornerbros.com##+js(set-constant.js, adsEnabled, false)
@@ -2670,7 +2672,7 @@ www.cutegirlporn.com##.gal-link
 www.siska.tv##.wrapper-0
 
 !0xxx.ws
-||0xxx.ws$image,first-party
+||0xxx.ws$image,1p
 
 !orgasm.com
 m.orgasm.com##[id*=-ox-]
@@ -2680,6 +2682,7 @@ www.errrotica.com##.banners
 
 !fantasymassage.com
 www.fantasymassage.com###PromoBannerOverlay
+www.fantasymassage.com###backToTop
 
 !sexxxyflix.com
 sexxxyflix.com##.mobile-show
@@ -2742,6 +2745,7 @@ slaplink.com##h1:has-text(advertisement)
 
 !pornlovo.co
 pornlovo.co###text24 > .textwidget > p
+pornlovo.co###back-to-top
 
 !bulbapedia.bulbagarden.net
 bulbapedia.bulbagarden.net###pmswba
@@ -2766,7 +2770,7 @@ m.fuckup.xxx##.col-sm-12 > .text-center
 namethatporn.com###bfdam
 
 !porn2dl.net
-*$3p,subdocument,script,domain=porn2dl.net
+*$3p,frame,script,domain=porn2dl.net
 
 !vipergirls.to
 vipergirls.to##+js(addEventListener-defuser.js, /^(?:click|mousedown|mousemove|touchstart|touchend|touchmove)$/)
@@ -2785,3 +2789,14 @@ www.pornburst.xxx##.advertisement
 
 !wikifeetx.com
 ||www.wikifeetx.com/tlebanner.*$image
+
+!tokenfly.pw
+tokenfly.pw###cookie-pop
+tokenfly.pw##.banner-inner
+
+!shrtfly.com
+shrtfly.com###topbar
+
+!smarteasystudy.com
+smarteasystudy.com##+js(noeval.js)
+smarteasystudy.com##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
