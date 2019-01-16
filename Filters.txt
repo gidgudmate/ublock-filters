@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 100
+!Update: 101
 
 !adf.ly
 ||adplxmd.com^
@@ -799,7 +799,7 @@ _popunder&$document
 
 !startpage.com
 ||startpage.com/js/result_header_new.js
-@@/js/abp.js?$script,first-party
+@@/js/abp.js?$script,1p
 
 !searchdns.netcraft.com (some rare breakage)
 @@||searchdns.netcraft.com^$generichide
@@ -809,14 +809,14 @@ searchdns.netcraft.com##.advert-tag
 @@||firebaseapp.com/adpoint.js?_=$script
 
 !piwik.org
-||demo*.piwik.org/piwik.php$first-party,important
-@@||piwik.org^$first-party
+||demo*.piwik.org/piwik.php$1p,important
+@@||piwik.org^$1p
 
 !sh.st
 @@||static.shorte.st^$domain=sh.st
 
 !realitykings.com
-@@||cache.realitykings.com^$media,object,first-party
+@@||cache.realitykings.com^$media,object,1p
 
 !teamskeet.com
 @@||cdn.teamskeetimages.com^$image,domain=teamskeet.com
@@ -838,15 +838,15 @@ searchdns.netcraft.com##.advert-tag
 ||replair.pro^
 ||www.reimageplus.com^
 ||www.clicksgear.com^
-||earn-bitcoins.net^$subdocument
+||earn-bitcoins.net^$frame
 /2wwu4KB
-||4dsbanner.net^$subdocument
+||4dsbanner.net^$frame
 clcknads.pro/v1/
 ||t0p0ff3rs.com
 ||housineschard.info^
 /coinimp-cache/*.js$script
 anonfile.com/lib/*.js$script
-||go.strpjmp.com/smartpop/*$subdocument
+||go.strpjmp.com/smartpop/*$frame
 ||13vm73vbmp.com^
 ||pushengage.im/ntfc.php$script
 ||1ea1sley.com^$3p
@@ -859,7 +859,7 @@ bustybloom.com,exgirlfriendmarket.com###sponsorfeature
 bustybloom.com,exgirlfriendmarket.com###freetour
 
 !counters popups from out.tubecorporate.com
-txxx.com,hclips.com,hotmovs.com,upornia.com,hdzog.com##.nopop
+txxx.com,hclips.com,hotmovs.com,upornia.com,hdzog.com,tuberel.com##.nopop
 txxx.com,hclips.com,hotmovs.com,upornia.com,hdzog.com##.hYbusCont
 
 !Porn gallery sites
@@ -2760,9 +2760,6 @@ www.datefilehost.com##.container > div:nth-child(8)
 *$3p,image,domain=indishare.me
 s3.amazonaws.com$xhr,domain=indishare.me
 
-!faperplace.com
-faperplace.com##+js(abort-on-property-read.js, q7x69)
-
 !fuckup.xxx
 m.fuckup.xxx##.col-sm-12 > .text-center
 
@@ -2780,8 +2777,6 @@ vipergirls.to##[id*=adn]
 pornstarsnaked.com##[id*=preloader]
 *$3p,script,domain=pornstarsnaked.com
 
-!xxxopenload.com
-xxxopenload.com##+js(abort-on-property-read.js, q7x69)
 
 !pornburst.xxx
 www.pornburst.xxx##.bg-special-offers
@@ -2800,3 +2795,16 @@ shrtfly.com###topbar
 !smarteasystudy.com
 smarteasystudy.com##+js(noeval.js)
 smarteasystudy.com##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
+
+!tuberel.com
+tuberel.com##+js(noeval.js)
+tuberel.com##+js(abort-on-property-read.js, ExoLoader)
+tuberel.com###back_to_top
+tuberel.com###vda-1
+tuberel.com###vda-2
+tuberel.com##.vda-x2
+tuberel.com##.vda-link
+
+!tryboobs.com
+/cde70a19.js$script,domain=www.tryboobs.com
+www.tryboobs.com##[id*=spots]
