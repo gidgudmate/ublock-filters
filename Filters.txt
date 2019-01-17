@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 101
+!Update: 102
 
 !adf.ly
 ||adplxmd.com^
@@ -2777,7 +2777,6 @@ vipergirls.to##[id*=adn]
 pornstarsnaked.com##[id*=preloader]
 *$3p,script,domain=pornstarsnaked.com
 
-
 !pornburst.xxx
 www.pornburst.xxx##.bg-special-offers
 www.pornburst.xxx##.advertisement
@@ -2808,3 +2807,16 @@ tuberel.com##.vda-link
 !tryboobs.com
 /cde70a19.js$script,domain=www.tryboobs.com
 www.tryboobs.com##[id*=spots]
+
+!rabid-rabbit.club
+||rabid-rabbit.club/contents/other/player/*$image,1p
+||cbox.ws$3p,domain=rabid-rabbit.club
+
+!tubsexer.com
+||tubsexer.com/fe_load.js$script,1p
+||tubsexer.com/sw.js$script,1p
+tubsexer.com##+js(abort-on-property-read.js, _0x3bb0)
+tubsexer.com##.video-holder > center
+tubsexer.com##.header_link
+tubsexer.com##.btn_twitt
+tubsexer.com##.btn_up
