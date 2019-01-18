@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 102
+!Update: 103
 
 !adf.ly
 ||adplxmd.com^
@@ -850,6 +850,7 @@ anonfile.com/lib/*.js$script
 ||13vm73vbmp.com^
 ||pushengage.im/ntfc.php$script
 ||1ea1sley.com^$3p
+||*/sw.js$script,1p,domain=clk.sh|shrinkearn.com
 @@||wpnrtnmrewunrtok.xyz^$media
 @@||cloudflare.com/ajax/libs/*$script
 ##[href^="http://mob1ledev1ces.com/r/"]
@@ -2599,7 +2600,7 @@ winderline.win##.text-left
 winderline.win##.box-main
 
 !shrinkearn.com
-shirnkearn.com##.banner
+shrinkearn.com##.banner
 
 !ayefiles.com
 ayefiles.com###gdpr-cookike-notice
@@ -2820,3 +2821,6 @@ tubsexer.com##.video-holder > center
 tubsexer.com##.header_link
 tubsexer.com##.btn_twitt
 tubsexer.com##.btn_up
+
+!cpmlink.net
+||cpmlink.net/assets/js/custom.php$script,1p
