@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 103.3
+!Update: 103.4
 
 !adf.ly
 ||adplxmd.com^
@@ -2752,11 +2752,11 @@ pornlovo.co###back-to-top
 !bulbapedia.bulbagarden.net
 bulbapedia.bulbagarden.net###pmswba
 
-!datefilehost.com
-www.datefilehost.com##[href^="https://www.freeonlinegames66.com"]
-www.datefilehost.com##[href^="http://answerking.com"]
-www.datefilehost.com##.row:nth-child(6)
-www.datefilehost.com##.container > div:nth-child(8)
+!datafilehost.com
+www.datafilehost.com##[href^="https://www.freeonlinegames66.com"]
+www.datafilehost.com##[href^="http://answerking.com"]
+www.datafilehost.com##.row:nth-child(6)
+www.datafilehost.com##.container > div:nth-child(8)
 
 !indishare.me
 *$3p,image,domain=indishare.me
