@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 105
+!Update: 105.1
 
 !adf.ly
 ||adplxmd.com^
@@ -2700,11 +2700,6 @@ flylink.io##.text-left
 
 !ally.sh
 ally.sh##.adsbygoogle
-
-!pss.pw
-||pss.pw/js/u3.js$script,1p
-*$script,3p,domain=pss.pw
-pss.pw##+js(abort-on-property-write.js, adcashMacros)
 
 !buyitonline.store
 buyitonline.store##.box-main > center
