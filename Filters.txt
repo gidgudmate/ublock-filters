@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 105.1
+!Update: 106
 
 !adf.ly
 ||adplxmd.com^
@@ -851,6 +851,7 @@ anonfile.com/lib/*.js$script
 ||pushengage.im/ntfc.php$script
 ||1ea1sley.com^$3p
 ||d3rm04c4p9a75q.cloudfront.net^
+||olmsoneenh.info^$3p
 @@||wpnrtnmrewunrtok.xyz^$media
 @@||cloudflare.com/ajax/libs/*$script
 ##[href^="http://mob1ledev1ces.com/r/"]
@@ -1335,6 +1336,7 @@ www.ztod.com##.box-join
 anysex.com###qscMNDOD
 anysex.com###hLUHBYib
 anysex.com###content > .no_pop
+m.anysex.com##.fluid-b
 
 !pornpics.com
 ||static.pornpics.com/style/tab.png$image
@@ -1642,7 +1644,7 @@ ddfnetwork.com###bottomFloater
 ddfnetwork.com##.banner-title
 ddfnetwork.com##.my-2
 ddfnetwork.com##.packages
-ddfnetwork.com##.aoembed
+ddfnetwork.com,ddfbusty.com##.aoembed
 
 !youporn.com
 @@||phncdn.com/stattracker-1.4.2.js$domain=www.youporn.com
@@ -2576,7 +2578,9 @@ l24g.pw##.banner-inner
 fileflares.com##[id*=Preload]
 
 !ewa.ac
+||s3.amazonaws.com^$xhr,domain=ewa.ac
 ewa.ac##+js(abort-on-property-write.js, _pop)
+ewa.ac##+js(abort-on-property-write.js, inIframe)
 
 !mitly.us
 mitly.us##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
@@ -2645,6 +2649,7 @@ bejav.net##.alert
 
 !cutpaid.com
 cutpaid.com##center
+cutpaid.com##.banner
 
 !torrentsearchweb.ws
 *$3p,script,frame,xhr,image,domain=torrentsearchweb.ws
@@ -2833,3 +2838,12 @@ ally.shortens.co##.adsbygoogle
 !s2w.me
 s2w.me###topbar
 s2w.me##.col-md-10
+
+!cuus.io
+cuus.io##+js(abort-on-property-read.js, doFunction)
+cuus.io##.content
+cuus.io##.col-md-8
+cuus.io##.r-bg
+
+!sexu.tv
+sexu.tv##.ts
