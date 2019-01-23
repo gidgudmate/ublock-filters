@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 106
+!Update: 107
 
 !adf.ly
 ||adplxmd.com^
@@ -852,6 +852,7 @@ anonfile.com/lib/*.js$script
 ||1ea1sley.com^$3p
 ||d3rm04c4p9a75q.cloudfront.net^
 ||olmsoneenh.info^$3p
+||coinmedia.co^
 @@||wpnrtnmrewunrtok.xyz^$media
 @@||cloudflare.com/ajax/libs/*$script
 ##[href^="http://mob1ledev1ces.com/r/"]
@@ -1013,6 +1014,7 @@ yourporn.sexy##.vid_container_poster_wrap > .vid_container > .tdn > .transition.
 yourporn.sexy##.cbd
 yourporn.sexy###overlay
 yourporn.sexy##.tbd
+yourporn.sexy##.post_el_wrap > .tdn
 
 !babecentrum.com
 www.babecentrum.com##div:nth-of-type(2) > table > tbody > tr > td:nth-of-type(2)
@@ -2720,9 +2722,9 @@ healthereview.com##.banner
 celebmasta.com##+js(abort-on-property-write.js, dataPopUnder)
 
 !xnxx.com
-xnxx.com##+js(abort-on-property-read.js, fuckAdBlock)
 www.xnxx.com##[id*=-ad-]
 www.xnxx.com###x-home-messages
+www.xnxx.com###ad-header-mobile-contener
 
 !bustyfilmes.com
 bustyfilmes.com##.pure-button
@@ -2847,3 +2849,22 @@ cuus.io##.r-bg
 
 !sexu.tv
 sexu.tv##.ts
+
+!mobile.lubetube.com
+mobile.lubetube.com##p
+mobile.lubetube.com###wrapper > div:first-child
+mobile.lubetube.com###wrapper > div:nth-child(5)
+
+!oturl.com
+*$3p,script,domain=oturl.com
+oturl.com^$frame,1p
+oturl.com##[href^="//mellowads.com"]
+
+!dcearn.com
+dcearn.com##+js(abort-on-property-write.js, PopUP)
+dcearn.com##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
+dcearn.com###link-view > font
+dcearn.com##.box-main > font
+
+!gestyy.com
+||shortestminer.com^$frame,domain=gestyy.com
