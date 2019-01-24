@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 107
+!Update: 108
 
 !adf.ly
 ||adplxmd.com^
@@ -2652,6 +2652,7 @@ bejav.net##.alert
 !cutpaid.com
 cutpaid.com##center
 cutpaid.com##.banner
+cutpaid.com##.text-left
 
 !torrentsearchweb.ws
 *$3p,script,frame,xhr,image,domain=torrentsearchweb.ws
@@ -2758,7 +2759,7 @@ bulbapedia.bulbagarden.net###pmswba
 
 !datafilehost.com
 www.datafilehost.com##[href^="https://www.freeonlinegames66.com"]
-www.datafilehost.com##[href="http://answerking.com"]
+www.datafilehost.com##[href*=http://answerking.com]
 www.datafilehost.com##.row:nth-child(6)
 www.datafilehost.com##.container > div:nth-child(8)
 
@@ -2846,6 +2847,9 @@ cuus.io##+js(abort-on-property-read.js, doFunction)
 cuus.io##.content
 cuus.io##.col-md-8
 cuus.io##.r-bg
+cuus.io##.col-md-4
+cuus.io##.payments
+cuus.io##.faq
 
 !sexu.tv
 sexu.tv##.ts
@@ -2868,3 +2872,6 @@ dcearn.com##.box-main > font
 
 !gestyy.com
 ||shortestminer.com^$frame,domain=gestyy.com
+
+!tmearn.com
+tmearn.com##.text-left
