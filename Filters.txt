@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 108.1
+!Update: 109
 
 !adf.ly
 ||adplxmd.com^
@@ -2289,6 +2289,16 @@ efappy.com##+js(abort-on-property-read.js, ExoLoader)
 !sexy-youtubers.com
 sexy-youtubers.com##+js(abort-on-property-read.js, ExoLoader)
 sexy-youtubers.com##+js(window.open-defuser.js)
+www.sexy-youtubers.com##[href*="http://aj1070.online"]
+www.sexy-youtubers.com##[href*="https://theporndude.com/"]
+www.sexy-youtubers.com##[href*="https://srv.dropkickmedia.com"]
+www.sexy-youtubers.com##.td_block_template_11:nth-child(2)
+www.sexy-youtubers.com##.td_block_template_11:nth-child(4)
+www.sexy-youtubers.com##.td_block_template_11:nth-child(5)
+www.sexy-youtubers.com##.td_block_template_11:nth-child(7)
+www.sexy-youtubers.com##.td_block_template_11:nth-child(8)
+www.sexy-youtubers.com##.td_block_template_11:nth-child(10)
+www.sexy-youtubers.com##.td_block_template_11:nth-child(12)
 
 !thothub.tv
 thothub.tv###gototop
@@ -2578,6 +2588,7 @@ l24g.pw##.banner-inner
 
 !fileflares.com
 fileflares.com##[id*=Preload]
+fileflares.com##.adbwarning:style[height: 1px !important; width: 1px !important; background-color: #FFFFF !important;]
 
 !ewa.ac
 ||s3.amazonaws.com^$xhr,domain=ewa.ac
@@ -2614,6 +2625,7 @@ ayefiles.com##[id*=ScriptRoot]
 
 !clkpays.com
 www.clkpays.com##.blog-item
+www.clkpays.com##.text-left
 
 !cyahealth.com
 cyahealth.com##.banner-inner
@@ -2760,6 +2772,7 @@ bulbapedia.bulbagarden.net###pmswba
 !datafilehost.com
 www.datafilehost.com##[href^="https://www.freeonlinegames66.com"]
 www.datafilehost.com##[href="http://answersking.com"]
+www.datafilehost.com##.row:nth-child(5)
 www.datafilehost.com##.row:nth-child(6)
 www.datafilehost.com##.container > div:nth-child(8)
 
@@ -2875,3 +2888,15 @@ dcearn.com##.box-main > font
 
 !tmearn.com
 tmearn.com##.text-left
+
+!supercheats.com
+www.supercheats.com###docked-player
+
+!file4.net
+www.file4.net##.page-content-inner > .portlet
+www.file4.net##.col-md-4:nth-child(3) > .portlet
+www.file4.net##.col-md-6:first-child > .portlet
+
+!miscellanea1.com
+miscellanea1.com##.banner-inner
+miscellanea1.com##.text-left
