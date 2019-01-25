@@ -2759,7 +2759,7 @@ bulbapedia.bulbagarden.net###pmswba
 
 !datafilehost.com
 www.datafilehost.com##[href^="https://www.freeonlinegames66.com"]
-www.datafilehost.com##[href*="http://answerking.com"]
+www.datafilehost.com##[href="http://answersking.com"]
 www.datafilehost.com##.row:nth-child(6)
 www.datafilehost.com##.container > div:nth-child(8)
 
