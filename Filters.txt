@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 108
+!Update: 108.1
 
 !adf.ly
 ||adplxmd.com^
@@ -2759,7 +2759,7 @@ bulbapedia.bulbagarden.net###pmswba
 
 !datafilehost.com
 www.datafilehost.com##[href^="https://www.freeonlinegames66.com"]
-www.datafilehost.com##[href*=http://answerking.com]
+www.datafilehost.com##[href*="http://answerking.com"]
 www.datafilehost.com##.row:nth-child(6)
 www.datafilehost.com##.container > div:nth-child(8)
 
