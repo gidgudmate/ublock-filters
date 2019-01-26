@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 109
+!Update: 110
 
 !adf.ly
 ||adplxmd.com^
@@ -853,6 +853,7 @@ anonfile.com/lib/*.js$script
 ||d3rm04c4p9a75q.cloudfront.net^
 ||olmsoneenh.info^$3p
 ||coinmedia.co^
+||www.zwfvzxmc.com^
 @@||wpnrtnmrewunrtok.xyz^$media
 @@||cloudflare.com/ajax/libs/*$script
 ##[href^="http://mob1ledev1ces.com/r/"]
@@ -1763,12 +1764,11 @@ www.babesandgirls.com##.owner
 
 !sexykittenporn.com
 @@||sexykittenporn.com$script,1p
-sexykittenporn.com##+js(abort-on-property-read.js, reload2)
 www.sexykittenporn.com###z1jk-zj0o5-9qxav
 www.sexykittenporn.com##body > div:nth-of-type(3)
 www.sexykittenporn.com###jqrkd-jvnmz-qs04m
 www.sexykittenporn.com###whsjx-ym7bo-vo80d
-www.sexykittenporn.com##.center:nth-of-type(1) > a[href="/click/o/nshoneys.com"]
+www.sexykittenporn.com##.center:first-child > a[href="/click/o/nshoneys.com"]
 www.sexykittenporn.com###ff14d-n6mn3-cvwsp
 www.sexykittenporn.com##.banners > .contentbanner
 www.sexykittenporn.com##.banners
@@ -1787,6 +1787,7 @@ www.girlsofdesire.org##.block:has-text(Adblock)
 
 !8boobs.com
 ||8boobs.com/images/*/banners$image
+www.8boobs.com##[href="https://www.8boobs.com/out/babetraffic.com"]
 www.8boobs.com##.join
 www.8boobs.com##.top-link
 www.8boobs.com##.banners
@@ -2325,8 +2326,9 @@ lustcinema.com##.exitpopnews
 celebsroulette.com###list_videos_friends_2_items
 
 !sexwinks.com
+||sexwinks.com/f.js$script,1p
 sexwinks.com##+js(abort-current-inline-script.js, CustomEvent, getexoloader)
-sexwinks.com##+js(abort-on-property-write.js, adcashMacros)
+sexwinks.com##+js(window.open-defuser.js)
 sexwinks.com##.navbar-fixed-top
 
 !anybunny.com
@@ -2684,7 +2686,7 @@ linkfay.com#@#.banner-468x60
 
 !shortye.net
 ||rich.worldpush.co^$script,domain=shortye.net
-shortye.net##^script:has-text(absda)
+@@||shortye.net^$generichide
 
 !cutegirlporn.com
 www.cutegirlporn.com##.promo-item
@@ -2900,3 +2902,16 @@ www.file4.net##.col-md-6:first-child > .portlet
 !miscellanea1.com
 miscellanea1.com##.banner-inner
 miscellanea1.com##.text-left
+
+!tolink.to
+*$3p,script,domain=tolink.to
+
+!pss.pw
+pss.pw##.text-left
+
+!shrinken.com
+shrinken.com##.text-left
+shrinken.com##.descrip-shr
+shrinken.com##.box-main:first-child
+shrinken.com##.box-main:nth-child(4)
+shrinken.com##.shresvg
