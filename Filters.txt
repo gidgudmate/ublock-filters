@@ -883,7 +883,7 @@ mitly.us,l24g.pw,wdupload.com,ewa.ac,slaplink.com##+js(nano-setInterval-booster.
 ayefiles.com,fileflares.com,indishare.me##+js(nano-setTimeout-booster.js)
 !-------------------------------------------------------------------------------------------------------------------------------------
 !puremature.com
-puremature.com##.popup3.epoch-box
+puremature.com##.epoch-box
 
 !dailycaller.com
 dailycaller.com##.io.columns.small-6.float-bar.options-social-bar
