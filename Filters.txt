@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 111
+!Update: 111.1
 
 !adf.ly
 ||adplxmd.com^
@@ -854,6 +854,7 @@ anonfile.com/lib/*.js$script
 ||olmsoneenh.info^$3p
 ||coinmedia.co^
 ||www.zwfvzxmc.com^
+||support.microsoft.tracking-redirect.com^
 @@||wpnrtnmrewunrtok.xyz^$media
 ##[href^="http://mob1ledev1ces.com/r/"]
 
