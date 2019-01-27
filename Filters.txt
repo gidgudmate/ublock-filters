@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 111.3
+!Update: 111.4
 
 !adf.ly
 ||adplxmd.com^
@@ -2590,7 +2590,8 @@ l24g.pw##.adsbygoogle
 l24g.pw##.banner-inner
 
 !fflares.com
-fflares.com##.inside_area > div:nth-child(2), .inside_area > div:nth-child(9)
+fflares.com##.inside_area > div:nth-child(2)
+fflares.com##.inside_area > div:nth-child(9)
 fflares.com##form > div:nth-child(15)
 
 !ewa.ac
