@@ -855,7 +855,7 @@ anonfile.com/lib/*.js$script
 ||coinmedia.co^
 ||www.zwfvzxmc.com^
 @@||wpnrtnmrewunrtok.xyz^$media
-@@||cloudflare.com/ajax/libs/*$script
+
 ##[href^="http://mob1ledev1ces.com/r/"]
 !--------------------------------------------------------------------------------------------------------------------------------------
 !Banners
