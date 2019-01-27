@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 112.2
+!Update: 112.3
 
 !adf.ly
 ||adplxmd.com^
@@ -1784,7 +1784,9 @@ www.8boobs.com##.join
 www.8boobs.com##.top-link
 www.8boobs.com##.banners
 www.8boobs.com###topmenu > ul > li:nth-child(4)
-www.8boobs.com##.alignleft.sidebar > div.photo:nth-child(3)
+www.8boobs.com##.sidebar > div.photo:nth-child(3)
+www.8boobs.com###content > div.photo:nth-child(13)
+www.8boobs.com###content > div.photo:nth-child(15)
 
 !wantedbabes.com
 www.wantedbabes.com###scroller
