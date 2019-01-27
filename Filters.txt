@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 112.1
+!Update: 112.2
 
 !adf.ly
 ||adplxmd.com^
@@ -2589,11 +2589,13 @@ fflares.com##.inside_area > div:nth-child(4), .inside_area > div:nth-child(8), .
 fflares.com##form > div:nth-child(8), form > div:nth-child(15), form > div:nth-child(16)
 fflares.com##form > .adsbygoogle
 fflares.com##div:nth-child(11)
+fflares.com###gdpr-cookie-notice
 
 !ewa.ac
 ||s3.amazonaws.com^$xhr,domain=ewa.ac
 ewa.ac##+js(abort-on-property-write.js, _pop)
 ewa.ac##+js(abort-on-property-write.js, inIframe)
+ewa.ac###walle
 
 !mitly.us
 mitly.us##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
