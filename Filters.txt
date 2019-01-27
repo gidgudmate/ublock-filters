@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 110
+!Update: 111
 
 !adf.ly
 ||adplxmd.com^
@@ -855,12 +855,7 @@ anonfile.com/lib/*.js$script
 ||coinmedia.co^
 ||www.zwfvzxmc.com^
 @@||wpnrtnmrewunrtok.xyz^$media
-
 ##[href^="http://mob1ledev1ces.com/r/"]
-!--------------------------------------------------------------------------------------------------------------------------------------
-!Banners
-bustybloom.com,exgirlfriendmarket.com###sponsorfeature
-bustybloom.com,exgirlfriendmarket.com###freetour
 
 !counters popups from out.tubecorporate.com
 txxx.com,hclips.com,hotmovs.com,upornia.com,hdzog.com,tuberel.com##.nopop
@@ -1502,6 +1497,7 @@ www.private.com##.prvtoffer_remember
 www.private.com##.prvt-banner-shadow
 www.private.com##.pups-offer-10 > .close
 www.private.com##.pups-offer-10
+www.private.com###limited-offer
 
 !xhamster.com
 &adb=$subdocument,other
@@ -2246,6 +2242,8 @@ pornstarsmachine.com##[href="/949100/"]
 pornstarsmachine.com##[href="/1263997/"]
 
 !exgirlfriendmarket.com
+www.exgirlfriendmarket.com###sponsorfeature
+www.exgirlfriendmarket.com###freetour
 www.exgirlfriendmarket.com###nat_top
 
 !temp-mail.org
@@ -2573,6 +2571,8 @@ www.definebabe.com##section:first-of-type
 www.bustybloom.com###header:style(position: absolute !important;)
 www.bustybloom.com###backtohome
 www.bustybloom.com##.block
+www.bustybloom.com###freetour
+www.bustybloom.com###sponsorfeature
 
 !asspoint.com
 asspoint.com##+js(abort-on-property-read.js, url)
@@ -2915,3 +2915,12 @@ shrinken.com##.descrip-shr
 shrinken.com##.box-main:first-child
 shrinken.com##.box-main:nth-child(4)
 shrinken.com##.shresvg
+
+!ceesty.com
+ceesty.com##.information-container
+
+!pasteca.sh
+pasteca.sh##.row:nth-child(2), .row:nth-child(3)
+
+!collider.com
+collider.com###bottom-banner
