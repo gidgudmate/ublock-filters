@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 113
+!Update: 113.1
 
 !adf.ly
 ||adplxmd.com^
@@ -872,7 +872,7 @@ mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemod
 sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org,babesxworld.com,cocogals.com,babesandgirls.com,nudity911.com,sexykittenporn.com,morazzia.com,fooxybabes.com##+js(abort-on-property-read.js, reload2)
 
 mitly.us,l24g.pw,wdupload.com,ewa.ac,slaplink.com##+js(nano-setInterval-booster.js)
-ayefiles.com,fflares.com,indishare.me##+js(nano-setTimeout-booster.js)
+fflares.com,indishare.me##+js(nano-setTimeout-booster.js)
 
 !puremature.com
 puremature.com##.epoch-box
@@ -2589,7 +2589,7 @@ l24g.pw##.adsbygoogle
 l24g.pw##.banner-inner
 
 !fflares.com
-fflares.com##.inside_area > div:nth-child(4), .inside_area > div:nth-child(8), .inside_area > div:nth-child(9)
+fflares.com##.inside_area > div:nth-child(4), .inside_area > div:nth-child(5), .inside_area > div:nth-child(6), .inside_area > div:nth-child(7) .inside_area > div:nth-child(8), .inside_area > div:nth-child(9), .inside_area > div:nth-child(10)
 fflares.com##form > div:nth-child(8), form > div:nth-child(15), form > div:nth-child(16)
 fflares.com##form > .adsbygoogle
 fflares.com##div:nth-child(11)
@@ -2754,6 +2754,7 @@ bobs-tube.com##.adv_nad_player
 bobs-tube.com##.content > .box
 
 !uploadbank.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=www.uploadbank.com
 uploadbank.com##+js(noeval.js)
 www.uploadbank.com###container > center
 www.uploadbank.com###container > font
@@ -2942,3 +2943,8 @@ www.purenudegirls.com##[href*="https://access.sexart.com/"]
 www.purenudegirls.com##.card-img
 www.purenudegirls.com##.list-column
 www.purenudegirls.com##.sidebar-left > .title:first-child
+
+!blogginggyanbox.com
+blogginggyanbox.com##.banner-inner
+blogginggyanbox.com##.box-main > center
+blogginggyanbox.com##.text-left
