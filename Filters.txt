@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 112.3
+!Update: 113
 
 !adf.ly
 ||adplxmd.com^
@@ -857,7 +857,8 @@ anonfile.com/lib/*.js$script
 ||support.microsoft.tracking-redirect.com^
 @@||wpnrtnmrewunrtok.xyz^$media
 ##[href^="http://mob1ledev1ces.com/r/"]
-
+##[href^="https://desklks.com/"]
+##[href^="http://nlkdom.com/"]
 !counters popups from out.tubecorporate.com
 txxx.com,hclips.com,hotmovs.com,upornia.com,hdzog.com,tuberel.com##.nopop
 txxx.com,hclips.com,hotmovs.com,upornia.com,hdzog.com##.hYbusCont
@@ -866,7 +867,7 @@ sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,ero
 
 sensualgirls.org,deliciousbabes.org,girlsofdesire.org##+js(abort-on-property-read.js, CustomEvent)
 
-mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,babesxworld.com,cocogals.com,hottystop.com,erosberry.com,spicybabe.net,slutsandangels.com,simplemetart.com,cherrynudes.com,fooxybabes.com,hotbabeswanted.com,ftopx.com##+js(abort-on-property-read.js, loadTool)
+mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,babesxworld.com,cocogals.com,hottystop.com,erosberry.com,spicybabe.net,slutsandangels.com,simplemetart.com,cherrynudes.com,fooxybabes.com,hotbabeswanted.com,ftopx.com,purenudegirls.com##+js(abort-on-property-read.js, loadTool)
 
 sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org,babesxworld.com,cocogals.com,babesandgirls.com,nudity911.com,sexykittenporn.com,morazzia.com,fooxybabes.com##+js(abort-on-property-read.js, reload2)
 
@@ -1749,6 +1750,7 @@ www.bungie.net##.sidenav_promo
 !morazzia.com
 www.morazzia.com##[src="/atop"]
 www.morazzia.com##[src="/acenter"]
+www.morazzia.com##.node > div > table > tbody > tr:nth-child(9)
 
 !babesandgirls.com
 www.babesandgirls.com###block-block-6 > .content > div
@@ -1779,6 +1781,7 @@ www.girlsofdesire.org##.block:has-text(Adblock)
 
 !8boobs.com
 ||8boobs.com/images/*/banners$image
+||8boobs.com/*/istripper/*.gif$image
 www.8boobs.com##.join
 www.8boobs.com##.top-link
 www.8boobs.com##.banners
@@ -1812,9 +1815,12 @@ www.silkengirl.com##p:nth-child(2)
 www.silkengirl.com##.button_more
 www.silkengirl.com##.thumb33.thumb:nth-child(6)
 www.silkengirl.com##.thumb33.thumb:nth-child(9)
-www.silkengirl.com###thumbs_left > div.thumb_aside:nth-child(1)
+www.silkengirl.com###thumbs_left > .thumb_aside:first-child
 www.silkengirl.com,silkengirl.net##.spots_middle
 www.silkengirl.net##.spots > .holder
+www.silkengirl.com##.menu_holder > .item:nth-child(8)
+www.silkengirl.com##.btn_review.item:nth-child(6)
+www.silkengirl.com##.menu_holder > .item:nth-child(7)
 
 !babes.com
 www.babes.com##.floating-footer.js-floating-footer
@@ -1833,10 +1839,10 @@ www.novohot.com##div.thumb180x270
 
 !babesinporn.com
 www.babesinporn.com##div.block:nth-of-type(5) > .center
-www.babesinporn.com##a[href^="http://nlkdom.com/"]
 www.babesinporn.com##.contentbanner
 www.babesinporn.com##.tagslink
 www.babesinporn.com##.banners
+www.babesinporn.com##.cd-top
 
 !destinytracker.com
 destinytracker.com##+js(abort-on-property-read.js, checkSiteNotifications)
@@ -2922,3 +2928,17 @@ pasteca.sh##.row:nth-child(2), .row:nth-child(3)
 
 !collider.com
 collider.com###bottom-banner
+
+!purenudegirls.com
+www.purenudegirls.com##.card-img-x
+www.purenudegirls.com##.icon-top-btn
+www.purenudegirls.com##.icon-contact
+www.purenudegirls.com##[href^="http://bongacams2.com/track"]
+www.purenudegirls.com##[href="https://adultfriendfinder.com/go/g790199"]
+www.purenudegirls.com##.js-mobile:nth-child(2)
+www.purenudegirls.com##[href^="http://nlkdom.com/"]
+www.purenudegirls.com##[href*="https://access.met-art.com/"]
+www.purenudegirls.com##[href*="https://access.sexart.com/"]
+www.purenudegirls.com##.card-img
+www.purenudegirls.com##.list-column
+www.purenudegirls.com##.sidebar-left > .title:first-child
