@@ -1779,14 +1779,10 @@ www.girlsofdesire.org##.block:has-text(Adblock)
 
 !8boobs.com
 ||8boobs.com/images/*/banners$image
-www.8boobs.com##[href="https://www.8boobs.com/out/babetraffic.com"]
 www.8boobs.com##.join
 www.8boobs.com##.top-link
 www.8boobs.com##.banners
 www.8boobs.com###topmenu > ul > li:nth-child(4)
-www.8boobs.com##.sidebar > div.photo:nth-child(3)
-www.8boobs.com###content > div.photo:nth-child(13)
-www.8boobs.com###content > div.photo:nth-child(15)
 
 !wantedbabes.com
 www.wantedbabes.com###scroller
