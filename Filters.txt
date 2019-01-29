@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 113.2
+!Update: 114
 
 !adf.ly
 ||adplxmd.com^
@@ -831,7 +831,6 @@ searchdns.netcraft.com##.advert-tag
 ||orgalso.com
 ||checkabil.com
 ||pl2121.puserving.com
-||nlkdom.com
 ||pics.xme.net/info/*/*.jpg$image
 ||pics.xme.net/info/*.gif$image
 ||free.internetspeedtracker.com^
@@ -855,10 +854,15 @@ anonfile.com/lib/*.js$script
 ||coinmedia.co^
 ||www.zwfvzxmc.com^
 ||support.microsoft.tracking-redirect.com^
+||45eijvhgj2.com^
+||free-download.*.top^
+||topscoupons.com^
+||yzoyfmwr.com^
 @@||wpnrtnmrewunrtok.xyz^$media
 ##[href^="http://mob1ledev1ces.com/r/"]
 ##[href^="https://desklks.com/"]
 ##[href^="http://nlkdom.com/"]
+
 !counters popups from out.tubecorporate.com
 txxx.com,hclips.com,hotmovs.com,upornia.com,hdzog.com,tuberel.com##.nopop
 txxx.com,hclips.com,hotmovs.com,upornia.com,hdzog.com##.hYbusCont
@@ -1821,6 +1825,7 @@ www.silkengirl.net##.spots > .holder
 www.silkengirl.com##.menu_holder > .item:nth-child(8)
 www.silkengirl.com##.btn_review.item:nth-child(6)
 www.silkengirl.com##.menu_holder > .item:nth-child(7)
+www.silkengirl.com##[href^="http://adultfriendfinder.com/"]
 
 !babes.com
 www.babes.com##.floating-footer.js-floating-footer
@@ -1948,6 +1953,8 @@ www.deliciousbabes.org###box_474
 www.deliciousbabes.org###box_549
 www.deliciousbabes.org###box_537
 www.deliciousbabes.org##.banners
+www.deliciousbabes.org##.contentbanner
+www.deliciousbabes.org##.block:first-child, .block:nth-child(4), .block:nth-child(5), block:nth-child(8), .block:nth-child(9)
 
 !penthouse.com
 ||penthouse.com/assets/img/*.png$image
@@ -2594,11 +2601,12 @@ fflares.com##form > div:nth-child(8), form > div:nth-child(15), form > div:nth-c
 fflares.com##form > .adsbygoogle
 fflares.com##div:nth-child(11)
 fflares.com###gdpr-cookie-notice
+fflares.com##.adbwarning 
 
 !ewa.ac
 ||s3.amazonaws.com^$xhr,domain=ewa.ac
 ewa.ac##+js(abort-on-property-write.js, _pop)
-ewa.ac##+js(abort-on-property-write.js, inIframe)
+ewa.ac##+js(abort-on-property-read.js, inIframe)
 ewa.ac###walle
 
 !mitly.us
@@ -2889,6 +2897,9 @@ dcearn.com##+js(abort-on-property-write.js, PopUP)
 dcearn.com##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
 dcearn.com###link-view > font
 dcearn.com##.box-main > font
+dcearn.com##.text-left
+dcearn.com##.banner
+dcearn.com##.panel
 
 !gestyy.com
 ||shortestminer.com^$frame,domain=gestyy.com
@@ -2948,3 +2959,27 @@ www.purenudegirls.com##.sidebar-left > .title:first-child
 blogginggyanbox.com##.banner-inner
 blogginggyanbox.com##.box-main > center
 blogginggyanbox.com##.text-left
+
+!zulily.com
+www.zulily.com##.blur5:style(filter: none !important; -webkit-filter: none !important; -ms-filter: none !important; -moz-filter: none !important; -o-filter: none !important;)
+www.zulily.com###loginModal
+
+!destyy.com
+destyy.com##.information-container
+
+!nudebabes.sexy
+||nudebabes.sexy^$script,1p
+nudebabes.com##+js(abort-on-property-read.js, ExoLoader)
+
+!openload.co
+openload.co##[id*=ScriptRootC]
+openload.co##+js(abort-on-property-read.js, BetterJsPop)
+
+!solidfiles.com
+www.solidfiles.com##.box-content:nth-child(2)
+
+!vev.io
+vev.io##.vjs-info-button
+
+!fpo.xxx
+||fpo.xxx/contents/other/player/*$media
