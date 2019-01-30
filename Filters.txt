@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 115.2
+!Update: 115.3
 
 !adf.ly
 ||adplxmd.com^
@@ -878,7 +878,7 @@ mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemod
 sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org,babesxworld.com,cocogals.com,babesandgirls.com,nudity911.com,sexykittenporn.com,morazzia.com,fooxybabes.com##+js(abort-on-property-read.js, reload2)
 
 mitly.us,l24g.pw,wdupload.com,ewa.ac,slaplink.com##+js(nano-setInterval-booster.js)
-fflares.com,indishare.me##+js(nano-setTimeout-booster.js)
+indishare.me##+js(nano-setTimeout-booster.js)
 
 !puremature.com
 puremature.com##.epoch-box
