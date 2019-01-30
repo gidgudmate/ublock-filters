@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 114
+!Update: 115
 
 !adf.ly
 ||adplxmd.com^
@@ -859,9 +859,11 @@ anonfile.com/lib/*.js$script
 ||topscoupons.com^
 ||yzoyfmwr.com^
 @@||wpnrtnmrewunrtok.xyz^$media
+@@||*/jquery*.js$script
 ##[href^="http://mob1ledev1ces.com/r/"]
 ##[href^="https://desklks.com/"]
 ##[href^="http://nlkdom.com/"]
+##[href^=https://trkur4.com/"]
 
 !counters popups from out.tubecorporate.com
 txxx.com,hclips.com,hotmovs.com,upornia.com,hdzog.com,tuberel.com##.nopop
@@ -2591,15 +2593,15 @@ www.nudecelebforum.com##._ln-floater
 !wikipedia.org
 www.wikipedia.org##[id*=portalBanner]
 
-!l24g.pw
-l24g.pw##.adsbygoogle
-l24g.pw##.banner-inner
+!l24g.pw/lg731.me
+l24g.pw,lg731.me##.adsbygoogle
+l24g.pw,lg731.me##.banner-inner
+lg731.me##.text-left
 
 !fflares.com
 fflares.com##.inside_area > div:nth-child(4), .inside_area > div:nth-child(6), .inside_area > div:nth-child(7), .inside_area > div:nth-child(8), .inside_area > div:nth-child(9)
 fflares.com##form > div:nth-child(8), form > div:nth-child(15), form > div:nth-child(16)
 fflares.com##form > .adsbygoogle
-fflares.com##div:nth-child(11)
 fflares.com###gdpr-cookie-notice
 fflares.com##.adbwarning 
 
@@ -2822,6 +2824,8 @@ www.pornburst.xxx##.advertisement
 !tokenfly.pw
 tokenfly.pw###cookie-pop
 tokenfly.pw##.banner-inner
+tokenfly.pw##.text-left
+tokenfly.pw##.box-main > p
 
 !shrtfly.com
 shrtfly.com###topbar
@@ -2895,6 +2899,7 @@ oturl.com##[href^="//mellowads.com"]
 !dcearn.com
 dcearn.com##+js(abort-on-property-write.js, PopUP)
 dcearn.com##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
+dcearn.com##+js(abort-current-inline-script.js, atob, decodeURIComponent
 dcearn.com###link-view > font
 dcearn.com##.box-main > font
 dcearn.com##.text-left
@@ -2982,4 +2987,57 @@ www.solidfiles.com##.box-content:nth-child(2)
 vev.io##.vjs-info-button
 
 !fpo.xxx
-||fpo.xxx/contents/other/player/*$media
+||fpo.xxx/contents/*$media,1p
+||fpo.xxx/player/*$xhr,1p
+
+!dl.free.fr
+dl.free.fr##h1:nth-child(1), h1:nth-child(2), h1:nth-child(10)
+dl.free.fr##small
+dl.free.fr##p:nth-child(5)
+dl.free.fr###colgauche > div:nth-child(11)
+
+!li-nkz.com
+li-nkz.com##.text-left
+
+!cuturl.in
+*$3p,script,domain=cuturl.in
+||cuturl.in/sw.js$script,xhr,1p
+||seal.godaddy.com^$image,domain=cuturl.in
+cuturl.in##.banner
+cuturl.in##.text-left
+cuturl.in##.separator
+cuturl.in###siteseal
+cuturl.in##div:nth-child(27), div:nth-child(28)
+
+!man-links.com
+man-links.com###link-view > div:nth-child(6)
+man-links.com##.col-md-12:nth-child(2) > div > div
+man-links.com##.text-left
+
+!myhdporn.net
+||www.imglnkc.com/*$image,domain=myhdporn.net
+myhdporn.net##+js(abort-on-property-read.js, ExoLoader)
+
+!imgdew.pw
+@@||imgdew.com^$image,domain=imgdew.pw
+@@||imgdew.pw/js/xupload.js$script,1p
+||imgdew.pw/vtrack$xhr,1p
+imgdew.pw,imgtown.net,imgtown.pw##+js(abort-current-inline-script.js, decodeURI, decodeURIComponent
+
+!dz4link.com
+dz4link.com##._aok
+dz4link.com##b
+dz4link.com##.fa
+dz4link.com##.text-left
+dz4link.com##.col-md-10 > div:nth-child(3)
+dz4link.com##.social-links
+
+!vivads.net
+@@||vivads.net^$generichide
+vivads.net##+js(noeval.js)
+vivads.net##.text-left
+vivads.net##body > .row
+vivads.net##body > div:nth-child(4)
+
+!up-4.net
+*$3p,script,domain=up-4.net 
