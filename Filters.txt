@@ -863,7 +863,7 @@ anonfile.com/lib/*.js$script
 ##[href^="http://mob1ledev1ces.com/r/"]
 ##[href^="https://desklks.com/"]
 ##[href^="http://nlkdom.com/"]
-##[href^=https://trkur4.com/"]
+##[href^="https://trkur4.com/"]
 
 !counters popups from out.tubecorporate.com
 txxx.com,hclips.com,hotmovs.com,upornia.com,hdzog.com,tuberel.com##.nopop
