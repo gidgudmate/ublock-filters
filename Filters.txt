@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 115
+!Update: 115.2
 
 !adf.ly
 ||adplxmd.com^
@@ -3021,8 +3021,8 @@ myhdporn.net##+js(abort-on-property-read.js, ExoLoader)
 !imgdew.pw
 @@||imgdew.com^$image,domain=imgdew.pw
 @@||imgdew.pw/js/xupload.js$script,1p
-||imgdew.pw/vtrack$xhr,1p
-imgdew.pw,imgtown.net,imgtown.pw##+js(abort-current-inline-script.js, decodeURI, decodeURIComponent
+/vtrack$xhr,1p,domain=imgdew.pw|imgview.pw
+imgdew.pw,imgtown.net,imgtown.pw,imgview.pw##+js(abort-current-inline-script.js, decodeURI, decodeURIComponent
 
 !dz4link.com
 dz4link.com##._aok
