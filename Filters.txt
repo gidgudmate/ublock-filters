@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 116
+!Update: 116.1
 
 !adf.ly
 ||adplxmd.com^
@@ -844,7 +844,6 @@ clcknads.pro/v1/
 ||t0p0ff3rs.com
 ||housineschard.info^
 /coinimp-cache/*.js$script
-anonfile.com/lib/*.js$script
 ||go.strpjmp.com/smartpop/*$frame
 ||13vm73vbmp.com^
 ||pushengage.im/ntfc.php$script
@@ -2276,7 +2275,7 @@ hotmovs.com##.nopop
 hotmovs.com###channel-video-banner
 
 !yespornplease.com
-yespornplease.com##body > div:has-text(ADBLOCK)
+@@||yespornplease.com^$generichide
 yespornplease.com##.exclusive-link
 yespornplease.com##.hta3rdpOverlay
 
@@ -2301,19 +2300,13 @@ sexy-youtubers.com##+js(window.open-defuser.js)
 www.sexy-youtubers.com##[href*="http://aj1070.online"]
 www.sexy-youtubers.com##[href*="https://theporndude.com/"]
 www.sexy-youtubers.com##[href*="https://srv.dropkickmedia.com"]
-www.sexy-youtubers.com##.td_block_template_11:nth-child(2)
-www.sexy-youtubers.com##.td_block_template_11:nth-child(4)
-www.sexy-youtubers.com##.td_block_template_11:nth-child(5)
-www.sexy-youtubers.com##.td_block_template_11:nth-child(7)
-www.sexy-youtubers.com##.td_block_template_11:nth-child(8)
-www.sexy-youtubers.com##.td_block_template_11:nth-child(10)
-www.sexy-youtubers.com##.td_block_template_11:nth-child(12)
+www.sexy-youtubers.com##.td_block_template_11:nth-child(2), .td_block_template_11:nth-child(4), .td_block_template_11:nth-child(5), .td_block_template_11:nth-child(7), .td_block_template_11:nth-child(8), .td_block_template_11:nth-child(10), .td_block_template_11:nth-child(12)
 
 !thothub.tv
 thothub.tv##.g1-back-to-top
 thothub.tv##.vc_row:nth-child(3)
 thothub.tv##.chaturbate
-thothub.tv##[id*=tex]
+thothub.tv##[id*=text]
 thothub.tv##.menu-item > [href]:not([href*=thothub])
 
 !feet9.com
@@ -2660,8 +2653,9 @@ cyahealth.com##.col-md-10
 911asians.com##+js(abort-on-property-write.js, phantomPopunder)
 www.911asians.com##.sponsor
 
-!anonfiles.com
+!anonfiles.com/anonfile.com
 ||anonfiles.com/sw_anonfiles.js$script,1p
+||anonfile.com/lib/*.js$script
 anonfiles.com##+js(abort-on-property-read.js, miner)
 
 !mrskinbabes.com
