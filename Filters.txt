@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 115.4
+!Update: 116
 
 !adf.ly
 ||adplxmd.com^
@@ -858,9 +858,10 @@ anonfile.com/lib/*.js$script
 ||free-download.*.top^
 ||topscoupons.com^
 ||yzoyfmwr.com^
+||oochique.com^
 @@||wpnrtnmrewunrtok.xyz^$media
 @@||*/jquery*.js$script
-##[href^="http://mob1ledev1ces.com/r/"]
+##[href^="http://mob1ledev1ces.com/"]
 ##[href^="https://desklks.com/"]
 ##[href^="http://nlkdom.com/"]
 ##[href^="https://trkur4.com/"]
@@ -2309,8 +2310,11 @@ www.sexy-youtubers.com##.td_block_template_11:nth-child(10)
 www.sexy-youtubers.com##.td_block_template_11:nth-child(12)
 
 !thothub.tv
-thothub.tv###gototop
-thothub.tv###text-34
+thothub.tv##.g1-back-to-top
+thothub.tv##.vc_row:nth-child(3)
+thothub.tv##.chaturbate
+thothub.tv##[id*=tex]
+thothub.tv##.menu-item > [href]:not([href*=thothub])
 
 !feet9.com
 feet9.com##.hvr-pulse
@@ -3042,3 +3046,12 @@ vivads.net##body > div:nth-child(4)
 
 !up-4.net
 *$3p,script,domain=up-4.net 
+
+!momxxx.com
+www.momxxx.com##[id*=banner]
+
+!javtitan.com
+javtitan.com###preroll
+
+!szs.pw
+szs.pw###dfp
