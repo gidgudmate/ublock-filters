@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 116.1
+!Update: 117
 
 !adf.ly
 ||adplxmd.com^
@@ -846,7 +846,7 @@ clcknads.pro/v1/
 /coinimp-cache/*.js$script
 ||go.strpjmp.com/smartpop/*$frame
 ||13vm73vbmp.com^
-||pushengage.im/ntfc.php$script
+||pushengage.*^
 ||1ea1sley.com^$3p
 ||d3rm04c4p9a75q.cloudfront.net^
 ||olmsoneenh.info^$3p
@@ -858,6 +858,8 @@ clcknads.pro/v1/
 ||topscoupons.com^
 ||yzoyfmwr.com^
 ||oochique.com^
+||rich.worldpush.*^
+||adsapplicationnetinstalls.*^
 @@||wpnrtnmrewunrtok.xyz^$media
 @@||*/jquery*.js$script
 ##[href^="http://mob1ledev1ces.com/"]
@@ -2516,7 +2518,7 @@ www.mrskin.com##.sk-so-collapsed.sk-so-dropdown-container > .sk-so-dropdown-link
 www.mrskin.com##.sk-so-dropdown-video
 
 !quora.com
-www.quora.com###__w2_wIYhvtOr1_signup_wall_wrapper
+www.quora.com##[id$="_signup_wall_wrapper"]
 
 !titsbox.com
 titsbox.com##.player-banner
@@ -2616,7 +2618,7 @@ mitly.us##.text-left
 mitly.us###link-view > p
 
 !linkshrink.net
-linkshrink.net##+js(window.open-defuser.js)
+linkshrink.net##+js(abort-on-property-write.js, onpopstate)
 
 !nudepmates.com
 www.nudepmates.com###preloader
@@ -2637,9 +2639,9 @@ shrinkearn.com##.banner
 ayefiles.com###gdpr-cookike-notice
 ayefiles.com##[id*=ScriptRoot]
 
-!clkpays.com
-www.clkpays.com##.blog-item
-www.clkpays.com##.text-left
+!clkpays.com/clkpay.com
+www.clkpays.com,clkpay.com##.blog-item
+www.clkpays.com,clkpay.com##.text-left
 
 !cyahealth.com
 cyahealth.com##.banner-inner
@@ -2696,9 +2698,9 @@ cuee.io##+js(abort-on-property-read.js, doFunction)
 
 !linkfay.com
 linkfay.com#@#.banner-468x60
+linkfay.com##.text-left
 
 !shortye.net
-||rich.worldpush.co^$script,domain=shortye.net
 @@||shortye.net^$generichide
 
 !cutegirlporn.com
@@ -3049,3 +3051,18 @@ javtitan.com###preroll
 
 !szs.pw
 szs.pw###dfp
+szs.pw##.text-left
+
+!dwindly.io
+dwindly.io##+js(abort-on-property-write.js, onpopstate)
+dwindly.io##.section1
+
+!xmissy.nl
+xmissy.nl##.noclick-small-bnr
+
+!hotlink.cc
+hotlink.cc###preloader
+
+!counsellingresult2016.in
+counsellingresult2016.in##.banner
+counsellingresult2016.in##.text-left
