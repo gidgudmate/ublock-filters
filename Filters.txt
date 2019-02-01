@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 117
+!Update: 117.1
 
 !adf.ly
 ||adplxmd.com^
@@ -3066,3 +3066,6 @@ hotlink.cc###preloader
 !counsellingresult2016.in
 counsellingresult2016.in##.banner
 counsellingresult2016.in##.text-left
+
+!adsrt.me
+adsrt.me#@#div[id*=ScriptRootC]
