@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 117.1
+!Update: 118
 
 !adf.ly
 ||adplxmd.com^
@@ -254,11 +254,11 @@ www.anabolicmen.com###text-55
 
 !alluc.ee
 ||alphamoneygenerator.com^$document
-||alphamoneygenerator.com^$popup,third-party
+||alphamoneygenerator.com^$popup,3p
 
 !uploadrocket.net
-|http*$domain=uploadrocket.net,script,third-party
-@@||api.solvemedia.com^$script,third-party,domain=uploadrocket.net
+|http*$domain=uploadrocket.net,script,3p
+@@||api.solvemedia.com^$script,3p,domain=uploadrocket.net
 
 !flashx.cc
 flashx.cc##a[href*="/afu.php"]
@@ -309,7 +309,7 @@ pornhd.com##.video-thumb-ad-zone
 
 !hiqqu.xxx
 ||hiqqu.xxx/static/scripts.js
-@@||hiqqu.xxx/static/ads/ads.js$script,first-party
+@@||hiqqu.xxx/static/ads/ads.js$script,1p
 
 !extremetube.com
 /scripts/sweet/b3.php
@@ -329,8 +329,8 @@ the-watch-series.to##[id^="MarketGidWrap"]
 ||transcripts.foreverdreaming.org^$inline-script
 
 !extratorrent.cc
-||130.211.198.219^$popup,third-party
-||thewhizmarketing.com^$popup,third-party
+||130.211.198.219^$popup,3p
+||thewhizmarketing.com^$popup,3p
 
 !Unbubble.eu
 unbubble.eu##.sponsor-title + *
@@ -346,7 +346,7 @@ accountkiller.com##[onclick^="trackLinkClick('outbound', 'cancel_removal_link'"]
 !gotporn.com
 /exo-loader/frontend_loader.js
 /statserv/video/view
-||cdn3b-static.gotporn.com/main/js/neverblock/block-detect.js$script,domain=www.gotporn.com
+||cdn3b-static.gotporn.com/main/js/neverblock/block-detect.js$script,1p
 gotporn.com##+js(abort-current-inline-script.js, CustomEvent, getexoloader)
 www.gotporn.com###floaterBanner
 www.gotporn.com##[href="https://www.gotporn.com/casino"]
@@ -496,20 +496,20 @@ noticiasautomotivas.com.br,openload.us,animmex.com,4553t5pugtt1qslvsnmpc0tpfz5fo
 
 !Courtesy of @jo2dan23
 !https://github.com/IDKwhattoputhere/uBlock-Filters-Plus/commit/9e916c80bb32eef701e20ffb910530824633eb8d#commitcomment-16105873
-||integrousmarketing.com^$third-party
-||adrta.com^$third-party
-||agilecrm.com^$third-party
-||applovin.com^$third-party
+||integrousmarketing.com^$3p
+||adrta.com^$3p
+||agilecrm.com^$3p
+||applovin.com^$3p
 ||zykko.com^$third-party
-||adthrive.com^$third-party
-||lostrabbitmedia.com^$third-party
-||parkingcrew.net^$third-party
+||adthrive.com^$3p
+||lostrabbitmedia.com^$3p
+||parkingcrew.net^$3p
 ||adtrackone.eu^$document
-||ledradn.com^$third-party
-||pxi.pub^$third-party
-||urx.io^$third-party
-||cyveillance.com^$third-party
-||geoplugin.net^$third-party
+||ledradn.com^$3p
+||pxi.pub^$3p
+||urx.io^$3p
+||cyveillance.com^$3p
+||geoplugin.net^$3p
 ||collector.shorte.st^
 ||tubescms.phncdn.com^
 ||d1tprjo2w7krrh.cloudfront.net^
@@ -860,6 +860,19 @@ clcknads.pro/v1/
 ||oochique.com^
 ||rich.worldpush.*^
 ||adsapplicationnetinstalls.*^
+||webcoveraimobile.*^
+||mizdok.com^
+||sex-and-flirt.com^
+||applicationfun.com^
+||webhouseaimobile.*^
+||apple.*.top^
+||w-p-a-m.*^
+||web-protect-ai-free.*^
+||commank.pro^
+||confrous.info^
+||pendering.info^
+||tingecatalogue.club^
+||starspussytube.club^
 @@||wpnrtnmrewunrtok.xyz^$media
 @@||*/jquery*.js$script
 ##[href^="http://mob1ledev1ces.com/"]
@@ -2152,7 +2165,8 @@ www.primecurves.com##a[href*="new.php"]
 www.primecurves.com##h2
 
 !xxxbunker.com
-http://cf.static.xxxbunker.com/preroll/*.mp4$media
+||cf.static.xxxbunker.com/preroll/*.mp4$media
+@@||xxxbunker.com/js/functions_*.js$script,1p
 
 !hellporno.com
 ||hellporno.com/_a_xb/*/*/*$script
@@ -2306,10 +2320,11 @@ www.sexy-youtubers.com##.td_block_template_11:nth-child(2), .td_block_template_1
 
 !thothub.tv
 thothub.tv##.g1-back-to-top
-thothub.tv##.vc_row:nth-child(3)
 thothub.tv##.chaturbate
-thothub.tv##[id*=text]
+thothub.tv##[id*=text]:not(.widget)
 thothub.tv##.menu-item > [href]:not([href*=thothub])
+thothub.tv##[class$="_popup"]
+thothub.tv##[href*="/support-thothub.tv/"]
 
 !feet9.com
 feet9.com##.hvr-pulse
@@ -3069,3 +3084,6 @@ counsellingresult2016.in##.text-left
 
 !adsrt.me
 adsrt.me#@#div[id*=ScriptRootC]
+
+!sextvx.com
+m.sextvx.com##[id$="_ads"]
