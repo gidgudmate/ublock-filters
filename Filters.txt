@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 118
+!Update: 118.1
 
 !adf.ly
 ||adplxmd.com^
@@ -2324,7 +2324,7 @@ thothub.tv##.chaturbate
 thothub.tv##[id*=text]:not(.widget)
 thothub.tv##.menu-item > [href]:not([href*=thothub])
 thothub.tv##[class$="_popup"]
-thothub.tv##[href*="/support-thothub.tv/"]
+thothub.tv##[href="https://thothub.tv/support-thothub-tv/"]
 
 !feet9.com
 feet9.com##.hvr-pulse
