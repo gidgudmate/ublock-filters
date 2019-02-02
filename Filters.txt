@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 118.1
+!Update: 118.2
 
 !adf.ly
 ||adplxmd.com^
@@ -873,6 +873,8 @@ clcknads.pro/v1/
 ||pendering.info^
 ||tingecatalogue.club^
 ||starspussytube.club^
+||toplovegirl.club^
+||net-protect-ai-mobile.*^
 @@||wpnrtnmrewunrtok.xyz^$media
 @@||*/jquery*.js$script
 ##[href^="http://mob1ledev1ces.com/"]
