@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 118.2
+!Update: 119
 
 !adf.ly
 ||adplxmd.com^
@@ -2846,7 +2846,9 @@ tokenfly.pw##.text-left
 tokenfly.pw##.box-main > p
 
 !shrtfly.com
+@@||shrtfly.com^$generichide
 shrtfly.com###topbar
+shrtfly.com##.banner
 
 !smarteasystudy.com
 smarteasystudy.com##+js(noeval.js)
@@ -2880,6 +2882,7 @@ tubsexer.com##.btn_up
 
 !cpmlink.net
 ||cpmlink.net/assets/js/custom.php$script,1p
+cpmlink.net###contact
 
 !adbull.me
 adbull.me##.cc-window
@@ -2913,6 +2916,7 @@ mobile.lubetube.com###wrapper > div:nth-child(5)
 *$3p,script,domain=oturl.com
 oturl.com^$frame,1p
 oturl.com##[href^="//mellowads.com"]
+oturl.com##.text-left
 
 !dcearn.com
 dcearn.com##+js(abort-on-property-write.js, PopUP)
@@ -3089,3 +3093,11 @@ adsrt.me#@#div[id*=ScriptRootC]
 
 !sextvx.com
 m.sextvx.com##[id$="_ads"]
+
+!chrt.pw
+chrt.pw##.text-left
+
+!bloggingdekh.xyz
+@@||bloggingdekh.xyz^$generichide
+bloggingdekh.xyz##.banner
+bloggingdekh.xyz###cookie-pop
