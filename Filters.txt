@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 119.2
+!Update: 120
 
 !adf.ly
 ||adplxmd.com^
@@ -886,7 +886,7 @@ clcknads.pro/v1/
 txxx.com,hclips.com,hotmovs.com,upornia.com,hdzog.com,tuberel.com##.nopop
 txxx.com,hclips.com,hotmovs.com,upornia.com,hdzog.com##.hYbusCont
 
-sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org,babesxworld.com,cocogals.com,sexybabes.club,papajizz.com##+js(abort-on-property-read.js, ExoLoader)
+sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org,babesxworld.com,cocogals.com,sexybabes.club,papajizz.com,novoporn.com##+js(abort-on-property-read.js, ExoLoader)
 
 sensualgirls.org,deliciousbabes.org,girlsofdesire.org##+js(abort-on-property-read.js, CustomEvent)
 
@@ -2130,9 +2130,12 @@ cherrynudes.com##center:hast-text(sex games)
 cherrynudes.com##center > font
 
 !babeimpact.com
+babeimpact.com##+js(set-constant.js, awePuShown, false)
 www.babeimpact.com##.mb30.topbabe
 www.babeimpact.com##.banners
 www.babeimpact.com##.contentbanner
+www.babeimpact.com###content > .block:nth-child(1) > .block
+www.babeimpact.com##.center:nth-child(9)
 
 !novoglam.com
 www.novoglam.com##div.zone250-double
@@ -2204,6 +2207,7 @@ www.babesbang.com##.banner-block
 !novoporn.com
 www.novoporn.com##.banner-block
 www.novoporn.com##.owner
+www.novoporn.com##.two-adv
 
 !glam0ur.com
 doglickz.club/cdn/zp51$script,domain=glam0ur.com
@@ -2224,6 +2228,7 @@ www.thousandbabes.com##.ads
 
 !babesmachine.com
 www.babesmachine.com##.banner
+www.babesmachine.com##.horbanner
 
 !babesaround.com
 www.babesaround.com##.top_banner
