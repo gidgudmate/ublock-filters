@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 120
+!Update: 121
 
 !adf.ly
 ||adplxmd.com^
@@ -875,6 +875,14 @@ clcknads.pro/v1/
 ||starspussytube.club^
 ||toplovegirl.club^
 ||net-protect-ai-mobile.*^
+||sweettits.club^
+||ayyop.adsb4trk.com^
+||winningpokernetwork.com^
+||americascardroomcom.pokermanagement.com^
+||adeidos.com^
+||best2018games.com^
+||trustednotice.*^
+||hotsweetanal.club^
 @@||wpnrtnmrewunrtok.xyz^$media
 @@||*/jquery*.js$script
 ##[href^="http://mob1ledev1ces.com/"]
@@ -1383,6 +1391,7 @@ www.forbes.com###brightcove_perform_0
 windowsreport.com###cookie-law-info-bar
 
 !sex.com
+sex.com##+js(abort-on-property-write.js, popunderUrl)
 www.sex.com###top-div
 www.sex.com###ad-div > .close-play
 www.sex.com##[href="javascript:window.scrollTo(0,0);"]
