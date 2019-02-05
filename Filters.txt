@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 123.1
+!Update: 124
 
 !adf.ly
 ||adplxmd.com^
@@ -901,7 +901,7 @@ sensualgirls.org,deliciousbabes.org,girlsofdesire.org##+js(abort-on-property-rea
 
 mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,babesxworld.com,cocogals.com,hottystop.com,erosberry.com,spicybabe.net,slutsandangels.com,simplemetart.com,cherrynudes.com,fooxybabes.com,hotbabeswanted.com,ftopx.com,purenudegirls.com,sexykittenporn.com##+js(abort-on-property-read.js, loadTool)
 
-sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org,babesxworld.com,cocogals.com,babesandgirls.com,nudity911.com,sexykittenporn.com,morazzia.com,fooxybabes.com##+js(abort-on-property-read.js, reload2)
+sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org,babesxworld.com,cocogals.com,babesandgirls.com,nudity911.com,sexykittenporn.com,morazzia.com,fooxybabes.com,glam0ur.com ##+js(abort-on-property-read.js, reload2)
 
 mitly.us,l24g.pw,wdupload.com,ewa.ac,slaplink.com##+js(nano-setInterval-booster.js)
 indishare.me##+js(nano-setTimeout-booster.js)
@@ -2227,9 +2227,11 @@ www.novoporn.com##.owner
 www.novoporn.com##.two-adv
 
 !glam0ur.com
-doglickz.club/cdn/zp51$script,domain=glam0ur.com
+||glam0ur.com/images/*/banners/*/*.jpg$image
+||doglickz.club/cdn/zp51$script,domain=glam0ur.com
 www.glam0ur.com##a[href$=".com"]
- 
+www.glam0ur.com##.menu > li:nth-child(7)
+
 !100bucksbabes.com
 www.100bucksbabes.com##.bannerholder
 
@@ -3137,3 +3139,13 @@ lin65.me##.banner
 !nubilefilms.com
 nubilefilms.com##.hover-join
 nubilefilms.com##.twitter
+
+!lettherebeporn.com
+||www.lettherebeporn.com/htopics.php$frame
+www.lettherebeporn.com##tr:nth-child(2) > td > div > table > tbody > tr:nth-child(4) > td:first-child
+www.lettherebeporn.com##font > table > tbody > tr > td
+www.lettherebeporn.com##font > table
+www.lettherebeporn.com##td:first-child > table > tbody > tr:nth-child(3) > td:nth-child(2)
+www.lettherebeporn.com##div > table > tbody > tr:nth-child(7) > td:first-child
+www.lettherebeporn.com##tr:nth-child(10) > td:first-child
+www.lettherebeporn.com##tr:nth-child(13) > td:first-child
