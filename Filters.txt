@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 124
+!Update: 124.1
 
 !adf.ly
 ||adplxmd.com^
@@ -2228,7 +2228,7 @@ www.novoporn.com##.two-adv
 
 !glam0ur.com
 ||glam0ur.com/images/*/banners/*/*.jpg$image
-||doglickz.club/cdn/zp51$script,domain=glam0ur.com
+*$3p,script,domain=glam0ur.com
 www.glam0ur.com##a[href$=".com"]
 www.glam0ur.com##.menu > li:nth-child(7)
 
