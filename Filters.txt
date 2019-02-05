@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 122
+!Update: 123
 
 !adf.ly
 ||adplxmd.com^
@@ -899,7 +899,7 @@ sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,ero
 
 sensualgirls.org,deliciousbabes.org,girlsofdesire.org##+js(abort-on-property-read.js, CustomEvent)
 
-mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,babesxworld.com,cocogals.com,hottystop.com,erosberry.com,spicybabe.net,slutsandangels.com,simplemetart.com,cherrynudes.com,fooxybabes.com,hotbabeswanted.com,ftopx.com,purenudegirls.com##+js(abort-on-property-read.js, loadTool)
+mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,babesxworld.com,cocogals.com,hottystop.com,erosberry.com,spicybabe.net,slutsandangels.com,simplemetart.com,cherrynudes.com,fooxybabes.com,hotbabeswanted.com,ftopx.com,purenudegirls.com,sexykittenporn.com##+js(abort-on-property-read.js, loadTool)
 
 sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org,babesxworld.com,cocogals.com,babesandgirls.com,nudity911.com,sexykittenporn.com,morazzia.com,fooxybabes.com##+js(abort-on-property-read.js, reload2)
 
@@ -1801,6 +1801,9 @@ www.sexykittenporn.com##.center:first-child > a[href="/click/o/nshoneys.com"]
 www.sexykittenporn.com###ff14d-n6mn3-cvwsp
 www.sexykittenporn.com##.contentbanner
 www.sexykittenporn.com##.banners
+www.sexykittenporn.com##[href="http://myporncams.com/"]
+www.sexykittenporn.com##[href="https://toppornsites.com/"]
+www.sexykittenporn.com##.video-banner
 
 !girlsofdesire.org
 www.girlsofdesire.org###box_671
@@ -2192,6 +2195,7 @@ www.primecurves.com##h2
 @@||js.helltraffic.com/fluidplayer/images/fluid_icons.svg$image,domain=hellporno.com
 m.hellporno.com###fltd-inner
 m.hellporno.com###fltd
+hellporno.com##.bnnrs-player
 
 !vporn.com
 www.vporn.com##.single-video > [id]
@@ -2545,6 +2549,7 @@ www.lesbianpornvideos.com###related_videos > div:nth-of-type(4) > center:nth-of-
 m.perfectgirls.net##.pornhat
 
 !lesbian8.com
+lesbian8.com##+js(abort-on-property-read.js, BetterJsPop)
 m.lesbian8.com##.ads
 
 !biqle.ru
@@ -3126,3 +3131,7 @@ bloggingdekh.xyz###cookie-pop
 lin65.me##.text-left
 lin65.me###topbar
 lin65.me##.banner
+
+!nubilefilms.com
+nubilefilms.com##.hover-join
+nubilefilms.com##.twitter
