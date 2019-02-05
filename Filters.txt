@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 123
+!Update: 123.1
 
 !adf.ly
 ||adplxmd.com^
@@ -895,7 +895,7 @@ clcknads.pro/v1/
 txxx.com,hclips.com,hotmovs.com,upornia.com,hdzog.com,tuberel.com##.nopop
 txxx.com,hclips.com,hotmovs.com,upornia.com,hdzog.com##.hYbusCont
 
-sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org,babesxworld.com,cocogals.com,sexybabes.club,papajizz.com,novoporn.com##+js(abort-on-property-read.js, ExoLoader)
+sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org,babesxworld.com,cocogals.com,sexybabes.club,papajizz.com,novoporn.com,thousandbabes.com##+js(abort-on-property-read.js, ExoLoader)
 
 sensualgirls.org,deliciousbabes.org,girlsofdesire.org##+js(abort-on-property-read.js, CustomEvent)
 
@@ -1963,6 +1963,7 @@ www.sensualgirls.org###box_575
 www.sensualgirls.org##.banners
 www.sensualgirls.org##.contentbanner
 www.sensualgirls.org##.block:has-text(Adblock)
+www.sensualgirls.org##div:nth-child(24)
 
 !mainbabes.com
 www.mainbabes.com##.button_help
@@ -2241,6 +2242,7 @@ www.novostrong.com##.topheader_background
 www.thousandbabes.com##.sponsorholder
 www.thousandbabes.com##.mz0
 www.thousandbabes.com##.ads
+www.thousandbabes.com##.two-adv
 
 !babesmachine.com
 www.babesmachine.com##.banner
