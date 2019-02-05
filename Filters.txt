@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 121
+!Update: 122
 
 !adf.ly
 ||adplxmd.com^
@@ -883,6 +883,7 @@ clcknads.pro/v1/
 ||best2018games.com^
 ||trustednotice.*^
 ||hotsweetanal.club^
+||system-alter.*.top^
 @@||wpnrtnmrewunrtok.xyz^$media
 @@||*/jquery*.js$script
 ##[href^="http://mob1ledev1ces.com/"]
@@ -1324,6 +1325,8 @@ www.chickteases.com##[src*="banners"]
 www.hqsluts.com###share
 www.hqsluts.com###c_gallery_sponsor
 www.hqsluts.com##.ad
+www.hqsluts.com##[href="/m/cams.menu/"]
+www.hqsluts.com##[href="/m/store.main/"]
 
 !camvideos.tv
 ||www.camvideos.tv/images/*.gif$image
@@ -1796,7 +1799,7 @@ www.sexykittenporn.com###jqrkd-jvnmz-qs04m
 www.sexykittenporn.com###whsjx-ym7bo-vo80d
 www.sexykittenporn.com##.center:first-child > a[href="/click/o/nshoneys.com"]
 www.sexykittenporn.com###ff14d-n6mn3-cvwsp
-www.sexykittenporn.com##.banners > .contentbanner
+www.sexykittenporn.com##.contentbanner
 www.sexykittenporn.com##.banners
 
 !girlsofdesire.org
@@ -2341,6 +2344,9 @@ thothub.tv##[id*=text]:not(.widget)
 thothub.tv##.menu-item > [href]:not([href*=thothub])
 thothub.tv##[class$="_popup"]
 thothub.tv##[href="https://thothub.tv/support-thothub-tv/"]
+thothub.tv##[href*="join-thothubs-tshirt-design-contest-now/"]
+thothub.tv##[href="https://thothub.tv/category/uncategorized/"]
+thothub.tv##[href="https://thothub.tv/register/"]
 
 !feet9.com
 feet9.com##.hvr-pulse
@@ -3115,3 +3121,8 @@ chrt.pw##.text-left
 @@||bloggingdekh.xyz^$generichide
 bloggingdekh.xyz##.banner
 bloggingdekh.xyz###cookie-pop
+
+!lin65.me
+lin65.me##.text-left
+lin65.me###topbar
+lin65.me##.banner
