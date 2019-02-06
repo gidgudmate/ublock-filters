@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 125.1
+!Update: 125.2
 
 !adf.ly
 ||adplxmd.com^
@@ -3032,9 +3032,6 @@ nudebabes.com##+js(abort-on-property-read.js, ExoLoader)
 !openload.co
 openload.co##[id*=ScriptRootC]
 openload.co##+js(abort-on-property-read.js, BetterJsPop)
-
-!solidfiles.com
-www.solidfiles.com##.box-content:nth-child(2)
 
 !vev.io
 vev.io##.vjs-info-button
