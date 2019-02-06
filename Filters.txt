@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 124.1
+!Update: 125
 
 !adf.ly
 ||adplxmd.com^
@@ -884,6 +884,9 @@ clcknads.pro/v1/
 ||trustednotice.*^
 ||hotsweetanal.club^
 ||system-alter.*.top^
+||locknloader.com^
+||installsaitopweb.*^
+||bestcontentindustry.top^
 @@||wpnrtnmrewunrtok.xyz^$media
 @@||*/jquery*.js$script
 ##[href^="http://mob1ledev1ces.com/"]
@@ -2228,8 +2231,6 @@ www.novoporn.com##.two-adv
 
 !glam0ur.com
 ||glam0ur.com/images/*/banners/*/*.jpg$image
-*$3p,script,domain=glam0ur.com
-www.glam0ur.com##a[href$=".com"]
 www.glam0ur.com##.menu > li:nth-child(7)
 
 !100bucksbabes.com
@@ -3149,3 +3150,9 @@ www.lettherebeporn.com##td:first-child > table > tbody > tr:nth-child(3) > td:nt
 www.lettherebeporn.com##div > table > tbody > tr:nth-child(7) > td:first-child
 www.lettherebeporn.com##tr:nth-child(10) > td:first-child
 www.lettherebeporn.com##tr:nth-child(13) > td:first-child
+
+
+!shesfreaky.com
+www.shesfreaky.com##[id^="banner"]
+www.shesfreaky.com##.adlabel
+www.shesfreaky.com##.prefooter
