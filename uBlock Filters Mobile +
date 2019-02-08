@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 1.1
+!Update: 1.2
 
 !silkengirl.com
 www.silkengirl.com##.fixed.header:style(position: sticky !important;)
@@ -73,9 +73,6 @@ m.realityjunkies.com##.opened.minimized
 m.realityjunkies.com###inline_banner2
 
 !fapality.com
-||fapality.com^$script,1p
-@@||fapality.com/js/mobile.min.js$script,1p
-@@||fapality.com/js/KernelTeamVideoSharingSystem.js$script,1p 
 m.fapality.com##.divExoCustomLayer
 m.fapality.com##.fluid-b
 
@@ -149,4 +146,3 @@ m.hellporno.com###fltd
 !taxi69.com
 m.taxi69.com###header:style(position: relative !important;)
 m.taxi69.com##.ad_kimia
-
