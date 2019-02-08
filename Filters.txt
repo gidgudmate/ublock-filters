@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 126.1
+!Update: 126.2
 
 !adf.ly
 ||adplxmd.com^
@@ -3096,7 +3096,7 @@ www.erome.com##.free-space
 !fapality.com
 ||fapality.com^$script,1p
 @@||fapality.com/js/scripts.min.js$script,1p
-@@||fapality.com/js/vendor/masonry.min.js$script,1p
-@@||fapality.com/player/fplayers/fplayer.js$script,1p
-@@||fapality.com/js/vendor/modernizr.js$script,1p
+@@||fapality.com/js/vendor/*.js$script,1p
+@@||fapality.com/player/*.js$script,1p
 @@||fapality.com/js/KernelTeamVideoSharingVideoView.js*$script,1p
+@@||fapality.com/js/KernelTeamVideoSharingSystem.js*$script,1p
