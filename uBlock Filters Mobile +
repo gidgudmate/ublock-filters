@@ -1,0 +1,148 @@
+!Title: uBlock Filters Mobile +
+!License: https://creativecommons.org/licenses/by-sa/4.0/
+!Homepage: https://github.com/dumbusernameidk/ublock-filters
+!Support: https://github.com/dumbusernameidk/ublock-filters/issues
+!Update: 1
+
+!silkengirl.com
+www.silkengirl.com##.fixed.header:style(position: sticky !important;)
+www.silkengirl.com##.item_inner
+www.silkengirl.comm##.hold > .title:nth-child(2)
+www.silkengirl.com##.nav:nth-child(3)
+www.silkengirl.com##.item:nth-child(5), .item:nth-child(6), .item:nth-child(7), .item:nth-child(8), .item:nth-child(9)
+
+!github.com #filters made to fix white areas leftover by dark mode userscript.
+github.com##.discussion-reply:style(background-color: #010101 !important;)
+github.com##.discussion-block-header:style(background-color: #010101 !important;)
+github.com##.discussion-block-title:style(background-color: #343434 !important;)
+github.com##.discussion-comment:style(background-color: #010101 !important;)
+github.com##.discussion-header:style(background-color: #010101 !important;)
+github.com##.profile-timeline-month-line:style(background-color: #010101 !important;)
+github.com##.issues-reset-query-wrapper:style(background-color: #010101 !important;)
+github.com###toc:style(background-color: #010101 !important;)
+github.com##.commit-authorship:style(background-color: #010101 !important;)
+github.com##.labels:style(background-color: #343434 !important;)
+
+!cuus.io
+cuus.io###mainNav:style(background-color: #555 !important;)
+
+!dirtyyoungbitches.com
+www.dirtyyoungbitches.com###main-nav > li:nth-child(3)
+
+!momxxx.com
+www.momxxx.com##.mobile-header:style(position: static !important;)
+
+!peekvids.com
+www.peekvids.com##.interstitial-popup:style(height: 1px !important; width: 1px !important; overflow-y: scroll !important;)
+www.peekvids.com##.popup-opened:style(overflow: auto !important; position: initial !important;)
+
+!playvids.com
+www.playvids.com##.interstitial-popup:style(height: 1px !important; width: 1px !important; overflow-y: scroll !important;)
+www.playvids.com##.popup-opened:style(overflow: auto !important; position: initial !important;)
+
+!spankbang.com
+m.spankbang.com###header_bar:style(position: absolute !important;)
+
+!silkengirl.net
+www.silkengirl.net##.hold > .title:nth-child(2)
+www.silkengirl.net##.nav:first-child > .item:nth-child(5)
+www.silkengirl.net##.nav:first-child > .item:nth-child(6)
+www.silkengirl.net##.nav:first-child > .item:nth-child(7)
+www.silkengirl.net##.nav:nth-child(3)
+
+!pornflip.com
+m.pornflip.com##.interstitial-popup:style(height: 1px !important; width: 1px !important; overflow-y: scroll !important;)
+m.pornflip.com##.popup-opened:style(overflow: auto !important; position: initial !important;)
+m.pornflip.com##div[class*="banners"]
+
+!novoporn.com
+www.novoporn.com###mainnav > .nav > li:nth-child(4)
+www.novoporn.com###mainnav > .nav > li:nth-child(5)
+
+!babesandbitches.net
+www.babesandbitches.net###mainnav > .nav > li:nth-child(5)
+
+!girlsofdesire.org
+www.girlsofdesire.org###mm-m0-p0 > li:nth-child(8)
+
+!pornoeggs.com
+m.pornoeggs.com##[class^="banner-"]
+
+!realityjunkies.com
+m.realityjunkies.com##.opened.minimized
+m.realityjunkies.com###inline_banner2
+
+!fapality.com
+m.fapality.com##.divExoCustomLayer
+m.fapality.com##.fluid-b
+
+!pornwhite.com
+m.pornwhite.com##.spot
+m.pornwhite.com##.pop-fade
+
+!perfectgirls.net
+m.perfectgirls.net##.pornhat
+
+!lesbian8.com
+m.lesbian8.com##.ads
+
+!pornoxo.com
+m.pornoxo.com##.overlay-play-button
+
+!burningangel.com
+m.burningangel.com###PromoBannerOverlay
+m.burningangel.com###inline_banner2
+
+!orgasm.com
+m.orgasm.com##[id*=-ox-]
+
+!fuckup.xxx
+m.fuckup.xxx##.col-sm-12 > .text-center
+
+!sextvx.com
+m.sextvx.com##[id$="_ads"]
+
+!viptube.com
+m.viptube.com##.intro:nth-child(2), .intro:nth-of-type(10), , .intro:nth-of-type(11), .intro:nth-of-type(13), .intro:nth-of-type(14)
+
+!fux.com
+m.fux.com##.video-list-top-ad
+
+!txxx.com
+m.txxx.com##.mobile-channel-info
+m.txxx.com###ud-m
+
+!porntube.com
+m.porntube.com##.related-kodplayer
+m.porntube.com##.ugc
+
+!empflix.com
+m.empflix.com#@#.thumb
+m.empflix.com#@#.videoActions
+
+!anysex.com
+m.anysex.com##.fluid-b
+
+!xhamster.com
+m.xhamster.com##.wid-cams-widget
+m.xhamster.com##.promo-message__with-button
+m.xhamster.com##.popup
+m.xhamster.com##.premium-overlay
+m.xhamster.com##.red-round
+m.xhamster.com##ul.clearfix:nth-child(2)
+
+!4tube.com
+m.4tube.com###playlists
+m.4tube.com##.vane_hor.vane
+
+!21naturals.com
+m.21naturals.com##.productDescription
+m.21naturals.com###backToTop
+
+!hellporno.com
+m.hellporno.com###fltd-inner
+m.hellporno.com###fltd
+
+!taxi69.com
+m.taxi69.com###header:style(position: relative !important;)
+m.taxi69.com##.ad_kimia
