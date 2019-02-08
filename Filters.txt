@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 126
+!Update: 126.1
 
 !adf.ly
 ||adplxmd.com^
@@ -2323,6 +2323,7 @@ thothub.tv##[href="https://thothub.tv/support-thothub-tv/"]
 thothub.tv##[href*="join-thothubs-tshirt-design-contest-now/"]
 thothub.tv##[href="https://thothub.tv/category/uncategorized/"]
 thothub.tv##[href="https://thothub.tv/register/"]
+thothub.tv##.category-uncategorized
 
 !feet9.com
 feet9.com##.hvr-pulse
@@ -3088,3 +3089,14 @@ www.shesfreaky.com##.prefooter
 
 !spankbang.com
 spankbang.com##.advrt
+
+!erome.com
+www.erome.com##.free-space
+
+!fapality.com
+||fapality.com^$script,1p
+@@||fapality.com/js/scripts.min.js$script,1p
+@@||fapality.com/js/vendor/masonry.min.js$script,1p
+@@||fapality.com/player/fplayers/fplayer.js$script,1p
+@@||fapality.com/js/vendor/modernizr.js$script,1p
+@@||fapality.com/js/KernelTeamVideoSharingVideoView.js*$script,1p
