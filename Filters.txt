@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 126.4
+!Update: 127
 
 !adf.ly
 ||adplxmd.com^
@@ -872,6 +872,7 @@ clcknads.pro/v1/
 ||locknloader.com^
 ||installsaitopweb.*^
 ||bestcontentindustry.top^
+||ppndr.net^
 @@||wpnrtnmrewunrtok.xyz^$media
 @@||*/jquery*.js$script
 ##[href^="http://mob1ledev1ces.com/"]
@@ -2585,6 +2586,7 @@ l24g.pw,lg731.me##.banner-inner
 lg731.me##.text-left
 
 !fflares.com
+*$3p,script,domain=fflares.com
 fflares.com##.inside_area > div:nth-child(4), .inside_area > div:nth-child(6), .inside_area > div:nth-child(7), .inside_area > div:nth-child(9)
 fflares.com##form > div:nth-child(15), form > div:nth-child(16)
 fflares.com##form > .adsbygoogle
@@ -2595,7 +2597,7 @@ fflares.com##ins.adsbygoogle
 !ewa.ac
 ||s3.amazonaws.com^$xhr,domain=ewa.ac
 ewa.ac##+js(abort-on-property-write.js, _pop)
-ewa.ac##+js(abort-on-property-read.js, inIframe)
+ewa.ac##+js(abort-on-property-write.js, inIframe)
 ewa.ac###walle
 
 !mitly.us
@@ -2623,6 +2625,8 @@ winderline.win##.box-main
 shrinkearn.com##.banner
 
 !ayefiles.com
+*$3p,script,domain=ayefiles.com
+@@||maxcdn.bootstrapcdn.com$domain=ayefiles.com
 ayefiles.com###gdpr-cookike-notice
 ayefiles.com##[id*=ScriptRoot]
 
