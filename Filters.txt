@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 127
+!Update: 127.1
 
 !adf.ly
 ||adplxmd.com^
@@ -3099,3 +3099,9 @@ www.erome.com##.free-space
 
 !fapality.com
 ||fapality.com/*.jsx$script,first-party
+
+!ouo.press
+*$3p,script,domain=ouo.press
+
+!uploadrar.com
+*$3p,script,domain=uploadrar.com
