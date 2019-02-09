@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 127.1
+!Update: 128
 
 !adf.ly
 ||adplxmd.com^
@@ -1759,19 +1759,19 @@ www.bungie.net##.sidenav_promo
 www.morazzia.com##[src="/atop"]
 www.morazzia.com##[src="/acenter"]
 www.morazzia.com##.node > div > table > tbody > tr:nth-child(9)
+www.morazzia.com##.item-list
+www.morazzia.com###block-block-107
 
 !babesandgirls.com
+||babesandgirls.com/*/banners/*$image
 www.babesandgirls.com###block-block-6 > .content > div
 www.babesandgirls.com##.owner
 
 !sexykittenporn.com
 @@||sexykittenporn.com$script,1p
-www.sexykittenporn.com###z1jk-zj0o5-9qxav
+@@||sexykittenporn.com/virtuagirl.com/*$image
+sexykittenporn.com#@#[href^="http://nlkdom.com/"]
 www.sexykittenporn.com##body > div:nth-of-type(3)
-www.sexykittenporn.com###jqrkd-jvnmz-qs04m
-www.sexykittenporn.com###whsjx-ym7bo-vo80d
-www.sexykittenporn.com##.center:first-child > a[href="/click/o/nshoneys.com"]
-www.sexykittenporn.com###ff14d-n6mn3-cvwsp
 www.sexykittenporn.com##.contentbanner
 www.sexykittenporn.com##.banners
 www.sexykittenporn.com##[href="http://myporncams.com/"]
@@ -1804,8 +1804,7 @@ www.wantedbabes.com##.banner-center
 www.wantedbabes.com##.banners
 
 !grabpussy.com
-www.grabpussy.com##.as4gW0HX
-www.grabpussy.com##.vVKl1s5J
+www.grabpussy.com##.c-bl-b-before
 www.grabpussy.com##.two-adv
 www.grabpussy.com##.ban-bl
 www.grabpussy.com##.ads
@@ -1817,7 +1816,7 @@ porndoo.com###linkTop
 
 !silkengirl domains
 ||silkengirl.net/sw.js$script,1p
-||silkengirl.net/images/*/banners/*$image
+/*/banners/*$image,domain=silkengirl.net|silkengirl.com
 *$3p,script,domain=silkengirl.net|silkengirl.com
 www.silkengirl.com,silkengirl.net##.spots_long
 www.silkengirl.com##body > div:nth-of-type(3)
@@ -1834,6 +1833,7 @@ www.silkengirl.com##.menu_holder > .item:nth-child(8)
 www.silkengirl.com##.btn_review.item:nth-child(6)
 www.silkengirl.com##.menu_holder > .item:nth-child(7)
 www.silkengirl.com##[href^="http://adultfriendfinder.com/"]
+www.silkengirl.net##.item:nth-child(6) > .item_inner, .item:nth-child(8) > .item_inner
 
 !babes.com
 www.babes.com##.floating-footer.js-floating-footer
@@ -1851,11 +1851,13 @@ www.novohot.com##.mainBanner
 www.novohot.com##div.thumb180x270
 
 !babesinporn.com
+||babesinporn.com/*/banners/*$image
 www.babesinporn.com##div.block:nth-of-type(5) > .center
 www.babesinporn.com##.contentbanner
 www.babesinporn.com##.tagslink
 www.babesinporn.com##.banners
 www.babesinporn.com##.cd-top
+www.babesinporn.com##.menu > li:nth-child(5) > .item
 
 !destinytracker.com
 destinytracker.com##+js(abort-on-property-read.js, checkSiteNotifications)
@@ -1940,6 +1942,9 @@ www.sensualgirls.org##.block:has-text(Adblock)
 www.sensualgirls.org##div:nth-child(24)
 
 !mainbabes.com
+mainbabes.com/*/banners/*$image
+www.mainbabes.com##.spots
+www.mainbabes.com##.item:nth-child(7) > .inner
 www.mainbabes.com##.button_help
 www.mainbabes.com###scrollUp
 www.mainbabes.com##.spots_large
@@ -1969,6 +1974,10 @@ www.deliciousbabes.org##.block:first-child, .block:nth-child(4), .block:nth-chil
 ||penthouse.com/assets/img/*.png$image
 
 !livejasminbabes.net
+||www.livejasminbabes.net/istripper$frame
+www.livejasminbabes.net##.istripper
+www.livejasminbabes.net##.second-candy
+www.livejasminbabes.net##.onhover
 www.livejasminbabes.net##.visitref.bold.center.inline.size5.text-yellow
 www.livejasminbabes.net##body.gallery .rate-wrapper
 www.livejasminbabes.net###nat_top
@@ -2102,6 +2111,7 @@ www.pussystate.com##.thumbs > li:nth-of-type(10)
 www.pussystate.com##.mz0
 www.pussystate.com##.owner
 www.pussystate.com##div[class*="zone"]
+www.pussystate.com##.banner
 
 !rabbitsfun.com
 www.rabbitsfun.com##.top-mobile
@@ -2193,15 +2203,19 @@ www.babesbang.com##.ads
 www.babesbang.com##.banner-block
 
 !novoporn.com
+www.novoporn.com##tr:nth-child(2) > td:nth-child(3)
+www.novoporn.com##li:nth-child(2)
 www.novoporn.com##.banner-block
 www.novoporn.com##.owner
 www.novoporn.com##.two-adv
 
 !glam0ur.com
 ||glam0ur.com/images/*/banners/*/*.jpg$image
+www.glam0ur.com##strong:nth-child(8)
 www.glam0ur.com##.menu > li:nth-child(7)
 
 !100bucksbabes.com
+||100bucksbabes.com/*/banners/*$image
 www.100bucksbabes.com##.bannerholder
 
 !novostrong.com
@@ -2372,6 +2386,8 @@ www.nextdoordolls.com##.smart-page-loader
 !babesandbitches.net
 babesandbitches.net##.owner
 www.babesandbitches.net##[href="https://pornabc.com"]
+www.babesandbitches.net###nav-ul > li:nth-child(7)
+www.babesandbitches.net###nav-ul > li:nth-child(8)
 
 !nudity911
 www.nudity911.com##[src*="banners"]
