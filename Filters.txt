@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 129.1
+!Update: 130
 
 !adf.ly
 ||adplxmd.com^
@@ -881,7 +881,7 @@ clcknads.pro/v1/
 txxx.com,hclips.com,hotmovs.com,upornia.com,hdzog.com,tuberel.com##.nopop
 txxx.com,hclips.com,hotmovs.com,upornia.com,hdzog.com##.hYbusCont
 
-sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org,babesxworld.com,cocogals.com,sexybabes.club,papajizz.com,novoporn.com,thousandbabes.com,redpornblog.com##+js(abort-on-property-read.js, ExoLoader)
+sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org,babesxworld.com,cocogals.com,sexybabes.club,papajizz.com,novoporn.com,thousandbabes.com,redpornblog.com,xxxdessert.com##+js(abort-on-property-read.js, ExoLoader)
 
 sensualgirls.org,deliciousbabes.org,girlsofdesire.org##+js(abort-on-property-read.js, CustomEvent)
 
@@ -1764,6 +1764,7 @@ www.sexykittenporn.com##[href="https://toppornsites.com/"]
 www.sexykittenporn.com##.video-banner
 
 !girlsofdesire.org
+||www.girlsofdesire.org/php/gofd_fl.js$script
 ||girlsofdesire.org/*gallerybanners*$image
 www.girlsofdesire.org###box_671
 www.girlsofdesire.org###box_669
@@ -1783,6 +1784,7 @@ www.8boobs.com##.join
 www.8boobs.com##.top-link
 www.8boobs.com##.banners
 www.8boobs.com###topmenu > ul > li:nth-child(4)
+www.8boobs.com###topmenu > ul > li:nth-child(5)
 
 !wantedbabes.com
 www.wantedbabes.com###scroller
@@ -1826,6 +1828,7 @@ www.babes.com##.floating-footer.js-floating-footer
 www.babes.com##.video-show-overlay
 
 !pleasuregirl.net
+||pleasuregirl.net/*/banners/*$image
 www.pleasuregirl.net###scroller
 www.pleasuregirl.net##.banner-center
 www.pleasuregirl.net##[href^="https://desklks.com/"]
@@ -1854,11 +1857,19 @@ destinytracker.com##.ad-box
 nudogram.com##[src="https://nudogram.com/graphics/banned.png"]
 
 !hotstunners.com
-www.hotstunners.com##[href^="https://desklks.com/"]
-www.hotstunners.com##div.photo:nth-of-type(2) > [href^="http://nlkdom.com/"]
+www.hotstunners.com##[href^="https://t.irtyc.com/"]
+www.hotstunners.com##[href="https://mysexgames.com/"]
 www.hotstunners.com##body > div:nth-of-type(4)
 www.hotstunners.com##.top-link
 www.hotstunners.com##[src*="banners/"]
+www.hotstunners.com##.topmenu_bg:nth-child(5) > .left_bg
+www.hotstunners.com##.topmenu_bg:nth-child(5) > .right_bg
+www.hotstunners.com##.topmenu_bg:nth-child(6) > .left_bg
+www.hotstunners.com##.topmenu_bg:nth-child(6) > .right_bg
+www.hotstunners.com##.topmenu_bg:nth-child(7) > .left_bg
+www.hotstunners.com##.topmenu_bg:nth-child(7) > .right_bg
+www.hotstunners.com##.topmenu_bg:nth-child(8) > .left_bg
+www.hotstunners.com##.topmenu_bg:nth-child(8) > .right_bg
 
 !join2babes.com
 www.join2babes.com##div.zone_b.gallery-inner-zone
@@ -2039,6 +2050,7 @@ www.decorativemodels.com##.block > .block
 www.decorativemodels.com##.contentbanner
 
 !fooxybabes.com
+||fooxybabes.com/*/banners/*$image
 ||adbidgo.com/notice.php$script,domain=fooxybabes.com
 www.fooxybabes.com###scrollUp
 www.fooxybabes.com##.button_help
@@ -2175,6 +2187,7 @@ www.vporn.com##.footer-share
 www.vporn.com##.temp-info-holder
 
 !vibraporn.com
+||vibraporn.com/*/banners/*$image
 www.vibraporn.com##.owner_w
 www.vibraporn.com##.contentbanner
 
@@ -2219,6 +2232,7 @@ www.thousandbabes.com##.ads
 www.thousandbabes.com##.two-adv
 
 !babesmachine.com
+||babesmachine.com/*/banners/*$image
 www.babesmachine.com##.banner
 www.babesmachine.com##.horbanner
 www.babesmachine.com##[href="//www.yourdoll.com"]
@@ -3121,3 +3135,7 @@ www.erome.com##.free-space
 !youx.xxx
 ||www.youx.xxx/*.php$script,1p
 www.youx.xxx##[class*=banner]
+
+!xxxdessert.com
+xxxdessert.com##[class*="banner"]
+xxxdessert.com##.content:nth-child(6)
