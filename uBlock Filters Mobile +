@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 1.2
+!Update: 2
 
 !silkengirl.com
 www.silkengirl.com##.fixed.header:style(position: sticky !important;)
@@ -58,6 +58,7 @@ m.pornflip.com##div[class*="banners"]
 !novoporn.com
 www.novoporn.com###mainnav > .nav > li:nth-child(4)
 www.novoporn.com###mainnav > .nav > li:nth-child(5)
+www.novoporn.com##td:nth-child(1)
 
 !babesandbitches.net
 www.babesandbitches.net###mainnav > .nav > li:nth-child(5)
@@ -146,3 +147,10 @@ m.hellporno.com###fltd
 !taxi69.com
 m.taxi69.com###header:style(position: relative !important;)
 m.taxi69.com##.ad_kimia
+
+!nightdreambabe.com
+www.nightdreambabe.com##center:nth-child(2)
+
+!babesaround.com
+www.babesaround.com##.selectnav-holder > center
+www.babesaround.com###select > li:nth-child(3)
