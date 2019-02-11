@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 128
+!Update: 129
 
 !adf.ly
 ||adplxmd.com^
@@ -321,9 +321,6 @@ the-watch-series.to##[id^="MarketGidWrap"]
 unbubble.eu##.sponsor-title + *
 unbubble.eu##.sponsor-title
 unbubble.eu##.top-products
-
-!accountkiller.com
-accountkiller.com##[onclick^="trackLinkClick('outbound', 'cancel_removal_link'"]
 
 !bitvid.sx
 ||dropzenad.com^
@@ -884,7 +881,7 @@ clcknads.pro/v1/
 txxx.com,hclips.com,hotmovs.com,upornia.com,hdzog.com,tuberel.com##.nopop
 txxx.com,hclips.com,hotmovs.com,upornia.com,hdzog.com##.hYbusCont
 
-sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org,babesxworld.com,cocogals.com,sexybabes.club,papajizz.com,novoporn.com,thousandbabes.com##+js(abort-on-property-read.js, ExoLoader)
+sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org,babesxworld.com,cocogals.com,sexybabes.club,papajizz.com,novoporn.com,thousandbabes.com,redpornblog.com##+js(abort-on-property-read.js, ExoLoader)
 
 sensualgirls.org,deliciousbabes.org,girlsofdesire.org##+js(abort-on-property-read.js, CustomEvent)
 
@@ -1418,21 +1415,9 @@ www.flirtyordirty.co.uk##.alert-warning.notification-content.cm-notification-con
 !ww7.kiss-anime.me
 ||ww7.kiss-anime.me/*.png$image
 ww7.kiss-anime.me##div:nth-of-type(14) > center > div
-ww7.kiss-anime.me##.tfgWfT3ldqX1a1.kdMah57zBk6M2.nfM70GAGTpMdR
-ww7.kiss-anime.me##.en6BPPehHC.kdMah57zBk6M2.aoZaCA47jszI9L
-ww7.kiss-anime.me##.a3W3yIrTt99S.tUd68l6TI5
-ww7.kiss-anime.me##.hZF0us4Suq4.k6v0D62aa0R.kT2SGHSEE2AQIj.f49sIgJ1qw.pg4V5u5979.v2sp5xjW49
-ww7.kiss-anime.me##.q567qDcM6Fzzo.pfHyV56cu1.cWUS38en2s0I5A
 ww7.kiss-anime.me##.barContent > div > center > div
 ww7.kiss-anime.me##div.clear2:nth-of-type(8)
 ww7.kiss-anime.me##div.clear2:nth-of-type(2)
-ww7.kiss-anime.me##.ttAWk0aXthUJ.jZrCslfh6EK02.ywe0R2JSPzw
-ww7.kiss-anime.me###nrz5chv98355004092
-ww7.kiss-anime.me##.qJ114T7Iu96d6A.jZrCslfh6EK02.jN3CtK59S3XWbO
-ww7.kiss-anime.me##.hQx6rrX15LKhgfu.h3ae1463X1
-ww7.kiss-anime.me##.yvs947dQj739.msotHObyBo31XBr.k44jrtBNn40.kEKvppV0U07j.aG365uwe9tA.euak6stH87Frb0
-ww7.kiss-anime.me##.t0RZc9XfKFU22W3.nXsqW8Hod1i9W.dIRGA4isc2qT.xVJpP9X014
-ww7.kiss-anime.me###nrz5chv94262090671
 ww7.kiss-anime.me##div.clear2:nth-of-type(10)
 ww7.kiss-anime.me##div.clear2:nth-of-type(9)
 ww7.kiss-anime.me##.barContent > div > .clear
@@ -2041,11 +2026,13 @@ www.porntrex.com##.fp-embed
 www.porntrex.com##.table
 www.porntrex.com##div[class*="fake-player"]
 www.porntrex.com##.open-tool.pop-fade
+www.porntrex.com##.\31 11
 
 !instagram.com
 www.instagram.com##.Fzijm.bR_3v
 
 !decorativemodels.com
+||decorativemodels.com/*/banners/*$image
 www.decorativemodels.com##[src="/smallfr/"]
 www.decorativemodels.com##.block > .block
 www.decorativemodels.com##.contentbanner
@@ -2107,6 +2094,7 @@ www.pureandsexy.org##.banner
 www.pureandsexy.org##.mz0
 
 !pussystate.com
+||pussystate.com/*/banners/*$image
 www.pussystate.com##.thumbs > li:nth-of-type(10)
 www.pussystate.com##.mz0
 www.pussystate.com##.owner
@@ -2232,6 +2220,7 @@ www.thousandbabes.com##.two-adv
 !babesmachine.com
 www.babesmachine.com##.banner
 www.babesmachine.com##.horbanner
+www.babesmachine.com##[href="//www.yourdoll.com"]
 
 !babesaround.com
 www.babesaround.com##.top_banner
@@ -3121,3 +3110,13 @@ www.erome.com##.free-space
 
 !uploadrar.com
 *$3p,script,domain=uploadrar.com
+
+!nakedanatomy.com
+||nakedanatomy.com/*/banners/*$image
+
+!hdpornfull.com
+||www.hdpornfull.com/sw.js$script,1p
+
+!youx.xxx
+||www.youx.xxx/*.php$script,1p
+www.youx.xxx##[class*=banner]
