@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 130.1
+!Update: 130.2
 
 !adf.ly
 ||adplxmd.com^
@@ -1765,7 +1765,6 @@ www.sexykittenporn.com##.video-banner
 
 !girlsofdesire.org
 ||www.girlsofdesire.org/php/gofd_fl.js$script
-||girlsofdesire.org/*gallerybanners*$image
 www.girlsofdesire.org###box_671
 www.girlsofdesire.org###box_669
 www.girlsofdesire.org###box_825
