@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 130.3
+!Update: 131
 
 !adf.ly
 ||adplxmd.com^
@@ -880,11 +880,11 @@ clcknads.pro/v1/
 txxx.com,hclips.com,hotmovs.com,upornia.com,hdzog.com,tuberel.com##.nopop
 txxx.com,hclips.com,hotmovs.com,upornia.com,hdzog.com,tuberel.com##.hYbusCont
 
-sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org,babesxworld.com,cocogals.com,sexybabes.club,papajizz.com,novoporn.com,thousandbabes.com,redpornblog.com,xxxdessert.com,mofosex.com##+js(abort-on-property-read.js, ExoLoader)
+sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org,babesxworld.com,cocogals.com,sexybabes.club,papajizz.com,novoporn.com,thousandbabes.com,redpornblog.com,xxxdessert.com,mofosex.com,babeuniversum.com,novojoy.com##+js(abort-on-property-read.js, ExoLoader)
 
 sensualgirls.org,deliciousbabes.org,girlsofdesire.org##+js(abort-on-property-read.js, CustomEvent)
 
-mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,babesxworld.com,cocogals.com,hottystop.com,erosberry.com,spicybabe.net,slutsandangels.com,simplemetart.com,cherrynudes.com,fooxybabes.com,hotbabeswanted.com,ftopx.com,purenudegirls.com,sexykittenporn.com##+js(abort-on-property-read.js, loadTool)
+mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,babesxworld.com,cocogals.com,hottystop.com,erosberry.com,spicybabe.net,slutsandangels.com,simplemetart.com,cherrynudes.com,fooxybabes.com,hotbabeswanted.com,ftopx.com,purenudegirls.com,sexykittenporn.com,bustybloom.com##+js(abort-on-property-read.js, loadTool)
 
 sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org,babesxworld.com,cocogals.com,babesandgirls.com,nudity911.com,sexykittenporn.com,morazzia.com,fooxybabes.com,glam0ur.com ##+js(abort-on-property-read.js, reload2)
 
@@ -1774,6 +1774,7 @@ www.girlsofdesire.org###box_741
 www.girlsofdesire.org##.banners
 www.girlsofdesire.org##.contentbanner
 www.girlsofdesire.org##.block:has-text(Adblock)
+www.girlsofdesire.org##[style*="base64"]
 
 !8boobs.com
 ||8boobs.com/images/*/banners$image
@@ -1935,6 +1936,7 @@ www.sensualgirls.org##.banners
 www.sensualgirls.org##.contentbanner
 www.sensualgirls.org##.block:has-text(Adblock)
 www.sensualgirls.org##div:nth-child(24)
+www.sensualgirls.org##[style*="base64"]
 
 !mainbabes.com
 mainbabes.com/*/banners/*$image
@@ -2089,6 +2091,8 @@ celebrity-leaks.net##.code-block-5.code-block > center
 !tnaflix.com
 tnaflix.com##+js(abort-on-property-write.js, exoUrl)
 www.tnaflix.com##.feedbackFixed
+www.tnaflix.com###flixPlayer > .pVideoBlock > .nvNav
+www.tnaflix.com##.mainVidTtl
 
 !isselecta.co
 isselecta.com###top-message-wrapper
@@ -2201,6 +2205,12 @@ babesbang.com##.ownerbanner
 www.babesbang.com##.swiper-slide-active.swiper-bonus.swiper-slide
 www.babesbang.com##.ads
 www.babesbang.com##.banner-block
+www.babesbang.com##.side-bg:nth-child(2) > .side-bg-top > .side-bg-bottom > .main-list > li:nth-child(3)
+www.babesbang.com##.side-bg:nth-child(2) > .side-bg-top > .side-bg-bottom > .main-list > li:nth-child(5)
+www.babesbang.com##.side-bg:nth-child(2) > .side-bg-top > .side-bg-bottom > .main-list > li:nth-child(6)
+www.babesbang.com###header > div
+www.babesbang.com##.side-title:nth-child(9), .side-title:nth-child(11), .side-title:nth-child(13)
+www.babesbang.com##.side-bg:nth-child(10), .side-bg:nth-child(12), .side-bg:nth-child(14)
 
 !novoporn.com
 www.novoporn.com##tr:nth-child(2) > td:nth-child(3)
@@ -2219,9 +2229,11 @@ www.glam0ur.com##.menu > li:nth-child(7)
 www.100bucksbabes.com##.bannerholder
 
 !novostrong.com
+||novostrong.com/*/banners/*$image
 www.novostrong.com##.owner
 www.novostrong.com##.gallery_images_background > center
 www.novostrong.com##.topheader_background
+www.novostrong.com##.nav > li:nth-child(4)
 
 !thousandbabes.com
 www.thousandbabes.com##.sponsorholder
@@ -2488,6 +2500,8 @@ www.wowgirlsblog.com###tpbr_topbar
 
 !babeuniversum.com
 www.babeuniversum.com##.adsense > [href]
+www.babeuniversum.com##.galleryad
+www.babeuniversum.com##.two-adv
 
 !pornpros.com
 @@||cloudfront.net/e.gif?$image,domain=pornpros.com
@@ -2495,6 +2509,7 @@ www.babeuniversum.com##.adsense > [href]
 !hotbabeswanted.com
 www.hotbabeswanted.com##.bannermob
 www.hotbabeswanted.com##.deskbanner
+www.hotbabeswanted.com###sticker:style(position: sticky !important;)
 
 !collectionofbestporn.com
 collectionofbestporn.com##+js(abort-on-property-read.js, _0xbbc1)
@@ -2582,11 +2597,12 @@ www.mofosex.com##.message
 www.definebabe.com##section:first-of-type
 
 !bustybloom.com
-www.bustybloom.com###header:style(position: absolute !important;)
 www.bustybloom.com###backtohome
 www.bustybloom.com##.block
 www.bustybloom.com###freetour
 www.bustybloom.com###sponsorfeature
+www.bustybloom.com###nat_mid
+www.bustybloom.com###nat_top
 
 !asspoint.com
 asspoint.com##+js(abort-on-property-read.js, url)
@@ -3140,3 +3156,22 @@ xxxdessert.com##.content:nth-child(6)
 
 !hakawina.com
 hakawina.com##+js(window.open-defuser.js)
+
+!novojoy.com
+www.novojoy.com##.two-adv
+
+!xvideospanish.net
+www.xvideospanish.net##.inside-player-ad
+www.xvideospanish.net###back-to-top
+
+!meichu2016.me
+*$3p,script,domain=meichu2016.me
+||meichu2016.me/images/girl/*$image
+||meichu2016.me/images/sex/*$image
+||meichu2016.me/images/small/*$image
+||meichu2016.me/templates/chicks/images/*$image
+||meichu2016.me/images/top/*$image
+||texterra.*/sw/*.js$script,domain=meichu2016.me
+||meichu2016.me/max.js$script,1p
+meichu2016.me##.tuboxa
+meichu2016.me##.mowed
