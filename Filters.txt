@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 130.2
+!Update: 130.3
 
 !adf.ly
 ||adplxmd.com^
@@ -280,7 +280,7 @@ chip.de##[href^="javascript:DSinitDl"]
 !windows.microsoft.com
 microsoft.com###NotificationUpgradeWin81and7NonSupport
 
-heise.de
+!heise.de
 heise.de###bannerzone
 
 !hdzog.com
@@ -591,7 +591,6 @@ noticiasautomotivas.com.br,openload.us,animmex.com,4553t5pugtt1qslvsnmpc0tpfz5fo
 /basePopunder.js
 /px.js?ch=$script
 /cdn-cgi/pe/bag2?*adstract.com
-##a[href^="http://wct.link/click"]
 
 !Filters taken out of EasyList and modified to make use of strict blocking.
 !"EasyList" by "The EasyList authors (https://easylist.adblockplus.org/)" (License: https://easylist-downloads.adblockplus.org/COPYING)
