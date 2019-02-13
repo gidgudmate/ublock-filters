@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 130
+!Update: 130.1
 
 !adf.ly
 ||adplxmd.com^
@@ -879,9 +879,9 @@ clcknads.pro/v1/
 
 !counters popups from out.tubecorporate.com
 txxx.com,hclips.com,hotmovs.com,upornia.com,hdzog.com,tuberel.com##.nopop
-txxx.com,hclips.com,hotmovs.com,upornia.com,hdzog.com##.hYbusCont
+txxx.com,hclips.com,hotmovs.com,upornia.com,hdzog.com,tuberel.com##.hYbusCont
 
-sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org,babesxworld.com,cocogals.com,sexybabes.club,papajizz.com,novoporn.com,thousandbabes.com,redpornblog.com,xxxdessert.com##+js(abort-on-property-read.js, ExoLoader)
+sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org,babesxworld.com,cocogals.com,sexybabes.club,papajizz.com,novoporn.com,thousandbabes.com,redpornblog.com,xxxdessert.com,mofosex.com##+js(abort-on-property-read.js, ExoLoader)
 
 sensualgirls.org,deliciousbabes.org,girlsofdesire.org##+js(abort-on-property-read.js, CustomEvent)
 
@@ -3139,3 +3139,6 @@ www.youx.xxx##[class*=banner]
 !xxxdessert.com
 xxxdessert.com##[class*="banner"]
 xxxdessert.com##.content:nth-child(6)
+
+!hakawina.com
+hakawina.com##+js(window.open-defuser.js)
