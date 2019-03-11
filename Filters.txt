@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 131
+!Update: 133
 
 !adf.ly
 ||adplxmd.com^
@@ -895,7 +895,12 @@ clcknads.pro/v1/
 ||support.microsoft.com.traffic-redir.com^
 ||syicirtpxosk.com^
 ||latoniankeen.*^
+||msgtm.dist-app.com^
+||568vovhs6ekbupjo.*^
 |http*://*?$third-party,popup,badfilter,domain=avgle.com|camwhorestv.org|extremetube.com|pornflip.com|pornhub.com|redtube.com|spankwire.com|streamjav.net|theync.com|tube8.com|vidz7.com|xxxkingtube.com|youporn.com|youporngay.com
+||1.2.3.4^$xhr,3p
+||ziphoumt.net^$3p,xhr
+||baipagid.com^
 @@||tkepyc.com^
 @@||wpnrtnmrewunrtok.xyz^$media
 ##[href^="http://mob1ledev1ces.com/"]
@@ -2663,6 +2668,8 @@ l24g.pw,lg731.me##.banner-inner
 lg731.me##.text-left
 
 !fflares.com
+*$3p,xhr,domain=fileflares.com|fflares.com
+fileflares.com,fflares.com##+js(window.open-defuser.js)
 fflares.com,fileflares.com##.inside_area > div:nth-child(4), .inside_area > div:nth-child(6), .inside_area > div:nth-child(7), .inside_area > div:nth-child(9)
 fflares.com,fileflares.com##form > div:nth-child(15), form > div:nth-child(16)
 fflares.com,fileflares.com##form > .adsbygoogle
@@ -2803,8 +2810,10 @@ flylink.io##.text-left
 !ally.sh
 ally.sh##.adsbygoogle
 
-!buyitonline.store
-buyitonline.store##.box-main > center
+!buyitonline.store|yesmoviesapp.info
+buyitonline.store,yesmoviesapp.info##.box-main > center
+buyitonline.store,yesmoviesapp.info##.text-left
+yesmoviesapp.info##.banner
 
 !fta-fet.com
 fta-fet.com##.col-md-10
@@ -2964,9 +2973,10 @@ oturl.com##[href^="//mellowads.com"]
 oturl.com##.text-left
 
 !dcearn.com
+*$3p,xhr,domain=dcearn.com
 dcearn.com##+js(abort-on-property-write.js, PopUP)
 dcearn.com##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
-dcearn.com##+js(abort-current-inline-script.js, atob, decodeURIComponent
+dcearn.com##+js(abort-current-inline-script.js, atob, decodeURIComponent)
 dcearn.com###link-view > font
 dcearn.com##.box-main > font
 dcearn.com##.text-left
@@ -3137,6 +3147,7 @@ adsrt.me#@#div[id*=ScriptRootC]
 
 !chrt.pw
 chrt.pw##.text-left
+chrt.pw###cookie-pop
 
 !bloggingdekh.xyz
 @@||bloggingdekh.xyz^$generichide
@@ -3269,9 +3280,10 @@ linkrag.com##.col-md-10 > div:nth-child(2)
 ||submit_*.jpg$image
 adnangamer.com##+js(window.open-defuser.js)
 
-!cuto.io
-cuto.io##+js(abort-on-property-read.js, doFunction)
-cuto.io##.faq
+!cuto.io/cu2.io
+*$3p,xhr,domain=cu2.io|cuto.io
+cuto.io,cu2.io##+js(abort-on-property-read.js, doFunction)
+cuto.io,cu2.io##.faq
 
 !ma3lomapost.com
 ma3lomapost.com##.blog-content
@@ -3382,3 +3394,53 @@ ulinkx.net##.alert-success
 
 !allegynews.com
 allegynews.com##.text-left
+
+!freeadultvideos.cc
+freeadultvideos.cc###af-preloader
+
+!nexusmods
+www.nexusmods.com##.popup-endorsement-reminder
+www.nexusmods.com##.mfp-bg
+
+!uiz.io
+uiz.io##+js(window.open-defuser.js)
+uiz.io##+js(abort-on-property-read.js, _0x201e)
+uiz.io##.text-left
+uiz.io##.box-main > div:nth-child(4)
+
+!adsrt.me
+adsrt.me##.container > .row > .col-md-12
+adsrt.me##.col-md-12:nth-child(6)
+
+!probusinesshub.com
+probusinesshub.com##+js(nano-setTimeout-booster.js)
+
+!shrtfly.com
+shrtfly.com##.text-left
+
+!healthhindigyan.in
+healthhindigyan.in##+js(noeval.js)
+healthhindigyan.in##+js(set-constant.js, blockAdblock, true)
+healthhindigyan.in##.text-left
+healthhindigyan.in##.col-md-10 > center:first-child
+healthhindigyan.in###link-view > center:nth-child(6)
+healthhindigyan.in##.banner
+
+!gslink.co
+gslink.co##h4
+gslink.co##p
+
+!enewstalk.com
+enewstalk.com##.text-left
+enewstalk.com## p
+
+!ign.com
+www.ign.com##.wiki-bar:style(position: static !important;)
+
+!tarnwh2i.com
+tarnwh2i.com##p
+tarnwh2i.com##h2, h3
+
+!nwfdailynews.com
+www.nwfdailynews.com###article-storyStrip:style(position: static !important;)
+www.nwfdailynews.com###toprail:style(position: absolute !important;)
