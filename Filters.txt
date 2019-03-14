@@ -418,6 +418,7 @@ pornult.com##.pause-block
 
 !porndoe.com
 ||porndoe.com/misc/*.php
+porndoe.com##.below-video
 
 !https://forums.lanik.us/viewtopic.php?p=103840#p103840
 ||webmd.com/dtmcms/live/webmd/*/oas*.js
@@ -899,8 +900,11 @@ clcknads.pro/v1/
 ||568vovhs6ekbupjo.*^
 |http*://*?$third-party,popup,badfilter,domain=avgle.com|camwhorestv.org|extremetube.com|pornflip.com|pornhub.com|redtube.com|spankwire.com|streamjav.net|theync.com|tube8.com|vidz7.com|xxxkingtube.com|youporn.com|youporngay.com
 ||1.2.3.4^$xhr,3p
-||ziphoumt.net^$3p,xhr
+||ziphoumt.net^$xhr,3p
 ||baipagid.com^
+||z6uc8er1mzx8n2qd.*^
+||undrininvereb.info^
+||propbigo.com^
 @@||tkepyc.com^
 @@||wpnrtnmrewunrtok.xyz^$media
 ##[href^="http://mob1ledev1ces.com/"]
@@ -1754,7 +1758,7 @@ www.adultdvdempire.com##h2:nth-of-type(4)
 www.adultdvdempire.com##.sticky-tagline
 www.adultdvdempire.com##picture > .img-full-responsive
 www.adultdvdempire.com##.spacing-bottom-alt.pull-right.btn-sm.btn-default.btn
-www.adultdvdempire.com##.m-b-2.p-a-1.bg-lightgrey
+www.adultdvdempire.com##.breakout
 www.adultdvdempire.com##.advertisments
 
 !wifiondemand.xfinity.com
@@ -2665,18 +2669,18 @@ www.wikipedia.org##[id*=portalBanner]
 !l24g.pw/lg731.me
 l24g.pw,lg731.me##.adsbygoogle
 l24g.pw,lg731.me##.banner-inner
-lg731.me##.text-left
+l24g.pw,lg731.me##.text-left
 
 !fflares.com
-*$3p,xhr,domain=fileflares.com|fflares.com
 fileflares.com,fflares.com##+js(window.open-defuser.js)
-fflares.com,fileflares.com##.inside_area > div:nth-child(4), .inside_area > div:nth-child(6), .inside_area > div:nth-child(7), .inside_area > div:nth-child(9)
+fflares.com,fileflares.com##.inside_area > div:nth-child(4), .inside_area > div:nth-child(9)
 fflares.com,fileflares.com##form > div:nth-child(15), form > div:nth-child(16)
 fflares.com,fileflares.com##form > .adsbygoogle
 fflares.com,fileflares.com###gdpr-cookie-notice
 fflares.com,fileflares.com##.adbwarning 
 fflares.com,fileflares.com##ins.adsbygoogle
 fflares.com,fileflares.com##[id*=ScriptRoot]
+fflares.com,fileflares.com##.premium_table
 
 !ewa.ac
 ||s3.amazonaws.com^$xhr,domain=ewa.ac
@@ -2810,10 +2814,10 @@ flylink.io##.text-left
 !ally.sh
 ally.sh##.adsbygoogle
 
-!buyitonline.store|yesmoviesapp.info
-buyitonline.store,yesmoviesapp.info##.box-main > center
-buyitonline.store,yesmoviesapp.info##.text-left
-yesmoviesapp.info##.banner
+!buyitonline.store|yesmoviesapp.info|newskart.xyz
+buyitonline.store,yesmoviesapp.info,newskart.xyz##.box-main > center
+buyitonline.store,yesmoviesapp.info,newskart.xyz##.text-left
+buyitonline.store,yesmoviesapp.info,newskart.xyz##.banner
 
 !fta-fet.com
 fta-fet.com##.col-md-10
@@ -3146,6 +3150,7 @@ counsellingresult2016.in##.text-left
 adsrt.me#@#div[id*=ScriptRootC]
 
 !chrt.pw
+*$3p,script,xhr,domain=chrt.pw
 chrt.pw##.text-left
 chrt.pw###cookie-pop
 
@@ -3394,6 +3399,7 @@ ulinkx.net##.alert-success
 
 !allegynews.com
 allegynews.com##.text-left
+allegynews.com##span:not(#countdown):not(#timer)
 
 !freeadultvideos.cc
 freeadultvideos.cc###af-preloader
@@ -3432,7 +3438,7 @@ gslink.co##p
 
 !enewstalk.com
 enewstalk.com##.text-left
-enewstalk.com## p
+enewstalk.com##p
 
 !ign.com
 www.ign.com##.wiki-bar:style(position: static !important;)
@@ -3444,3 +3450,27 @@ tarnwh2i.com##h2, h3
 !nwfdailynews.com
 www.nwfdailynews.com###article-storyStrip:style(position: static !important;)
 www.nwfdailynews.com###toprail:style(position: absolute !important;)
+
+!pornl.com
+pornl.com##.vda-item
+
+!privateclassics.com
+www.privateclassics.com###video-pause-zone
+www.privateclassics.com##[class^="prvt-banner"]
+
+!myfreeblack.com
+||myfreeblack.com/sw.js$script,1p
+myfreeblack.com##+js(abort-on-property-read.js, mfbDetect)
+
+!worldsex.com
+www.worldsex.com###video_banner
+
+!soapymassage.com
+www.soapymassage.com##.tlcRightArrow
+www.soapymassage.com##.tlcLeftArrow
+
+!porn7.xxx
+||porn7.xxx/sw.js$script,1p
+
+!imgdrive.net
+imgdrive.net##+js(abort-current-inline-script.js, document.getElementById, redirect-ab)
