@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 2.2
+!Update: 2.3
 
 !silkengirl.com
 www.silkengirl.com##.fixed.header:style(position: sticky !important;)
