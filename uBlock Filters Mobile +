@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 2.3
+!Update: 2.4
 
 !silkengirl.com
 www.silkengirl.com##.fixed.header:style(position: sticky !important;)
@@ -166,3 +166,7 @@ www.bustybloom.com###header:style(position: absolute !important;)
 
 !pornrabbit.com
 m.pornrabbit.com##.mobilebanner
+
+!proporn.com
+m.proporn.com##.ad
+m.proporn.com###banner_overlay-postitial-content
