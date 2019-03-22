@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 133
+!Update: 135
 
 !adf.ly
 ||adplxmd.com^
@@ -155,8 +155,7 @@ mobilegeeks.de##DIV[style="background:#000000;"]
 /log_interaction?
 ||youtube.com/sw.js$script,1p
 www.youtube.com###enhancer-for-youtube-toolbar
-www.youtube.com##.ytp-button:nth-child(8)
-www.youtube.com##.ytp-fullerscreen-edu-text
+www.youtube.com##.ytp-button:nth-child(9)
 www.youtube.com##.ytp-fullerscreen-edu-chevron
 
 !newimagepost.com
@@ -905,6 +904,13 @@ clcknads.pro/v1/
 ||z6uc8er1mzx8n2qd.*^
 ||undrininvereb.info^
 ||propbigo.com^
+||styleui.*^
+||ecpms.net^
+||sexpennyauctions.com^
+||shockwave1.club^
+||install.notify-service.com^
+||eneritchmax.info^
+||xpgcrmxejlgig.com^
 @@||tkepyc.com^
 @@||wpnrtnmrewunrtok.xyz^$media
 ##[href^="http://mob1ledev1ces.com/"]
@@ -917,14 +923,11 @@ clcknads.pro/v1/
 ##.ads
 ##.imbar
 ##[href^="https://syndication.exdynsrv.com"]
-
-!counters popups from out.tubecorporate.com
-txxx.com,hclips.com,hotmovs.com,upornia.com,hdzog.com,tuberel.com##.nopop
-txxx.com,hclips.com,hotmovs.com,upornia.com,hdzog.com,tuberel.com##.hYbusCont
-
+##._ln-floater
+##.hYbusCont
+##.nopop
+!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org,babesxworld.com,cocogals.com,sexybabes.club,papajizz.com,novoporn.com,thousandbabes.com,redpornblog.com,xxxdessert.com,mofosex.com,babeuniversum.com,novojoy.com,sexybabesz.com##+js(abort-on-property-read.js, ExoLoader)
-
-sensualgirls.org,deliciousbabes.org,girlsofdesire.org##+js(abort-on-property-read.js, CustomEvent)
 
 mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,babesxworld.com,cocogals.com,hottystop.com,erosberry.com,spicybabe.net,slutsandangels.com,simplemetart.com,cherrynudes.com,fooxybabes.com,hotbabeswanted.com,ftopx.com,purenudegirls.com,sexykittenporn.com,bustybloom.com,nudepatch.net,livejasminbabes.net,sexybabesz.com,zazzybabes.com##+js(abort-on-property-read.js, loadTool)
 
@@ -936,7 +939,7 @@ indishare.me,uploaded.net##+js(nano-setTimeout-booster.js)
 realjapansex.com,fap18porn.pro##+js(abort-on-property-read.js, popit)
 realjapansex.com,fap18porn.pro##+js(addEventListener-defuser.js, popstate, noPop)
 realjapansex.com,fap18porn.pro##+js(window.open-defuser.js)
-
+!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 !puremature.com
 puremature.com##.epoch-box
 
@@ -1578,10 +1581,6 @@ xhamster.com##.red-round
 !pornhub.com
 ||d1zqiu3u1zvqy8.cloudfront.net/x.swf$object
 ||cdn1d-static-shared.phncdn.com/iframe-1.1.5.html$subdocument
-www.pornhub.com###rn2c9obspya1471044592810_1471044593020
-www.pornhub.com###azzqppqo1zepeopdd81471044592811_0_1471044593137
-www.pornhub.com###eqlheet22pe2pblnwo2w1478224785926logo
-www.pornhub.com###zp9n8i4h3221ymebh7tw1478224839807logo
 www.pornhub.com###EPH-scroll
 www.pornhub.com##.streamatesModelsContainer.sectionWrapper
 www.pornhub.com##div.sectionWrapper:nth-of-type(3)
@@ -1595,8 +1594,8 @@ www.xvideos.com###mobile-slogan
 www.xvideos.com###page-go-up
 
 !redtube.com
-www.redtube.com##.hd.ldkp4cvzcywu.ldkp4cvzcyw
-www.redtube.com##.hd.w28t0dur47g333z2ve1u.w28t0dur47g333z2ve1r
+www.redtube.com###show_page_streamate
+www.redtube.com###title_filter_wrapper > div:not(.filters_wrapper)
 
 !4tube.com
 ||www.4tube.com/trfhaus/
@@ -1633,7 +1632,6 @@ tubepornclassic.com##.movable-top.tpcadv
 tubepornclassic.com##.movable-top.fel-side > .adv-title
 tubepornclassic.com##.movable-top.fel-side > noindex
 tubepornclassic.com##.tpc-footer--ban.box
-tubepornclassic.com##.hYbusCont
 tubepornclassic.com##.SimneSD
 tubepornclassic.com##.topad
 
@@ -1646,23 +1644,15 @@ www.hdvintagetube.com##.ad-close
 www.hdvintagetube.com##.SAbnsBotBl
 
 !21naturals.com / freetour1
-freetour1.21naturals.com##.inlineLabels
-freetour1.21naturals.com###SidebarPitch
-freetour1.21naturals.com###ActorsList_All > .tlcAllContentHolder > .tlcRightArrowContainer
-freetour1.21naturals.com###ActorsList_All > .tlcAllContentHolder > .tlcLeftArrowContainer
-freetour1.21naturals.com###VideosList_All > .tlcAllContentHolder > .tlcLeftArrowContainer
-freetour1.21naturals.com###VideosList_All > .tlcAllContentHolder > .tlcRightArrowContainer
-freetour1.21naturals.com##.tlcRightArrowContainer
-freetour1.21naturals.com##.tlcLeftArrowContainer
-www.21naturals.com###ActorsList_All > .tlcAllContentHolder > .tlcRightArrowContainer
-www.21naturals.com###ActorsList_All > .tlcAllContentHolder > .tlcLeftArrowContainer
-www.21naturals.com###VideosList_All > .tlcAllContentHolder > .tlcLeftArrowContainer
-www.21naturals.com###VideosList_All > .tlcAllContentHolder > .tlcRightArrowContainer
-www.21naturals.com###SidebarPitch
-www.21naturals.com##.inlineLabels
-www.21naturals.com##.tlcLeftArrowContainer
-www.21naturals.com##.tlcRightArrowContainer
-www.21naturals.com###PromoBannerOverlay
+www.21naturals.com,freetour1.21naturals.com##ActorsList_All > .tlcAllContentHolder > .tlcRightArrowContainer
+www.21naturals.com,freetour1.21naturals.com###ActorsList_All > .tlcAllContentHolder > .tlcLeftArrowContainer
+www.21naturals.com,freetour1.21naturals.com###VideosList_All > .tlcAllContentHolder > .tlcLeftArrowContainer
+www.21naturals.com,freetour1.21naturals.com###VideosList_All > .tlcAllContentHolder > .tlcRightArrowContainer
+www.21naturals.com,freetour1.21naturals.com###SidebarPitch
+www.21naturals.com,freetour1.21naturals.com##.inlineLabels
+www.21naturals.com,freetour1.21naturals.com##.tlcLeftArrowContainer
+www.21naturals.com,freetour1.21naturals.com##.tlcRightArrowContainer
+www.21naturals.com,freetour1.21naturals.com###PromoBannerOverlay
 
 !ddf.com
 ddfbusty.com###join_widget_access
@@ -1807,6 +1797,7 @@ www.sexykittenporn.com###pornplayer
 
 !girlsofdesire.org
 ||www.girlsofdesire.org/php/gofd_fl.js$script
+girlsofdesire.org##+js(abort-current-inline-script.js, CustomEvent, getexoloader)
 www.girlsofdesire.org###box_671
 www.girlsofdesire.org###box_669
 www.girlsofdesire.org###box_825
@@ -1983,7 +1974,7 @@ www.sensualgirls.org##div:nth-child(24)
 www.sensualgirls.org##[style*="base64"]
 
 !mainbabes.com
-mainbabes.com/*/banners/*$image
+||mainbabes.com/*/banners/*$image,1p
 www.mainbabes.com##.spots
 www.mainbabes.com##.item:nth-child(7) > .inner
 www.mainbabes.com##.button_help
@@ -1992,6 +1983,7 @@ www.mainbabes.com##.spots_large
 www.mainbabes.com###thumbs_left > div.row:nth-of-type(2)
 
 !deliciousbabes.org
+deliciousbabes.org##+js(abort-current-inline-script.js, CustomEvent, getexoloader)
 www.deliciousbabes.org###box_547
 www.deliciousbabes.org###box_452
 www.deliciousbabes.org###box_502
@@ -2010,12 +2002,13 @@ www.deliciousbabes.org###box_537
 www.deliciousbabes.org##.banners
 www.deliciousbabes.org##.contentbanner
 www.deliciousbabes.org##.block:first-child, .block:nth-child(4), .block:nth-child(5), block:nth-child(8), .block:nth-child(9)
+www.deliciousbabes.org##[href^="http://refer.ccbill.com/cgi-bin/clicks.cgi"] > div
 
 !penthouse.com
 ||penthouse.com/assets/img/*.png$image
 
 !livejasminbabes.net
-||www.livejasminbabes.net/istripper$frame
+||www.livejasminbabes.net/istripper$frame,1p
 www.livejasminbabes.net##.istripper
 www.livejasminbabes.net##.second-candy
 www.livejasminbabes.net##.onhover
@@ -2117,7 +2110,7 @@ www.temptingangels.org###box_537
 www.temptingangels.org##.banner
 
 !freeporn.hu
-||pic.freeporn.hu/images/banners/virtuagirlhd/*.gif$image
+||pic.freeporn.hu/images/banners/*/*.gif$image
 freeporn.hu###adbritepartnersbox
 freeporn.hu##div.righthead:nth-of-type(5)
 freeporn.hu##[src*="banner.gif"]
@@ -2195,7 +2188,7 @@ www.novoglam.com###myGalleryTags
 
 !baberoad.com
 kliktrkr.com/cdn/zp63
-baberoad.com##tr:style(background: transparent !important)
+baberoad.com##tr:style(background: transparent !important;)
 www.baberoad.com##a[rel*="nofollow"][target*="_blank"][href$=".com"]
 
 !cocogals.com
@@ -2306,8 +2299,6 @@ www.bustynudebabes.com##.bnr
 !dattr.com
 @@||edenporn.com/cdn/cam/*$media,domain=dattr.com
 
-!www.babesandbitches.net
-www.babesandbitches.net###gallery-text
 
 !slutsandangels.com
 www.slutsandangels.com##.posts > div
@@ -2447,10 +2438,11 @@ www.nextdoordolls.com##.slxnHLXpBxmG
 www.nextdoordolls.com##.smart-page-loader
 
 !babesandbitches.net
-babesandbitches.net##.owner
+www.babesandbitches.net##.owner
 www.babesandbitches.net##[href="https://pornabc.com"]
 www.babesandbitches.net###nav-ul > li:nth-child(7)
 www.babesandbitches.net###nav-ul > li:nth-child(8)
+www.babesandbitches.net###gallery-text
 
 !nudity911
 www.nudity911.com##[src*="banners"]
@@ -2510,9 +2502,6 @@ isea2016.info##.side_box:nth-child(-n+2)
 isea2016.info##.side_box:last-child
 isea2016.info##a[href*="/porngirl.php"]:nth-child(4)
 
-!planetsuzy.org
-www.planetsuzy.org##._ln-floater
-
 !hotxxxpussy.com
 /xtube.php
 hotxxxpussy.com##+js(window.open-defuser.js)
@@ -2564,7 +2553,6 @@ www.hotbabeswanted.com###sticker:style(position: sticky !important;)
 
 !collectionofbestporn.com
 collectionofbestporn.com##+js(abort-on-property-read.js, _0xbbc1)
-collectionofbestporn.com##._ln-floater
 collectionofbestporn.com###lower-ads
 collectionofbestporn.com##.banner-mobile-header
 
@@ -2660,8 +2648,6 @@ www.bustybloom.com###nat_top
 asspoint.com##+js(abort-on-property-read.js, url)
 www.asspoint.com##.wrap > :has-text(advertisement)
 
-!nudecelebforum.com
-www.nudecelebforum.com##._ln-floater
 
 !wikipedia.org
 www.wikipedia.org##[id*=portalBanner]
@@ -2814,10 +2800,10 @@ flylink.io##.text-left
 !ally.sh
 ally.sh##.adsbygoogle
 
-!buyitonline.store|yesmoviesapp.info|newskart.xyz
-buyitonline.store,yesmoviesapp.info,newskart.xyz##.box-main > center
-buyitonline.store,yesmoviesapp.info,newskart.xyz##.text-left
-buyitonline.store,yesmoviesapp.info,newskart.xyz##.banner
+!buyitonline.store|yesmoviesapp.info|newskart.xyz|viralnow.xyz
+buyitonline.store,yesmoviesapp.info,newskart.xyz,viralnow.xyz##.box-main > center
+buyitonline.store,yesmoviesapp.info,newskart.xyz,viralnow.xyz##.text-left
+buyitonline.store,yesmoviesapp.info,newskart.xyz,viralnow.xyz##.banner
 
 !fta-fet.com
 fta-fet.com##.col-md-10
@@ -2847,6 +2833,7 @@ bobs-tube.com##.content > .box
 uploadbank.com##+js(noeval.js)
 www.uploadbank.com###container > center
 www.uploadbank.com###container > font
+www.uploadbank.com##.wrapper > center
 
 !ftopx.com
 ftopx.com##+js(abort-current-inline-script.js, CustomEvent, getexoloader)
@@ -3100,7 +3087,9 @@ myhdporn.net##+js(abort-on-property-read.js, ExoLoader)
 @@||imgdew.com^$image,domain=imgdew.pw
 @@||imgdew.pw/js/xupload.js$script,1p
 /vtrack$xhr,1p,domain=imgdew.pw|imgview.pw
-imgdew.pw,imgtown.net,imgtown.pw,imgview.pw##+js(abort-current-inline-script.js, decodeURI, decodeURIComponent)
+imgview.pw,imgdew.pw#@#+js(abort-on-property-write.js, _pop)
+imgview.*#@#+js(abort-current-inline-script.js, atob, tabunder)
+imgview.pw,imgdew.pw##+js(window.open-defuser.js)
 
 !dz4link.com
 *$3p,script,xhr,domain=dz4link.com
@@ -3190,6 +3179,8 @@ www.shesfreaky.com##.prefooter
 !spankbang.com
 spankbang.com##.advrt
 spankbang.com###player_positions
+spankbang.com##.live_api_results_holder
+spankbang.com##.station
 
 !erome.com
 www.erome.com##.free-space
@@ -3253,7 +3244,7 @@ videopornoitalia.it##+js(abort-current-inline-script.js, CustomEvent, getexoload
 porneq.com##.bAd
 
 !pornissimo.org
-||www.pornissimo.org/player/*$frame
+||www.pornissimo.org/player/*$frame,1p
 ||www.pornissimo.org/*.php$script,1p
 www.pornissimo.org###placenta > center
 
@@ -3474,3 +3465,29 @@ www.soapymassage.com##.tlcLeftArrow
 
 !imgdrive.net
 imgdrive.net##+js(abort-current-inline-script.js, document.getElementById, redirect-ab)
+
+!imgtaxi.com
+imgtaxi.com##.if
+
+!freepornstream.cc
+freepornstream.cc##.preloader
+
+! 3/19/2019 imgrock.pw
+||imgrock.pw/*.php$script,1p
+*$3p,script,domain=imgrock.pw
+imgrock.pw##+js(abort-current-inline-script.js, CustomEvent, getexoloader)
+
+
+!pornrabbit.com
+||pornrabbit.com/d5.html$script,1p
+
+!proporn.com
+www.proporn.com##.contain:nth-child(10)
+
+!pornalized.com
+pornalized.com##+js(abort-on-property-write.js, __htapop)
+pornalized.com###c2p
+pornalized.com###s2t
+
+!babesandstars.com
+www.babesandstars.com##.ad_pause
