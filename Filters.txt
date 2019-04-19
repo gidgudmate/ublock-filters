@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 139
+!Update: 139.1
 
 !adf.ly
 ||adplxmd.com^
@@ -1679,11 +1679,11 @@ xhamster.com##.rendered.rectangle.cams-widget
 xhamster.com##.list-items.spot-container.right-rectangle
 xhamster.com##.video-category-ads.spot-container.right-rectangle
 xhamster.com##.top-video-block--banner.top-video-block
-!#if env_firefox
+
 !#if env_mobile
 xhamster.com##.wrapper
 !#endif
-!#endif
+
 xhamster.com##.list-items.wid-spot-container.right-rectangle
 xhamster.com##.up-arrow
 xhamster.com##.xplayer-hover-menu
