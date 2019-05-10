@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 142
+!Update: 142.1
 
 !adf.ly
 ||adplxmd.com^
@@ -963,7 +963,6 @@ clcknads.*^
 ||pknzoizczuhjvk.com^
 ||moavoara.net^
 ||ejoonsoo.net^
-||mine-top-gratis-application.pw^
 ||adultvideotits.club^
 ||fast.list-sked.com^
 ||bodlines.com^
@@ -987,6 +986,8 @@ clcknads.*^
 ||record.secure.acraffiliates.com^
 ||usa.camilla-par.com^
 ||hotvideosluts.club^
+||mine-top-*-*.pw^
+||blogsweetgirl.club^
 @@||wpnrtnmrewunrtok.xyz^$media
 @@||cbox.ws^$3p
 ##[href^="http://adultfriendfinder.com/"]
