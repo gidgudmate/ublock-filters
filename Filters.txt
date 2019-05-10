@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 142.2
+!Update: 143
 
 !adf.ly
 ||adplxmd.com^
@@ -963,6 +963,7 @@ clcknads.*^
 ||pknzoizczuhjvk.com^
 ||moavoara.net^
 ||ejoonsoo.net^
+||mine-*-*-application.pw^
 ||adultvideotits.club^
 ||fast.list-sked.com^
 ||bodlines.com^
@@ -986,9 +987,9 @@ clcknads.*^
 ||record.secure.acraffiliates.com^
 ||usa.camilla-par.com^
 ||hotvideosluts.club^
-||mine-top-*-*.pw^
 ||blogsweetgirl.club^
 ||openshopapplicationads.*^
+||artgreatbaby.club^
 @@||wpnrtnmrewunrtok.xyz^$media
 @@||cbox.ws^$3p
 ##[href^="http://adultfriendfinder.com/"]
@@ -2562,6 +2563,8 @@ sexy-youtubers.com##+js(abort-on-property-read.js, ExoLoader)
 sexy-youtubers.com##+js(window.open-defuser.js)
 sexy-youtubers.com###forumcustom
 sexy-youtubers.com##.td-scroll-up
+sexy-youtubers.com##[href="https://www.porntrex.com/"]
+sexy-youtubers.com##[href="http://weknowporn.com"]
 
 !thothub.tv
 thothub.tv##.g1-back-to-top
@@ -4036,12 +4039,12 @@ www.nakedbabes.club##[class*="banner"]
 
 !letmejerk.com
 letmejerk.com/*.php$script,1p
-letmejerk.com##+js(abort-on-property-read.js, open)
+letmejerk.com##+js(abort-on-property-read.js, _0xd129)
 www.letmejerk.com##.clearfix > [class]:not([id]):not([class*=cont]):not([class*=video])
 www.letmejerk.com##.container > .nav-main > li:has-text(/Live|Laid/)
 www.letmejerk.com##.cams-widget
 www.letmejerk.com##.goup
-www.letmejerk.com##[class^="lmj5"]
+www.letmejerk.com##[class^="lmj"]
 !www.letmejerk.com##div[class]:not(.clearfix):not(.thumbs):not(.footer):not([class*=wrapper]):not(.nav):not(.header):not(.container):not(.search):not(.title):not([class*=th]):not(.bottom-about):not([class*=cont]):not(.comments-form):not([class*=video]):not([id]):not(.player)
 
 !yulia-flexshow.online
@@ -4059,3 +4062,6 @@ www.keezmovies.com##.js-cookie-policy
 !extremetube.com
 www.extremetube.com##[id*=lead]
 www.extremetube.com##.backToTop
+
+!123moviesfull.net
+123moviesfull.net##+js(nano-setInterval-booster.js, , clientside)
