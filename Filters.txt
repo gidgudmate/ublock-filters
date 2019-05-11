@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 143
+!Update: 144
 
 !adf.ly
 ||adplxmd.com^
@@ -986,10 +986,17 @@ clcknads.*^
 ||security-update.*.top^
 ||record.secure.acraffiliates.com^
 ||usa.camilla-par.com^
-||hotvideosluts.club^
-||blogsweetgirl.club^
 ||openshopapplicationads.*^
-||artgreatbaby.club^
+/support/call-now1/index.html$document
+||1zv9jakhux.com^
+||orboreshitert.info^
+/dating-ar/index.html$document
+/support/index.html?p_num=$document
+||mnoa6ez1eq.com^
+||newsfeed.support^
+||reverseparameter.site
+*.club/private/?id=fine*^$document
+||roolgage.com
 @@||wpnrtnmrewunrtok.xyz^$media
 @@||cbox.ws^$3p
 ##[href^="http://adultfriendfinder.com/"]
@@ -1754,6 +1761,7 @@ www.pornhub.com##[class*="Banner"]
 www.pornhub.com###abAlert
 www.pornhub.com##.videoBox:has(.premiumIcon)
 www.pornhub.com###welcome
+www.pornhub.com##milktruck
 
 !xvideos.com
 www.xvideos.com##.sponsor-popup
@@ -1768,7 +1776,7 @@ www.redtube.com##[id*="rel_videos"]:has(.premium-video-icon)
 www.redtube.com##.abovePlayer
 www.redtube.com##.removeAdLink:not(#content_wrapper):not(.main_menu_btn):not(#header_login)
 www.redtube.com###content_container > div:not([id])
-www.redtube.com#@#[style*="height: 320px;"]
+www.redtube.com###event_row_section
 
 !4tube.com
 www.4tube.com###\32 3403 > a[href^="/adc/4tube_b2.php"]
@@ -1868,7 +1876,7 @@ www.aznude.com##.jw-reset.jw-related-shelf-contents
 www.aznude.com##.text-box
 www.aznude.com###disqus_thread
 www.aznude.com##.player-position:style(position: sticky !important;)
-www.aznude.com##[class*="ad"]:not([class*=mfp])
+www.aznude.com##[class*="ad"]:not([class*=mfp]):not(.header):not(.container):not(.row):not(.btn):not(.search-bar):not(.ui-autocomplete-input):not(.no-side-padding):not(.sticky-visible):not([class*=jw]):not(.noprint):not(.col-xs-6)
 
 !4chan.org
 boards.4chan.org##.warning.notification
