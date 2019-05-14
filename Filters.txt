@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 144
+!Update: 145
 
 !adf.ly
 ||adplxmd.com^
@@ -997,6 +997,17 @@ clcknads.*^
 ||reverseparameter.site
 *.club/private/?id=fine*^$document
 ||roolgage.com
+||servedbytackingdesk.com^
+||16b587txj1.com^
+||newfile.club^
+||microsoft.com-maintaining-pc.live^
+||push-time.com^
+||peegh1o.com^
+||reallifecam.com^
+||time2notification.com^
+http://*.com/*?key=*&psid=*$document
+http://*.com/*=*&refer=*key=*$document
+||addtoany.com^
 @@||wpnrtnmrewunrtok.xyz^$media
 @@||cbox.ws^$3p
 ##[href^="http://adultfriendfinder.com/"]
@@ -1019,7 +1030,6 @@ clcknads.*^
 ##[href^="http://bigpornlist.com/"]
 ##[href^="https://www.brazzersnetwork.com/home/"]
 ##[href^="http://www.camhub.cc/"]
-##[href^="https://www.clips4sale.com/"]
 ##[href^="http://dbestporn.com/"]
 ##[href^="https://desklks.com/"]
 ##[href^="https://dirtybros.com/"]
@@ -1060,7 +1070,6 @@ clcknads.*^
 ##[href^="http://www.punish-her.com/"]
 ##[href^="http://sexpornlist.net/"]
 ##[href^="https://www.silkencams.com/"]
-##[href="https://spankbang.com/"]:not([href*="google.com"])
 ##[href^="https://syndication.exdynsrv.com/"]
 ##[href^="http://theteenbay.co"]
 ##[href^="https://teenpornsites.org"]
@@ -1113,7 +1122,7 @@ clcknads.*^
 ##.ads
 ##.imbar
 ##._ln-floater
-##.hYbusCont
+##.hYbus
 ##.nopop
 !---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org,babesxworld.com,cocogals.com,sexybabes.club,papajizz.com,novoporn.com,thousandbabes.com,redpornblog.com,xxxdessert.com,babeuniversum.com,novojoy.com,sexybabesz.com,theomegaproject.org,angelgals.com,letmejerk.com##+js(abort-on-property-read.js, ExoLoader)
@@ -1259,6 +1268,7 @@ upornia.com##.sidebar
 upornia.com##.feedback__icon
 upornia.com##.feedback__text
 upornia.com###toTop
+upornia.com##.adv-name-small
 
 !drugabuse.com
 drugabuse.com##.cr-stickybar > .container-fluid
@@ -1312,6 +1322,7 @@ www.peekvids.com##.invideoBlock
 www.peekvids.com##.container > .row > .col-lg-auto.col-12
 www.peekvids.com##.block-advert
 www.peekvids.com##.share
+www.peekvids.com##[class$="promotion"]
 
 !veronicca.com
 www.veronicca.com##.undervideo_banner
@@ -1662,7 +1673,8 @@ www.vivthomas.com##.signup-float-button.hidden-xs.hidden-sm.hidden-md
 www.vivthomas.com###launcher
 
 !pornve.com
-pornve.com##div#oly:nth-of-type(1)
+pornve.com##td:nth-child(2)
+pornve.com###oly:nth-of-type(1)
 pornve.com###closex
 pornve.com##.video_ad
 
@@ -1759,9 +1771,11 @@ www.pornhub.com##.joinLinkWrapper
 www.pornhub.com##.abovePlayer
 www.pornhub.com##[class*="Banner"]
 www.pornhub.com###abAlert
-www.pornhub.com##.videoBox:has(.premiumIcon)
+!www.pornhub.com##.videoBox:has(.premiumIcon)
 www.pornhub.com###welcome
 www.pornhub.com##milktruck
+www.pornhub.com##[id^="v"]:has(.premiumIcon):not(#vpContentContainer)
+www.pornhub.com##.showingCounter:style(max-height: 10px !important;)
 
 !xvideos.com
 www.xvideos.com##.sponsor-popup
@@ -1834,6 +1848,7 @@ ddfnetwork.com##.navbar:style(position: absolute !important;)
 @@||phncdn.com/stattracker-1.4.2.js$domain=www.youporn.com
 www.youporn.com###EYP-scroll
 www.youporn.com##.adLinkText
+www.youporn.com##.ad-wrapper
 
 !vqporn.com
 www.vqporn.com##.background
@@ -1871,11 +1886,10 @@ www.tube8.com##[id^="boxVideo"]:has-text(/Blacked|Black|BLACKED|BLACK|BBC|bbc/)
 www.facebook.com##.e_1710e1xp16.pagelet > ._1-ia > ._4-u8._20os._2tyk._1-ib._4-u2
 
 !aznude.com
-www.aznude.com##.recommended:nth-child(12)
-www.aznude.com##.jw-reset.jw-related-shelf-contents
+www.aznude.com##[href^="http://linktrack.info"]
+www.aznude.com##.recommended:nth-child(10), .recommended:nth-child(12)
 www.aznude.com##.text-box
 www.aznude.com###disqus_thread
-www.aznude.com##.player-position:style(position: sticky !important;)
 www.aznude.com##[class*="ad"]:not([class*=mfp]):not(.header):not(.container):not(.row):not(.btn):not(.search-bar):not(.ui-autocomplete-input):not(.no-side-padding):not(.sticky-visible):not([class*=jw]):not(.noprint):not(.col-xs-6)
 
 !4chan.org
@@ -2012,6 +2026,7 @@ www.silkengirl.com##.menu_holder > .item:nth-child(7)
 www.silkengirl.net##.item:nth-child(6) > .item_inner, .item:nth-child(8) > .item_inner
 
 !babes.com
+||project1content.com/Babes/Tour/PROMOS/*$image,domain=babes.com
 www.babes.com##.floating-footer.js-floating-footer
 www.babes.com##.video-show-overlay
 
@@ -2571,8 +2586,6 @@ sexy-youtubers.com##+js(abort-on-property-read.js, ExoLoader)
 sexy-youtubers.com##+js(window.open-defuser.js)
 sexy-youtubers.com###forumcustom
 sexy-youtubers.com##.td-scroll-up
-sexy-youtubers.com##[href="https://www.porntrex.com/"]
-sexy-youtubers.com##[href="http://weknowporn.com"]
 
 !thothub.tv
 thothub.tv##.g1-back-to-top
@@ -2586,6 +2599,7 @@ thothub.tv##.category-uncategorized
 thothub.tv##.g1-injected-unit
 thothub.tv##[id*="ScriptRoot"]
 thothub.tv##p > [href^="https://forum.thothub.tv/"]
+thothub.tv##.g1-row-inner > #secondary
 
 !feet9.com
 feet9.com##.hvr-pulse
@@ -2647,8 +2661,8 @@ pornflip.com##.banner-top
 pornflip.com##.horiz-content > .a-label
 pornflip.com##.share
 pornflip.com###mediaPlayerBanner
-pornflip.com##.bottom-banner
 pornflip.com##.highBanner
+pornflip.com##.add_href_jsclick
 
 !sexybabes.club
 www.sexybabes.club##.bannermob
@@ -4047,13 +4061,11 @@ www.nakedbabes.club##[class*="banner"]
 
 !letmejerk.com
 letmejerk.com/*.php$script,1p
-letmejerk.com##+js(abort-on-property-read.js, _0xd129)
 www.letmejerk.com##.clearfix > [class]:not([id]):not([class*=cont]):not([class*=video])
 www.letmejerk.com##.container > .nav-main > li:has-text(/Live|Laid/)
 www.letmejerk.com##.cams-widget
 www.letmejerk.com##.goup
 www.letmejerk.com##[class^="lmj"]
-!www.letmejerk.com##div[class]:not(.clearfix):not(.thumbs):not(.footer):not([class*=wrapper]):not(.nav):not(.header):not(.container):not(.search):not(.title):not([class*=th]):not(.bottom-about):not([class*=cont]):not(.comments-form):not([class*=video]):not([id]):not(.player)
 
 !yulia-flexshow.online
 yulia-flexshow.online##[class*="ads"]
@@ -4073,3 +4085,10 @@ www.extremetube.com##.backToTop
 
 !123moviesfull.net
 123moviesfull.net##+js(nano-setInterval-booster.js, , clientside)
+
+!deviantart.com
+www.deviantart.com##.ad-wrapper
+www.deviantart.com##.mobile_instream_ad_resizable
+
+!pornid.xxx
+www.pornid.xxx##.rsidebar-spots-holder
