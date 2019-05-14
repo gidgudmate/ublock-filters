@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 145.1
+!Update: 145.2
 
 !adf.ly
 ||adplxmd.com^
@@ -1886,6 +1886,7 @@ www.tube8.com##[id^="boxVideo"]:has-text(/Blacked|Black|BLACKED|BLACK|BBC|bbc/)
 www.facebook.com##.e_1710e1xp16.pagelet > ._1-ia > ._4-u8._20os._2tyk._1-ib._4-u2
 
 !aznude.com
+||aznude.com/worker.js$script,1p
 www.aznude.com##[href^="http://linktrack.info"]
 www.aznude.com##.recommended:nth-child(10), .recommended:nth-child(12)
 www.aznude.com##.text-box
