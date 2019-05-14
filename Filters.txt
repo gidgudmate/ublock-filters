@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 145
+!Update: 145.1
 
 !adf.ly
 ||adplxmd.com^
@@ -1890,7 +1890,7 @@ www.aznude.com##[href^="http://linktrack.info"]
 www.aznude.com##.recommended:nth-child(10), .recommended:nth-child(12)
 www.aznude.com##.text-box
 www.aznude.com###disqus_thread
-www.aznude.com##[class*="ad"]:not([class*=mfp]):not(.header):not(.container):not(.row):not(.btn):not(.search-bar):not(.ui-autocomplete-input):not(.no-side-padding):not(.sticky-visible):not([class*=jw]):not(.noprint):not(.col-xs-6)
+www.aznude.com##[class*="ad"]:not([class*=mfp]):not(.header):not(.container):not(.row):not(.btn):not(.search-bar):not(.ui-autocomplete-input):not(.no-side-padding):not(.sticky-visible):not([class*=jw]):not(.noprint):not(.col-xs-6):not(.col-xs-4)
 
 !4chan.org
 boards.4chan.org##.warning.notification
