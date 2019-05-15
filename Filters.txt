@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 145.1
+!Update: 145.3
 
 !adf.ly
 ||adplxmd.com^
@@ -1774,10 +1774,8 @@ www.pornhub.com###welcome
 www.pornhub.com##milktruck
 www.pornhub.com##.showingCounter:style(max-height: 10px !important;)
 
-!#if env_mobile
-!#if env_firefox
+!#if env_chrome
 www.pornhub.com##[id^="v"]:has(.premiumIcon):not(#vpContentContainer)
-!#endif
 !#endif
 
 !xvideos.com
