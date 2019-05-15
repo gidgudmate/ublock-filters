@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 145.2
+!Update: 145.1
 
 !adf.ly
 ||adplxmd.com^
@@ -1122,10 +1122,9 @@ http://*.com/*=*&refer=*key=*$document
 ##.ads
 ##.imbar
 ##._ln-floater
-##.hYbus
 ##.nopop
 !---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org,babesxworld.com,cocogals.com,sexybabes.club,papajizz.com,novoporn.com,thousandbabes.com,redpornblog.com,xxxdessert.com,babeuniversum.com,novojoy.com,sexybabesz.com,theomegaproject.org,angelgals.com,letmejerk.com##+js(abort-on-property-read.js, ExoLoader)
+sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org,babesxworld.com,cocogals.com,sexybabes.club,papajizz.com,novoporn.com,thousandbabes.com,redpornblog.com,xxxdessert.com,babeuniversum.com,novojoy.com,sexybabesz.com,theomegaproject.org,angelgals.com##+js(abort-on-property-read.js, ExoLoader)
 
 mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,babesxworld.com,cocogals.com,hottystop.com,erosberry.com,spicybabe.net,slutsandangels.com,simplemetart.com,cherrynudes.com,fooxybabes.com,hotbabeswanted.com,ftopx.com,purenudegirls.com,sexykittenporn.com,bustybloom.com,nudepatch.net,livejasminbabes.net,sexybabesz.com,zazzybabes.com,sexyaporno.com,exgirlfriendmarket.com,angelgals.com,steezylist.com,eroticbeauties.net,sexybabesart.com,sexybabes.club##+js(abort-on-property-read.js, loadTool)
 
@@ -1202,13 +1201,13 @@ www.camwhoreshd.com##.page__header > :nth-child(2)
 @@||yurivideo.com^$image,domain=txxx.com
 txxx.com##.col--size--s.col--move-down.col > .heading--dark.heading > .heading__title
 txxx.com##.top-banner__img
-txxx.com##.oImef0.ivbs
 txxx.com##.col--size--s
 txxx.com##tbody
 txxx.com##.link_light
 txxx.com##.text-center
 txxx.com##.rek-item__header
 txxx.com##.section--video > [class]:has-text(Advertisement):not(.player)
+txxx.com##.hYbus
 
 !twistys.com
 ||pabbp.com/frogs/*=*$frame
@@ -1771,11 +1770,15 @@ www.pornhub.com##.joinLinkWrapper
 www.pornhub.com##.abovePlayer
 www.pornhub.com##[class*="Banner"]
 www.pornhub.com###abAlert
-!www.pornhub.com##.videoBox:has(.premiumIcon)
 www.pornhub.com###welcome
 www.pornhub.com##milktruck
-www.pornhub.com##[id^="v"]:has(.premiumIcon):not(#vpContentContainer)
 www.pornhub.com##.showingCounter:style(max-height: 10px !important;)
+
+!#if env_mobile
+!#if env_firefox
+www.pornhub.com##[id^="v"]:has(.premiumIcon):not(#vpContentContainer)
+!#endif
+!#endif
 
 !xvideos.com
 www.xvideos.com##.sponsor-popup
@@ -1892,6 +1895,7 @@ www.aznude.com##.recommended:nth-child(10), .recommended:nth-child(12)
 www.aznude.com##.text-box
 www.aznude.com###disqus_thread
 www.aznude.com##[class*="ad"]:not([class*=mfp]):not(.header):not(.container):not(.row):not(.btn):not(.search-bar):not(.ui-autocomplete-input):not(.no-side-padding):not(.sticky-visible):not([class*=jw]):not(.noprint):not(.col-xs-6):not(.col-xs-4)
+www.aznude.com##.container:nth-child(18)
 
 !4chan.org
 boards.4chan.org##.warning.notification
