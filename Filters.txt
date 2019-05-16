@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 145.3
+!Update: 146
 
 !adf.ly
 ||adplxmd.com^
@@ -790,8 +790,8 @@ www.realitykings.com##.blur:style(filter: none !important;)
 ||pl2121.puserving.com
 ||free.internetspeedtracker.com^
 ||replair.pro^
-||www.reimageplus.com^
-||www.clicksgear.com^
+||reimageplus.com^
+||clicksgear.com^
 ||earn-bitcoins.net^$frame
 ||4dsbanner.net^$frame
 clcknads.*^
@@ -805,7 +805,7 @@ clcknads.*^
 ||d3rm04c4p9a75q.cloudfront.net^
 ||olmsoneenh.info^$3p
 ||coinmedia.co^
-||www.zwfvzxmc.com^
+||zwfvzxmc.com^
 ||support.microsoft.tracking-redirect.com^
 ||45eijvhgj2.com^
 ||free-download.*.top^
@@ -825,12 +825,8 @@ clcknads.*^
 ||commank.pro^
 ||confrous.info^
 ||pendering.info^
-||tingecatalogue.club^
-||starspussytube.club^
-||toplovegirl.club^
 ||net-protect-ai-mobile.*^
-||sweettits.club^
-||ayyop.adsb4trk.com^
+||adsb4trk.com^
 ||winningpokernetwork.com^
 ||americascardroomcom.pokermanagement.com^
 ||adeidos.com^
@@ -865,7 +861,6 @@ clcknads.*^
 ||latoniankeen.*^
 ||msgtm.dist-app.com^
 ||568vovhs6ekbupjo.*^
-|http*://*?$third-party,popup,badfilter,domain=avgle.com|camwhorestv.org|extremetube.com|pornflip.com|pornhub.com|redtube.com|spankwire.com|streamjav.net|theync.com|tube8.com|vidz7.com|xxxkingtube.com|youporn.com|youporngay.com
 ||ziphoumt.net^$xhr,3p
 ||baipagid.com^
 ||z6uc8er1mzx8n2qd.*^
@@ -963,8 +958,7 @@ clcknads.*^
 ||pknzoizczuhjvk.com^
 ||moavoara.net^
 ||ejoonsoo.net^
-||mine-*-*-application.pw^
-||adultvideotits.club^
+||mine-*-*-*.pw^
 ||fast.list-sked.com^
 ||bodlines.com^
 ||tracking.wpnetwork.eu^
@@ -1008,6 +1002,13 @@ clcknads.*^
 http://*.com/*?key=*&psid=*$document
 http://*.com/*=*&refer=*key=*$document
 ||addtoany.com^
+||aterroppop.com^
+||tell-child-rabbit-claws.xyz^
+||ughitilagu.info^
+||freeadult.games^
+||premiumtraff.com^
+||magicadsroute.com^
+||co-aa86.stream^
 @@||wpnrtnmrewunrtok.xyz^$media
 @@||cbox.ws^$3p
 ##[href^="http://adultfriendfinder.com/"]
@@ -1774,10 +1775,8 @@ www.pornhub.com###welcome
 www.pornhub.com##milktruck
 www.pornhub.com##.showingCounter:style(max-height: 10px !important;)
 
-!#if env_chromium
-!#if env_firefox
+!#if env_chrome
 www.pornhub.com##[id^="v"]:has(.premiumIcon):not(#vpContentContainer)
-!#endif
 !#endif
 
 !xvideos.com
@@ -1884,6 +1883,7 @@ www.tube8.com##.try-premium-logo-link
 www.tube8.com##.auto
 www.tube8.com##.video_box:has(.icon-star-full)
 www.tube8.com##[id^="boxVideo"]:has-text(/Blacked|Black|BLACKED|BLACK|BBC|bbc/)
+www.tube8.com###main-nav-wrapper:style(position: absolute !important;)
 
 !facebook.com
 www.facebook.com##.e_1710e1xp16.pagelet > ._1-ia > ._4-u8._20os._2tyk._1-ib._4-u2
@@ -2724,6 +2724,7 @@ www.veporns.com##[href="https://theporndude.com/"]
 www.veporns.com##[href="http://www.pornfx.net"]
 www.veporns.com##.sidebar-social
 www.veporns.com##.info:first-child
+www.veporns.com##.video_ads_all
 
 !isea2016.info
 isea2016.info##.mediabox.row > .thumbs
@@ -3801,6 +3802,7 @@ yuki.la##+js(window.open-defuser.js)
 xfantasy.tv###back-to-top
 xfantasy.tv##.join_banner
 xfantasy.tv##.happy-sidebar
+xfantasy.tv##li > [class]:has-text(Live)
 
 !camwhores.tv
 www.camwhores.tv##.adv
@@ -3913,6 +3915,7 @@ www.ultrahdporn.eu###sidebar
 yourdailypornvideos.com##[class*="iframe"]
 yourdailypornvideos.com###spb-information-bar
 yourdailypornvideos.com##[id] > p:has-text(1$)
+yourdailypornvideos.com##.td-menu-wrap:style(position: static !important;)
 
 !javqd.com
 *$3p,frame,domain=javqd.com
@@ -4097,3 +4100,12 @@ www.deviantart.com##.mobile_instream_ad_resizable
 
 !pornid.xxx
 www.pornid.xxx##.rsidebar-spots-holder
+
+!pornley.com
+pornley.com##.sBtn
+
+!lubetube.com
+lubetube.com###list-builder
+lubetube.com###popup-box
+lubetube.com##.videolink
+lubetube.com###overlay
