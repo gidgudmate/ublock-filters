@@ -1775,8 +1775,10 @@ www.pornhub.com###welcome
 www.pornhub.com##milktruck
 www.pornhub.com##.showingCounter:style(max-height: 10px !important;)
 
-!#if env_chrome
+!#if env_chromium
+!#if env_firefox
 www.pornhub.com##[id^="v"]:has(.premiumIcon):not(#vpContentContainer)
+!#endif
 !#endif
 
 !xvideos.com
