@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 2.6
+!Update: 2.7
 
 !silkengirl.com
 www.silkengirl.com##.fixed.header:style(position: sticky !important;)
@@ -173,3 +173,6 @@ www.pleasuregirl.net###header:style(position: absolute !important;)
 
 !pornhub.com
 pornhub.com##.videoWrapper:has(.premiumIcon)
+
+!mainbabes.com
+www.mainbabes.com##.item:nth-child(4), .item:nth-child(5), .item:nth-child(6)
