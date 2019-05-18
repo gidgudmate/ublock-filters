@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 147
+!Update: 147.1
 
 !adf.ly
 adf.ly###_bd
@@ -1727,6 +1727,7 @@ destinytracker.com##.ad-box
 nudogram.com##[src="https://nudogram.com/graphics/banned.png"]
 
 !hotstunners.com
+||hotstunners.com^$script,1p
 www.hotstunners.com##[href^="https://t.irtyc.com/"]
 www.hotstunners.com##[href="https://mysexgames.com/"]
 www.hotstunners.com##body > div:nth-of-type(4)
