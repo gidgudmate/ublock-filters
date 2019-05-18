@@ -2,157 +2,38 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 146
+!Update: 147
 
 !adf.ly
-||adplxmd.com^
-||adplxmd.com^$popup
-||adnetworkperformance.com^$popup
-||adverkeyz.com^
-||adverkeyz.com^$popup
-/puopen.$popunder,popup,important
 adf.ly###_bd
 adf.ly###fade
 
-!streamcloud.eu
-||anverlindo.info^
-|http*$xmlhttprequest,domain=streamcloud.eu
-||invernetter.info^
-||trimpur.com^
-||trimpur.com^$popup
-||signetter.com^
-||signetter.com^$popup
-
-!promptfile.com
-||oratosaeron.com^
-||oratosaeron.com^$popup
-
 !fantasti.cc
 ||fantasti.cc/sw.js$script,1p
-||officerrecordscale.info^
-||officerrecordscale.info^$popup
-||gmyze.com^
 ||fantasti.cc*/*track.php
 /antiadblock*$script
 @@||fantasti.cc^$xhr
 fantasti.cc##a[href*="/_b2.php?url="]
 
-!revclouds.com
-||cytochemistryrecitativewrasse.com^
-||cytochemistryrecitativewrasse.com^$popup
-||finishclueobscure.info^
-||finishclueobscure.info^$popup
-||zerem.*.info^
-||zerem.*.info^$popup
-
-!torrentz.eu
-||ticrite.com^
-||ticrite.com^$popup
-||scandicas.com^
-||scandicas.com^$popup
-/Redirect*MediaSegmentId$document
-!###infCP
-
-!hanime.tv
-||contentabc.com^$popup,third-party
-||atas.io^$popup,third-party
-
-!hentaihaven.org
-||trw12.com^$popup
-||hentaihaven.org/beta/
-||hentaihaven.org/_
-hentaihaven.org##.hh_simple_banner
-hentaihaven.org##.ads
-
-!3movs.com
-||towardangelaosprey.com^
-||towardangelaosprey.com^$popup
-/adman/*$document
-||trafficmagnates.com^
-||trafficmagnates.com^$popup
-/click-in.php?$document
-/arecl.js
-/click.php?$document
-||data.*.com^$document,domain=data.docurec.com|data.choice.microsoft.com
-
 !x3xtube.com
 ||x3xtube.com/redir*.html$popup
-/po1.php?
-||0jzxzd21.com^
-||adnium.com^
 x3xtube.com##[href^="http://join."]
 x3xtube.com##a[href^="/cgi-bin/a2/out.cgi?id="][href*="&l=trade_thumbs"]
 
 !openload.co
-||downloatransfer.com^$popup
-||npmpecd.com^$popup,document
-|http*$popup,third-party,domain=openload.co
-||openload.co^*/_$popup,badfilter
 openload.co##[id*=ScriptRootC]
 openload.co##+js(abort-on-property-write.js, BetterJsPop)
 
 !primewire.ag
-/clicktag.engine?$document,popup
-/landing?refererId=$document,popup
 *$xhr,domain=primewire.ag|primewire.in|primewire.org,3p
 *$3p,script,domain=primewire.org
-||branchroughlend.info^
 primewire.ag##[href^="http://engine.4dsply.com/"]
 primewire.ag##[href^="http://watch.primewire.ag"]
 
 !viptube.com
-||cnt.viptube.com^
-||viptube.com/_
-||t.vptbn.com^$popup
 @@||viptube.com^$generichide
 viptube.com###adx_ad
 viptube.com##.footer_adv
-
-!Unblocking video player
-!https://forums.lanik.us/viewtopic.php?f=62&t=28262
-auroravid.to,wholecloud.net###aad
-
-!ghacks.net
-||proxy*.amazonaws.com/bait|
-
-!userscloud.com
-|http*$popup,3p,domain=userscloud.com
-
-!al.ly
-||wordgetboo.com^$popup
-||marketing.al.ly^
-||d4bsxdtgtmhxt.cloudfront.net^
-
-!gamebanana.com
-||cdm.cursecdn.com^$third-party,domain=gamebanana.com
-||files.gamebanana.com/bitpit/opskins-gamebanana-*.jpg
-gamebanana.com###AdsByCurseBanner
-
-!focus.de
-||p5.focus.de/img/fotos/*/*/chef-aerger.jpg
-
-!go4up.com
-||go4up.com/assets/img/download-buttoned.png
-||go4up.com/assets/img/webbuttoned.gif
-
-!hugefiles.net
-||free-state.work^
-||free-state.work^$popup
-
-!search.disconnect.me
-search.disconnect.me###premium-protection
-search.disconnect.me##.ad
-
-!textmechanic.com
-textmechanic.com##.patreon
-
-!mail.live.com
-live.com###owaadbar
-outlook.live.com##div[class="_n_h"]:style(width: 165px !important;)
-
-!mobilegeeks.de
-mobilegeeks.de###ha-footer
-mobilegeeks.de##div:style(background: #000000 !important;)
 
 !youtube.com
 /log_interaction?
@@ -163,168 +44,14 @@ www.youtube.com##.ytp-fullerscreen-edu-chevron
 www.youtube.com##.ytp-miniplayer-button
 www.youtube.com##.ytp-right-controls > button:nth-child(1)
 
-!newimagepost.com
-|http*$domain=newimagepost.com,third-party,script
-||synhandler.net^
-||tataget.ru^
-
-!dasolo.org
-/static/full-page-script.js$third-party
-dasolo.org##.slide_likebox
-
-!pics-money.ru
-||watrz.com^
-||piroji.com^
-||klivz.com^
-||yrsfs.com^
-||qrrgv.space^
-
-!uploadshub.com
-uploadshub.com##a[href^="http://ddownload39.club/"]
-
-!torrentfreak.com
-torrentfreak.com##ASIDE.widg.widget_text
-
-!420chan.org
-||cdn.420chan.org/sp/
-
-!fux.com
-/adblockbanner*$script
-/adblockpopunder*$script
-.com/faloo.js|$script,1p
-
-!sharesix.com
-||sharesix.com/a/images/*.gif
-
-!allvid.ch
-/b?z=$script
-||descapita.com^
-||d29lpg037v41oq.cloudfront.net^
-/async_pixel?
-?pixel=
-tid=ad&
-||barlive.link^
-||downloatransfer.com^
-||cloudfront.net^$popup,3p,domain=allvid.ch
-
-!netzwelt.de
-netzwelt.de##.fi.stcl
-netzwelt.de##.ckch
-netzwelt.de##div#mr:style(width: auto; float: right !important;)
-netzwelt.de##div:style(text-align: center; padding: 0px; border-color: transparent; cursor: pointer; z-index: 1; height: 205px !important;)
-
-!monova.org
-monova.org##a[href^="http://data.oileddaintiessunset.info/"]
-data:image/jpeg;base64$domain=monova.org
-
-!filmstreamings.biz
-filmstreaming.biz###su_flash_ec__0
-filmstreaming.biz###su_flash_ec__1
-
-!pornleech.com
-|http*$domain=pornleech.com,third-party,script
-
-!imgfantasy.com
-|http*$domain=imgfantasy.com,third-party,script
-
-!web.de/gmx.net
-||info.web.de^$script
-||info.gmx.net^$script
-web.de##.notification-alert[data-notification-browser]
-gmx.net,web.de##TR.ad-hint
-gmx.net,web.de##TR.iba-uncertain
-gmx.net,web.de##TR.new.iba-uncertain
-gmx.net,web.de##TR.iba-acceptable
-gmx.net,web.de##TR.new.iba-acceptable
-gmx.net,web.de##TR.new.iba
-gmx.net,web.de##TR.iba
-gmx.net,web.de##TR.li.iba-acceptable
-gmx.net,web.de##TR.li.iba
-
-!anabolicmen.com
-www.anabolicmen.com###text-55
-
-!alluc.ee
-||alphamoneygenerator.com^$document
-||alphamoneygenerator.com^$popup,3p
-
-!uploadrocket.net
-|http*$domain=uploadrocket.net,script,3p
-@@||api.solvemedia.com^$script,3p,domain=uploadrocket.net
-
-!flashx.cc
-flashx.cc##a[href*="/afu.php"]
-
-!chip.de
-||p.w.*.com/s/err
-||contributor.google.com/scripts/*/loader.js$script,domain=chip.de
-||schneevonmorgen.com^
-||svonm.com^
-chip.de###sparwelt_cont
-chip.de##a[href="http://www.chip.de/amazon_prime"]
-chip.de##[href^="http://x.chip.de/fs24/"]
-chip.de##[href^="javascript:DSinitDl"]
-
-!the-parallax.com
-/Avast_*_Generic_*_WebBanner*.jpg$image
-
-!airvpn.org
-/smartbanner/appbanner.js
-
-!tampermonkey.net
-||tampermonkey.net/bnir/bitcoin
-
-!clashdaily.com
-||plex2.com^
-||bop-bop-bam.com^
-
-!stumblemail.net email tracking
-||track.stumblemail.net^$image
-
-!labdoor.com email tracking
-||email.mail1.labdoor.com^$image
-
-!windows.microsoft.com
-microsoft.com###NotificationUpgradeWin81and7NonSupport
-
-!heise.de
-heise.de###bannerzone
-
-!hdzog.com
-hdzog.com##a[href*="/_b3.php?url="]
-hdzog.com##a[href*="/_c3.php?url="]
-hdzog.com##a[href^="/adb/"]
-
 !pornhd.com
 www.pornhd.com##.live-video-zone
 www.pornhd.com##.inside-row
 www.pornhd.com##.video-thumb-ad-zone
 
 !hiqqu.xxx
-||hiqqu.xxx/static/scripts.js
+||hiqqu.xxx/static/scripts.js$script,1p
 @@||hiqqu.xxx/static/ads/ads.js$script,1p
-
-!extremetube.com
-/scripts/sweet/b3.php
-
-!watchfree.to
-||ipsowrite.com^
-||ipsowrite.com^popup
-.com/*/Redirect.a1b$document
-watchfree.to##a[href*="://secure.link/"]
-watchfree.to##.get_vpn
-
-!the-watch-series.to
-the-watch-series.to##a[href*="://internalredirect.site/"]
-the-watch-series.to##[id^="MarketGidWrap"]
-
-!foreverdreaming.org
-||transcripts.foreverdreaming.org^$inline-script
-
-!Unbubble.eu
-unbubble.eu##.sponsor-title + *
-unbubble.eu##.sponsor-title
-unbubble.eu##.top-products
 
 !gotporn.com
 ||gotporn.com/main/js/neverblock/block-detect.js$script,1p
@@ -335,65 +62,11 @@ www.gotporn.com##.pre-roll-content
 www.gotporn.com##.image-group-vertical
 www.gotporn.com##.image-content-wrap
 www.gotporn.com##.mid-roll-content
-
-!thehackernews.com
-thehackernews.com##a[href^="http://ow.ly/"]
+www.gotporn.com##.video-player-overlay
 
 !mail.google.com
 ||play.google.com/log?
 mail.google.com#@#.ads
-
-!reviewmeta.com
-reviewmeta.com##.ad_gu_tr
-reviewmeta.com##.ad_unit_1
-
-!themerkle.com
-||themerkle.com/wp-content/uploads/*/banner-
-||themerkle.com/wp-content/*/300x600.
-||themerkle.com/wp-content/*/300x600_
-themerkle.com##a[href*="://nitrogensports.eu/r/"]
-themerkle.com##.topad
-
-!scoobysworkshop.com
-scoobysworkshop.com##a[href*=".hop.clickbank.net/"]
-
-!dottech.org
-||azadify.com^$third-party
-
-!bestvpn.com
-||bestvpn.com/wp-content/cache/scripts/*-deanedwards.js
-
-!comdotgame.com
-||sexgangsters.com/?pid=$popup,third-party
-||nutaku.net/signup/landing/$popup,third-party
-||shs.comdotgame.com^
-comdotgame.com##a[href*="nutaku.net/signup/landing/"][href*="?ats="]
-
-!https://forums.lanik.us/viewtopic.php?p=110522#p110522
-||p.d.*.com/v$script,third-party
-||p.d.*.org/v$script,third-party
-
-!tvdigital.de
-||images.dvbdata.com/*.jpg$frame,3p
-
-!hoerzu.de
-/ccc-adscript/*
-||conative.de^$third-party
-||kameleoon.eu^$third-party
-||d31bfnnwekbny6.cloudfront.net^
-||d62mrph0xm5hi.cloudfront.net^
-@@||uobsoe.com/ad_bomb/*.png$image,3p
-hoerzu.de##.voltera-b
-hoerzu.de##.content-amazon
-
-!securityxploded.com
-||urldelivery.com^
-
-!hentai-foundry.com
-hentai-foundry.com##p > [href^="http"] > img[src^="//img.hentai-foundry.com/"]
-
-!torrentdownloads.me
-torrentdownloads.me##a[href*="/AF_TA/rel/index.cfm"]
 
 !pornult.com
 /unblockmeback.php$script
@@ -402,23 +75,10 @@ pornult.com##+js(abort-current-inline-script.js, CustomEvent, getexoloader)
 pornult.com###rMeKHK2R
 pornult.com##.pause-block
 
-!foxtube.com
-||e.mzsimg.com^$image,domain=foxtube.com
-
 !porndoe.com
 ||porndoe.com/misc/*.php
 porndoe.com##.below-video
 porndoe.com##.yellow-bar
-
-!https://forums.lanik.us/viewtopic.php?p=103840#p103840
-||webmd.com/dtmcms/live/webmd/*/oas*.js
-
-!Random filters
-/popu/*$script
-||google-analytics.com^$popup,third-party
-||revcontent.com^$script,third-party
-||sharethis.com^$script,third-party
-###adb-note
 
 !Assortment of ad/tracking servers not found in Peter Lowe's
 ||directrev.com^
@@ -762,23 +422,11 @@ _popunder&$document
 /trk/*$document
 /pop.php$document
 
-!startpage.com
-||startpage.com/js/result_header_new.js
-@@/js/abp.js?$script,1p
-
-!searchdns.netcraft.com
-@@||searchdns.netcraft.com^$generichide
-searchdns.netcraft.com##.advert-tag
-
-!piwik.org
-||demo*.piwik.org/piwik.php$1p,important
-@@||piwik.org^$1p
-
 !realitykings.com
 www.realitykings.com###teaser-overlay
 www.realitykings.com##.blur:style(filter: none !important;)
 
-!Other
+!Badware
 ||assets/new-mastheads
 ||promo-bc.com
 ||stripchat/
@@ -942,7 +590,6 @@ clcknads.*^
 ||click2push.com^
 ||newmarads.com^
 ||offshoreracks.com^
-||21sextury.com^$popup,badfilter
 ||65vk1fba34.com^
 ||fortorsarrabse.*^
 ||cjl58f3agc.com^
@@ -951,7 +598,6 @@ clcknads.*^
 ||gamesrevenu24.com^
 ||txtfeed.*^
 ||popadon.com^
-||gstatic.com/cv/js/sender/*/cast_sender.js$script
 ||easy-pdf.com^
 ||hitcpm.com^
 ||ogqewglysfc.com^
@@ -989,7 +635,7 @@ clcknads.*^
 ||mnoa6ez1eq.com^
 ||newsfeed.support^
 ||reverseparameter.site
-*.club/private/?id=fine*^$document
+https://*.club/private/?id=*$document
 ||roolgage.com
 ||servedbytackingdesk.com^
 ||16b587txj1.com^
@@ -1009,8 +655,20 @@ http://*.com/*=*&refer=*key=*$document
 ||premiumtraff.com^
 ||magicadsroute.com^
 ||co-aa86.stream^
+https://*/download/pornhub.*.apk$document
+||system-update.*.top^
+||browser-update.org
+
+!Other
+||gstatic.com/cv/js/sender/*/cast_sender.js$script
+
+!Whitelist
 @@||wpnrtnmrewunrtok.xyz^$media
 @@||cbox.ws^$3p
+@@||pornoeggs.com^$popup,3p
+@@||21sextury.com^$popup,3p
+
+!Links/Universal DOM edits
 ##[href^="http://adultfriendfinder.com/"]
 ##[href^="http://aj1070.online/"]
 ##[href^="https://allcamsex.com/"]
@@ -1117,6 +775,7 @@ http://*.com/*=*&refer=*key=*$document
 ##[href="http://mobile.xshare.com"]
 ##[href="http://www.punish-her.com"]
 ##[href^="https://adultfriendfinder.com/"]
+##[href^="http://clicks.toteme.com/"]
 ##[class*="chromecast"]
 ##.jw-icon-cast
 ##google-cast-launcher
@@ -1853,6 +1512,7 @@ ddfnetwork.com##.navbar:style(position: absolute !important;)
 www.youporn.com###EYP-scroll
 www.youporn.com##.adLinkText
 www.youporn.com##.ad-wrapper
+www.youporn.com##.video_block_wrapper:has(.icon-premium-star)
 
 !vqporn.com
 www.vqporn.com##.background
@@ -1907,7 +1567,6 @@ www.adoreme.com##.dialog-collection
 www.adoreme.com##.ng-isolate-scope.ng-scope.dialog-s.dialog
 
 !youjizz.com
-@@||cdne-pics.youjizz.com^$image,1p
 www.youjizz.com##.row
 www.youjizz.com###onPausePr
 www.youjizz.com###onPausePrContainer > .text-white
@@ -1916,6 +1575,7 @@ www.youjizz.com###desktopNtvBPr
 www.youjizz.com###footer > .max-width-wrapper:first-child
 www.youjizz.com##[href^="//syndication.dynsrvtbg.com/"]
 www.youjizz.com##.hd
+www.youjizz.com###partnerPr
 
 !adultdvdempire.com
 www.adultdvdempire.com##.spacing-bottom.breakout.row
@@ -2080,6 +1740,8 @@ www.hotstunners.com##.topmenu_bg:nth-child(7) > .left_bg
 www.hotstunners.com##.topmenu_bg:nth-child(7) > .right_bg
 www.hotstunners.com##.topmenu_bg:nth-child(8) > .left_bg
 www.hotstunners.com##.topmenu_bg:nth-child(8) > .right_bg
+www.hotstunners.com##[href="https://www.silkencams.com/"]
+www.hotstunners.com##[href^="http://adultfriendfinder.com/"]
 
 !join2babes.com
 ||join2babes.com^*/b/*$image,1p
@@ -2191,7 +1853,9 @@ www.deliciousbabes.org##div:nth-child(4) > [href], div:nth-child(23) > [href]
 ||penthouse.com/assets/img/*.png$image
 
 !livejasminbabes.net
-||www.livejasminbabes.net/istripper$frame,1p
+||livejasminbabes.net/istripper$frame,1p
+||livejasminbabes.net$script,1p
+livejasminbabes.net##+js(abort-on-property-read.js, ExoLoader.serve)
 www.livejasminbabes.net##.istripper
 www.livejasminbabes.net##.second-candy
 www.livejasminbabes.net##.onhover
@@ -2203,6 +1867,11 @@ www.livejasminbabes.net##.rounded-top-left.inner-border > .container
 www.livejasminbabes.net###nat_mid
 www.livejasminbabes.net###posts > .big > [href]
 www.livejasminbabes.net##.big
+www.livejasminbabes.net##[id*=ScriptRoot]
+www.livejasminbabes.net##[href*="https://trcklks.com/"]
+www.livejasminbabes.net##.nat-top
+www.livejasminbabes.net###toTop
+www.livejasminbabes.net##[href*="/click/o/"]
 
 !hottystop.com
 www.hottystop.com##div.Box_Small:nth-of-type(1)
@@ -2483,6 +2152,7 @@ www.novostrong.com##.topheader_background
 www.novostrong.com##.nav > li:nth-child(4)
 
 !thousandbabes.com
+||thousandbabes.com^*/banners/*$image,1p
 www.thousandbabes.com##.sponsorholder
 www.thousandbabes.com##.mz0
 www.thousandbabes.com##.ads
@@ -2506,9 +2176,13 @@ www.bustynudebabes.com##.bnr
 !dattr.com
 @@||edenporn.com/cdn/cam/*$media,domain=dattr.com
 
-
 !slutsandangels.com
+||slutsandangels.com^*/banners/*$image,1p
+@@||sharethis.com/button/$script,3p,domain=slutsandangels.com
+@@||sharethis.com/button/css/$css,3p,domain=slutsandangels.com
 www.slutsandangels.com##.posts > div
+www.slutsandangels.com##.link:first-child
+www.slutsandangels.com##center > div:has([href])
 
 !fineartteens.com
 fineartteens.com##[src*="banners"]
@@ -2695,6 +2369,7 @@ www.toydemon.com##.cms2.pad15
 ||theomegaproject.org^*/b/*$image,1p
 www.theomegaproject.org##.ads
 www.theomegaproject.org##.two-adv
+www.theomegaproject.org##.clear
 
 !plings.info
 /pornxxx.php$script,domain=plings.info
@@ -3275,7 +2950,7 @@ www.purenudegirls.com##.card-img-x
 www.purenudegirls.com##.icon-top-btn
 www.purenudegirls.com##.icon-contact
 www.purenudegirls.com##[href^="http://bongacams2.com/track"]
-www.purenudegirls.com##[href="https://adultfriendfinder.com/go/g790199"]
+www.purenudegirls.com##[href^="https://adultfriendfinder.com/"]
 www.purenudegirls.com##.js-mobile:nth-child(2)
 www.purenudegirls.com##[href*="https://access.met-art.com/"]
 www.purenudegirls.com##[href*="https://access.sexart.com/"]
@@ -3431,6 +3106,7 @@ www.shesfreaky.com##.prefooter
 ||nohchipress.info/sw.js$script,1p
 
 !spankbang.com
+||spankbang.com/get*=mobile_*$frame,1p
 spankbang.com##.advrt
 spankbang.com###player_positions
 spankbang.com##.live_api_results_holder
