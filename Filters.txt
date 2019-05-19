@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 147.1
+!Update: 148
 
 !adf.ly
 adf.ly###_bd
@@ -657,7 +657,16 @@ http://*.com/*=*&refer=*key=*$document
 ||co-aa86.stream^
 https://*/download/pornhub.*.apk$document
 ||system-update.*.top^
-||browser-update.org
+||browser-update.org^
+||utherreperkin.info^
+||entionale.info^
+||error-32x.icu^
+||se-ex.com^
+||adult-targeted-traffic.com^
+||pop4cash.net^
+||gamechanger19.club^
+/call-now1/?p_num=*$document
+/call-now1/index.html?p_num=*$document
 
 !Other
 ||gstatic.com/cv/js/sender/*/cast_sender.js$script
@@ -1218,6 +1227,9 @@ casmir.pl###site-title:style(position: absolute !important;)
 ||chickteases.com/images/*/banners/*$image
 www.chickteases.com##.adv
 www.chickteases.com##[src*="banners"]
+www.chickteases.com##[href^="http://best10pornsites.com/"]
+www.chickteases.com##[href="http://xpaysites.com"]
+www.chickteases.com##[href="http://bestpornsites.net"]
 
 !hqsluts.com
 www.hqsluts.com###share
@@ -2250,6 +2262,7 @@ hotmovs.com###toTop
 @@||yespornplease.com^$generichide
 yespornplease.com##.exclusive-link
 yespornplease.com##.hta3rdpOverlay
+yespornplease.com##[href="/v/52922775"]
 
 !mentalfloss.com
 @@||quora.com$script,domain=mentalfloss.com
@@ -2328,7 +2341,7 @@ www.nextdoordolls.com##.smart-page-loader
 
 !babesandbitches.net
 www.babesandbitches.net##.owner
-www.babesandbitches.net##[href="https://pornabc.com"]
+www.babesandbitches.net##[href^="https://pornabc.com/"]
 www.babesandbitches.net###nav-ul > li:nth-child(7), #nav-ul > li:nth-child(8)
 www.babesandbitches.net###gallery-text
 
@@ -2602,6 +2615,7 @@ ewa.ac###walle
 mitly.us##.adsbygoogle
 mitly.us##.text-left
 mitly.us###link-view > p
+mitly.us###cookie-pop
 
 !linkshrink.net
 linkshrink.net##+js(abort-on-property-write.js, onpopstate)
@@ -2926,6 +2940,7 @@ miscellanea1.com##.text-left
 
 !tolink.to
 *$3p,script,domain=tolink.to
+tolink.to##.freedownload
 
 !pss.pw
 pss.pw##.text-left
@@ -3213,11 +3228,11 @@ linkrag.com##.col-md-10 > div:nth-child(2)
 ||submit_*.jpg$image
 adnangamer.com##+js(window.open-defuser.js)
 
-!cuto.io/cu2.io|cu3.io|cuee.io|cuus.io
+!cuto.io/cu2.io|cu3.io|cuee.io|cuus.io|cutls.co
 *$3p,xhr,domain=cu2.io|cuto.io|cu3.io|cuee.io|cuus.io
-cuto.io,cu2.io,cu3.io,cuee.io,cuus.io##+js(abort-on-property-read.js, doFunction)
-cuto.io,cu2.io,cu3.io,cuee.io,cuus.io##.faq
-cuus.io##.content
+cuto.io,cu2.io,cu3.io,cuee.io,cuus.io,cutls.co##+js(abort-on-property-read.js, doFunction)
+cuto.io,cu2.io,cu3.io,cuee.io,cuus.io,cutls.co##.faq
+cuus.io,cutls.co##.content
 cuus.io##.col-md-8
 cuus.io##.r-bg
 cuus.io##.col-md-4
@@ -3235,6 +3250,7 @@ nudepatch.net###DynamicBackgroundWrapper
 ouo.io##+js(window.open-defuser.js)
 ouo.io##.text-center > div > [href]
 ouo.io##.content > div > [href]
+ouo.io##article > div > [href]
 
 !seekingalpha.com
 seekingalpha.com/service-worker.js$script,1p,important
@@ -3788,3 +3804,6 @@ lubetube.com###list-builder
 lubetube.com###popup-box
 lubetube.com##.videolink
 lubetube.com###overlay
+
+!ally.sh
+ally.sh##.col-md-offset-1
