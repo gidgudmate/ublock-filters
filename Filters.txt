@@ -1729,7 +1729,7 @@ www.novohot.com##.thumb180x270
 !babesinporn.com
 ||babesinporn.com^*/banners/*$image,1p
 www.babesinporn.com##div.block:nth-of-type(5) > .center
-www.babesinporn.com##[class*="banners"]
+www.babesinporn.com##[class*="banner"]
 www.babesinporn.com##.tagslink
 www.babesinporn.com##.cd-top
 www.babesinporn.com##.menu > li:nth-child(5) > .item
