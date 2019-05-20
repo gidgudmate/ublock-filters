@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 148
+!Update: 149
 
 !adf.ly
 adf.ly###_bd
@@ -427,7 +427,6 @@ www.realitykings.com###teaser-overlay
 www.realitykings.com##.blur:style(filter: none !important;)
 
 !Badware
-||assets/new-mastheads
 ||promo-bc.com
 ||stripchat/
 ||avanti.php
@@ -665,17 +664,23 @@ https://*/download/pornhub.*.apk$document
 ||adult-targeted-traffic.com^
 ||pop4cash.net^
 ||gamechanger19.club^
-/call-now1/?p_num=*$document
-/call-now1/index.html?p_num=*$document
+/call-now1/?p_num=$document
+/call-now1/index.html?p_num=$document
+||buenatube.com^
+/index.html?p_num=$document
+||ceeglagu.net^
+||inronbabunling.pro^
 
 !Other
 ||gstatic.com/cv/js/sender/*/cast_sender.js$script
+|http*://*?$third-party,popup,domain=avgle.com|camwhorestv.org|extremetube.com|pornflip.com|pornhub.com|redtube.com|spankwire.com|streamjav.net|theync.com|tube8.com|vidz7.com|xxxkingtube.com|youporn.com|youporngay.com,badfilter
 
 !Whitelist
 @@||wpnrtnmrewunrtok.xyz^$media
 @@||cbox.ws^$3p
 @@||pornoeggs.com^$popup,3p
 @@||21sextury.com^$popup,3p
+@@||pornhub.com^$popup,3p
 
 !Links/Universal DOM edits
 ##[href^="http://adultfriendfinder.com/"]
@@ -810,7 +815,7 @@ realjapansex.com,fap18porn.pro##+js(window.open-defuser.js)
 
 /fload.js$script,1p
 
-/floader$script,1p,domain=babeimpact.com
+/floader$script,1p
 
 @@||jquery.com^$script,domain=babesandgirls.com|morazzia.com|glam0ur.com|hotstunners.com|8boobs.com|sexykittenporn.com|nudity911.com|babesinporn.com|wildfanny.com|babeimpact.com
 !---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -915,13 +920,12 @@ www.retrosexporn.com##.player-spots
 !twitch.tv
 ||twitch.tv/service-worker.js$script,1p
 www.twitch.tv##.button--icon-only.button.conversations-list-icon
-!www.twitch.tv##.player-button:nth-of-type(2)
 
 !xbabe.com
 ||xbabe.com/_a_xb/a/ex/b.php$script,1p
-||xbabe.com/_a_xb/s/s/su*.php$script,frame,xhr,1p
-||xbabe.com/_a_xb/s/s/adhs.php$script,1p
 ||xbabe.com/cb/cb.xb.js$script,1p
+||xbabe.com/_a_xb/s/s/*.php$script,frame,xhr,1p
+*$3p,xhr,domain=xbabe.com
 xbabe.com###side_col
 
 !upornia.com
@@ -1436,8 +1440,8 @@ xhamster.com##.xp-subscribe
 
 !pornhub.com
 www.pornhub.com###EPH-scroll
-www.pornhub.com##.streamatesModelsContainer.sectionWrapper
-www.pornhub.com##.sectionWrapper:nth-of-type(3)
+www.pornhub.com##.abEnabled > .sectionWrapper
+www.pornhub.com##.streamatesModelsContainer
 www.pornhub.com##.joinLinkWrapper
 www.pornhub.com##.abovePlayer
 www.pornhub.com##[class*="Banner"]
@@ -1703,6 +1707,7 @@ www.silkengirl.com##.menu_holder > .item:nth-child(8)
 www.silkengirl.com##.btn_review.item:nth-child(6)
 www.silkengirl.com##.menu_holder > .item:nth-child(7)
 www.silkengirl.net##.item:nth-child(6) > .item_inner, .item:nth-child(8) > .item_inner
+www.silkengirl.net##[href^="http://adultfriendfinder.com/"]
 
 !babes.com
 ||project1content.com/Babes/Tour/PROMOS/*$image,domain=babes.com
@@ -1722,13 +1727,14 @@ www.novohot.com##.mainBanner
 www.novohot.com##.thumb180x270
 
 !babesinporn.com
-||babesinporn.com^*/banners/$image,1p
+||babesinporn.com^*/banners/*$image,1p
 www.babesinporn.com##div.block:nth-of-type(5) > .center
-www.babesinporn.com##.contentbanner
+www.babesinporn.com##[class*="banners"]
 www.babesinporn.com##.tagslink
-www.babesinporn.com##.banners
 www.babesinporn.com##.cd-top
 www.babesinporn.com##.menu > li:nth-child(5) > .item
+www.babesinporn.com##[href^="https://adultfriendfinder.com/"]
+www.babesinporn.com##[href^="https://www.silkencams.com/"]
 
 !destinytracker.com
 destinytracker.com##+js(abort-on-property-read.js, checkSiteNotifications)
@@ -1852,8 +1858,6 @@ www.deliciousbabes.org###box_517
 www.deliciousbabes.org###box_474
 www.deliciousbabes.org###box_549
 www.deliciousbabes.org###box_537
-www.deliciousbabes.org##.banners
-www.deliciousbabes.org##.contentbanner
 www.deliciousbabes.org##.block:first-child, .block:nth-child(4), .block:nth-child(5), block:nth-child(8), .block:nth-child(9)
 www.deliciousbabes.org##[href^="http://refer.ccbill.com/"] > div
 www.deliciousbabes.org##[id^="box"]:has-text(You have Adblock enabled.)
@@ -1861,6 +1865,7 @@ www.deliciousbabes.org##h2 > [href]
 www.deliciousbabes.org##div > [href*="http://join"]
 www.deliciousbabes.org##.center > [href]
 www.deliciousbabes.org##div:nth-child(4) > [href], div:nth-child(23) > [href]
+www.deliciousbabes.org##[class*="banner"]
 
 !penthouse.com
 ||penthouse.com/assets/img/*.png$image
@@ -2173,9 +2178,10 @@ www.thousandbabes.com##.two-adv
 
 !babesmachine.com
 ||babesmachine.com^*/banners/*$image,1p
-www.babesmachine.com##.banner
-www.babesmachine.com##.horbanner
+www.babesmachine.com##[class*="banner"]
 www.babesmachine.com##[href="//www.yourdoll.com"]
+www.babesmachine.com##[href="//www.adultinteractive.net"]
+www.babesmachine.com##[href="/friends"]
 
 !babesaround.com
 ||babesaround.com^*/banners/*$image,1p
@@ -2919,6 +2925,7 @@ dcearn.com##.box-main > font
 dcearn.com##.text-left
 dcearn.com##.banner
 dcearn.com##.panel
+dcearn.com##[id*=ScriptRoot]
 
 !gestyy.com
 ||shortestminer.com^$frame,domain=gestyy.com
@@ -3228,11 +3235,11 @@ linkrag.com##.col-md-10 > div:nth-child(2)
 ||submit_*.jpg$image
 adnangamer.com##+js(window.open-defuser.js)
 
-!cuto.io/cu2.io|cu3.io|cuee.io|cuus.io|cutls.co
-*$3p,xhr,domain=cu2.io|cuto.io|cu3.io|cuee.io|cuus.io
-cuto.io,cu2.io,cu3.io,cuee.io,cuus.io,cutls.co##+js(abort-on-property-read.js, doFunction)
-cuto.io,cu2.io,cu3.io,cuee.io,cuus.io,cutls.co##.faq
-cuus.io,cutls.co##.content
+!cuto.io/cu2.io|cu3.io|cuee.io|cuus.io|cutls.co|cu5.io
+*$3p,xhr,domain=cu2.io|cuto.io|cu3.io|cuee.io|cuus.io|cutls.co|cu5.io
+cuto.io,cu2.io,cu3.io,cuee.io,cuus.io,cutls.co,cu5.io##+js(abort-on-property-read.js, doFunction)
+cuto.io,cu2.io,cu3.io,cuee.io,cuus.io,cutls.co,cu5.io##.faq
+cuus.io,cutls.co,cu5.io##.content
 cuus.io##.col-md-8
 cuus.io##.r-bg
 cuus.io##.col-md-4
@@ -3580,13 +3587,14 @@ daily-sale.in##.col-md-10 > center:nth-child(1)
 daily-sale.in##.text-left
 daily-sale.in##.banner
 
-!kpscthulasilogin.info|ommantrameditation.com
-kpscthulasilogin.info,ommantrameditation.com##p
-kpscthulasilogin.info,ommantrameditation.com##.text-left
-ommantrameditation.com##h5
-ommantrameditation.com##.box-main > div > [src]
-ommantrameditation.com##.box-main > [src]
-ommantrameditation.com##h3
+!kpscthulasilogin.info|ommantrameditation.com|techsyou.com
+kpscthulasilogin.info,ommantrameditation.com,techsyou.com##p
+kpscthulasilogin.info,ommantrameditation.com,techsyou.com##.text-left
+ommantrameditation.com,techsyou.com##h5
+ommantrameditation.com,techsyou.com##.box-main > div > [src]
+ommantrameditation.com,techsyou.com##.box-main > [src]
+ommantrameditation.com,techsyou.com##h3
+techsyou.com##.box-main > center > [href]
 
 !short.pe
 short.pe##.text-left
@@ -3737,13 +3745,13 @@ www.worldsex.com##.videoTextlink
 www.worldsex.com##.hide-on-mobile
 www.worldsex.com##.scrollup
 
-!techfinda.com|talkittechy.com
-techfinda.com,talkittechy.com##.text-left
-techfinda.com,talkittechy.com###cookie-pop
-techfinda.com,talkittechy.com##.adsbygoogle
-techfinda.com,talkittechy.com###link-view > center:nth-child(16)
-techfinda.com,talkittechy.com##.col-md-10 > center:first-child
-talkittechy.com##h1
+!techfinda.com|talkittechy.com|healthfary.com
+techfinda.com,talkittechy.com,healthfary.com##.text-left
+techfinda.com,talkittechy.com,healthfary.com###cookie-pop
+techfinda.com,talkittechy.com,healthfary.com##.adsbygoogle
+techfinda.com,talkittechy.com,healthfary.com###link-view > center:nth-child(16)
+techfinda.com,talkittechy.com,healthfary.com##.col-md-10 > center:first-child
+talkittechy.com,healthfary.com##h1
 
 !viralcollect.info
 viralcollect.info##+js(nano-setTimeout-booster.js)
@@ -3807,3 +3815,13 @@ lubetube.com###overlay
 
 !ally.sh
 ally.sh##.col-md-offset-1
+
+!fc.lc
+fc.lc##.text-left
+
+!adbl.me
+adbl.me##.box-main > div:nth-child(5), .box-main > div:nth-child(12)
+
+!ckk.ai
+ckk.ai##h3
+ckk.ai##p
