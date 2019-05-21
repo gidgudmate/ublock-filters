@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 149
+!Update: 150
 
 !adf.ly
 adf.ly###_bd
@@ -800,9 +800,9 @@ https://*/download/pornhub.*.apk$document
 !---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org,babesxworld.com,cocogals.com,sexybabes.club,papajizz.com,novoporn.com,thousandbabes.com,redpornblog.com,xxxdessert.com,babeuniversum.com,novojoy.com,sexybabesz.com,theomegaproject.org,angelgals.com##+js(abort-on-property-read.js, ExoLoader)
 
-mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,babesxworld.com,cocogals.com,hottystop.com,erosberry.com,spicybabe.net,slutsandangels.com,simplemetart.com,cherrynudes.com,fooxybabes.com,hotbabeswanted.com,ftopx.com,purenudegirls.com,sexykittenporn.com,bustybloom.com,nudepatch.net,livejasminbabes.net,sexybabesz.com,zazzybabes.com,sexyaporno.com,exgirlfriendmarket.com,angelgals.com,steezylist.com,eroticbeauties.net,sexybabesart.com,sexybabes.club##+js(abort-on-property-read.js, loadTool)
+mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,babesxworld.com,cocogals.com,hottystop.com,erosberry.com,spicybabe.net,slutsandangels.com,simplemetart.com,cherrynudes.com,fooxybabes.com,hotbabeswanted.com,ftopx.com,purenudegirls.com,sexykittenporn.com,bustybloom.com,nudepatch.net,livejasminbabes.net,sexybabesz.com,zazzybabes.com,sexyaporno.com,exgirlfriendmarket.com,angelgals.com,steezylist.com,eroticbeauties.net,sexybabesart.com,sexybabes.club,babesexy.com##+js(abort-on-property-read.js, loadTool)
 
-sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org,babesxworld.com,cocogals.com,babesandgirls.com,nudity911.com,sexykittenporn.com,morazzia.com,fooxybabes.com,glam0ur.com,spicybabe.net##+js(abort-on-property-read.js, reload2)
+sensualgirls.org,deliciousbabes.org,mainbabes.com,silkengirl.*,vibraporn.com,eroluv.com,rabbitsfun.com,decorativemodels.com,nakedneighbour.com,wildfanny.com,8boobs.com,wantedbabes.com,pleasuregirl.net,babesinporn.com,hotstunners.com,girlsofdesire.org,babesxworld.com,cocogals.com,babesandgirls.com,nudity911.com,sexykittenporn.com,morazzia.com,fooxybabes.com,glam0ur.com,spicybabe.net,chickteases.com##+js(abort-on-property-read.js, reload2)
 
 l24g.pw,wdupload.com,ewa.ac,slaplink.com,anonpastes.com##+js(nano-setInterval-booster.js)
 indishare.me,uploaded.net##+js(nano-setTimeout-booster.js)
@@ -1670,7 +1670,10 @@ www.girlsofdesire.org##[style*="base64"]
 www.8boobs.com##.join
 www.8boobs.com##.top-link
 www.8boobs.com##.banners
-www.8boobs.com###topmenu > ul > li:nth-child(4), #topmenu > ul > li:nth-child(5)
+www.8boobs.com###topmenu > ul > li:nth-child(4), #topmenu > ul > li:nth-child(5), #topmenu > ul > li:nth-child(6), #topmenu > ul > li:nth-child(7)
+www.8boobs.com##[href^="https://www.silkencams.com/"]
+www.8boobs.com##[href="https://www.watchmygf.me/"]
+www.8boobs.com##[style="width:232px;height:352px;"]
 
 !wantedbabes.com
 www.wantedbabes.com###scroller
@@ -1708,6 +1711,8 @@ www.silkengirl.com##.btn_review.item:nth-child(6)
 www.silkengirl.com##.menu_holder > .item:nth-child(7)
 www.silkengirl.net##.item:nth-child(6) > .item_inner, .item:nth-child(8) > .item_inner
 www.silkengirl.net##[href^="http://adultfriendfinder.com/"]
+www.silkengirl.com##.thumb33:has([href*=trcklks])
+www.silkengirl.com##.thumb33:has([id*=ts_ad_native])
 
 !babes.com
 ||project1content.com/Babes/Tour/PROMOS/*$image,domain=babes.com
@@ -1720,6 +1725,7 @@ www.pleasuregirl.net###scroller
 www.pleasuregirl.net##.banner-center
 www.pleasuregirl.net##.new
 www.pleasuregirl.net###main-menu > li:nth-child(4)
+www.pleasuregirl.net##[href="https://www.watchmygf.me/"]
 
 !novohot.com
 www.novohot.com##.zone_b.place2x2
@@ -1831,6 +1837,8 @@ www.sensualgirls.org##.contentbanner
 www.sensualgirls.org##.block:has-text(Adblock)
 www.sensualgirls.org##div:nth-child(24)
 www.sensualgirls.org##[style*="base64"]
+www.sensualgirls.org##[href="/livesexchat"]
+www.sensualgirls.org##.live
 
 !mainbabes.com
 ||mainbabes.com^*/banners/$image,1p
@@ -2182,6 +2190,7 @@ www.babesmachine.com##[class*="banner"]
 www.babesmachine.com##[href="//www.yourdoll.com"]
 www.babesmachine.com##[href="//www.adultinteractive.net"]
 www.babesmachine.com##[href="/friends"]
+www.babesmachine.com##[href="//www.adultinteractivechat.net"]
 
 !babesaround.com
 ||babesaround.com^*/banners/*$image,1p
@@ -3825,3 +3834,6 @@ adbl.me##.box-main > div:nth-child(5), .box-main > div:nth-child(12)
 !ckk.ai
 ckk.ai##h3
 ckk.ai##p
+
+!babesexy.com
+www.babesexy.com##.spots-box
