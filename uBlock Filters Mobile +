@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 3.3
+!Update: 3.4
 
 !silkengirl.com
 www.silkengirl.com##.fixed.header:style(position: sticky !important;)
@@ -56,6 +56,7 @@ m.pornflip.com##div[class*="banner"]
 www.novoporn.com###mainnav > .nav > li:nth-child(4)
 www.novoporn.com###mainnav > .nav > li:nth-child(5)
 www.novoporn.com##td:nth-child(1)
+www.novoporn.com##td > [href]
 
 !babesandbitches.net
 www.babesandbitches.net###mainnav > .nav > li:nth-child(5)
@@ -157,6 +158,8 @@ www.babesbang.com##.header-content > div > [href]
 
 !grabpussy.com
 www.grabpussy.com###logo-after
+www.grabpussy.com##.bookmark2
+www.grabpussy.com##.clear
 
 !bustybloom.com
 www.bustybloom.com###header:style(position: absolute !important;)
@@ -186,3 +189,13 @@ m.massage-parlor.com##.cc-floating
 
 !theomegaproject.org
 www.theomegaproject.org##.plink
+
+!novoglam.com
+www.novoglam.com##.mz0
+
+!pbabes.com
+www.pbabes.com##li:nth-child(4), li:nth-child(5), li:nth-child(6)
+www.pbabes.com##.clear
+
+!thousandbabes.com
+www.thousandbabes.com##.clear
