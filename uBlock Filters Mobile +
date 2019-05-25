@@ -2,14 +2,15 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 3.4
+!Update: 3.5
 
 !silkengirl.com
 www.silkengirl.com##.fixed.header:style(position: sticky !important;)
 www.silkengirl.com##.item_inner
 www.silkengirl.comm##.hold > .title:nth-child(2)
 www.silkengirl.com##.nav:nth-child(3)
-www.silkengirl.com##.item:nth-child(5), .item:nth-child(6), .item:nth-child(7), .item:nth-child(8), .item:nth-child(9)
+www.silkengirl.com##.item:nth-child(6), .item:nth-child(7), .item:nth-child(8), .item:nth-child(9)
+www.silkengirl.com##.nav:first-child > .item:nth-child(5)
 
 !github.com #filters made to fix white areas leftover by dark mode userscript.
 github.com##.discussion-reply:style(background-color: #010101 !important;)
@@ -53,8 +54,7 @@ m.pornflip.com##.popup-opened:style(overflow: auto !important; position: initial
 m.pornflip.com##div[class*="banner"]
 
 !novoporn.com
-www.novoporn.com###mainnav > .nav > li:nth-child(4)
-www.novoporn.com###mainnav > .nav > li:nth-child(5)
+www.novoporn.com###mainnav > .nav > li:nth-child(4), #mainnav > .nav > li:nth-child(5)
 www.novoporn.com##td:nth-child(1)
 www.novoporn.com##td > [href]
 
@@ -199,3 +199,8 @@ www.pbabes.com##.clear
 
 !thousandbabes.com
 www.thousandbabes.com##.clear
+
+!eporner.com
+||eporner.com/dotm/ads-head.php$frame,1p
+www.eporner.com###ad-top
+www.eporner.com###ad-bottom
