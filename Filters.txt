@@ -2075,9 +2075,9 @@ www.babesbang.com##.side-bg:nth-child(2) > .side-bg-top > .side-bg-bottom > .mai
 www.babesbang.com###header > div
 www.babesbang.com##.side-title:nth-child(9), .side-title:nth-child(11), .side-title:nth-child(13)
 www.babesbang.com##.side-bg:nth-child(10), .side-bg:nth-child(12), .side-bg:nth-child(14)
-!www.babesbang.com##[href="https://bestyoungpornsites.com/"]
-!www.babesbang.com##[href="http://lesbianpornwebsites.com/"]
-!www.babesbang.com##[href="http://myporncams.com/"]
+www.babesbang.com##[href="https://bestyoungpornsites.com/"]
+www.babesbang.com##[href="http://lesbianpornwebsites.com/"]
+www.babesbang.com##[href="http://myporncams.com/"]
 
 !novoporn.com
 ||novoporn.com^*/banners/*$image,1p
