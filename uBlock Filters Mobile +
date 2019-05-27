@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 3.6
+!Update: 3.7
 
 !silkengirl.com
 www.silkengirl.com##.fixed.header:style(position: sticky !important;)
@@ -205,6 +205,3 @@ www.thousandbabes.com##.clear
 ||eporner.com/dotm/ads-head.php$frame,1p
 www.eporner.com###ad-top
 www.eporner.com###ad-bottom
-
-!deliciousbabes.org
-wwww.deliciousbabes.org##.block:first-child, .block:nth-child(4), .block:nth-child(5)
