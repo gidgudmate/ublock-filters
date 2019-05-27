@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 153
+!Update: 154
 
 !adf.ly
 adf.ly###_bd
@@ -716,7 +716,7 @@ realjapansex.com,fap18porn.pro##+js(window.open-defuser.js)
 
 /floader$script,1p
 
-@@||jquery.com^$script,domain=babesandgirls.com|morazzia.com|glam0ur.com|hotstunners.com|8boobs.com|sexykittenporn.com|nudity911.com|babesinporn.com|wildfanny.com|babeimpact.com
+@@||jquery.com^$script,domain=babesandgirls.com|morazzia.com|glam0ur.com|hotstunners.com|8boobs.com|sexykittenporn.com|nudity911.com|babesinporn.com|wildfanny.com|babeimpact.com|xfantasy.tv
 !---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 !puremature.com
 puremature.com##.epoch-box
@@ -1189,11 +1189,7 @@ www.pornpics.com##.r-frame
 
 !massage-parlor.com
 ||static-cms-fame.gammacdn.com/massage-parlor/m/*/icons-o.png$image
-www.massage-parlor.com##.tlcRightArrow.GA_Id_ActorsList_All_RightArrow.GA_Click.GA
-www.massage-parlor.com##.tlcLeftArrow.GA_Id_ActorsList_All_LeftArrow.GA_Click.GA
-www.massage-parlor.com##.opened.minimized
-www.massage-parlor.com##.tlcRightArrow.GA_Id_VideosList_All_RightArrow.GA_Click.GA
-www.massage-parlor.com##.tlcLeftArrow.GA_Id_VideosList_All_LeftArrow.GA_Click.GA
+www.massage-parlor.com###PromoBannerOverlay
 
 !forbes.com
 www.forbes.com###brightcove_perform_0_html5_api
@@ -1599,6 +1595,7 @@ www.grabpussy.com##.two-adv
 www.grabpussy.com##.ban-bl
 www.grabpussy.com##.ads
 www.grabpussy.com##.swiper-bonus
+www.grabpussy.com##[href]:not([href^="/"])
 
 !porndoo.com
 porndoo.com##+js(addEventListener-defuser.js, mousedown, popReverse)
@@ -1730,20 +1727,6 @@ wikia.com,fandom.com###mixed-content-footer
 !sensualgirls.org
 sens_fl.js$script,domain=sensualgirls.org
 www.sensualgirls.org##+js(abort-current-inline-script.js, CustomEvent, getexoloader)
-www.sensualgirls.org###box_600
-www.sensualgirls.org###bTIe1QTa
-www.sensualgirls.org###yFw5CViM
-www.sensualgirls.org###box_489
-www.sensualgirls.org###box_634
-www.sensualgirls.org###box_577
-www.sensualgirls.org###box_597
-www.sensualgirls.org###box_574
-www.sensualgirls.org###box_490
-www.sensualgirls.org###box_579
-www.sensualgirls.org###box_596
-www.sensualgirls.org###box_632
-www.sensualgirls.org###box_441
-www.sensualgirls.org###box_575
 www.sensualgirls.org##.banners
 www.sensualgirls.org##.contentbanner
 www.sensualgirls.org##.block:has-text(Adblock)
@@ -1762,30 +1745,15 @@ www.mainbabes.com##.spots_large
 www.mainbabes.com###thumbs_left > div.row:nth-of-type(2)
 
 !deliciousbabes.org
+||deliciousbabes.org/php*$script,1p
 deliciousbabes.org##+js(abort-current-inline-script.js, CustomEvent, getexoloader)
-www.deliciousbabes.org###box_547
-www.deliciousbabes.org###box_452
-www.deliciousbabes.org###box_502
-www.deliciousbabes.org###box_540
-www.deliciousbabes.org###box_473
-www.deliciousbabes.org###box_503
-www.deliciousbabes.org###box_517
-www.deliciousbabes.org###box_474
-www.deliciousbabes.org###box_549
-www.deliciousbabes.org###box_537
-www.deliciousbabes.org###box_503
-www.deliciousbabes.org###box_517
-www.deliciousbabes.org###box_474
-www.deliciousbabes.org###box_549
-www.deliciousbabes.org###box_537
 www.deliciousbabes.org##.block:first-child, .block:nth-child(4), .block:nth-child(5), block:nth-child(8), .block:nth-child(9)
-www.deliciousbabes.org##[href^="http://refer.ccbill.com/"] > div
 www.deliciousbabes.org##[id^="box"]:has-text(You have Adblock enabled.)
 www.deliciousbabes.org##h2 > [href]
-www.deliciousbabes.org##div > [href*="http://join"]
+www.deliciousbabes.org##[style*="base64"]
 www.deliciousbabes.org##.center > [href]
-www.deliciousbabes.org##div:nth-child(4) > [href], div:nth-child(23) > [href]
 www.deliciousbabes.org##[class*="banner"]
+www.deliciousbabes.org##.live
 
 !penthouse.com
 ||penthouse.com/assets/img/*.png$image
@@ -1903,7 +1871,7 @@ www.fooxybabes.com###scrollUp
 www.fooxybabes.com##.button_help
 www.fooxybabes.com##.spot
 www.fooxybabes.com##.nav_items > .item:nth-child(4), .nav_items > .item:nth-child(5)
-www.fooxybabes.com##.item:nth-child(6)
+www.fooxybabes.com##.item:nth-child(6), .item:nth-child(7)
 
 !temptingangels.org
 ||temptingangels.org^*/banners/$image,1p
@@ -2056,7 +2024,11 @@ www.vibraporn.com##.owner_w
 www.vibraporn.com##.contentbanner
 
 !nakedneighbour.com
+||nakedneighbour.com^*/banners/*$image,1p
+*/vghd/banner/*.gif$image,1p
 www.nakedneighbour.com##.banner
+www.nakedneighbour.com##[href^="https://trcklks.com"]
+www.nakedneighbour.com##.block:nth-child(2)
 
 !sexynakeds.com
 ||sexynakeds.com^*/b/*$image,1p
@@ -2091,6 +2063,8 @@ www.novoporn.com##.two-adv
 www.novoporn.com##.swiper-bonus
 www.novoporn.com##[href="http://bestamateursporn.com/"]
 www.novoporn.com##[href^="http://adultfriendfinder.com/"]
+www.novoporn.com##[href="http://asianpornwebsites.com/"]
+www.novoporn.com##[href^="http://best10pornsites.com/"]
 
 !glam0ur.com
 ||glam0ur.com^*/banners/*$image,1p
@@ -2139,7 +2113,7 @@ www.babesmachine.com###toplinks
 ||babesaround.com^*/b/*$image,1p
 www.babesaround.com##.top_banner
 www.babesaround.com##.adsense
-www.babesaround.com##.hbg_padd > p > [href]:not([href*=babesaround])
+www.babesaround.com##[href]:not([href^="/"])
 
 !bustynudebabes.com
 www.bustynudebabes.com##.bnr
@@ -2659,12 +2633,13 @@ cutpaid.com##.text-left
 !torrentsearchweb.ws
 *$3p,script,frame,xhr,image,domain=torrentsearchweb.ws
 
-!pornerbros.com
-pornerbros.com##+js(set-constant.js, adsEnabled, false)
+!pornerbros
+www.pornerbros.com##.col-4
+www.pornerbros.com##.adContainer
 
 !katfile.com
-katfile##+js(set-constant.js, adEnable, false)
-katfile##+js(window.open-defuser.js)
+katfile.com##+js(set-constant.js, adEnable, true)
+katfile.com##+js(window.open-defuser.js)
 
 !linkfay.com
 linkfay.com#@#.banner-468x60
@@ -3095,6 +3070,7 @@ www.shesfreaky.com##.prefooter
 
 !spankbang.com
 ||spankbang.com/get*=mobile_*$frame,1p
+||spankbang.com/sw.*js$script,1p
 spankbang.com##.advrt
 spankbang.com###player_positions
 spankbang.com##.live_api_results_holder
@@ -3183,6 +3159,7 @@ daftsex.com##.extension
 daftsex.com##.up
 daftsex.com##.head-menu > [href]:not([href^="/"])
 daftsex.com###addthis_sharing_toolbox
+daftsex.com##.copy > [href]:not([href^="/"])
 
 !arbh.info
 arbh.info##.text-left
@@ -3456,6 +3433,7 @@ xfantasy.tv###back-to-top
 xfantasy.tv##.join_banner
 xfantasy.tv##.happy-sidebar
 xfantasy.tv##li > [class]:has-text(Live)
+xfantasy.tv##[href]:not([href^="/"]):not([href*="xfantasy.tv"])
 
 !camwhores.tv
 www.camwhores.tv##.adv
@@ -3790,3 +3768,6 @@ www.sunporno.com##.movie-footer > div:first-child
 
 !kisscartoon.xyz
 kisscartoon.xyz##[id^="spu-"]
+
+!pornoxo.com
+pornoxo.com##+js(abort-on-property-read.js, BackButton)
