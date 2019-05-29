@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 155
+!Update: 156
 
 !adf.ly
 adf.ly###_bd
@@ -841,6 +841,7 @@ upornia.com##.feedback__icon
 upornia.com##.feedback__text
 upornia.com###toTop
 upornia.com##.adv-name-small
+upornia.com##.hYbus
 
 !drugabuse.com
 drugabuse.com##.cr-stickybar > .container-fluid
@@ -3777,3 +3778,11 @@ kisscartoon.xyz##[id^="spu-"]
 
 !pornoxo.com
 pornoxo.com##+js(abort-on-property-read.js, BackButton)
+
+!overthumbs.com
+||nakedreel.com/gt/frames$domain=overthumbs.com
+/*/outstream.php$frame,1p
+overthumbs.com##.ad
+
+!handjobhub.com
+handjobhub.com##[class*="banner"]
