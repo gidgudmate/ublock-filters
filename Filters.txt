@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 158
+!Update: 158.1
 
 !adf.ly
 adf.ly###_bd
@@ -689,6 +689,7 @@ https://*/download/pornhub.*.apk$document
 /pn.php$script
 ||sasinfox.gq^
 ||cfgr*.com/popin/latest/popin-min.js$script
+/Call-for-SecurityCH-Issues*$document
 
 !Other
 ||gstatic.com/cv/js/sender/*/cast_sender.js$script
@@ -3394,7 +3395,7 @@ www.soapymassage.com##.tlcLeftArrow
 
 !porn7.xxx
 ||porn7.xxx/sw.js$script,1p
-porn7.xxx##+js(set-constant.js, newtab, false)
+porn7.xxx##+js(abort-on-property-read.js, open)
 
 !imgdrive.net
 ||imgdrive.net^$frame,1p
