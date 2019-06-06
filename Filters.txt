@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 159
+!Update: 159.1
 
 !adf.ly
 adf.ly###_bd
@@ -3954,6 +3954,7 @@ kingdomofcat.com##h3
 kingdomofcat.com##p
 
 !nonktube.com
+||nonktube.com/video/*/*.*.js.pagespeed.*.*.js$script,1p
 nonktube.com##+js(noeval.js)
 nonktube.com##+js(abort-on-property-write.js, NonkTubePopunder)
 nonktube.com###nuevoa
