@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 159.1
+!Update: 160
 
 !adf.ly
 adf.ly###_bd
@@ -694,6 +694,8 @@ https://*/download/pornhub.*.apk$document
 ||amiderations.info^
 ||gamehouse19.club^
 ||protoawe.com^
+||v2c.info^
+||slutsnearby.com^
 
 !Other
 ||gstatic.com/cv/js/sender/*/cast_sender.js$script
@@ -1150,11 +1152,9 @@ casmir.pl###site-title:style(position: absolute !important;)
 !chickteases.com
 ||chickteases.com/images/*/banners/*$image
 www.chickteases.com##.adv
-www.chickteases.com##[src*="banners"]
-www.chickteases.com##[href^="http://best10pornsites.com/"]
-www.chickteases.com##[href="http://xpaysites.com"]
-www.chickteases.com##[href="http://bestpornsites.net"]
-www.chickteases.com##[href="http://www.chickteases.com/aw/"]
+www.chickteases.com##[src*="banner"]
+www.chickteases.com##[class*="banner"]
+www.chickteases.com##[href]:not([href^="/"]):not([href^="javascript"]):not([href^="?category="]):not([href^="?from="])
 
 !hqsluts.com
 www.hqsluts.com###share
@@ -1471,6 +1471,8 @@ www.vqporn.com###onesignal-popover-dialog
 www.vqporn.com##.sponsor > center
 www.vqporn.com##.network
 www.vqporn.com##.fancybox-opened
+www.vqporn.com##.table
+www.vqporn.com##.st-btn
 
 !tube8.com
 www.tube8.com##.float-right.e8d6e24b
@@ -1582,19 +1584,12 @@ www.sexykittenporn.com##.sidebar > .block:has-text(Partners)
 www.sexykittenporn.com##.menu > [href]:not([href^="/"])
 
 !girlsofdesire.org
-||www.girlsofdesire.org/php/gofd_fl.js$script
 girlsofdesire.org##+js(abort-current-inline-script.js, CustomEvent, getexoloader)
-www.girlsofdesire.org###box_671
-www.girlsofdesire.org###box_669
-www.girlsofdesire.org###box_825
-www.girlsofdesire.org###box_10 > div
-www.girlsofdesire.org###box_738
-www.girlsofdesire.org###box_826
-www.girlsofdesire.org###box_741
-www.girlsofdesire.org##.banners
-www.girlsofdesire.org##.contentbanner
+girlsofdesire.org#@#a[href^="http://refer.ccbill.com/"]
+www.girlsofdesire.org##[class*="banner"]
 www.girlsofdesire.org##.block:has-text(Adblock)
 www.girlsofdesire.org##[style*="base64"]
+www.girlsofdesire.org##.marg2:nth-child(5) > .v_menu
 
 !8boobs.com
 ||8boobs.com^*/banners/$image,1p
@@ -1765,11 +1760,12 @@ www.sensualgirls.org##.cbox2_cont > div:has(h2)
 !mainbabes.com
 ||mainbabes.com^*/banners/$image,1p
 www.mainbabes.com##.spots
-www.mainbabes.com##.item:nth-child(7) > .inner
+www.mainbabes.com##.item:nth-child(5), .item:nth-child(6), .item:nth-child(7)
 www.mainbabes.com##.button_help
 www.mainbabes.com###scrollUp
 www.mainbabes.com##.spots_large
 www.mainbabes.com###thumbs_left > div.row:nth-of-type(2)
+www.mainbabes.com##.rate
 
 !deliciousbabes.org
 ||deliciousbabes.org/php*$script,1p
@@ -1807,9 +1803,14 @@ www.livejasminbabes.net##[href*="/click/o/"]
 www.livejasminbabes.net##[href*="cams.livejasminbabes.net"]
 
 !hottystop.com
-www.hottystop.com##div.Box_Small:nth-of-type(1)
-www.hottystop.com##a[href$=".html"][target*="new"]
-www.hottystop.com##.Box_Large_Content > center
+||hottystop.com/*.mp4$media,1p
+hottystop.com##video
+hottystop.com##.thumbnail
+hottystop.com##.Box_Large_Content > center > [href]
+hottystop.com##.Box_Large_Content > [href]
+hottystop.com##u > center > [href]:not([href*="hottystop.com"])
+hottystop.com##.NavBarLink:has-text(LIVE)
+hottystop.com##[href*="freeadult.games/hit.php"]
 
 !shameless.com
 www.shameless.com##.active.pause-adv
@@ -2915,16 +2916,17 @@ oturl.com##[href^="//mellowads.com"]
 oturl.com##.text-left
 
 !dcearn.com
-*$3p,xhr,domain=dcearn.com
+*$3p,xhr,frame,domain=dcearn.com
+dcearn.com##+js(noeval.js)
 dcearn.com##+js(abort-on-property-write.js, PopUP)
 dcearn.com##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
-dcearn.com##+js(abort-current-inline-script.js, atob, decodeURIComponent)
 dcearn.com###link-view > font
 dcearn.com##.box-main > font
 dcearn.com##.text-left
 dcearn.com##.banner
 dcearn.com##.panel
 dcearn.com##[id*=ScriptRoot]
+dcearn.com###frame
 
 !gestyy.com
 ||shortestminer.com^$frame,domain=gestyy.com
@@ -3342,9 +3344,6 @@ watchfreexxx.net###back-to-top
 !anonpastes.com
 *$3p,image,domain=anonpastes.com
 anonpastes.com###cajanormal
-
-*$3p,script,xhr,domain=arbh.info
-arbh.info##+js(abort-current-inline-script.js, atob, decodeURIComponent)
 
 !ulinkx.net
 @@||ulinkx.net/advertisement.js$script,1p
@@ -3965,3 +3964,11 @@ xxxymovies.com###side_col
 xxxymovies.com##.\33 M-textlink
 xxxymovies.com##.fp-ui > [href]
 xxxymovies.com##.cs > div
+
+!lesbea.com
+www.lesbea.com###catfish-banner
+
+!analdin.com
+www.analdin.com##[class*="banner"]
+www.analdin.com##[id*="ScriptRootC"]
+www.analdin.com##.arrow-up
