@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 3.7
+!Update: 3.8
 
 !silkengirl.com
 www.silkengirl.com##.fixed.header:style(position: sticky !important;)
@@ -205,3 +205,6 @@ www.thousandbabes.com##.clear
 ||eporner.com/dotm/ads-head.php$frame,1p
 www.eporner.com###ad-top
 www.eporner.com###ad-bottom
+
+!xvideos.com
+www.xvideos.com###ad-header-mobile
