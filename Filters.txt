@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 160
+!Update: 161
 
 !adf.ly
 adf.ly###_bd
@@ -656,7 +656,6 @@ http://*.com/*=*&refer=*key=*$document
 ||co-aa86.stream^
 https://*/download/pornhub.*.apk$document
 ||system-update.*.top^
-||browser-update.org^
 ||utherreperkin.info^
 ||entionale.info^
 ||error-32x.icu^
@@ -696,6 +695,9 @@ https://*/download/pornhub.*.apk$document
 ||protoawe.com^
 ||v2c.info^
 ||slutsnearby.com^
+||wynsys.club^
+||tnxiuvjtplhhdy.com^
+||clicksondelivery.com^
 
 !Other
 ||gstatic.com/cv/js/sender/*/cast_sender.js$script
@@ -1617,6 +1619,7 @@ www.grabpussy.com##.ads
 www.grabpussy.com##.swiper-bonus
 www.grabpussy.com##[href]:not([href^="/"])
 www.grabpussy.com##.menu_bttm
+www.grabpussy.com##[class*="banner"]
 
 !porndoo.com
 porndoo.com##+js(addEventListener-defuser.js, mousedown, popReverse)
@@ -2258,6 +2261,7 @@ sexy-youtubers.com##+js(abort-on-property-read.js, ExoLoader)
 sexy-youtubers.com##+js(window.open-defuser.js)
 sexy-youtubers.com###forumcustom
 sexy-youtubers.com##.td-scroll-up
+sexy-youtubers.com##[href]:not([href^="#"]):not([href*="sexy-youtubers"]):not([href*="verystream"])
 
 !thothub.tv
 thothub.tv##.g1-back-to-top
@@ -2501,6 +2505,7 @@ lesbian8.com##+js(abort-on-property-read.js, BetterJsPop)
 www.lesbian8.com##.right > .content
 
 !biqle.ru
+||biqle.ru/swp.js$script,1p
 biqle.ru##.message-container
 biqle.ru##.extension
 
@@ -3555,11 +3560,14 @@ hentai-cosplay.com###display_image_detail > span
 hentai-cosplay.com###comments > span
 
 !ShrtFly links
-!royalown.review|!allreports.site|komiupdates.xyz
+!royalown.review|!allreports.site|komiupdates.xyz|stfly.io
+||stfly.io/sw.js$script,1p
+stfly.io##+js(remove-attr.js, href, [href*=".xyz"])
 royalown.review,allreports.site,komiupdates.xyz##+js(abort-on-property-read.js, open)
-royalown.review,allreports.site,komiupdates.xyz##+js(noeval.js)
-royalown.review,allreports.site,komiupdates.xyz##p
-royalown.review,allreports.site,komiupdates.xyz##.text-left
+royalown.review,allreports.site,komiupdates.xyz,stfly.io##+js(noeval.js)
+royalown.review,allreports.site,komiupdates.xyz,stfly.io##p
+royalown.review,allreports.site,komiupdates.xyz,stfly.io##.text-left
+stfly.io##[src*="//i.imgur.com/"]
 
 !daily-sale.in
 daily-sale.in##+js(noeval.js)
@@ -3731,15 +3739,15 @@ www.worldsex.com##.hide-on-mobile
 www.worldsex.com##.scrollup
 
 !Shortzon sites
-!techfinda.com|talkittechy.com|healthfary.com|justlikeyojna.com|smarteasystudy.com|xpickle.club|viraltechnical.in
+!techfinda.com|talkittechy.com|healthfary.com|justlikeyojna.com|smarteasystudy.com|xpickle.club|viraltechnical.in|techtremendous.com
 smarteasystudy.com##+js(noeval.js)
-techfinda.com,talkittechy.com,healthfary.com,justlikeyojna.com,smarteasystudy.com,xpickle.club,viraltechnical.in##.text-left
-techfinda.com,talkittechy.com,healthfary.com,justlikeyojna.com,smarteasystudy.com,xpickle.club,viraltechnical.in###cookie-pop
-techfinda.com,talkittechy.com,healthfary.com,justlikeyojna.com,smarteasystudy.com,xpickle.club,viraltechnical.in##.adsbygoogle
-techfinda.com,talkittechy.com,healthfary.com,justlikeyojna.com,smarteasystudy.com,xpickle.club,viraltechnical.in###link-view > center:nth-child(16)
-techfinda.com,talkittechy.com,healthfary.com,justlikeyojna.com,smarteasystudy.com,xpickle.club,viraltechnical.in##.col-md-10 > center:first-child
-talkittechy.com,healthfary.com,justlikeyojna.com,smarteasystudy.com,xpickle.club,viraltechnical.in##h1
-viraltechnical.in##.banner
+techfinda.com,talkittechy.com,healthfary.com,justlikeyojna.com,smarteasystudy.com,xpickle.club,viraltechnical.in,techtremendous.com##.text-left
+techfinda.com,talkittechy.com,healthfary.com,justlikeyojna.com,smarteasystudy.com,xpickle.club,viraltechnical.in,techtremendous.com###cookie-pop
+techfinda.com,talkittechy.com,healthfary.com,justlikeyojna.com,smarteasystudy.com,xpickle.club,viraltechnical.in,techtremendous.com##.adsbygoogle
+techfinda.com,talkittechy.com,healthfary.com,justlikeyojna.com,smarteasystudy.com,xpickle.club,viraltechnical.in,techtremendous.com###link-view > center:nth-child(16)
+techfinda.com,talkittechy.com,healthfary.com,justlikeyojna.com,smarteasystudy.com,xpickle.club,viraltechnical.in,techtremendous.com##.col-md-10 > center:first-child
+talkittechy.com,healthfary.com,justlikeyojna.com,smarteasystudy.com,xpickle.club,viraltechnical.in,techtremendous.com##h1
+viraltechnical.in,techtremendous.com##.banner
 
 !viralcollect.info
 viralcollect.info##+js(nano-setTimeout-booster.js)
@@ -3972,3 +3980,18 @@ www.lesbea.com###catfish-banner
 www.analdin.com##[class*="banner"]
 www.analdin.com##[id*="ScriptRootC"]
 www.analdin.com##.arrow-up
+
+!vipissy.com
+www.vipissy.com##.join_window
+
+!porndig.com
+www.porndig.com##.top_webcams
+www.porndig.com##.scroll_top_btn
+
+!fapxl.com
+||fapxl.com/lib/external/tx/out.php$frame,1p
+fapxl.com##+js(addEventListener-defuser.js, DOMContentLoaded, $buo_f)
+
+!arba7-online.com
+arba7-online.com##+js(abort-current-inline-script.js, String.fromCharCode, decodeURIComponent)
+arba7-online.com##.text-left
