@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 3.8
+!Update: 3.9
 
 !silkengirl.com
 www.silkengirl.com##.fixed.header:style(position: sticky !important;)
@@ -161,6 +161,7 @@ www.babesbang.com##.header-content > div > [href]
 www.grabpussy.com###logo-after
 www.grabpussy.com##.bookmark2
 www.grabpussy.com##.clear
+www.grabpussy.com##.adv
 
 !bustybloom.com
 www.bustybloom.com###header:style(position: absolute !important;)
@@ -200,6 +201,7 @@ www.pbabes.com##.clear
 
 !thousandbabes.com
 www.thousandbabes.com##.clear
+www.thousandbabes.com##.swiper-bonus
 
 !eporner.com
 ||eporner.com/dotm/ads-head.php$frame,1p
@@ -208,3 +210,6 @@ www.eporner.com###ad-bottom
 
 !xvideos.com
 www.xvideos.com###ad-header-mobile
+
+!pussystate.com
+www.pussystate.com###mainnav > .nav > li:nth-child(3), #mainnav > .nav > li:nth-child(5)
