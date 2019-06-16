@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 3.9
+!Update: 4.0
 
 !silkengirl.com
 www.silkengirl.com##.fixed.header:style(position: sticky !important;)
@@ -40,6 +40,8 @@ www.playvids.com##.popup-opened:style(overflow: auto !important; position: initi
 
 !spankbang.com
 m.spankbang.com###header_bar:style(position: absolute !important;)
+m.spankbang.com##[href="/tv"]
+m.spankbang.com##[href="/live"]
 
 !silkengirl.net
 www.silkengirl.net##.hold > .title:nth-child(2)
