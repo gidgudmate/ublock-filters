@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 4.0
+!Update: 4.1
 
 !silkengirl.com
 www.silkengirl.com##.fixed.header:style(position: sticky !important;)
@@ -164,6 +164,7 @@ www.grabpussy.com###logo-after
 www.grabpussy.com##.bookmark2
 www.grabpussy.com##.clear
 www.grabpussy.com##.adv
+www.grabpussy.com###mainmenu > ul > li:first-child
 
 !bustybloom.com
 www.bustybloom.com###header:style(position: absolute !important;)
