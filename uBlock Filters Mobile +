@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 4.2
+!Update: 4.3
 
 !silkengirl.com
 www.silkengirl.com##.fixed.header:style(position: sticky !important;)
@@ -220,3 +220,9 @@ www.pussystate.com###mainnav > .nav > li:nth-child(3), #mainnav > .nav > li:nth-
 !pureandsexy.org
 www.pureandsexy.org###content-top-menu2
 www.pureandsexy.org##.clear
+
+
+!fulltrannyporn.com
+www.fulltrannyporn.com###ticker
+www.fulltrannyporn.com##.mobile-banner
+www.fulltrannyporn.com##.header-open-cookie:style(position: static !important;)
