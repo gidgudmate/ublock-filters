@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 167
+!Update: 168
 
 
 !Assortment of ad/tracking servers not found in Peter Lowe's
@@ -650,6 +650,11 @@ https://*/download/pornhub.*.apk$document
 ||teaking-lughtness.com^
 ||327d49j2xt0nsr6o.pro^
 ||protoawe.com^
+||dgeggjwyhkrr.com^
+||vfkwaaqc.com^
+||sweetandpussy.com^
+||goodmeet.club^
+||your-luckychance.life^
 
 !Other
 ||gstatic.com/cv/js/sender/*/cast_sender.js$script
@@ -1181,9 +1186,11 @@ www.camvideos.tv##.place
 www.camvideos.tv##.thumb-live-model
 
 !thebestshemalevideos.com
-||www.thebestshemalevideos.com/images/visuals/*.png$image
-||www.thebestshemalevideos.com/images/*.gif$image
-||www.thebestshemalevideos.com/contents/other/player/*.png
+||thebestshemalevideos.com/images/visuals/*.png$image,1p
+||thebestshemalevideos.com/images/*.gif$image,1p
+||thebestshemalevideos.com/contents/other/player/*.png$image,1p
+||thebestshemalevideos.com/contents/other/player/*Pre-Roll.mp4$media,1p
+||thebestshemalevideos.com/contents/other/player/Postroll.mp4$media,1p
 www.thebestshemalevideos.com##.table
 www.thebestshemalevideos.com##.bottom-adv
 
@@ -1472,17 +1479,16 @@ www.youporn.com##.video_block_wrapper:has(.icon-premium-star)
 www.youporn.com##.promo-message
 
 !vqporn.com
-www.vqporn.com##.background
-www.vqporn.com##.onesignal-bell-svg
-www.vqporn.com##.mFsyNOqC
-www.vqporn.com##.table
-www.vqporn.com##.footer-margin > .content
-www.vqporn.com###onesignal-popover-dialog
-www.vqporn.com##.sponsor > center
-www.vqporn.com##.network
-www.vqporn.com##.fancybox-opened
-www.vqporn.com##.table
-www.vqporn.com##.st-btn
+vqporn.com##.background
+vqporn.com##.onesignal-bell-svg
+vqporn.com##.mFsyNOqC
+vqporn.com##.table
+vqporn.com##.footer-margin > .content
+vqporn.com###onesignal-popover-dialog
+vqporn.com##.sponsor > center
+vqporn.com##.network
+vqporn.com##.fancybox-opened
+vqporn.com##.st-btn
 
 !tube8.com
 www.tube8.com##.float-right.e8d6e24b
@@ -2000,6 +2006,7 @@ www.pureandsexy.org##.mz0
 !pussystate.com
 ||pussystate.com^*/banners/$image,1p
 ||pussystate.com^*/b/*$image,1p
+||pussystate.com/*.php$script,1p
 pussystate.com##+js(abort-on-property-read.js, ExoLoader.addZone)
 pussystate.com##+js(abort-on-property-read.js, ExoLoader.serve)
 www.pussystate.com##.thumbs > li:nth-child(10)
@@ -2009,6 +2016,7 @@ www.pussystate.com##[class*="zone"]
 www.pussystate.com##.banner
 www.pussystate.com##[href="http://bestxxxsites.com/"], [href="http://best10pornsites.com/"], [href^="http://adultfriendfinder.com/"]
 www.pussystate.com##.aw
+www.pussystate.com##[style*="clear:both;float:none;width:600px;margin:0;overflow:hidden;margin-left:-5px;"]
 
 !rabbitsfun.com
 ||rabbitsfun.com^*/banners/$image,1p
@@ -2396,9 +2404,11 @@ www.nudity911.com##[src*="banners"]
 ||pornflip.com/add.css$css,1p
 
 !#if env_chromium
-!#if env_mobile
 pornflip.com##+js(abort-on-property-write.js, pop_target)
 !#endif
+
+!#if env_mobile
+pornflip.com##+js(abort-on-property-write.js, pop_target)
 !#endif
 
 pornflip.com##.banner-top
@@ -2479,12 +2489,12 @@ www.veporns.com##.info:first-child
 www.veporns.com##.video_ads_all
 
 !isea2016.info
-isea2016.info##.mediabox.row > .thumbs
+isea2016.info##[src*="/girl/"], [src*="/sex/"], [src*="/xxx/"], [src*="/top/"]
+isea2016.info##[href]:nth-child(4) > .thumbs, [href]:nth-child(26) > .thumbs, [href]:nth-child(28) > .thumbs
+isea2016.info##.row > .thumbs
+isea2016.info##.side_box:nth-child(1), .side_box:nth-child(2)
+isea2016.info##.anchor:has-text(Sex Dating)
 isea2016.info##.girl
-isea2016.info##.side_box[class] > div:has(a[href])
-isea2016.info##.side_box:nth-child(-n+2)
-isea2016.info##.side_box:last-child
-isea2016.info##a[href*="/porngirl.php"]:nth-child(4)
 
 !hotxxxpussy.com
 /xtube.php
@@ -3369,7 +3379,7 @@ food2020.biz##.text-left
 food2020.biz##.row > p
 
 !bonuserotic.com
-*$3p,frame,domain=bonuserotic.com
+facebook.*$3p,domain=bonuserotic.com
 ||bonuserotic.com^*/banners/*$image,1p
 bonuserotic.com##+js(set-constant.js, awePuShown, true)
 
@@ -4082,10 +4092,12 @@ wupfile.com##.block-pricing
 upvid.mobi##[id*="ScriptRoot"]
 
 !pornoeggs.com
-!#if env_chromium
 !#if env_mobile
 pornoeggs.com##+js(abort-on-property-write.js, pop_target)
 !#endif
+
+!#if env_chromium
+pornoeggs.com##+js(abort-on-property-write.js, pop_target)
 !#endif
 
 !simplenu.com
@@ -4111,11 +4123,12 @@ streamextreme.cc##+js(addEventListener-defuser.js, /^(?:load|click)$/, popMagic)
 fmovies.to##.stream4k
 
 !onlythots.com
-onlythots.com##+js(addEventListener-defuser.js, getexoloader)
+onlythots.com##+js(abort-current-inline-script.js, CustomEvent, getexoloader)
 
 !gonewild.co
 gonewild.co##+js(addEventListener-defuser.js, getexoloader)
 gonewild.co##+js(abort-on-property-read.js, window.popjs)
+gonewild.co##[href="https://theporndude.com"], [href^="https://reactads.engine.adglare.net/"], [href^="https://bongacams3.com/track"]
 
 !nsfw247.to
 nsfw247.to^$xhr,1p
