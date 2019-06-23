@@ -1016,7 +1016,7 @@ www.eroti.ga###pm-social-share
 
 !svscomics.com
 svscomics.com##a[href="https://bit.ly/svscomics_k2s"]
-svscomics.com##.at-svc-facebook.at-share-btn > .at-icon-wrapper
+svscomics.com##.at-svc-.at-share-btn > .at-icon-wrapper
 svscomics.com###at4-share
 
 !tomshardware.com
@@ -3379,7 +3379,7 @@ food2020.biz##.text-left
 food2020.biz##.row > p
 
 !bonuserotic.com
-facebook.*$3p,domain=bonuserotic.com
+||facebook.*$3p,domain=bonuserotic.com
 ||bonuserotic.com^*/banners/*$image,1p
 bonuserotic.com##+js(set-constant.js, awePuShown, true)
 
