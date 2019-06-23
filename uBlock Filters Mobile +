@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 4.1
+!Update: 4.2
 
 !silkengirl.com
 www.silkengirl.com##.fixed.header:style(position: sticky !important;)
@@ -147,7 +147,7 @@ m.taxi69.com###header:style(position: relative !important;)
 m.taxi69.com##.ad_kimia
 
 !nightdreambabe.com
-www.nightdreambabe.com##center:nth-child(2)
+www.nightdreambabe.com##center
 
 !babesaround.com
 www.babesaround.com##.selectnav-holder > center
@@ -216,3 +216,7 @@ www.xvideos.com###ad-header-mobile
 
 !pussystate.com
 www.pussystate.com###mainnav > .nav > li:nth-child(3), #mainnav > .nav > li:nth-child(5)
+
+!pureandsexy.org
+www.pureandsexy.org###content-top-menu2
+www.pureandsexy.org##.clear
