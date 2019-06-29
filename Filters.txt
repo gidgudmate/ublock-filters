@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 170
+!Update: 171
 
 
 !Assortment of ad/tracking servers not found in Peter Lowe's
@@ -525,7 +525,6 @@ clcknads.pro^
 ||pknzoizczuhjvk.com^
 ||moavoara.net^
 ||ejoonsoo.net^
-/\.(top|mine|clean|network|pw/\((a-z{0-9}))$document
 ||fast.list-sked.com^
 ||bodlines.com^
 ||tracking.wpnetwork.eu^
@@ -663,6 +662,17 @@ preRoll.php$xhr
 ||brother-root-rich-of.xyz^
 ||freeapptechietech.win^
 ||nbryb.com^
+||animalphantom.us^
+||zwenews.biz^
+||bulletprofit.com^
+||mobiletop20*techie.xyz^
+||dev-ai-app-installs.pw^
+||top-clean-mine-webs.pw^
+||reasonlegacy.club^
+||system-alert.*.top^
+||poolnews.biz^
+||jollybrown.live^
+||ghtuttiooo.club^
 
 !Other
 ||gstatic.com/cv/js/sender/*/cast_sender.js$script
@@ -1532,9 +1542,8 @@ www.facebook.com##div[id^="hyperfeed_story_id_"]:not(div:contains(/^[class="time
 
 !aznude.com
 ||aznude.com/worker.js$script,1p
-aznude.com##+js(abort-current-inline-script.js, document.createElement, 'script')
+aznude.com##+js(abort-on-property-write.js, htmlDecode)
 aznude.com##+js(addEventListener-defuser.js, load, _0x)
-aznude.com##+js(abort-on-property-read.js, _0x3de6)
 www.aznude.com##[href^="http://linktrack.info"]
 www.aznude.com##.recommended:nth-child(10), .recommended:nth-child(12)
 www.aznude.com##.text-box
@@ -3366,6 +3375,7 @@ nudepatch.net###DynamicBackgroundWrapper
 !ouo.io
 ||ouo.io/worker.js$script,1p
 ||ouo.io/sw.js$script,1p
+||ouo.io/sw-mavio.js$script,1p
 ouo.io##+js(window.open-defuser.js)
 ouo.io##+js(remove-attr.js, href, [href*=".html"])
 ouo.io##.text-center > div > [href]
@@ -4208,3 +4218,13 @@ peetube.cc,onlinexxx.cc,tvporn.cc,gonzoporn.cc,bdsmporn.cc,porntube18.cc,freeadu
 freeadultvideos.cc###af-preloader
 freepornstream.cc##.preloader
 tvporn.cc##.fa-chevron-up
+
+!sudoku-solutions.com
+@@||sudoku-solutions.com/javascript/ads.js$script,1p
+
+!zerooman.com
+zerooman.com##.blog-content
+zerooman.com##.page-header
+
+!shortmony.xyz
+shortmony.xyz##.text-left
