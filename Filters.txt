@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 171
+!Update: 172
 
 
 !Assortment of ad/tracking servers not found in Peter Lowe's
@@ -1301,6 +1301,7 @@ www.playvids.com##.col-lg-auto.col-12
 www.playvids.com##.col-xl-4
 www.playvids.com##.block-advert
 www.playvids.com##.share
+www.playvids.com###mediaPlayerSponsored
 
 !dailymotion.com
 www.dailymotion.com##.VideoQueue__videoWrapper___1zW3S > div:nth-of-type(2)
@@ -2313,6 +2314,8 @@ www.exgirlfriendmarket.com##.nat-top
 www.exgirlfriendmarket.com##.owner
 www.exgirlfriendmarket.com###header > .btn
 www.exgirlfriendmarket.com##[href^="//gotpd.me/"]
+www.exgirlfriendmarket.com###share
+www.exgirlfriendmarket.com##[id^="partnerpromo_"]
 
 !temp-mail.org
 temp-mail.org##.block-control:style(position: sticky !important;)
@@ -2690,6 +2693,8 @@ www.bustybloom.com##.text
 www.bustybloom.com##[href*="click/o/"]
 www.bustybloom.com##[href="https://www.porndiscounts.co.uk/"]
 www.bustybloom.com##[href*="cams.bustybloom.com"]
+www.bustybloom.com###share
+www.bustybloom.com##[id^="partnerpromo_"]
 
 !asspoint.com
 asspoint.com##+js(abort-on-property-read.js, url)
@@ -4068,7 +4073,7 @@ www.camuploads.com##.opt
 !tubous.com
 ||tubous.com/*.php$script,1p
 ||tubous.com/js/script.js$script,1p
-tubous.com##+js(set-constant.js, isMobileOnly, undefined)
+tubous.com##+js(abort-on-property-write.js, isMobileOnly)
 tubous.com##+js(abort-on-property-read.js, betterNameTub)
 www.tubous.com###videoContainer_playButton
 
@@ -4213,8 +4218,8 @@ www.tranny.one##.top-player-link
 !perfectgirls.net
 www.perfectgirls.net##.pornhat
 
-!peetube.cc|onlinexxx.cc|tvporn.cc|gonzoporn.cc|bdsmporn.cc|porntube18.cc|freeadultvideos.cc|streamextreme.cc|freepornstream.cc
-peetube.cc,onlinexxx.cc,tvporn.cc,gonzoporn.cc,bdsmporn.cc,porntube18.cc,freeadultvideos.cc,streamextreme.cc,freepornstream.cc##+js(addEventListener-defuser.js, /^(?:load|click)$/, popMagic)
+!peetube.cc|onlinexxx.cc|tvporn.cc|gonzoporn.cc|bdsmporn.cc|porntube18.cc|freeadultvideos.cc|streamextreme.cc|freepornstream.cc|movstube.net
+peetube.cc,onlinexxx.cc,tvporn.cc,gonzoporn.cc,bdsmporn.cc,porntube18.cc,freeadultvideos.cc,streamextreme.cc,freepornstream.cc,movstube.net##+js(addEventListener-defuser.js, /^(?:load|click)$/, popMagic)
 freeadultvideos.cc###af-preloader
 freepornstream.cc##.preloader
 tvporn.cc##.fa-chevron-up
@@ -4228,3 +4233,6 @@ zerooman.com##.page-header
 
 !shortmony.xyz
 shortmony.xyz##.text-left
+
+!sexyhub.com
+www.sexyhub.com###catfish-banner
