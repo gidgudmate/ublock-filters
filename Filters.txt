@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 172
+!Update: 173
 
 
 !Assortment of ad/tracking servers not found in Peter Lowe's
@@ -673,6 +673,8 @@ preRoll.php$xhr
 ||poolnews.biz^
 ||jollybrown.live^
 ||ghtuttiooo.club^
+||dditscdn.com^$websocket,3p
+||protoawegw.com/v1/player/collect/?event=load^$xhr,3p
 
 !Other
 ||gstatic.com/cv/js/sender/*/cast_sender.js$script
@@ -684,6 +686,8 @@ preRoll.php$xhr
 @@||21sextury.com^$popup,3p
 @@||pornhub.com^$popup,3p
 @@||google.com$popup,3p
+@@||awemwh.com^$media,domain=protoawe.com
+@@||protoawe.com^$image,frame,xhr,media,script,domain=protoawe.com
 
 !Universal DOM edits
 ##[class*="chromecast"]
@@ -708,8 +712,8 @@ openload.co##+js(abort-on-property-read.js, BetterJsPop)
 !viptube.com
 ||vptbn.com/redirect/*$xhr,3p
 @@||vptpsn.com/templates/frontend/*$script,3p
-@@||protoawe.com^$image,frame,xhr,media,script,domain=viptube.com|protoawe.com
-@@||awemwh.com^$media,domain=viptube.com|protoawe.com
+@@||protoawe.com^$image,frame,xhr,media,script,domain=viptube.com
+@@||awemwh.com^$media,domain=viptube.com
 viptube.com##+js(window.open-defuser.js)
 viptube.com##+js(set-constant.js, CanRunAds, true)
 viptube.com##+js(addEventListener-defuser.js, load, _0x)
@@ -2093,7 +2097,7 @@ www.novoglam.com##.zone250-double
 www.novoglam.com##.owner
 www.novoglam.com###myGalleryTags
 www.novoglam.com##[href^="http://adultfriendfinder.com/"]
-www.novoglam.com##.aw
+www.novoglam.com##.h2class > h1 > [href$="/aw/"]
 
 !baberoad.com
 baberoad.com##+js(setInterval-defuser.js, reload2)
@@ -2361,10 +2365,10 @@ efappy.com##+js(abort-on-property-read.js, ExoLoader)
 !sexy-youtubers.com
 sexy-youtubers.com/fftr.js$script,1p
 sexy-youtubers.com##+js(window.open-defuser.js)
-sexy-youtubers.com##+js(addEventListener-defuser.js, getexoloader)
+sexy-youtubers.com##+js(addEventListener-defuser.js, click, PopupCheckTarget)
 sexy-youtubers.com###forumcustom
 sexy-youtubers.com##.td-scroll-up
-sexy-youtubers.com##[href]:not([href^="#"]):not([href*="sexy-youtubers"]):not([href*="verystream"])
+sexy-youtubers.com##[href]:not([href^="#"]):not([href*="sexy-youtubers"]):not([href*="verystream"]):not([href^="/"]):not([class*="es"])
 
 !thothub.tv
 thothub.tv##+js(window.open-defuser.js)
@@ -2384,6 +2388,7 @@ thothub.tv##.g1-row-inner > #secondary
 !feet9.com
 feet9.com##.hvr-pulse
 feet9.com##.player-right > div:has-text(Click here to watch her)
+feet9.com##.pup
 
 !fullsextape.top
 fullsextape.top##.preview_thumb_main
@@ -2392,7 +2397,11 @@ fullsextape.top##.preview_thumb_main
 pornstarnaked.com###preloader
 
 !taxi69.com
+@@||protoawe.com^$script,frame,domain=taxi69.com
 taxi69.com##+js(abort-current-inline-script.js, CustomEvent, getexoloader)
+taxi69.com##+js(addEventListener-defuser.js, /^(?:load|click)$/, popMagic)
+taxi69.com##.last
+taxi69.com##.productor_info
 
 !lustcinema.com
 lustcinema.com##.exitpopnews
@@ -3648,6 +3657,7 @@ luscious.net###advertisement_adhesion
 
 !google.com
 ||google.com/serviceworker.js$script,1p
+||google.com/drive/serviceworker*.js$script,1p
 
 !apex.tracker.gg
 apex.tracker.gg##.trn-upsell-premium
@@ -3655,9 +3665,6 @@ apex.tracker.gg##.trn-upsell-premium
 !eroce.com
 eroce.com##.right-banners
 eroce.com##p > [href]
-
-!feet9.com
-www.feet9.com##.pup
 
 !hylink.tk
 *$3p,frame,domain=hylink.tk
@@ -4236,3 +4243,14 @@ shortmony.xyz##.text-left
 
 !sexyhub.com
 www.sexyhub.com###catfish-banner
+
+!homemoviestube.com
+homemoviestube.com##+js(abort-on-property-read.js, BetterJsPop)
+www.homemoviestube.com###slider
+www.homemoviestube.com##.see-more-premium
+www.homemoviestube.com##.cnt > .navi:nth-child(2)
+www.homemoviestube.com###blue-banner
+www.homemoviestube.com##[href^="https://srv.dropkickmedia.com/"], [href^="https://bdsmsimulator.com/"]
+
+!awestat.com
+awestat.com##+js(set-constant.js, noBlocker, true)
