@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 4.3
+!Update: 4.4
 
 !silkengirl.com
 www.silkengirl.com##.fixed.header:style(position: sticky !important;)
@@ -12,17 +12,8 @@ www.silkengirl.com##.nav:nth-child(3)
 www.silkengirl.com##.item:nth-child(6), .item:nth-child(7), .item:nth-child(8), .item:nth-child(9)
 www.silkengirl.com##.nav:first-child > .item:nth-child(5)
 
-!github.com #filters made to fix white areas leftover by dark mode userscript.
-github.com##.discussion-reply:style(background-color: #010101 !important;)
-github.com##.discussion-block-header:style(background-color: #010101 !important;)
-github.com##.discussion-block-title:style(background-color: #343434 !important;)
-github.com##.discussion-comment:style(background-color: #010101 !important;)
-github.com##.discussion-header:style(background-color: #010101 !important;)
-github.com##.profile-timeline-month-line:style(background-color: #010101 !important;)
-github.com##.issues-reset-query-wrapper:style(background-color: #010101 !important;)
-github.com###toc:style(background-color: #010101 !important;)
-github.com##.commit-authorship:style(background-color: #010101 !important;)
-github.com##.labels:style(background-color: #343434 !important;)
+!sexykittenporn.com
+www.sexykittenporn.com##li > [href]:not([href^="/"]):not([href^="#"])
 
 !dirtyyoungbitches.com
 www.dirtyyoungbitches.com###main-nav > li:nth-child(3)
