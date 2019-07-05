@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 173
+!Update: 174
 
 
 !Assortment of ad/tracking servers not found in Peter Lowe's
@@ -606,7 +606,7 @@ https://*/download/pornhub.*.apk$document
 ||searchdimension.com^
 ||cootewie.com^
 ||35.227.251.113^
-/pn.php$script
+||35.228.14.144^
 ||sasinfox.gq^
 ||cfgr*.com/popin/latest/popin-min.js$script
 /Call-for-SecurityCH-Issues*$document
@@ -675,6 +675,10 @@ preRoll.php$xhr
 ||ghtuttiooo.club^
 ||dditscdn.com^$websocket,3p
 ||protoawegw.com/v1/player/collect/?event=load^$xhr,3p
+||mysecurify.com^
+||suboysteries.info^
+||sexmotors.com^
+||1ts18.top^
 
 !Other
 ||gstatic.com/cv/js/sender/*/cast_sender.js$script
@@ -707,7 +711,6 @@ adf.ly###fade
 
 !openload.co
 openload.co##[id*=ScriptRootC]
-openload.co##+js(abort-on-property-read.js, BetterJsPop)
 
 !viptube.com
 ||vptbn.com/redirect/*$xhr,3p
@@ -874,6 +877,7 @@ www.twitch.tv##.button--icon-only.button.conversations-list-icon
 ||xbabe.com/_a_xb/a/ex/b.php$script,1p
 ||xbabe.com/cb/cb.xb.js$script,1p
 ||xbabe.com/_a_xb/s/s/*.php$script,frame,xhr,1p
+||xbabe.com/service-worker.js$script,1p
 *$3p,xhr,domain=xbabe.com
 xbabe.com###side_col
 
@@ -1392,25 +1396,27 @@ www.private.com##.pups-offer-10
 www.private.com###limited-offer
 www.private.com##.content-alert-unlock
 
-!xhamster.com
+!xhamster.com|xhamster.one
 ||xhcdn.com/xh-mobile/js/*.pop.js$script
 xhamsterpremium.com^
-xhamster.com##.flow-buttons > .xh-button:nth-of-type(1), .flow-buttons > .xh-button:nth-of-type(2)
-xhamster.com##.player-ad-close
-xhamster.com##.player-ad-overlay
-xhamster.com##.rendered.rectangle.cams-widget > .item-container
-xhamster.com##.rendered.rectangle.cams-widget
-xhamster.com##.list-items.spot-container.right-rectangle
-xhamster.com##.video-category-ads.spot-container.right-rectangle
-xhamster.com##.top-video-block--banner.top-video-block
-xhamster.com##.wrapper
-xhamster.com##.list-items.wid-spot-container.right-rectangle
-xhamster.com##.up-arrow
-xhamster.com##.xplayer-hover-menu
-xhamster.com##.promo-message__banner
-xhamster.com##.red-round
-xhamster.com##.wid-cams-widget
-xhamster.com##.xp-subscribe
+xhamsterlive.com^
+xhamster.one##+js(abort-on-property-write.js, dataPopUnder)
+xhamster.one##+js(abort-on-property-read.js, initials.urls.backUrl)
+xhamster.com,xhamster.one##.flow-buttons > .xh-button:nth-of-type(1), .flow-buttons > .xh-button:nth-of-type(2)
+xhamster.com,xhamster.one##.player-ad-close
+xhamster.com,xhamster.one##.player-ad-overlay
+xhamster.com,xhamster.one##.list-items.spot-container.right-rectangle
+xhamster.com,xhamster.one##.video-category-ads.spot-container.right-rectangle
+xhamster.com,xhamster.one##.top-video-block--banner.top-video-block
+xhamster.com,xhamster.one##.wrapper
+xhamster.com,xhamster.one##.list-items.wid-spot-container.right-rectangle
+xhamster.com,xhamster.one##.up-arrow
+xhamster.com,xhamster.one##.xplayer-hover-menu
+xhamster.com,xhamster.one##.promo-message__banner
+xhamster.com,xhamster.one##.red-round
+xhamster.com,xhamster.one##.wid-cams-widget
+xhamster.com,xhamster.one##.xp-subscribe
+xhamster.com,xhamster.one##.wid-sponsor-banner
 
 !pornhub.com
 www.pornhub.com###EPH-scroll
@@ -2247,7 +2253,7 @@ www.thousandbabes.com##[href]:not([href^="/"])
 !babesmachine.com
 ||babesmachine.com^*/banners/*$image,1p
 www.babesmachine.com##[class*="banner"]
-www.babesmachine.com##[href="//www.yourdoll.com"], [href="//www.adultinteractive.net"], [href="/friends"], [href="//www.adultinteractivechat.net"]
+www.babesmachine.com##[href="//www.yourdoll.com"], [href="//www.adultinteractive.net"], [href="/friends"], [href="//www.adultinteractivechat.net"], [href^="//www.vealove.com/"], [href="//sexdollfetish.store"]
 www.babesmachine.com###toplinks
 
 !babesaround.com
@@ -2368,7 +2374,7 @@ sexy-youtubers.com##+js(window.open-defuser.js)
 sexy-youtubers.com##+js(addEventListener-defuser.js, click, PopupCheckTarget)
 sexy-youtubers.com###forumcustom
 sexy-youtubers.com##.td-scroll-up
-sexy-youtubers.com##[href]:not([href^="#"]):not([href*="sexy-youtubers"]):not([href*="verystream"]):not([href^="/"]):not([class*="es"])
+sexy-youtubers.com##[href]:not([href^="#"]):not([href*="sexy-youtubers"]):not([href*="verystream"]):not([href^="/"]):not([href*="forums"]):not([class*="es"])
 
 !thothub.tv
 thothub.tv##+js(window.open-defuser.js)
@@ -2624,6 +2630,7 @@ www.lesbian8.com##.right > .content
 ||biqle.ru/swp.js$script,1p
 biqle.ru##.message-container
 biqle.ru##.extension
+dxb.to##.videoplayer_ext
 
 !mrskin.com
 www.mrskin.com##.sk-so-collapsed.sk-so-dropdown-container > .sk-so-dropdown-link
@@ -2704,6 +2711,7 @@ www.bustybloom.com##[href="https://www.porndiscounts.co.uk/"]
 www.bustybloom.com##[href*="cams.bustybloom.com"]
 www.bustybloom.com###share
 www.bustybloom.com##[id^="partnerpromo_"]
+www.bustybloom.com##.candy
 
 !asspoint.com
 asspoint.com##+js(abort-on-property-read.js, url)
@@ -2879,11 +2887,10 @@ healthereview.com##.banner
 
 !celebmasta.com
 ||celebmasta.com/superpwa-sw.js$script,1p
+||celebmasta.com/wp-content/themes/celeb-masta/js/ablakjo.js$script,1p
 celebmasta.com##+js(abort-on-property-write.js, dataPopUnder)
-celebmasta.com##[href^="https://mwzxe.jump-your-bones.com"]
-celebmasta.com##[href^="https://www.firecams.com"]
+celebmasta.com##[href^="https://mwzxe.jump-your-bones.com"], [href^="https://www.firecams.com"], [href^="https://www.instagram.com"], [href^="https://go.strpjmp.com/"]
 celebmasta.com###text-22, #text-35, #text-44
-celebmasta.com##[href^="https://www.instagram.com"]
 celebmasta.com###custom_html-10
 celebmasta.com###myBtn
 
@@ -3348,11 +3355,11 @@ www.21sextury.com###PromoBannerOverlay
 !daftsex.com|daxab.com
 ||daftsex.com/homesw.js$script,1p
 daftsex.com##[class^="container-"]
-daftsex.com##.extension
 daftsex.com##.up
 daftsex.com##.head-menu > [href]:not([href^="/"])
 daftsex.com###addthis_sharing_toolbox
 daftsex.com##.copy > [href]:not([href^="/"])
+daftsex.com##.standalonead
 daxab.com##.videoplayer_ext
 
 !arbh.info
@@ -3683,6 +3690,7 @@ royalown.review,allreports.site,komiupdates.xyz,stfly.io,humaribit.win##+js(noev
 royalown.review,allreports.site,komiupdates.xyz,stfly.io,humaribit.win##p
 royalown.review,allreports.site,komiupdates.xyz,stfly.io,humaribit.win##.text-left
 stfly.io##[src*="//i.imgur.com/"]
+stfly.io##h2, h3
 humaribit.win##center:nth-child(8) > b
 humaribit.win###link1
 humaribit.win##center:nth-child(13) > [href="#"]
@@ -3859,15 +3867,15 @@ www.worldsex.com##.hide-on-mobile
 www.worldsex.com##.scrollup
 
 !Shortzon sites
-!techfinda.com|talkittechy.com|healthfary.com|justlikeyojna.com|smarteasystudy.com|xpickle.club|viraltechnical.in|techtremendous.com|all-viralquiz.com|bollywooddramanews.com|bloggingdekh.xyz|daily-sale.in|agradarpan.com|ourcareerblog.com|irisdigit.com
-smarteasystudy.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com##+js(noeval.js)
-techfinda.com,talkittechy.com,healthfary.com,justlikeyojna.com,smarteasystudy.com,xpickle.club,viraltechnical.in,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com##.text-left
-techfinda.com,talkittechy.com,healthfary.com,justlikeyojna.com,smarteasystudy.com,xpickle.club,viraltechnical.in,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com###cookie-pop
-techfinda.com,talkittechy.com,healthfary.com,justlikeyojna.com,smarteasystudy.com,xpickle.club,viraltechnical.in,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com##.adsbygoogle
-techfinda.com,talkittechy.com,healthfary.com,justlikeyojna.com,smarteasystudy.com,xpickle.club,viraltechnical.in,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com###link-view > center:nth-child(16)
-techfinda.com,talkittechy.com,healthfary.com,justlikeyojna.com,smarteasystudy.com,xpickle.club,viraltechnical.in,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com##.col-md-10 > center:first-child
-talkittechy.com,healthfary.com,justlikeyojna.com,smarteasystudy.com,xpickle.club,viraltechnical.in,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com##h1
-viraltechnical.in,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com##.banner
+!techfinda.com|talkittechy.com|healthfary.com|justlikeyojna.com|smarteasystudy.com|xpickle.club|viraltechnical.in|techtremendous.com|all-viralquiz.com|bollywooddramanews.com|bloggingdekh.xyz|daily-sale.in|agradarpan.com|ourcareerblog.com|irisdigit.com|swiggygold.com
+smarteasystudy.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,talkittechy.com,swiggygold.com##+js(noeval.js)
+techfinda.com,talkittechy.com,healthfary.com,justlikeyojna.com,smarteasystudy.com,xpickle.club,viraltechnical.in,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com##.text-left
+techfinda.com,talkittechy.com,healthfary.com,justlikeyojna.com,smarteasystudy.com,xpickle.club,viraltechnical.in,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com###cookie-pop
+techfinda.com,talkittechy.com,healthfary.com,justlikeyojna.com,smarteasystudy.com,xpickle.club,viraltechnical.in,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com##.adsbygoogle
+techfinda.com,talkittechy.com,healthfary.com,justlikeyojna.com,smarteasystudy.com,xpickle.club,viraltechnical.in,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com###link-view > center:nth-child(16)
+techfinda.com,talkittechy.com,healthfary.com,justlikeyojna.com,smarteasystudy.com,xpickle.club,viraltechnical.in,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com##.col-md-10 > center:first-child
+talkittechy.com,healthfary.com,justlikeyojna.com,smarteasystudy.com,xpickle.club,viraltechnical.in,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com##h1
+viraltechnical.in,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com##.banner
 
 !viralcollect.info
 viralcollect.info##+js(nano-setTimeout-booster.js)
@@ -3978,6 +3986,8 @@ kisscartoon.xyz##[id^="spu-"]
 
 !pornoxo.com
 pornoxo.com##+js(abort-on-property-read.js, BackButton)
+pornoxo.com##+js(window.open-defuser.js)
+pornoxo.com##+js(addEventListener-defuser.js, chujBlokowacieDone)
 
 !rushporn.com
 www.rushporn.com##.fluid-b
@@ -4232,11 +4242,13 @@ freepornstream.cc##.preloader
 tvporn.cc##.fa-chevron-up
 
 !sudoku-solutions.com
-@@||sudoku-solutions.com/javascript/ads.js$script,1p
+@@||sudoku-solutions.com^$generichide
 
-!zerooman.com
-zerooman.com##.blog-content
-zerooman.com##.page-header
+!GPlink sites
+!zerooman.com|groundslife.com|korafit.com
+korafit.com##+js(abort-current-inline-script.js, Math, zfgloaded)
+zerooman.com,groundslife.com,korafit.com##.blog-content
+zerooman.com,groundslife.com,korafit.com##.page-header
 
 !shortmony.xyz
 shortmony.xyz##.text-left
@@ -4254,3 +4266,34 @@ www.homemoviestube.com##[href^="https://srv.dropkickmedia.com/"], [href^="https:
 
 !awestat.com
 awestat.com##+js(set-constant.js, noBlocker, true)
+
+!foxhq.com
+foxhq.com##+js(abort-on-property-read.js, loadTool)
+www.foxhq.com##.top_link:not([href*="foxhq"])
+www.foxhq.com##.premium
+www.foxhq.com##.gallink
+
+!newegg.com
+www.newegg.com##[id^="monetate_selectorHTML_"]:has-text(Advertisement)
+
+! 7/2/2019 https://www.gotporn.com
+www.gotporn.com##.spnsrd
+
+!czechvideo.org|czxxx.org
+czechvideo.org,czxxx.org##+js(abort-on-property-read.js, BetterJsPop)
+czechvideo.org,czxxx.org##+js(abort-current-inline-script.js, document.getElementsByTagName, 'script')
+
+!pornheed.com
+pornheed.com##+js(window.open-defuser.js)
+
+!wicked.com
+wicked.com##.floating-banner
+
+!girlsway.com
+www.girlsway.com###PromoBannerOverlay
+
+!evilangel.com
+||evilangel.com/service-worker.js$script,1p
+www.evilangel.com#@#.cookieVisible
+www.evilangel.com###PromoBannerOverlay
+www.evilangel.com###header:style(position: absolute !important;)
