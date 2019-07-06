@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 174
+!Update: 175
 
 
 !Assortment of ad/tracking servers not found in Peter Lowe's
@@ -679,6 +679,7 @@ preRoll.php$xhr
 ||suboysteries.info^
 ||sexmotors.com^
 ||1ts18.top^
+||videoconverterz.com^
 
 !Other
 ||gstatic.com/cv/js/sender/*/cast_sender.js$script
@@ -752,6 +753,7 @@ www.gotporn.com##.image-group-vertical
 www.gotporn.com##.image-content-wrap
 www.gotporn.com##.mid-roll-content
 www.gotporn.com##.video-player-overlay
+www.gotporn.com##.spnsrd
 
 !mail.google.com
 ||play.google.com/log?
@@ -1554,7 +1556,7 @@ www.facebook.com##div[id^="hyperfeed_story_id_"]:not(div:contains(/^[class="time
 !aznude.com
 ||aznude.com/worker.js$script,1p
 aznude.com##+js(abort-on-property-write.js, htmlDecode)
-aznude.com##+js(addEventListener-defuser.js, load, _0x)
+aznude.com##+js(setTimeout-defuser.js, _0x)
 www.aznude.com##[href^="http://linktrack.info"]
 www.aznude.com##.recommended:nth-child(10), .recommended:nth-child(12)
 www.aznude.com##.text-box
@@ -4275,9 +4277,6 @@ www.foxhq.com##.gallink
 
 !newegg.com
 www.newegg.com##[id^="monetate_selectorHTML_"]:has-text(Advertisement)
-
-! 7/2/2019 https://www.gotporn.com
-www.gotporn.com##.spnsrd
 
 !czechvideo.org|czxxx.org
 czechvideo.org,czxxx.org##+js(abort-on-property-read.js, BetterJsPop)
