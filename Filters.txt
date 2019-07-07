@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 175
+!Update: 176
 
 
 !Assortment of ad/tracking servers not found in Peter Lowe's
@@ -680,6 +680,10 @@ preRoll.php$xhr
 ||sexmotors.com^
 ||1ts18.top^
 ||videoconverterz.com^
+||pushqwer.com^
+||oodraune.com^
+||||dorehernowi.pro^
+||klubityd.online^
 
 !Other
 ||gstatic.com/cv/js/sender/*/cast_sender.js$script
@@ -3990,6 +3994,16 @@ kisscartoon.xyz##[id^="spu-"]
 pornoxo.com##+js(abort-on-property-read.js, BackButton)
 pornoxo.com##+js(window.open-defuser.js)
 pornoxo.com##+js(addEventListener-defuser.js, chujBlokowacieDone)
+pornoxo.com##+js(setTimeout-defuser.js, js-ads-modal)
+www.pornoxo.com##[href="http://www.cams.pornoxo.com/"], [href^="http://store.pornoxo.com/"], [href^="https://adultfriendfinder.com/"]
+
+!#if env_chromium
+www.pornoxo.com##.navmenu > li:nth-child(6), .navmenu > li:nth-child(7), .navmenu > li:nth-child(8)
+!#endif
+
+!#if env_firefox
+www.pornoxo.com##.navmenu > li:nth-child(6), .navmenu > li:nth-child(7), .navmenu > li:nth-child(8)
+!#endif
 
 !rushporn.com
 www.rushporn.com##.fluid-b
