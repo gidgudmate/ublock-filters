@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 176
+!Update: 176.1
 
 
 !Assortment of ad/tracking servers not found in Peter Lowe's
@@ -3553,15 +3553,6 @@ imgdrive.net##+js(abort-current-inline-script.js, document.getElementById, redir
 !imgtaxi.com
 imgtaxi.com##.if
 
-! 3/19/2019 imgrock.pw
-||imgrock.pw/*.php$script,1p
-*$3p,script,domain=imgrock.pw
-@@||imgrock.net/js/jquery-1.10.2.min.js$script,domain=imgrock.pw
-@@||imgrock.net/js/jquery.cookie.js$script,domain=imgrock.pw
-@@||imgrock.net/js/xupload.js?$script,domain=imgrock.pw
-imgrock.pw##+js(abort-current-inline-script.js, CustomEvent, getexoloader)
-
-
 !pornrabbit.com
 ||pornrabbit.com/d5.html$script,1p
 
@@ -3995,14 +3986,15 @@ pornoxo.com##+js(abort-on-property-read.js, BackButton)
 pornoxo.com##+js(window.open-defuser.js)
 pornoxo.com##+js(addEventListener-defuser.js, chujBlokowacieDone)
 pornoxo.com##+js(setTimeout-defuser.js, js-ads-modal)
-www.pornoxo.com##[href="http://www.cams.pornoxo.com/"], [href^="http://store.pornoxo.com/"], [href^="https://adultfriendfinder.com/"]
+pornoxo.com##[href="http://www.cams.pornoxo.com/"], [href^="http://store.pornoxo.com/"], [href^="https://adultfriendfinder.com/"]
+pornoxo.com###cookie-wrapper
 
 !#if env_chromium
-www.pornoxo.com##.navmenu > li:nth-child(6), .navmenu > li:nth-child(7), .navmenu > li:nth-child(8)
+pornoxo.com##.navmenu > li:nth-child(6), .navmenu > li:nth-child(7), .navmenu > li:nth-child(8)
 !#endif
 
 !#if env_firefox
-www.pornoxo.com##.navmenu > li:nth-child(6), .navmenu > li:nth-child(7), .navmenu > li:nth-child(8)
+pornoxo.com##.navmenu > li:nth-child(6), .navmenu > li:nth-child(7), .navmenu > li:nth-child(8)
 !#endif
 
 !rushporn.com
