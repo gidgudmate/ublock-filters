@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 178
+!Update: 179
 
 
 !Assortment of ad/tracking servers not found in Peter Lowe's
@@ -705,6 +705,9 @@ preRoll.php$xhr
 ||tkbo.com^
 ||dev-mobile-techie-fresh.pw^
 ||ultimateumwages.club^
+||clk2win.com^
+||best20*-games-web*.com^
+||onlinecontent.fun^
 
 !Other
 ||gstatic.com/cv/js/sender/*/cast_sender.js$script
@@ -1576,7 +1579,8 @@ www.facebook.com##div[id^="hyperfeed_story_id_"]:not(div:contains(/^[class="time
 
 !aznude.com
 ||aznude.com/worker.js$script,1p
-aznude.com##+js(abort-on-property-write.js, exoclick)
+aznude.com##+js(abort-on-property-write.js, Fingerprint2)
+aznude.com##+js(window.open-defuser.js)
 aznude.com##[href^="http://linktrack.info"]
 aznude.com##.recommended:nth-child(10), .recommended:nth-child(12)
 aznude.com##.text-box
@@ -3657,17 +3661,17 @@ hentai-cosplay.com###comments > span
 !royalown.review|!allreports.site|komiupdates.xyz|stfly.io|humaribit.win|smwebs.xyz
 ||stfly.io/sw.js$script,1p
 stfly.io##+js(remove-attr.js, href, [href*=".xyz"])
-humaribit.win##+js(abort-on-property-read.js, myFunction)
-royalown.review,allreports.site,komiupdates.xyz,smwebs.xyz##+js(abort-on-property-read.js, open)
+humaribit.win,smwebs.xyz##+js(abort-on-property-read.js, myFunction)
+royalown.review,allreports.site,komiupdates.xyz##+js(abort-on-property-read.js, open)
 royalown.review,allreports.site,komiupdates.xyz,stfly.io,humaribit.win,smwebs.xyz##+js(noeval.js)
 royalown.review,allreports.site,komiupdates.xyz,stfly.io,humaribit.win##p
 royalown.review,allreports.site,komiupdates.xyz,stfly.io,humaribit.win,smwebs.xyz##.text-left
 stfly.io##[src*="//i.imgur.com/"]
 stfly.io##h2, h3
-humaribit.win##center:nth-child(8) > b
-humaribit.win###link1
-humaribit.win##center:nth-child(13) > [href="#"]
-humaribit.win##center:nth-child(9) > b > span
+humaribit.win,smwebs.xyz##center:nth-child(8) > b
+humaribit.win,smwebs.xyz###link1
+humaribit.win,smwebs.xyz##center:nth-child(13) > [href="#"]
+humaribit.win,smwebs.xyz##center:nth-child(9) > b > span
 
 !SrtFly
 !kpscthulasilogin.info|ommantrameditation.com|techsyou.com
@@ -3844,16 +3848,16 @@ worldsex.com##.hide-on-mobile
 worldsex.com##.scrollup
 
 !Shortzon sites
-!techfinda.com|talkittechy.com|healthfary.com|justlikeyojna.com|smarteasystudy.com|xpickle.club|viraltechnical.in|techtremendous.com|all-viralquiz.com|bollywooddramanews.com|bloggingdekh.xyz|daily-sale.in|agradarpan.com|ourcareerblog.com|irisdigit.com|swiggygold.com|futurefoundationngo.com|techpmn.com
-smarteasystudy.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,talkittechy.com,swiggygold.com,futurefoundationngo.com,techpmn.com##+js(noeval.js)
-techfinda.com,talkittechy.com,healthfary.com,justlikeyojna.com,smarteasystudy.com,xpickle.club,viraltechnical.in,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com##.text-left
-techfinda.com,talkittechy.com,healthfary.com,justlikeyojna.com,smarteasystudy.com,xpickle.club,viraltechnical.in,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com##cookie-pop
-techfinda.com,talkittechy.com,healthfary.com,justlikeyojna.com,smarteasystudy.com,xpickle.club,viraltechnical.in,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com##.adsbygoogle
-techfinda.com,talkittechy.com,healthfary.com,justlikeyojna.com,smarteasystudy.com,xpickle.club,viraltechnical.in,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com###link-view > center:nth-child(16)
-techfinda.com,talkittechy.com,healthfary.com,justlikeyojna.com,smarteasystudy.com,xpickle.club,viraltechnical.in,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com##.col-md-10 > center:first-child
-talkittechy.com,healthfary.com,justlikeyojna.com,smarteasystudy.com,xpickle.club,viraltechnical.in,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com##h1
-viraltechnical.in,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com##.banner
-futurefoundationngo.com,techpmn.com###cookie-pop
+!techfinda.com|smarteasystudy.com|xpickle.club|techtremendous.com|all-viralquiz.com|bollywooddramanews.com|bloggingdekh.xyz|daily-sale.in|agradarpan.com|ourcareerblog.com|irisdigit.com|swiggygold.com|futurefoundationngo.com|techpmn.com|indiamartoffers.com
+techtremendous.com,xpickle.club,techfinda.com,smarteasystudy.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com##+js(noeval.js)
+techfinda.com,smarteasystudy.com,xpickle.club,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com##.text-left
+techfinda.com,smarteasystudy.com,xpickle.club,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com##cookie-pop
+techfinda.com,smarteasystudy.com,xpickle.club,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com##.adsbygoogle
+techfinda.com,smarteasystudy.com,xpickle.club,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com###link-view > center:nth-child(16)
+techfinda.com,smarteasystudy.com,xpickle.club,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com##.col-md-10 > center:first-child
+smarteasystudy.com,xpickle.club,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com##h1
+techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com##.banner
+bollywooddramanews.com,techtremendous.com,xpickle.club,smarteasystudy.com,techfinda.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com###cookie-pop
 
 !viralcollect.info
 viralcollect.info##+js(nano-setTimeout-booster.js)
@@ -4182,7 +4186,7 @@ megatube.xxx##.header-panel-1
 megatube.xxx##.place
 
 !shemalestube.com
-||shemalestube.com/service-worker.js$script,1p
+||shemalestube.com/service-worker.js*$script,1p
 shemalestube.com##.news-line
 
 !fulltrannyporn.com
@@ -4218,8 +4222,8 @@ tranny.one##.top-player-link
 !perfectgirls.net
 perfectgirls.net##.pornhat
 
-!porntube18.cc|freeadultvideos.cc|streamextreme.cc|freepornstream.cc|movstube.net
-porntube18.cc,freeadultvideos.cc,streamextreme.cc,freepornstream.cc,movstube.net##+js(abort-on-property-read.js, exoJsPop101)
+!porntube18.cc|movstube.net
+porntube18.cc,movstube.net##+js(abort-on-property-read.js, exoJsPop101)
 freeadultvideos.cc###af-preloader
 freepornstream.cc##.preloader
 tvporn.cc##.fa-chevron-up
@@ -4228,11 +4232,12 @@ tvporn.cc##.fa-chevron-up
 @@||sudoku-solutions.com^$generichide
 
 !GPlink sites
-!zerooman.com|groundslife.com|korafit.com|englandsman.com|futyjob.com
-*/sw.js$script,1p,domain=englandsman.com|futyjob.com
-korafit.com,englandsman.com,futyjob.com##+js(abort-current-inline-script.js, Math, zfgloaded)
-zerooman.com,groundslife.com,korafit.com,englandsman.com,futyjob.com##.blog-content
-zerooman.com,groundslife.com,korafit.com,englandsman.com,futyjob.com##.page-header
+!zerooman.com|groundslife.com|korafit.com|englandsman.com|futyjob.com|geekreveal.com
+*/sw.js$script,1p,domain=englandsman.com|futyjob.com|geekreveal.com
+korafit.com,englandsman.com,futyjob.com,geekreveal.com##+js(abort-current-inline-script.js, Math, zfgloaded)
+geekreveal.com##+js(abort-on-property-read.js, open)
+zerooman.com,groundslife.com,korafit.com,englandsman.com,futyjob.com,geekreveal.com##.blog-content
+zerooman.com,groundslife.com,korafit.com,englandsman.com,futyjob.com,geekreveal.com##.page-header
 
 !shortmony sites
 !shortmony.xyz|gamez-ar.com
@@ -4309,3 +4314,7 @@ brookelynnebriar.com###valentines-gifts-popup
 
 !hdpornstarz.com
 hdpornstarz.com##[href="https://theporndude.com/"], [href^="http://gotpd.me/"]
+
+!onlinexxx.cc
+||onlinexxx.cc^$xhr,1p
+onlinexxx.cc###back-to-top
