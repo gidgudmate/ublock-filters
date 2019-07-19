@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 4.5
+!Update: 4.6
 
 !silkengirl.com
 www.silkengirl.com##.fixed.header:style(position: sticky !important;)
@@ -121,6 +121,7 @@ m.anysex.com##.fluid-b
 m.xhamster.com##.promo-message__with-button
 m.xhamster.com##.popup
 m.xhamster.com##.premium-overlay
+m.xhamster.com##.gizmovr-btn
 
 !4tube.com
 m.4tube.com###playlists
