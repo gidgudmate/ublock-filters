@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 179
+!Update: 180
 
 
 !Assortment of ad/tracking servers not found in Peter Lowe's
@@ -2881,6 +2881,7 @@ ally.sh##.adsbygoogle
 !buyitonline.store|yesmoviesapp.info|newskart.xyz|viralnow.xyz|iitjeemainguide.in|utimetableresult.in|geki.tech|govtsmartjob.com|clk.ink|blogginggyanbox.com
 ||s3.amazonaws.com^$xhr,domain=clk.ink
 ||clk.ink/ads/tubpush.js$script,1p
+clk.ink##+js(noeval.js)
 buyitonline.store,yesmoviesapp.info,newskart.xyz,viralnow.xyz,iitjeemainguide.in,utimetableresult.in,geki.tech,govtsmartjob.com,clk.ink,blogginggyanbox.com##.box-main > center
 buyitonline.store,yesmoviesapp.info,newskart.xyz,viralnow.xyz,iitjeemainguide.in,utimetableresult.in,geki.tech,govtsmartjob.com,clk.ink,blogginggyanbox.com##.text-left
 buyitonline.store,yesmoviesapp.info,newskart.xyz,viralnow.xyz,iitjeemainguide.in,utimetableresult.in,geki.tech,govtsmartjob.com,clk.ink,blogginggyanbox.com##.banner
@@ -3848,16 +3849,23 @@ worldsex.com##.hide-on-mobile
 worldsex.com##.scrollup
 
 !Shortzon sites
-!techfinda.com|smarteasystudy.com|xpickle.club|techtremendous.com|all-viralquiz.com|bollywooddramanews.com|bloggingdekh.xyz|daily-sale.in|agradarpan.com|ourcareerblog.com|irisdigit.com|swiggygold.com|futurefoundationngo.com|techpmn.com|indiamartoffers.com
-techtremendous.com,xpickle.club,techfinda.com,smarteasystudy.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com##+js(noeval.js)
+!techfinda.com|smarteasystudy.com|xpickle.club|techtremendous.com|all-viralquiz.com|bollywooddramanews.com|bloggingdekh.xyz|daily-sale.in|agradarpan.com|ourcareerblog.com|irisdigit.com|swiggygold.com|futurefoundationngo.com|techpmn.com|indiamartoffers.com|futurefoundationngo.in
+techtremendous.com,xpickle.club,techfinda.com,smarteasystudy.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com,futurefoundationngo.in##+js(noeval.js)
+futurefoundationngo.in##+js(setTimeout-defuser.js, bs-example-modal-lg)
 techfinda.com,smarteasystudy.com,xpickle.club,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com##.text-left
-techfinda.com,smarteasystudy.com,xpickle.club,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com##cookie-pop
-techfinda.com,smarteasystudy.com,xpickle.club,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com##.adsbygoogle
-techfinda.com,smarteasystudy.com,xpickle.club,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com###link-view > center:nth-child(16)
-techfinda.com,smarteasystudy.com,xpickle.club,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com##.col-md-10 > center:first-child
-smarteasystudy.com,xpickle.club,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com##h1
-techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com##.banner
-bollywooddramanews.com,techtremendous.com,xpickle.club,smarteasystudy.com,techfinda.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com###cookie-pop
+techfinda.com,smarteasystudy.com,xpickle.club,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com,futurefoundationngo.in##cookie-pop
+techfinda.com,smarteasystudy.com,xpickle.club,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com,futurefoundationngo.in##.adsbygoogle
+techfinda.com,smarteasystudy.com,xpickle.club,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com,futurefoundationngo.in###link-view > center:nth-child(16)
+techfinda.com,smarteasystudy.com,xpickle.club,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com,futurefoundationngo.in##.col-md-10 > center:first-child
+smarteasystudy.com,xpickle.club,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com,futurefoundationngo.in##h1
+techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com,futurefoundationngo.in##.banner
+bollywooddramanews.com,techtremendous.com,xpickle.club,smarteasystudy.com,techfinda.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com,futurefoundationngo.in###cookie-pop
+futurefoundationngo.in##strong
+futurefoundationngo.in###onload
+futurefoundationngo.in##.modal-backdrop
+futurefoundationngo.in##body:style(overflow: auto !important;)
+futurefoundationngo.in##.box-main > .btn-default
+futurefoundationngo.in##.box-main > .container > .row
 
 !viralcollect.info
 viralcollect.info##+js(nano-setTimeout-booster.js)
@@ -4232,12 +4240,12 @@ tvporn.cc##.fa-chevron-up
 @@||sudoku-solutions.com^$generichide
 
 !GPlink sites
-!zerooman.com|groundslife.com|korafit.com|englandsman.com|futyjob.com|geekreveal.com
-*/sw.js$script,1p,domain=englandsman.com|futyjob.com|geekreveal.com
-korafit.com,englandsman.com,futyjob.com,geekreveal.com##+js(abort-current-inline-script.js, Math, zfgloaded)
+!zerooman.com|groundslife.com|korafit.com|englandsman.com|futyjob.com|geekreveal.com|sweatheadline.com
+*/sw.js$script,1p,domain=englandsman.com|futyjob.com|geekreveal.com|sweatheadline.com
+korafit.com,englandsman.com,futyjob.com,geekreveal.com,sweatheadline.com##+js(abort-current-inline-script.js, Math, zfgloaded)
 geekreveal.com##+js(abort-on-property-read.js, open)
-zerooman.com,groundslife.com,korafit.com,englandsman.com,futyjob.com,geekreveal.com##.blog-content
-zerooman.com,groundslife.com,korafit.com,englandsman.com,futyjob.com,geekreveal.com##.page-header
+zerooman.com,groundslife.com,korafit.com,englandsman.com,futyjob.com,geekreveal.com,sweatheadline.com##.blog-content
+zerooman.com,groundslife.com,korafit.com,englandsman.com,futyjob.com,geekreveal.com,sweatheadline.com##.page-header
 
 !shortmony sites
 !shortmony.xyz|gamez-ar.com
