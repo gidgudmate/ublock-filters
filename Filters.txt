@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 181
+!Update: 182
 
 
 !Assortment of ad/tracking servers not found in Peter Lowe's
@@ -718,6 +718,7 @@ preRoll.php$xhr
 ||lesbian.hu^
 ||tippytoes.site^
 ||gametracker.club^
+||datingsuperchoice*.com^
 
 !Other
 ||gstatic.com/cv/js/sender/*/cast_sender.js$script
@@ -772,31 +773,31 @@ viptube.com##.proffer
 !youtube.com
 /log_interaction?
 ||youtube.com/sw.js$script,1p
-www.youtube.com###enhancer-for-youtube-toolbar
-www.youtube.com##.ytp-button:nth-child(9)
-www.youtube.com##.ytp-fullerscreen-edu-chevron
-www.youtube.com##.ytp-miniplayer-button
-www.youtube.com##.ytp-right-controls > button:nth-child(1)
-www.youtube.com###fvdDownloader_page_button
+youtube.com###enhancer-for-youtube-toolbar
+youtube.com##.ytp-button:nth-child(9)
+youtube.com##.ytp-fullerscreen-edu-chevron
+youtube.com##.ytp-miniplayer-button
+youtube.com##.ytp-right-controls > button:nth-child(1)
+youtube.com###fvdDownloader_page_button
 
 !pornhd.com
-www.pornhd.com##.live-video-zone
-www.pornhd.com##.inside-row
-www.pornhd.com##.video-thumb-ad-zone
+pornhd.com##.live-video-zone
+pornhd.com##.inside-row
+pornhd.com##.video-thumb-ad-zone
 
 !hiqqu.xxx
 ||hiqqu.xxx/static/scripts.js$script,1p
 hiqqu.xxx##+js(set-constant.js, adsEnabled, true)
 
 !gotporn.com
-www.gotporn.com###floaterBanner
-www.gotporn.com##[href="https://www.gotporn.com/casino"]
-www.gotporn.com##.pre-roll-content
-www.gotporn.com##.image-group-vertical
-www.gotporn.com##.image-content-wrap
-www.gotporn.com##.mid-roll-content
-www.gotporn.com##.video-player-overlay
-www.gotporn.com##.spnsrd
+gotporn.com###floaterBanner
+gotporn.com##[href="https://www.gotporn.com/casino"]
+gotporn.com##.pre-roll-content
+gotporn.com##.image-group-vertical
+gotporn.com##.image-content-wrap
+gotporn.com##.mid-roll-content
+gotporn.com##.video-player-overlay
+gotporn.com##.spnsrd
 
 !mail.google.com
 ||play.google.com/log?
@@ -812,8 +813,8 @@ porndoe.com##.below-video
 porndoe.com##.yellow-bar
 
 !realitykings.com
-www.realitykings.com###teaser-overlay
-www.realitykings.com##.blur:style(filter: none !important;)
+realitykings.com###teaser-overlay
+realitykings.com##.blur:style(filter: none !important;)
 
 !puremature.com
 puremature.com##.epoch-box
@@ -835,38 +836,33 @@ eiheispot1.blog.fc2.com##.headline
 nudeyoga.net##.adv
 
 !powerbot.org
-www.powerbot.org###fj458
-www.powerbot.org###\33 434esdf
-www.powerbot.org##[id*="maybe"]
-www.powerbot.org##[href^="https://discord.gg/"]
+powerbot.org###fj458
+powerbot.org###\33 434esdf
+powerbot.org##[id*="maybe"]
+powerbot.org##[href^="https://discord.gg/"]
 
 !nudelas.com
-www.nudelas.com##.theiaStickySidebar:style(position: static !important;)
-www.nudelas.com###adstopo
-www.nudelas.com###adsposts
-www.nudelas.com##[id^="wpb_widgetss"]
-www.nudelas.com###ninja_parceiros_widgets-2
-www.nudelas.com###to_top_scrollup
-www.nudelas.com##center
-
-!foxnews.com
-www.foxnews.com##.active.streaming.fox-video
-www.foxnews.com###video
-www.foxnews.com##.enabled.slideshow
+nudelas.com##.theiaStickySidebar:style(position: static !important;)
+nudelas.com###adstopo
+nudelas.com###adsposts
+nudelas.com##[id^="wpb_widgetss"]
+nudelas.com###ninja_parceiros_widgets-2
+nudelas.com###to_top_scrollup
+nudelas.com##center
 
 !camwhoreshd.com
 *$3p,websocket,domain=camvideos.org|cwtvembeds.com
 @@||camwhoreshd.com$csp
-www.camwhoreshd.com##body > div:nth-of-type(3)
-www.camwhoreshd.com##.spots--cards.spots
-www.camwhoreshd.com##.topad
-www.camwhoreshd.com##[src*="http://www.camsoda1.com/promos/iframe/cw.php"]
-www.camwhoreshd.com###list_videos_friends
-www.camwhoreshd.com##.page__header:style(position: absolute !important;)
-www.camwhoreshd.com###back-to-top
-www.camwhoreshd.com##.trailer__row
-www.camwhoreshd.com##.top
-www.camwhoreshd.com##.page__header > :nth-child(2)
+camwhoreshd.com##body > div:nth-of-type(3)
+camwhoreshd.com##.spots--cards.spots
+camwhoreshd.com##.topad
+camwhoreshd.com##[src*="http://www.camsoda1.com/promos/iframe/cw.php"]
+camwhoreshd.com###list_videos_friends
+camwhoreshd.com##.page__header:style(position: absolute !important;)
+camwhoreshd.com###back-to-top
+camwhoreshd.com##.trailer__row
+camwhoreshd.com##.top
+camwhoreshd.com##.page__header > :nth-child(2)
 
 !txxx.com
 *$3p,frame,domain=txxx.com
@@ -883,32 +879,32 @@ txxx.com##.hYbus
 !twistys.com
 ||pabbp.com/frogs/*=*$frame
 members.twistys.com##.common-content-box.trusted-partners > .clearfix.box-content
-www.twistys.com###footer-banners
+twistys.com###footer-banners
 
 !javkitty.blogspot.com
 javkitty.blogspot.com###h237
 
 !porntube.com
-www.porntube.com##.webcam-shelve
-www.porntube.com##div.col-6.col-sm-6.col-md-3:nth-of-type(4)
-www.porntube.com##.ugc.transparent-button
-www.porntube.com##.related-kodplayer
-www.porntube.com##.hidden-xs-down.video-added
-www.porntube.com##.vjs-autonext-ad-container
+porntube.com##.webcam-shelve
+porntube.com##div.col-6.col-sm-6.col-md-3:nth-of-type(4)
+porntube.com##.ugc.transparent-button
+porntube.com##.related-kodplayer
+porntube.com##.hidden-xs-down.video-added
+porntube.com##.vjs-autonext-ad-container
 
 !cliphunter.com
 ||cliphunter.com/superscript.php$script,1p
-www.cliphunter.com##.commentsParent.movieHeading
-www.cliphunter.com##.SpacingResetXS.paper
+cliphunter.com##.commentsParent.movieHeading
+cliphunter.com##.SpacingResetXS.paper
 
 !pornovideoshub.com
 pornovideoshub.com###colophon
 
 !vintageporntubes.com
 vintageporntubes.com##+js(abort-on-property-read.js, ExoLoader.serve)
-www.vintageporntubes.com##.VPT_video_hors
-www.vintageporntubes.com##.VPT_hor_bl
-www.vintageporntubes.com##.VPT_player_ads
+vintageporntubes.com##.VPT_video_hors
+vintageporntubes.com##.VPT_hor_bl
+vintageporntubes.com##.VPT_player_ads
 
 !retrosexporn.com
 www.retrosexporn.com##.player-right-b-3.player-right-b
@@ -916,7 +912,7 @@ www.retrosexporn.com##.player-spots
 
 !twitch.tv
 ||twitch.tv/service-worker.js$script,1p
-www.twitch.tv##.button--icon-only.button.conversations-list-icon
+twitch.tv##.button--icon-only.button.conversations-list-icon
 
 !xbabe.com
 ||xbabe.com/_a_xb/a/ex/b.php$script,1p
@@ -954,44 +950,45 @@ yourporn.sexy,sxyprn.com##.post_el_wrap > .tdn
 ||babecentrum.com^*/b/*$image,1p
 babecentrum.com##+js(abort-on-property-read.js, ExoLoader.addZone)
 babecentrum.com##+js(abort-on-property-read.js, ExoLoader.serve)
-www.babecentrum.com###eXo1
-www.babecentrum.com##td > .headline
-www.babecentrum.com##.headline > [href]
+babecentrum.com###eXo1
+babecentrum.com##td > .headline
+babecentrum.com##.headline > [href]
+babecentrum.com##.menu > li > [href]:not([href^="/"])
 
 !dirtyyoungbitches.com
 ||dirtyyoungbitches.com^*/banners/$image,1p
 ||dirtyyoungbitches.com^*/b/*$image,1p
-www.dirtyyoungbitches.com##.zone
-www.dirtyyoungbitches.com##.go-galleries:style(margin-left: 300px !important;)
-www.dirtyyoungbitches.com##.go-slideshow:style(margin-left: 300px !important;)
-www.dirtyyoungbitches.com##.ads
-www.dirtyyoungbitches.com##.mz0
-www.dirtyyoungbitches.com##.swiper-bonus
-www.dirtyyoungbitches.com##[href="http://www.camhub.cc/"]
+dirtyyoungbitches.com##.zone
+dirtyyoungbitches.com##.go-galleries:style(margin-left: 300px !important;)
+dirtyyoungbitches.com##.go-slideshow:style(margin-left: 300px !important;)
+dirtyyoungbitches.com##.ads
+dirtyyoungbitches.com##.mz0
+dirtyyoungbitches.com##.swiper-bonus
+dirtyyoungbitches.com##[href="http://www.camhub.cc/"]
 
 !sexyaporno.com
 sexyaporno.com^*/banners/$image,1p
 sexyaporno.com##+js(abort-on-property-read.js, ExoLoader.addZone)
 sexyaporno.com##+js(abort-on-property-read.js, ExoLoader.serve)
 sexyaporno.com##+js(abort-on-property-read.js, loadTool)
-www.sexyaporno.com##.adcontainer
-www.sexyaporno.com##.sponsorlist
-www.sexyaporno.com##.nat-top
-www.sexyaporno.com##.owner
-www.sexyaporno.com##[href="https://www.babesmachine.com/"], [href="https://www.tubev.sex/"]
+sexyaporno.com##.adcontainer
+sexyaporno.com##.sponsorlist
+sexyaporno.com##.nat-top
+sexyaporno.com##.owner
+sexyaporno.com##[href="https://www.babesmachine.com/"], [href="https://www.tubev.sex/"]
 
 !wildfanny.com
-||fwwgo.com^*/banners/*$image,domain=www.wildfanny.com
+||fwwgo.com^*/banners/*$image,domain=wildfanny.com
 wildfanny.com##+js(abort-on-property-read.js, loadTool)
 wildfanny.com##+js(setInterval-defuser.js, reload2)
-www.wildfanny.com##body > div:nth-of-type(5)
-www.wildfanny.com##.block > center
-www.wildfanny.com##[class*="banner"]
+wildfanny.com##body > div:nth-of-type(5)
+wildfanny.com##.block > center
+wildfanny.com##[class*="banner"]
 
 !x-art.com
-www.x-art.com###promo_bar
-www.x-art.com##.mute
-www.x-art.com##.btn-tour
+x-art.com###promo_bar
+x-art.com##.mute
+x-art.com##.btn-tour
 
 !peekvids.com
 !#if env_chromium
@@ -1002,15 +999,15 @@ peekvids.com##+js(abort-on-property-write.js, pop_target)
 peekvids.com##+js(abort-on-property-write.js, pop_target)
 !#endif
 
-www.peekvids.com##.invideoBlock
-www.peekvids.com##.container > .row > .col-lg-auto.col-12
-www.peekvids.com##.block-advert
-www.peekvids.com##.share
-www.peekvids.com##[class$="promotion"]
+peekvids.com##.invideoBlock
+peekvids.com##.container > .row > .col-lg-auto.col-12
+peekvids.com##.block-advert
+peekvids.com##.share
+peekvids.com##[class$="promotion"]
 
 !veronicca.com
-www.veronicca.com##.undervideo_banner
-www.veronicca.com##.vjs-overlay-box
+veronicca.com##.undervideo_banner
+veronicca.com##.vjs-overlay-box
 
 !eporner.com
 ||eporner.com/pop.php$popup,badfilter
@@ -1425,20 +1422,23 @@ www.redpornblog.com##[href]:not([href^="/"]):not([href^="?from="]):not([href*="j
 galleriesifg.stiffia.com##.secure
 
 !private.com
-www.private.com##.paypal-section
-www.private.com##.clearfix.promo-zone
-www.private.com##.row.banner-join
-www.private.com###SCENE-UHD4K-LOGO
-www.private.com###SCENE-CTA-JOIN-PAUSE-FREE
-www.private.com##.close-footer
-www.private.com###pause-zone > .close
-www.private.com###pause-zone
-www.private.com##.prvtoffer_remember
-www.private.com##.prvt-banner-shadow
-www.private.com##.pups-offer-10 > .close
-www.private.com##.pups-offer-10
-www.private.com###limited-offer
-www.private.com##.content-alert-unlock
+private.com##.paypal-section
+private.com##.clearfix.promo-zone
+private.com##.row.banner-join
+private.com###SCENE-UHD4K-LOGO
+private.com###SCENE-CTA-JOIN-PAUSE-FREE
+private.com##.close-footer
+private.com###pause-zone > .close
+private.com###pause-zone
+private.com##.prvtoffer_remember
+private.com##.prvt-banner-shadow
+private.com##.pups-offer-10 > .close
+private.com##.pups-offer-10
+private.com###limited-offer
+private.com##.content-alert-unlock
+private.com###free-pause-zone
+private.com###SCENE-AFTERVIDEO-JOIN
+private.com##.free-content
 
 !xhamster.com|xhamster.one
 ||xhcdn.com/xh-mobile/js/*.pop.js$script
@@ -1461,26 +1461,27 @@ xhamster.com,xhamster.one##.red-round
 xhamster.com,xhamster.one##.wid-cams-widget
 xhamster.com,xhamster.one##.xp-subscribe
 xhamster.com,xhamster.one##.wid-sponsor-banner
+xhamster.com,xhamster.one##[href^="https://go.xhamsterlive.com/"]
 
 !pornhub.com
-www.pornhub.com###EPH-scroll
-www.pornhub.com##.abEnabled > .sectionWrapper
-www.pornhub.com##.streamatesModelsContainer
-www.pornhub.com##.joinLinkWrapper
-www.pornhub.com##.abovePlayer
-www.pornhub.com##[class*="Banner"]
-www.pornhub.com###abAlert
-www.pornhub.com###welcome
-www.pornhub.com##milktruck
-www.pornhub.com###relateRecommendedItems > [id^="v"]:has([class*="prem"])
-www.pornhub.com##.showingCounter:style(max-height: 10px !important;)
-www.pornhub.com##.fanclub-info-pop
+pornhub.com###EPH-scroll
+pornhub.com##.abEnabled > .sectionWrapper
+pornhub.com##.streamatesModelsContainer
+pornhub.com##.joinLinkWrapper
+pornhub.com##.abovePlayer
+pornhub.com##[class*="Banner"]
+pornhub.com###abAlert
+pornhub.com###welcome
+pornhub.com##milktruck
+pornhub.com###relateRecommendedItems > [id^="v"]:has([class*="prem"])
+pornhub.com##.showingCounter:style(max-height: 10px !important;)
+pornhub.com##.fanclub-info-pop
 pornhub.com###relatedVideos > li:has([class*="prem"])
 
 !xvideos.com
-www.xvideos.com##.sponsor-popup
-www.xvideos.com###mobile-slogan
-www.xvideos.com###page-go-up
+xvideos.com##.sponsor-popup
+xvideos.com###mobile-slogan
+xvideos.com###page-go-up
 
 !redtube.com
 www.redtube.com###show_page_streamate
@@ -2421,6 +2422,7 @@ thothub.tv##.g1-injected-unit
 thothub.tv##[id*="ScriptRoot"]
 thothub.tv##p > [href^="https://forum.thothub.tv/"]
 thothub.tv##.g1-row-inner > #secondary
+thothub.tv##[href="https://thothub.tv/go/adult-games"], [href="https://thothub.tv/go/free-live-cams"]
 
 !feet9.com
 feet9.com##.hvr-pulse
@@ -2518,7 +2520,7 @@ novoboobs.com##+js(abort-on-property-read.js, ExoLoader.addZone)
 novoboobs.com##+js(abort-on-property-read.js, ExoLoader.serve)
 novoboobs.com##.content_col2 > div:nth-of-type(2)
 novoboobs.com##.owner
-novoboobs.com##[href]:not([href^="/"]):not([href^="?from="]):not([href*="novoboobs.com"])
+novoboobs.com##.logo > [href]:not([href*="novoboobs"])
 novoboobs.com##.aw
 
 !devporn.net
@@ -2840,6 +2842,7 @@ clk.sh##.adsbygoogle
 bejav.net##.alert
 
 !cutpaid.com
+cutpaid.com##+js(set-constant.js, blurred, false)
 cutpaid.com##center
 cutpaid.com##.banner
 cutpaid.com##.text-left
@@ -2898,6 +2901,7 @@ ally.sh##.adsbygoogle
 ||s3.amazonaws.com^$xhr,domain=clk.ink
 ||clk.ink/ads/tubpush.js$script,1p
 clk.ink##+js(noeval.js)
+clk.ink##+js(set-constant.js, blurred, false)
 buyitonline.store,yesmoviesapp.info,newskart.xyz,viralnow.xyz,iitjeemainguide.in,utimetableresult.in,geki.tech,govtsmartjob.com,clk.ink,blogginggyanbox.com##.box-main > center
 buyitonline.store,yesmoviesapp.info,newskart.xyz,viralnow.xyz,iitjeemainguide.in,utimetableresult.in,geki.tech,govtsmartjob.com,clk.ink,blogginggyanbox.com##.text-left
 buyitonline.store,yesmoviesapp.info,newskart.xyz,viralnow.xyz,iitjeemainguide.in,utimetableresult.in,geki.tech,govtsmartjob.com,clk.ink,blogginggyanbox.com##.banner
@@ -3226,6 +3230,7 @@ hotlink.cc###preloader
 !adsrt.me
 ||s3.amazonaws.com^$xhr,domain=adsrt.me
 ||bit.ly^$frame,domain=adsrt.me
+adsrt.me##+js(set-constant.js, blurred, false)
 adsrt.me#@#[id*=ScriptRootC]
 adsrt.me##.col-md-12:nth-child(6)
 adsrt.me##.col-md-12 > .col-md-12
@@ -3270,7 +3275,6 @@ shesfreaky.com##.prefooter
 !spankbang.com
 ||spankbang.com/get*=mobile_*$frame,1p
 ||spankbang.com/sw.*js$script,1p
-spankbang.com##+js(abort-on-property-read.js, open)
 spankbang.com##.advrt
 spankbang.com###player_positions
 spankbang.com##.live_api_results_holder
@@ -3343,9 +3347,11 @@ videopornoitalia.it##+js(abort-current-inline-script.js, CustomEvent, getexoload
 porneq.com##.bAd
 
 !pornissimo.org
-||www.pornissimo.org/player/*$frame,1p
-||www.pornissimo.org/*.php$script,1p
+||pornissimo.org/player/*$frame,1p
+||pornissimo.org/*.php$script,1p
 pornissimo.org###placenta > center
+pornissimo.org##[href="http://www.mydreamfuck.com/"]
+pornissimo.org##.fp-brand
 
 !fabsdeals.com
 ||fabsdeals.com/sw.js$script,1p
@@ -3382,16 +3388,17 @@ linkrag.com##.col-md-10 > div:nth-child(2)
 adnangamer.com##+js(window.open-defuser.js)
 
 !CuT URLs
-!cuto.io/cu2.io|cu3.io|cuee.io|cuus.io|cutls.co|cu5.io|cu6.io|cu9.io
-*$3p,xhr,domain=cu2.io|cuto.io|cu3.io|cuee.io|cuus.io|cutls.co|cu5.io|cu6.io|cu9.io
-cuto.io,cu2.io,cu3.io,cuee.io,cuus.io,cutls.co,cu5.io,cu6.io,cu9.io##+js(abort-on-property-read.js, doFunction)
-cu6.io,cu9.io##+js(window.open-defuser.js)
-cu6.io,cu9.io##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
-cuto.io,cu2.io,cu3.io,cuee.io,cuus.io,cutls.co,cu5.io,cu6.io,cu9.io##.faq
-cuus.io,cutls.co,cu5.io,cu6.io,cu9.io##.content
-cuus.io##.col-md-8
+!cuto.io/cu2.io|cu3.io|cuee.io|cuus.io|cutls.co|cu5.io|cu6.io|cu9.io|exe.io
+*$3p,xhr,domain=cu2.io|cuto.io|cu3.io|cuee.io|cuus.io|cutls.co|cu5.io|cu6.io|cu9.io|exe.io
+cuto.io,cu2.io,cu3.io,cuee.io,cuus.io,cutls.co,cu5.io,cu6.io,cu9.io,exe.io##+js(abort-on-property-read.js, doFunction)
+cu6.io,cu9.io,exe.io##+js(window.open-defuser.js)
+cu6.io,cu9.io,exe.io##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
+exe.io##+js(set-constant.js, blurred, false)
+cuto.io,cu2.io,cu3.io,cuee.io,cuus.io,cutls.co,cu5.io,cu6.io,cu9.io,exe.io##.faq
+cuus.io,cutls.co,cu5.io,cu6.io,cu9.io,exe.io##.content
+cuus.io,exe.io##.col-md-8
 cuus.io##.r-bg
-cuus.io##.col-md-4
+cuus.io,exe.io##.col-md-4
 cuus.io##.payments
 
 !ma3lomapost.com
@@ -3534,6 +3541,9 @@ privateclassics.com###video-pause-zone
 privateclassics.com##[class^="prvt-banner"]
 
 !worldsex.com
+||worldsex.com/service-worker.js$script,1p
+||worldsex.com/firebase-messaging-sw.js$script,1p
+worldsex.com##+js(abort-on-property-read.js, exoJsPop101)
 worldsex.com###video_banner
 
 !soapymassage.com
@@ -3685,6 +3695,7 @@ stfly.io##+js(remove-attr.js, href, [href*=".xyz"])
 humaribit.win,smwebs.xyz##+js(abort-on-property-read.js, myFunction)
 royalown.review,allreports.site,komiupdates.xyz##+js(abort-on-property-read.js, open)
 royalown.review,allreports.site,komiupdates.xyz,stfly.io,humaribit.win,smwebs.xyz##+js(noeval.js)
+smwebs.xyz##+js(set-constant.js, blurred, false)
 royalown.review,allreports.site,komiupdates.xyz,stfly.io,humaribit.win##p
 royalown.review,allreports.site,komiupdates.xyz,stfly.io,humaribit.win,smwebs.xyz##.text-left
 stfly.io##[src*="//i.imgur.com/"]
@@ -3870,22 +3881,21 @@ worldsex.com##.hide-on-mobile
 worldsex.com##.scrollup
 
 !Shortzon sites
-!techfinda.com|smarteasystudy.com|xpickle.club|techtremendous.com|all-viralquiz.com|bollywooddramanews.com|bloggingdekh.xyz|daily-sale.in|agradarpan.com|ourcareerblog.com|irisdigit.com|swiggygold.com|futurefoundationngo.com|techpmn.com|indiamartoffers.com|futurefoundationngo.in|expressbulletin.in
-*$3p,frame,domain=futurefoundationngo.in|expressbulletin.in
-techtremendous.com,xpickle.club,techfinda.com,smarteasystudy.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com,futurefoundationngo.in,expressbulletin.in##+js(noeval.js)
-techfinda.com,smarteasystudy.com,xpickle.club,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com##.text-left
-techfinda.com,smarteasystudy.com,xpickle.club,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com,futurefoundationngo.in,expressbulletin.in##cookie-pop
-techfinda.com,smarteasystudy.com,xpickle.club,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com,futurefoundationngo.in,expressbulletin.in##.adsbygoogle
-techfinda.com,smarteasystudy.com,xpickle.club,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com,futurefoundationngo.in,expressbulletin.in###link-view > center:nth-child(16)
-techfinda.com,smarteasystudy.com,xpickle.club,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com,futurefoundationngo.in,expressbulletin.in##.col-md-10 > center:first-child
-smarteasystudy.com,xpickle.club,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com,futurefoundationngo.in,expressbulletin.in##h1
-techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com,futurefoundationngo.in,expressbulletin.in##.banner
-futurefoundationngo.in,expressbulletin.in##strong
-futurefoundationngo.in,expressbulletin.in###onload
-futurefoundationngo.in,expressbulletin.in##.modal-backdrop
-futurefoundationngo.in,expressbulletin.in##body:style(overflow: auto !important;)
-futurefoundationngo.in,expressbulletin.in##.box-main > .btn-default
-futurefoundationngo.in,expressbulletin.in##.box-main > .container > .row
+!techfinda.com|smarteasystudy.com|xpickle.club|techtremendous.com|all-viralquiz.com|bollywooddramanews.com|bloggingdekh.xyz|daily-sale.in|agradarpan.com|ourcareerblog.com|irisdigit.com|swiggygold.com|futurefoundationngo.com|techpmn.com|indiamartoffers.com|futurefoundationngo.in|expressbulletin.in|foodyindians.in|dailyworldwideupdates.com|infotomi.com
+*$3p,frame,domain=futurefoundationngo.in|expressbulletin.in|foodyindians.in|dailyworldwideupdates.com|infotomi.com
+techtremendous.com,xpickle.club,techfinda.com,smarteasystudy.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com,futurefoundationngo.in,expressbulletin.in,foodyindians.in,dailyworldwideupdates.com,infotomi.com##+js(noeval.js)
+dailyworldwideupdates.com,infotomi.com##+js(abort-current-inline-script.js, $, modal)
+dailyworldwideupdates.com,infotomi.com,agradarpan.com##+js(set-constant.js, blurred, false)
+techfinda.com,smarteasystudy.com,xpickle.club,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com##.text-left
+techfinda.com,smarteasystudy.com,xpickle.club,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com,futurefoundationngo.in,expressbulletin.in,foodyindians.in,dailyworldwideupdates.com,infotomi.com###cookie-pop
+techfinda.com,smarteasystudy.com,xpickle.club,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com,futurefoundationngo.in,expressbulletin.in,foodyindians.in,dailyworldwideupdates.com,infotomi.com##.adsbygoogle
+techfinda.com,smarteasystudy.com,xpickle.club,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com,futurefoundationngo.in,expressbulletin.in,foodyindians.in,dailyworldwideupdates.com,infotomi.com###link-view > center:nth-child(16)
+techfinda.com,smarteasystudy.com,xpickle.club,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com,futurefoundationngo.in,expressbulletin.in,foodyindians.in,dailyworldwideupdates.com,infotomi.com##.col-md-10 > center:first-child
+smarteasystudy.com,xpickle.club,techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com,futurefoundationngo.in,expressbulletin.in,foodyindians.in,dailyworldwideupdates.com,infotomi.com##h1
+techtremendous.com,all-viralquiz.com,bollywooddramanews.com,bloggingdekh.xyz,daily-sale.in,agradarpan.com,ourcareerblog.com,irisdigit.com,swiggygold.com,futurefoundationngo.com,techpmn.com,indiamartoffers.com,futurefoundationngo.in,expressbulletin.in,foodyindians.in,dailyworldwideupdates.com,infotomi.com##.banner
+futurefoundationngo.in,expressbulletin.in,foodyindians.in,dailyworldwideupdates.com,infotomi.com##strong
+futurefoundationngo.in,expressbulletin.in,foodyindians.in,dailyworldwideupdates.com,infotomi.com##.box-main > .btn-default
+futurefoundationngo.in,expressbulletin.in,foodyindians.in,dailyworldwideupdates.com,infotomi.com##.box-main > .container > .row
 
 !viralcollect.info
 viralcollect.info##+js(nano-setTimeout-booster.js)
@@ -3899,7 +3909,6 @@ dunyanews.xyz###link-view > p
 !wi.cr
 wi.cr##+js(window.open-defuser.js)
 wi.cr##.text-left
-wi.cr##.banner
 
 !wikiall.org
 wikiall.org##p
@@ -3938,9 +3947,6 @@ keezmovies.com##.js-cookie-policy
 !extremetube.com
 extremetube.com##[id*=lead]
 extremetube.com##.backToTop
-
-!123moviesfull.net
-123moviesfull.net##+js(nano-setInterval-booster.js, , clientside)
 
 !deviantart.com
 deviantart.com##.ad-wrapper
@@ -4052,6 +4058,7 @@ voxc.org##p
 !oko.sh
 ||amazonaws.com^$domain=oko.sh
 oko.sh##+js(remove-attr.js, href, [href*=".xyz"])
+oko.sh##+js(set-constant.js, blurred, false)
 oko.sh##.text-left
 oko.sh##[src^="https://i.imgur.com/"]
 
@@ -4260,13 +4267,14 @@ tvporn.cc##.fa-chevron-up
 @@||sudoku-solutions.com^$generichide
 
 !GPlink sites
-!zerooman.com|groundslife.com|korafit.com|englandsman.com|futyjob.com|geekreveal.com|sweatheadline.com|tocywo.com|techycodes.com|knilife.com|technologyax.com
-*/sw.js$script,1p,domain=englandsman.com|futyjob.com|sweatheadline.com|tocywo.com|techycodes.com|knilife.com|technologyax.com
-korafit.com,englandsman.com,futyjob.com,sweatheadline.com,tocywo.com,techycodes.com,knilife.com,technologyax.com##+js(abort-current-inline-script.js, Math, zfgloaded)
-geekreveal.com,tocywo.com,techycodes.com,knilife.com,technologyax.com##+js(abort-on-property-read.js, open)
-zerooman.com,groundslife.com,korafit.com,englandsman.com,futyjob.com,sweatheadline.com,tocywo.com,techycodes.com,knilife.com,technologyax.com##.blog-content
-zerooman.com,groundslife.com,korafit.com,englandsman.com,futyjob.com,geekreveal.com,sweatheadline.com,tocywo.com,techycodes.com.knilife.com,technologyax.com##.page-header
-knilife.com##.banner
+!zerooman.com|groundslife.com|korafit.com|englandsman.com|futyjob.com|geekreveal.com|sweatheadline.com|tocywo.com|techycodes.com|knilife.com|technologyax.com|gplinks.in
+*/sw.js$script,1p,domain=englandsman.com|futyjob.com|sweatheadline.com|tocywo.com|techycodes.com|knilife.com|technologyax.com|gplinks.in
+korafit.com,englandsman.com,futyjob.com,sweatheadline.com,tocywo.com,techycodes.com,knilife.com,technologyax.com,gplinks.in##+js(abort-current-inline-script.js, Math, zfgloaded)
+korafit.com,englandsman.com,futyjob.com,sweatheadline.com,tocywo.com,techycodes.com,knilife.com,technologyax.com,gplinks.in##+js(set-constant.js, blurred, false)
+geekreveal.com,tocywo.com,techycodes.com,knilife.com,technologyax.com,gplinks.in##+js(abort-on-property-read.js, open)
+zerooman.com,groundslife.com,korafit.com,englandsman.com,futyjob.com,sweatheadline.com,tocywo.com,techycodes.com,knilife.com,technologyax.com,gplinks.in##.blog-content
+zerooman.com,groundslife.com,korafit.com,englandsman.com,futyjob.com,geekreveal.com,sweatheadline.com,tocywo.com,techycodes.com.knilife.com,technologyax.com,gplinks.in##.page-header
+knilife.com,gplinks.in##.banner
 knilife.com##.page-header > h3
 
 !shortmony sites
@@ -4359,14 +4367,15 @@ wetandpissy.com###join_now_hint
 wetandpissy.com###cookies_bar
 wetandpissy.com##[class^="sidenav_"]
 
-!jacktekpro.com|
+!jacktekpro.com|technispot.com
 jacktekpro.com,technispot.com##main > .container > p
 jacktekpro.com,technispot.com##strong
 jacktekpro.com,technispot.com##main > .container > ul > li
-jacktekpro.com,technispot.com##p
+jacktekpro.com,technispot.com,viralking.xyz##p
 jacktekpro.com,technispot.com##.pb2
-technispot.com##h4
-technispot.com##ol
+technispot.com,viralking.xyz##h4
+technispot.com,viralking.xyz##ol
+viralking.xyz##main > .container > h3
 
 !vidoza.net
 vidoza.net##+js(abort-current-inline-script.js, document.createElement, script)
@@ -4374,6 +4383,7 @@ vidoza.net##.wait_buffer
 
 !adbilty.me
 adbilty.me##+js(abort-on-property-read.js, doFunction)
+adbilty.me##+js(set-constant.js, blurred, false)
 adbilty.me##.faq
 adbilty.me##.content
 adbilty.me###cookie-pop
@@ -4383,3 +4393,26 @@ pornrox.com/*.php$script,1p
 pornrox.com##.hide-on-mobile
 pornrox.com##.under-video-channel-link
 pornrox.com##.live-video-item
+
+!pornxs.com
+pornxs.com#@#.video__container > .video__inner > div:not([class="video__content"])
+pornxs.com##.video__container > .video__inner > div:not([class*="video__content"])
+
+!sexyhub.com
+sexyhub.com##[class] > [class*="1xl"]
+
+!leechall.*
+leechall.download,leechall.com##.alert
+leechall.download##[href^="https://bit.ly/"]
+
+!hqq.tv
+hqq.tv##+js(addEventListener-defuser.js, DOMContentLoaded, h())
+
+!vidop.icu
+vidop.icu##+js(noeval.js)
+
+!wowgirls.xxx
+wowgirls.xxx##.happy-inside-player
+
+!vidcloud.icu
+vidcloud.icu##+js(abort-on-property-write.js, Math.random)
