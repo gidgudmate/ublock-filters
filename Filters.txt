@@ -1327,7 +1327,7 @@ playvids.com##+js(aopw, pop_target)
 !#endif
 
 !#if env_mobile
-playvids.com##+js(aopr, pop_target)
+playvids.com##+js(aopw, pop_target)
 !#endif
 
 playvids.com##.col-lg-auto.col-12
