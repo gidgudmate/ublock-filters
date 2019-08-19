@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 184
+!Update: 185
 
 
 !Assortment of ad/tracking servers not found in Peter Lowe's
@@ -470,7 +470,6 @@ clcknads.pro^
 ||graidsee.net^
 ||kurlipush.com^
 ||ojeergoy.com^
-||stripst.com^
 ||81.171.0.137^
 ||ihookupdaily.com^
 ||stoomeddert.info^
@@ -727,6 +726,7 @@ preRoll.php$xhr
 ||searchmulty.com^
 ||saturepermine.info^
 ||betrebruratone.info^
+||vvallor.xyz^
 
 !Other
 ||gstatic.com/cv/js/sender/*/cast_sender.js$script
@@ -767,8 +767,6 @@ openload.co##[id*=ScriptRootC]
 @@||vptpsn.com/templates/frontend/*/js/adx_flash.js$script,3p
 @@||protoawe.com^$script,3p,frame,domain=viptube.com
 @@||awemwh.com^$media,domain=viptube.com
-viptube.com##+js(window.open-defuser.js)
-viptube.com##+js(aopr, canRunAds)
 viptube.com###adx_ad
 viptube.com##.footer_adv
 viptube.com##.watch > div:has-text(Free Live Cams)
@@ -1390,7 +1388,7 @@ kdocx.com##.fa-chevron-up
 
 !wikifeet.com
 ||wikifeet.com/galleryend.html$frame,1p
-wikifeet.com##div.dash2:nth-of-type(2)
+wikifeet.com###dual300
 
 !redpornblog.com
 ||redpornblog.com^*/b/*$image,1p
@@ -1398,7 +1396,10 @@ redpornblog.com##+js(aopr, ExoLoader.addZone)
 redpornblog.com##+js(aopr, ExoLoader.serve)
 redpornblog.com###ads
 redpornblog.com###adsbanner
-redpornblog.com##[href]:not([href^="/"]):not([href^="?from="]):not([href*="javascript"]):not([href*="#head"])
+redpornblog.com###menu > ul > li > [href]:not([href^="/"])
+redpornblog.com##.aw
+redpornblog.com##.two-adv
+redpornblog.com###right-sidebar > .sidepic
 
 !galleriesifg.stiffia.com
 galleriesifg.stiffia.com##.secure
@@ -1422,26 +1423,25 @@ private.com###free-pause-zone
 private.com###SCENE-AFTERVIDEO-JOIN
 private.com##.free-content
 
-!xhamster.com|xhamster.one
+!xhamster.*
 ||xhcdn.com/xh-mobile/js/*.pop.js$script
 xhamsterpremium.com^
 xhamsterlive.com^
-xhamster.com,xhamster.one##.flow-buttons > .xh-button:nth-of-type(1), .flow-buttons > .xh-button:nth-of-type(2)
-xhamster.com,xhamster.one##.player-ad-close
-xhamster.com,xhamster.one##.player-ad-overlay
-xhamster.com,xhamster.one##.list-items.spot-container.right-rectangle
-xhamster.com,xhamster.one##.video-category-ads.spot-container.right-rectangle
-xhamster.com,xhamster.one##.top-video-block--banner.top-video-block
-xhamster.com,xhamster.one##.wrapper
-xhamster.com,xhamster.one##.list-items.wid-spot-container.right-rectangle
-xhamster.com,xhamster.one##.up-arrow
-xhamster.com,xhamster.one##.xplayer-hover-menu
-xhamster.com,xhamster.one##.promo-message__banner
-xhamster.com,xhamster.one##.red-round
-xhamster.com,xhamster.one##.wid-cams-widget
-xhamster.com,xhamster.one##.xp-subscribe
-xhamster.com,xhamster.one##.wid-sponsor-banner
-xhamster.com,xhamster.one##[href^="https://go.xhamsterlive.com/"]
+xhamster.*##.player-ad-close
+xhamster.*##.player-ad-overlay
+xhamster.*##.top-video-block--banner
+xhamster.*##.wrapper
+xhamster.*##.up-arrow
+xhamster.*##.xplayer-hover-menu
+xhamster.*##.promo-message__banner
+xhamster.*##.red-round
+xhamster.*##.wid-cams-widget
+xhamster.*##.xp-subscribe
+xhamster.*##.wid-sponsor-banner
+xhamster.*##[href^="https://go.xhamsterlive.com/"]
+xhamster.*##.xplayer-overlay-menu
+xhamster.*##.overlay-menu-opened video:style(filter: blur(0px) !important;)
+xhamster.*##.dyltv-container
 
 !pornhub.com
 pornhub.com###EPH-scroll
@@ -2279,11 +2279,12 @@ bustynudebabes.com##.bnr
 
 !slutsandangels.com
 ||slutsandangels.com^*/banners/*$image,1p
-@@||sharethis.com/button/$script,3p,domain=slutsandangels.com
-@@||sharethis.com/button/css/$css,3p,domain=slutsandangels.com
 slutsandangels.com##.posts > div
 slutsandangels.com##.link:first-child
 slutsandangels.com##center > div:has([href])
+slutsandangels.com##.headShares
+slutsandangels.com##.aw
+slutsandangels.com##.header_container_div > [href]:not([href*="slutsandangels.com"])
 
 !fineartteens.com
 fineartteens.com##[src*="banners"]
@@ -3356,8 +3357,8 @@ adnangamer.com##+js(window.open-defuser.js)
 !cuto.io/cu2.io|cu3.io|cuee.io|cuus.io|cutls.co|cu5.io|cu6.io|cu9.io|exe.io|techodrop.com|trendlouds.com
 *$3p,xhr,domain=cu2.io|cuto.io|cu3.io|cuee.io|cuus.io|cutls.co|cu5.io|cu6.io|cu9.io|exe.io|techodrop.com|trendlouds.com
 cuto.io,cu2.io,cu3.io,cuee.io,cuus.io,cutls.co,cu5.io,cu6.io,cu9.io,exe.io,techodrop.com,trendlouds.com##+js(aopr, doFunction)
-cu6.io,cu9.io,exe.io,techodrop.com,trendlouds.com##+js(window.open-defuser.js)
-cu6.io,cu9.io,exe.io,techodrop.com,trendlouds.com##+js(aopr, app_vars.force_disable_adblock)
+cu6.io,cu9.io,techodrop.com,trendlouds.com##+js(window.open-defuser.js)
+cu6.io,cu9.io,techodrop.com,trendlouds.com##+js(aopr, app_vars.force_disable_adblock)
 exe.io,techodrop.com,trendlouds.com##+js(set-constant.js, blurred, false)
 cuto.io,cu2.io,cu3.io,cuee.io,cuus.io,cutls.co,cu5.io,cu6.io,cu9.io,exe.io,techodrop.com,trendlouds.com##.faq
 cuus.io,cutls.co,cu5.io,cu6.io,cu9.io,exe.io,techodrop.com,trendlouds.com##.content
@@ -4117,6 +4118,8 @@ analdin.com##.arrow-up
 
 !vipissy.com
 vipissy.com##.join_window
+vipissy.com##.offer_countdown
+vipissy.com##.navbar:style(position: static !important;)
 
 !porndig.com
 ||porndig.com/sw*.js$script,1p
@@ -4426,3 +4429,6 @@ pornsexer.com##.fp-brand
 
 !ouo.today
 ||ouo.today/serviceWorker.js$script,1p
+
+!openloadporn.site
+openloadporn.site##+js(aopr, exoJsPop101)
