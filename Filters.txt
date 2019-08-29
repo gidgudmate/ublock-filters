@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 188
+!Update: 189
 
 
 !Assortment of ad/tracking servers not found in Peter Lowe's
@@ -682,7 +682,7 @@ preRoll.php$xhr
 ||oodraune.com^
 ||||dorehernowi.pro^
 ||klubityd.online^
-||arda0hylt58g4wg0.pro^
+||arda0hylt58g4wg0.pro
 ||push.xxxlists.net^
 ||nsevermatold.info^
 ||atugtinidhers.info^
@@ -1708,9 +1708,10 @@ porndoo.com###linkTop
 
 !silkengirl domains
 ||silkengirl.net/sw.js$script,1p
-/*/banners/*$image,domain=silkengirl.*
+||silkengirl.*/banners/*$image,1p
 silkengirl.*##+js(sid, reload2)
 silkengirl.*##+js(aopr, ExoLoader.serve)
+silkengirl.*##+js(set-constant, floaderLoaded, noopFunc)
 silkengirl.*##.spots_long
 silkengirl.com##body > div:nth-of-type(3)
 silkengirl.*###scrollUp
@@ -1724,9 +1725,10 @@ silkengirl.com##.menu_holder > .item:nth-child(7), .menu_holder > .item:nth-chil
 silkengirl.com##.btn_review.item:nth-child(6)
 silkengirl.com##.item:nth-child(1)
 silkengirl.net##.item:nth-child(6) > .item_inner, .item:nth-child(8) > .item_inner
-silkengirl.*##[href^="http://adultfriendfinder.com/"], [href*="https://trcklks.com/"]
 silkengirl.*##.thumb33:has([href*=trcklks])
 silkengirl.com##.thumb33:has([id*=ts_ad_native])
+silkengirl.*##.header:style(position: absolute !important;)
+silkengirl.*##.item_inner:has-text(Strippers)
 
 !babes.com
 ||project1content.com/Babes/Tour/PROMOS/*$image,domain=babes.com
@@ -1867,28 +1869,20 @@ deliciousbabes.org##.live
 
 !livejasminbabes.net
 ||livejasminbabes.net/istripper$frame,1p
-||livejasminbabes.net$script,1p
-livejasminbabes.net##+js(aopr, ExoLoader)
+||livejasminbabes.net^*/banners/*$image,1p
+livejasminbabes.net##+js(aopr, ExoLoader.serve)
 livejasminbabes.net##+js(aopr, loadTool)
-livejasminbabes.net##.istripper
-livejasminbabes.net##.second-candy
-livejasminbabes.net##.onhover
-livejasminbabes.net##.visitref.bold.center.inline.size5.text-yellow
-livejasminbabes.net##body.gallery .rate-wrapper
-livejasminbabes.net###nat_top
-livejasminbabes.net##[href="/click/o/only-opaques.com"] > .rounded-top-right.inner-border
-livejasminbabes.net##.rounded-top-left.inner-border > .container
-livejasminbabes.net###nat_mid
-livejasminbabes.net###posts > .big > [href]
-livejasminbabes.net##.big
-livejasminbabes.net##[id*=ScriptRoot]
-livejasminbabes.net##[href*="https://trcklks.com/"]
-livejasminbabes.net##.nat-top
-livejasminbabes.net###toTop
-livejasminbabes.net##[href*="/click/o/"]
-livejasminbabes.net##[href*="cams.livejasminbabes.net"]
+livejasminbabes.net##+js(aopr, document.dispatchEvent)
+livejasminbabes.net##[id^="nat_"]
 livejasminbabes.net###sponsorfeature
+livejasminbabes.net###header:style(position: absolute !important;)
+livejasminbabes.net##[href^="http://cams.livejasminbabes.net"]
+livejasminbabes.net###freetour
 livejasminbabes.net###share
+livejasminbabes.net##.dividerlink
+livejasminbabes.net###back-to-top
+livejasminbabes.net##[id^="partnerpromo_"]
+livejasminbabes.net##.candy
 
 !hottystop.com
 ||hottystop.com/*.mp4$media,1p
@@ -1901,6 +1895,7 @@ hottystop.com##u > center > [href]:not([href*="hottystop.com"])
 hottystop.com##.NavBarLink:has-text(LIVE)
 hottystop.com##[href*=".php"]
 hottystop.com##[style*="base64"]
+hottystop.com##.Box_Large_Content > h3:has-text(Live girls)
 
 !shameless.com
 shameless.com##+js(aopr, ExoLoader.serve)
@@ -2108,7 +2103,7 @@ cocogals.com##a[target*="_blank"][rel*="nofollow"]
 !babesxworld.com
 babesxworld.com##+js(aopr, ExoLoader.addZone)
 babesxworld.com##+js(aopr, ExoLoader.serve)
-babesxworld.com##+js(aeld, getexoloader)
+babesxworld.com##+js(aopr, document.dispatchEvent)
 babesxworld.com##.row:last-child
 babesxworld.com##.toplists.row
 babesxworld.com##div[class*="rot-item"]
@@ -2127,13 +2122,12 @@ primecurves.com##.header-top:style(position: absolute !important;)
 xxxbunker.com##.spbDisabled
 
 !hellporno.*
-/_a_xb/*/*/*$script,1p,domain=hellporno.*
-/cb/cb.xb.js$script,1p,domain=hellporno.*
-/sw.js$script,1p,domain=hellporno.*
+||hellporno.*/_a_*/s/s/*.*$script,1p
+||hellporno.*/cb/cb.xb.js$script,1p
+||hellporno.*/sw.js$script,1p
 ||hellporno.net^$frame,1p
-||hellporno.net/_a_ht/s/s/su*.php$script,1p
-@@||js.helltraffic.com/fluidplayer/*$script,domain=hellporno.*
-@@||js.helltraffic.com/fluidplayer/images/*$image,domain=hellporno.*
+@@||js.helltraffic.com/fluidplayer/*$script,domain=hellporno.com|hellporno.net
+@@||js.helltraffic.com/fluidplayer/images/*$image,domain=hellporno.com|hellporno.net
 hellporno.*##.bnnrs-player
 hellporno.com##[class*="banner"]
 hellporno.com##.tabs
@@ -2310,6 +2304,7 @@ exgirlfriendmarket.com###header > .btn
 exgirlfriendmarket.com##[href^="//gotpd.me/"]
 exgirlfriendmarket.com###share
 exgirlfriendmarket.com##[id^="partnerpromo_"]
+exgirlfriendmarket.com###header:style(position: absolute !important;)
 
 !temp-mail.org
 temp-mail.org##.block-control:style(position: sticky !important;)
@@ -2386,8 +2381,8 @@ pornstarnaked.com###preloader
 
 !taxi69.com
 @@||protoawe.com^$script,frame,domain=taxi69.com
-taxi69.com##+js(acis, CustomEvent, getexoloader)
-taxi69.com##+js(aeld, /^(?:load|click)$/, popMagic)
+taxi69.com##+js(aopr, document.dispatchEvent)
+taxi69.com##+js(aopr, exoJsPop101)
 taxi69.com##.last
 taxi69.com##.productor_info
 
@@ -2399,8 +2394,8 @@ celebsroulette.com###list_videos_friends_2_items
 
 !sexwinks.com
 ||sexwinks.com/f.js$script,1p
-sexwinks.com##+js(acis, CustomEvent, getexoloader)
-sexwinks.com##+js(window.open-defuser.js)
+sexwinks.com##+js(aopr, document.dispatchEvent)
+sexwinks.com##+js(window.open-defuser)
 sexwinks.com##.navbar-fixed-top
 
 !anybunny.com
@@ -2883,7 +2878,7 @@ uploadbank.com##.wrapper > center
 uploadbank.com##[href^="http://www.uploadbank.com/download/"]
 
 !ftopx.com
-ftopx.com##+js(acis, CustomEvent, getexoloader)
+ftopx.com##+js(aopr, document.dispatchEvent)
 
 !dailyuploads.net
 dailyuploads.net##.inner > [href*="dailyapk.net"]
@@ -2942,8 +2937,8 @@ tokenfly.pw##.box-main > p
 tokenfly.pw##[id*="ScriptRoot"]
 tokenfly.pw##.box-main > center:nth-child(1), .box-main > center:nth-child(2)
 
-!shrtfly.com
-*$3p,frame,domain=shrtfly.*
+!shrtfly.*
+||shrtfly.*$3p,frame
 shrtfly.*##+js(set-constant, blurred, false)
 shrtfly.*###topbar
 shrtfly.*##.banner
@@ -3274,7 +3269,8 @@ cpuid.com##.widget-donation
 cpuid.com##.advert
 
 !videopornoitalia.it
-videopornoitalia.it##+js(acis, CustomEvent, getexoloader)
+videopornoitalia.it##+js(aopr, document.dispatchEvent)
+videopornoitalia.it##.thumb > a:style(background-color: transparent !important;)
 
 !porneq.com
 *$3p,xhr,domain=porneq.com
@@ -3439,7 +3435,6 @@ nexusmods.com##.mfp-bg
 !uiz.io
 uiz.io##+js(window.open-defuser.js)
 uiz.io##+js(aopr, _0x201e)
-uiz.io#@#+js(aopr, open)
 uiz.io##.text-left
 uiz.io##.box-main > div:nth-child(4)
 
@@ -3685,12 +3680,9 @@ javqd.com##.col-md-4 > center > iframe
 
 !kingsofteens.com
 *$3p,popup,domain=kingsofteens.com
-||kingsofteens.com^*/frtd_ldr_LB2D.js$script,1p
-kingsofteens.com##+js(aopr, ExoLoader)
-kingsofteens.com##+js(std, _0x)
+||kingsofteens.com*/frtd_ldr_*.js$script,1p
 kingsofteens.com##.ad-url
 kingsofteens.com###video-slider > video
-kingsofteens.com##.spots
 kingsofteens.com##.friends-list
 kingsofteens.com##.wrapper > div:has-text(ADVERTISEMENT)
 
@@ -3914,9 +3906,9 @@ ckk.ai##p
 
 !babesexy.com
 babesexy.com##+js(aopr, loadTool)
-babesexy.com##+js(aopr, ExoLoader.serve)
+babesexy.com##+js(set-constant, floaderLoaded, noopFunc)
 babesexy.com##.spots-box
-babesexy.com##[href]:not([href^="/"]):not([href^="?from="]):not([href^="?category"]):not([href*="babesexy.com"])
+babesexy.com##.h-btn-box > [href]:not([href^="/"])
 
 !babepedia.com
 ||babepedia.com/img/sq*.gif$image,1p
@@ -4026,7 +4018,7 @@ premiumzen.com##.text-left
 
 !reblop.com
 ||reblop.com/sparkling-hat-*$script,1p
-reblop.com##+js(aeld, getexoloader)
+reblop.com##+js(aopr, document.dispatchEvent)
 reblop.com##+js(aopr, ExoLoader.serve)
 reblop.com##+js(aopr, ExoLoader.addZone)
 reblop.com##.td-scroll-up
@@ -4122,14 +4114,14 @@ pornoeggs.com##+js(aopw, pop_target)
 ||simplenu.com/js/td*.js$script,1p
 simplenu.com##+js(aopr, loadTool)
 simplenu.com##[class*="banner"]
-simplenu.com##[href="http://www.silkengirl.com/videos/"], [href^="https://desklks.com/"], [href="https://www.silkencams.com/"]
 simplenu.com##.much-more-box
+simplenu.com###w2 > li > [href]:not([href^="/"])
+simplenu.com##.ad
 
 !angelgals.com
-angelgals.com##+js(aopr, loadTool)
-angelgals.com##+js(aopr, ExoLoader.addZone)
-angelgals.com##+js(aopr, ExoLoader.serve)
-angelgals.com##[href="https://www.silkencams.com/"], [href*="https://trcklks.com/"], [href^="https://adultfriendfinder.com/"]
+angelgals.com##+js(set-constant, floaderLoaded, noopFunc)
+angelgals.com##.h-btn-box > [href]:not([href*="angelgals.com"])
+angelgals.com##.content-catdesc-txt
 
 !seemomsuck.com
 seemomsuck.com###bannerlink
@@ -4137,13 +4129,10 @@ seemomsuck.com###bannerlink
 !fmovies.to
 fmovies.to##.stream4k:not([id])
 
-!onlythots.com
-onlythots.com##+js(acis, CustomEvent, getexoloader)
-
-!gonewild.co
-gonewild.co##+js(aeld, getexoloader)
-gonewild.co##+js(popads-dummy.js)
-gonewild.co##[href="https://theporndude.com"], [href^="https://reactads.engine.adglare.net/"], [href^="https://bongacams3.com/track"]
+!gonewild.co|goeswild.co
+||goeswild.co/share/embed.js$script,1p
+gonewild.co,goeswild.co##+js(aopr, document.dispatchEvent)
+goeswild.co##+js(aopr, ExoLoader.serve)
 
 !nsfw247.to
 nsfw247.to^$xhr,1p
@@ -4187,7 +4176,7 @@ lumendatabase.org##.first-time-visitor
 @@||tranny.one/js/fd.js$script,1p
 tranny.one##+js(aopr, BetterJsPop)
 tranny.one##+js(aopr, betterNameTr)
-tranny.one##+js(aeld, getexoloader)
+tranny.one##+js(aopr, document.dispatchEvent)
 tranny.one##.spot
 tranny.one##[style*="background: #E6E3DA;"]
 tranny.one##[class^="ads"]
@@ -4465,3 +4454,7 @@ bollyreveal.com##+js(aopr, app_vars.force_disable_adblock)
 bollyreveal.com##+js(set-constant, blurred, false)
 bollyreveal.com##p
 bollyreveal.com##.col-md-10 > div:not(.box-main)
+
+!xnsfw.com
+xnsfw.com##[class^="overlay"]
+xnsfw.com##.navbar-center > li > [href]:not([href^="/"])
