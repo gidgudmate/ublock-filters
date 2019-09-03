@@ -2,32 +2,32 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 4.6
+!Update: 4.7
 
 !silkengirl.com
-www.silkengirl.com##.fixed.header:style(position: sticky !important;)
-www.silkengirl.com##.item_inner
-www.silkengirl.comm##.hold > .title:nth-child(2)
-www.silkengirl.com##.nav:nth-child(3)
-www.silkengirl.com##.item:nth-child(6), .item:nth-child(7), .item:nth-child(8), .item:nth-child(9)
-www.silkengirl.com##.nav:first-child > .item:nth-child(5)
+silkengirl.com##.fixed.header:style(position: sticky !important;)
+silkengirl.com##.item_inner
+silkengirl.comm##.hold > .title:nth-child(2)
+silkengirl.com##.nav:nth-child(3)
+silkengirl.com##.item:nth-child(6), .item:nth-child(7), .item:nth-child(8), .item:nth-child(9)
+silkengirl.com##.nav:first-child > .item:nth-child(5)
 
 !sexykittenporn.com
-www.sexykittenporn.com##li > [href]:not([href^="/"]):not([href^="#"])
+sexykittenporn.com##li > [href]:not([href^="/"]):not([href^="#"])
 
 !dirtyyoungbitches.com
-www.dirtyyoungbitches.com###main-nav > li:nth-child(3)
+dirtyyoungbitches.com###main-nav > li:nth-child(3)
 
 !momxxx.com
-www.momxxx.com##.mobile-header:style(position: static !important;)
+momxxx.com##.mobile-header:style(position: static !important;)
 
 !peekvids.com
-www.peekvids.com##.interstitial-popup:style(height: 1px !important; width: 1px !important; overflow-y: scroll !important;)
-www.peekvids.com##.popup-opened:style(overflow: auto !important; position: initial !important;)
+peekvids.com##.interstitial-popup:style(height: 1px !important; width: 1px !important; overflow-y: scroll !important;)
+peekvids.com##.popup-opened:style(overflow: auto !important; position: initial !important;)
 
 !playvids.com
-www.playvids.com##.interstitial-popup:style(height: 1px !important; width: 1px !important; overflow-y: scroll !important;)
-www.playvids.com##.popup-opened:style(overflow: auto !important; position: initial !important;)
+playvids.com##.interstitial-popup:style(height: 1px !important; width: 1px !important; overflow-y: scroll !important;)
+playvids.com##.popup-opened:style(overflow: auto !important; position: initial !important;)
 
 !spankbang.com
 m.spankbang.com###header_bar:style(position: absolute !important;)
@@ -36,11 +36,9 @@ m.spankbang.com##[href="/live"]
 m.spankbang.com##[href^="https://go.ero-advertising.com/"]
 
 !silkengirl.net
-www.silkengirl.net##.hold > .title:nth-child(2)
-www.silkengirl.net##.nav:first-child > .item:nth-child(5)
-www.silkengirl.net##.nav:first-child > .item:nth-child(6)
-www.silkengirl.net##.nav:first-child > .item:nth-child(7)
-www.silkengirl.net##.nav:nth-child(3)
+silkengirl.net##.hold > .title:nth-child(2)
+silkengirl.net##.nav:first-child > .item:nth-child(5), .nav:first-child > .item:nth-child(6), .nav:first-child > .item:nth-child(7)
+silkengirl.net##.nav:nth-child(3)
 
 !pornflip.com
 m.pornflip.com##.interstitial-popup:style(height: 1px !important; width: 1px !important; overflow-y: scroll !important;)
@@ -48,16 +46,16 @@ m.pornflip.com##.popup-opened:style(overflow: auto !important; position: initial
 m.pornflip.com##div[class*="banner"]
 
 !novoporn.com
-www.novoporn.com###mainnav > .nav > li:nth-child(4), #mainnav > .nav > li:nth-child(5)
-www.novoporn.com##td:nth-child(1)
-www.novoporn.com##td > [href]
+novoporn.com###mainnav > .nav > li:nth-child(4), #mainnav > .nav > li:nth-child(5)
+novoporn.com##td:nth-child(1)
+novoporn.com##td > [href]
 
 !babesandbitches.net
-www.babesandbitches.net###mainnav > .nav > li:nth-child(5)
-www.babesandbitches.net##.swiper-bonus
+babesandbitches.net###mainnav > .nav > li:nth-child(5)
+babesandbitches.net##.swiper-bonus
 
 !girlsofdesire.org
-www.girlsofdesire.org###mm-m0-p0 > li:nth-child(8)
+girlsofdesire.org###mm-m0-p0 > li:nth-child(8)
 
 !pornoeggs.com
 m.pornoeggs.com##[class^="banner-"]
@@ -140,27 +138,27 @@ m.taxi69.com###header:style(position: relative !important;)
 m.taxi69.com##.ad_kimia
 
 !nightdreambabe.com
-www.nightdreambabe.com##center
+nightdreambabe.com##center
 
 !babesaround.com
-www.babesaround.com##.selectnav-holder > center
-www.babesaround.com###select > li:nth-child(3)
+babesaround.com##.selectnav-holder > center
+babesaround.com###select > li:nth-child(3)
 
 !babesbang.com
-www.babesbang.com##.header-content > div:nth-child(2)
-www.babesbang.com###mainmenu > ul > li:nth-child(4)
-www.babesbang.com###content-top-menu > [href]
-www.babesbang.com##.header-content > div > [href]
+babesbang.com##.header-content > div:nth-child(2)
+babesbang.com###mainmenu > ul > li:nth-child(4)
+babesbang.com###content-top-menu > [href]
+babesbang.com##.header-content > div > [href]
 
 !grabpussy.com
-www.grabpussy.com###logo-after
-www.grabpussy.com##.bookmark2
-www.grabpussy.com##.clear
-www.grabpussy.com##.adv
-www.grabpussy.com###mainmenu > ul > li:first-child
+grabpussy.com###logo-after
+grabpussy.com##.bookmark2
+grabpussy.com##.clear
+grabpussy.com##.adv
+grabpussy.com###mainmenu > ul > li:first-child
 
 !bustybloom.com
-www.bustybloom.com###header:style(position: absolute !important;)
+bustybloom.com###header:style(position: absolute !important;)
 
 !pornrabbit.com
 m.pornrabbit.com##.mobilebanner
@@ -170,51 +168,55 @@ m.proporn.com##.ad
 m.proporn.com###banner_overlay-postitial-content
 
 !pleasuregirl.net
-www.pleasuregirl.net###header:style(position: absolute !important;)
+pleasuregirl.net###header:style(position: absolute !important;)
 
 !pornhub.com
 pornhub.com##.videoWrapper:has(.premiumIcon)
 pornhub.com###androidAppBar
 
 !mainbabes.com
-www.mainbabes.com##.item:nth-child(4), .item:nth-child(5), .item:nth-child(6)
+mainbabes.com##.item:nth-child(4), .item:nth-child(5), .item:nth-child(6)
 
 !babesinporn.com
-www.babesinporn.com###mm-m0-p0 > li:nth-child(5)
+babesinporn.com###mm-m0-p0 > li:nth-child(5)
 
 !massage-parlor.com
 m.massage-parlor.com##.cc-floating
 
 !theomegaproject.org
-www.theomegaproject.org##.plink
+theomegaproject.org##.plink
 
 !novoglam.com
-www.novoglam.com##.mz0
+novoglam.com##.mz0
 
 !pbabes.com
-www.pbabes.com##li:nth-child(4), li:nth-child(5), li:nth-child(6)
-www.pbabes.com##.clear
+pbabes.com##.clear
 
 !thousandbabes.com
-www.thousandbabes.com##.clear
-www.thousandbabes.com##.swiper-bonus
+thousandbabes.com##.clear
+thousandbabes.com##.swiper-bonus
 
 !eporner.com
 ||eporner.com/dotm/ads-head.php$frame,1p
-www.eporner.com###ad-top
-www.eporner.com###ad-bottom
+eporner.com###ad-top
+eporner.com###ad-bottom
 
 !xvideos.com
-www.xvideos.com###ad-header-mobile
+xvideos.com###ad-header-mobile
 
 !pussystate.com
-www.pussystate.com###mainnav > .nav > li:nth-child(3), #mainnav > .nav > li:nth-child(5)
+pussystate.com###mainnav > .nav > li:nth-child(3), #mainnav > .nav > li:nth-child(5)
 
 !pureandsexy.org
-www.pureandsexy.org###content-top-menu2
-www.pureandsexy.org##.clear
+pureandsexy.org###content-top-menu2
+pureandsexy.org##.clear
 
 !fulltrannyporn.com
-www.fulltrannyporn.com###ticker
-www.fulltrannyporn.com##.mobile-banner
-www.fulltrannyporn.com##.header-open-cookie:style(position: static !important;)
+fulltrannyporn.com###ticker
+fulltrannyporn.com##.mobile-banner
+fulltrannyporn.com##.header-open-cookie:style(position: static !important;)
+
+!nudity911.com
+nudity911.com##body > center:first-of-type
+nudity911.com##div > table > tbody > tr > td > [href] > .thmb
+nudity911.com##.swiper-bonus
