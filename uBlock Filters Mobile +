@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 5
+!Update: 4.8
 
 !silkengirl.com
 silkengirl.*##.hold > ul > li > [href]:not([href^="/"])
