@@ -2,21 +2,23 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 4.7
+!Update: 5
 
 !silkengirl.com
-silkengirl.com##.fixed.header:style(position: sticky !important;)
-silkengirl.com##.item_inner
-silkengirl.comm##.hold > .title:nth-child(2)
-silkengirl.com##.nav:nth-child(3)
-silkengirl.com##.item:nth-child(6), .item:nth-child(7), .item:nth-child(8), .item:nth-child(9)
-silkengirl.com##.nav:first-child > .item:nth-child(5)
+silkengirl.*##.hold > ul > li > [href]:not([href^="/"])
+silkengirl.*##.hold > ul > li:has([href*="/vr"])
+silkengirl.*##.hold > ul > li:has([href*="/review"])
+silkengirl.*##.nav:first-child > .item:nth-child(5), .nav:first-child > .item:nth-child(6), .nav:first-child > .item:nth-child(5), .nav:first-child > .item:nth-child(7), .nav:first-child > .item:nth-child(5), .nav:first-child > .item:nth-child(8), .nav:first-child > .item:nth-child(5), .nav:first-child > .item:nth-child(9), .nav:first-child > .item:nth-child(5), .nav:first-child > .item:nth-child(10), .nav:first-child > .item:nth-child(5), .nav:first-child > .item:nth-child(11)
+
+!silkengirl.net
+silkengirl.net##.nav:nth-child(3) > .item:first-child, .nav:nth-child(3) > .item:nth-child(2)
 
 !sexykittenporn.com
 sexykittenporn.com##li > [href]:not([href^="/"]):not([href^="#"])
+sexykittenporn.com###mm-m0-p0 > li:nth-child(6), #mm-m0-p0 > li:nth-child(7)
 
 !dirtyyoungbitches.com
-dirtyyoungbitches.com###main-nav > li:nth-child(3)
+dirtyyoungbitches.com##.swiper-bonus
 
 !momxxx.com
 momxxx.com##.mobile-header:style(position: static !important;)
@@ -35,27 +37,23 @@ m.spankbang.com##[href="/tv"]
 m.spankbang.com##[href="/live"]
 m.spankbang.com##[href^="https://go.ero-advertising.com/"]
 
-!silkengirl.net
-silkengirl.net##.hold > .title:nth-child(2)
-silkengirl.net##.nav:first-child > .item:nth-child(5), .nav:first-child > .item:nth-child(6), .nav:first-child > .item:nth-child(7)
-silkengirl.net##.nav:nth-child(3)
-
 !pornflip.com
 m.pornflip.com##.interstitial-popup:style(height: 1px !important; width: 1px !important; overflow-y: scroll !important;)
 m.pornflip.com##.popup-opened:style(overflow: auto !important; position: initial !important;)
 m.pornflip.com##div[class*="banner"]
 
 !novoporn.com
-novoporn.com###mainnav > .nav > li:nth-child(4), #mainnav > .nav > li:nth-child(5)
-novoporn.com##td:nth-child(1)
-novoporn.com##td > [href]
+novoporn.com###mainnav > .nav > li:has-text(/WebCam|Dating/)
+novoporn.com##.swiper-bonus
 
 !babesandbitches.net
-babesandbitches.net###mainnav > .nav > li:nth-child(5)
+babesandbitches.net###mobileGalleryResponsive > center > [href]
 babesandbitches.net##.swiper-bonus
+babesandbitches.net###content > [href]:not([href^="/"])
 
 !girlsofdesire.org
-girlsofdesire.org###mm-m0-p0 > li:nth-child(8)
+girlsofdesire.org##.left:style(position: absolute !important;)
+girlsofdesire.org##.right:style(position: absolute !important;)
 
 !pornoeggs.com
 m.pornoeggs.com##[class^="banner-"]
@@ -95,7 +93,12 @@ m.fuckup.xxx##.col-sm-12 > .text-center
 m.sextvx.com##[id$="_ads"]
 
 !viptube.com
-m.viptube.com##.intro:nth-child(2), .intro:nth-of-type(10), .intro:nth-of-type(11), .intro:nth-of-type(13), .intro:nth-of-type(14)
+m.viptube.com###mobile-header-1
+m.viptube.com###banner_overlay-postitial-video
+m.viptube.com###mobile-middle-1
+m.viptube.com##.twocolumns
+m.viptube.com##.categories_box:has-text(Live cams)
+m.viptube.com###mobile-footer-1
 
 !fux.com
 m.fux.com##.video-list-top-ad
@@ -140,25 +143,12 @@ m.taxi69.com##.ad_kimia
 !nightdreambabe.com
 nightdreambabe.com##center
 
-!babesaround.com
-babesaround.com##.selectnav-holder > center
-babesaround.com###select > li:nth-child(3)
-
 !babesbang.com
-babesbang.com##.header-content > div:nth-child(2)
-babesbang.com###mainmenu > ul > li:nth-child(4)
 babesbang.com###content-top-menu > [href]
+babesbang.com###mainmenu > ul > li > [href]:not([href^="/"])
+babesbang.com###mainmenu > ul > li:nth-child(1), li:nth-child(4)
 babesbang.com##.header-content > div > [href]
-
-!grabpussy.com
-grabpussy.com###logo-after
-grabpussy.com##.bookmark2
-grabpussy.com##.clear
-grabpussy.com##.adv
-grabpussy.com###mainmenu > ul > li:first-child
-
-!bustybloom.com
-bustybloom.com###header:style(position: absolute !important;)
+babesbang.com##.swiper-bonus
 
 !pornrabbit.com
 m.pornrabbit.com##.mobilebanner
@@ -167,15 +157,9 @@ m.pornrabbit.com##.mobilebanner
 m.proporn.com##.ad
 m.proporn.com###banner_overlay-postitial-content
 
-!pleasuregirl.net
-pleasuregirl.net###header:style(position: absolute !important;)
-
 !pornhub.com
 pornhub.com##.videoWrapper:has(.premiumIcon)
 pornhub.com###androidAppBar
-
-!mainbabes.com
-mainbabes.com##.item:nth-child(4), .item:nth-child(5), .item:nth-child(6)
 
 !babesinporn.com
 babesinporn.com###mm-m0-p0 > li:nth-child(5)
@@ -203,9 +187,6 @@ eporner.com###ad-bottom
 
 !xvideos.com
 xvideos.com###ad-header-mobile
-
-!pussystate.com
-pussystate.com###mainnav > .nav > li:nth-child(3), #mainnav > .nav > li:nth-child(5)
 
 !pureandsexy.org
 pureandsexy.org###content-top-menu2
