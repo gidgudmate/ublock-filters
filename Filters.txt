@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 193
+!Update: 194
 
 
 !Assortment of ad/tracking servers not found in Peter Lowe's
@@ -652,7 +652,6 @@ https://*/download/pornhub.*.apk$document
 ||sweetandpussy.com^
 ||goodmeet.club^
 ||your-luckychance.life^
-||d144jmuhz9kvbq.cloudfront.net^
 ||nhpfvdlbjg.com^
 ||adblock.report^
 preRoll.php$xhr
@@ -747,7 +746,6 @@ preRoll.php$xhr
 ||raigluce.net^
 ||tgdhimcwww.com^
 ||zldijcenor.com^
-||d2glav2919q4cw.cloudfront.net^
 ||lingrethertantin.pro^
 ||wrontonshatbona.pro^
 ||rbuppjvcn.com^
@@ -1471,7 +1469,6 @@ xhamster.*##.overlay-menu-opened video:style(filter: blur(0px) !important;)
 xhamster.*##.dyltv-container
 xhamster.*##[class*="-cams-widget"]
 
-
 !pornhub.com
 ||nsimg.net^$image,3p,domain=pornhub.com,important
 pornhub.com###EPH-scroll
@@ -1669,7 +1666,7 @@ babesandgirls.com###block-block-6 > .content > div
 babesandgirls.com##.owner
 
 !sexykittenporn.com
-!||sexykittenporn.com^$frame,1p
+||sexykittenporn.com^$frame,1p
 @@||sexykittenporn.com$script,1p
 @@||sexykittenporn.com/virtuagirl.com/*$image,1p
 sexykittenporn.com##+js(aopr, loadTool)
@@ -2339,7 +2336,6 @@ spicybabe.net##.shell2
 
 !hotmovs.com
 htmCtrl.js$script,domain=hotmovs.com
-hotmovs.com##+js(aopr, vdaVars)
 hotmovs.com###channel-video-banner
 hotmovs.com###toTop
 
@@ -2980,6 +2976,7 @@ cpmlink.net###contact
 cpmlink.net##iframe:not([src*="recaptcha"])
 
 !adbull.me
+*$3p,xhr,domain=adbull.co
 adbull.*##+js(aopr, __DOMAIN)
 adbull.*##+js(aopr, TID)
 adbull.*##.cc-window
@@ -3192,19 +3189,17 @@ nubilefilms.com##.hover-join
 nubilefilms.com##.twitter
 
 !lettherebeporn.com
-||lettherebeporn.com/htopics.php$frame,1p
-||lettherebeporn.com/google.php$frame,1p
-lettherebeporn.com##tr:nth-child(2) > td > div > table > tbody > tr:nth-child(4) > td:first-child
-lettherebeporn.com##font > table > tbody > tr > td
-lettherebeporn.com##font > table
-lettherebeporn.com##td:first-child > table > tbody > tr:nth-child(3) > td:nth-child(2)
-lettherebeporn.com##div > table > tbody > tr:nth-child(7) > td:first-child
-lettherebeporn.com##tr:nth-child(10) > td:first-child, tr:nth-child(13) > td:first-child
-lettherebeporn.com##[href="https://www.sexyfuckgames.com"], [href="http://lettherebeporn.idealgasm.com"]
+*$3p,script,domain=lettherebeporn.com
+||lettherebeporn.com^$frame,1p
+lettherebeporn.com##.omega
+lettherebeporn.com###nav > ul > li > [href]:not([href*="lettherebeporn.com"])
 lettherebeporn.com###main > center > [href]
-lettherebeporn.com##.alpha > .sidemenu:first-child
-lettherebeporn.com##.grid_8 > center
-lettherebeporn.com##h4 > font
+lettherebeporn.com##.grid_8 > center > [src]
+lettherebeporn.com##:xpath(//*[@id="main"]/table/tbody/tr[7])
+lettherebeporn.com###main > .grid_8 > h4
+lettherebeporn.com##.grid_8 > center > strong
+lettherebeporn.com##.sidemenu > [src]
+lettherebeporn.com##.title
 
 !shesfreaky.com
 shesfreaky.com##[id^="banner"]
@@ -3346,13 +3341,13 @@ cuus.io##.payments
 
 !exe.io
 !exe.io|techodrop.com|trendlouds.com|parentingss.xyz|realupdate.xyz|trendgang.info|trendpick.info
-exe.io,techodrop.com,trendlouds.com,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info##+js(aopr, doFunction)
-techodrop.com,trendlouds.com,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info##+js(window.open-defuser)
-techodrop.com,trendlouds.com,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info##+js(aopr, app_vars.force_disable_adblock)
-exe.io,techodrop.com,trendlouds.com,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info##+js(set-constant, blurred, false)
-exe.io,techodrop.com,trendlouds.com,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info##.faq
-exe.io,techodrop.com,trendlouds.com,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info##.col-md-4, .col-md-8
-exe.io,techodrop.com,trendlouds.com,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info##.content
+exe.io,techodrop.com,trendlouds.com,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz##+js(aopr, doFunction)
+techodrop.com,trendlouds.com,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz##+js(window.open-defuser)
+techodrop.com,trendlouds.com,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz##+js(aopr, app_vars.force_disable_adblock)
+exe.io,techodrop.com,trendlouds.com,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz##+js(set-constant, blurred, false)
+exe.io,techodrop.com,trendlouds.com,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz##.faq
+exe.io,techodrop.com,trendlouds.com,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz##.col-md-4, .col-md-8
+exe.io,techodrop.com,trendlouds.com,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz##.content
 
 !ma3lomapost.com
 ma3lomapost.com##.blog-content
@@ -3893,6 +3888,8 @@ keezmovies.com##.js-cookie-policy
 !extremetube.com
 extremetube.com##[id*=lead]
 extremetube.com##.backToTop
+extremetube.com##[style^="float:right; width: 49.9%; height: 534px;"]
+extremetube.com##[style^="margin: auto;  height: 302px; overflow: hidden; width:951px;"]
 
 !deviantart.com
 deviantart.com##.ad-wrapper
@@ -3920,8 +3917,8 @@ fc.lc##.text-left
 adbl.me##.box-main > div:nth-child(5), .box-main > div:nth-child(12)
 
 !ckk.ai
-ckk.ai##+js(acis, Object.defineProperty, vocabulary)
 ckk.ai##+js(set-constant, blurred, false)
+ckk.ai##+js(aopr, TID)
 ckk.ai##h3
 ckk.ai##p
 ckk.ai##.text-left
@@ -3949,13 +3946,13 @@ sunporno.com##.movie-footer > div:first-child
 kisscartoon.xyz##[id^="spu-"]
 
 !pornoxo.com
-pornoxo.com##+js(aopr, BackButton)
+pornoxo.com##+js(aopr, backbuttonConfig)
 pornoxo.com##+js(window.open-defuser)
+pornoxo.com##+js(sid, window.console.clear, 500)
 pornoxo.com##+js(aeld, chujBlokowacieDone)
-pornoxo.com##+js(std, js-ads-modal)
-pornoxo.com##[href="http://www.cams.pornoxo.com/"], [href^="http://store.pornoxo.com/"], [href^="https://adultfriendfinder.com/"]
 pornoxo.com###cookie-wrapper
-pornoxo.com##.navmenu > li:nth-child(6), .navmenu > li:nth-child(7), .navmenu > li:nth-child(8)
+pornoxo.com##.navmenu > li > [href]:not([href*="/my-"]):not([class])
+pornoxo.com##.navmenu > li:nth-child(n+6)
 
 !rushporn.com
 rushporn.com##.fluid-b
@@ -4354,8 +4351,7 @@ sexyhub.com,danejones.com,lesbea.com###root:style(filter: blur(0px) !important;)
 
 !leechall.*
 leechall.*##.alert
-leechall.*##[href^="https://bit.ly/"]
-leechall.*##[href="/pd/check-1000"]
+leechall.*##.text-center > [href]
 
 !hqq.tv
 hqq.tv##+js(aeld, DOMContentLoaded, h())
