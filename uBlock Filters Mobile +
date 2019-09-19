@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 4.8
+!Update: 4.9
 
 !silkengirl.com
 silkengirl.*##.hold > ul > li > [href]:not([href^="/"])
@@ -50,6 +50,7 @@ novoporn.com##.swiper-bonus
 babesandbitches.net###mobileGalleryResponsive > center > [href]
 babesandbitches.net##.swiper-bonus
 babesandbitches.net###content > [href]:not([href^="/"])
+babesandbitches.net###mainnav > .nav > li > [href]:not([href^="/"])
 
 !girlsofdesire.org
 girlsofdesire.org##.left:style(position: absolute !important;)
@@ -179,6 +180,7 @@ pbabes.com##.clear
 !thousandbabes.com
 thousandbabes.com##.clear
 thousandbabes.com##.swiper-bonus
+thousandbabes.com##.plist
 
 !eporner.com
 ||eporner.com/dotm/ads-head.php$frame,1p
@@ -201,3 +203,25 @@ fulltrannyporn.com##.header-open-cookie:style(position: static !important;)
 nudity911.com##body > center:first-of-type
 nudity911.com##div > table > tbody > tr > td > [href] > .thmb
 nudity911.com##.swiper-bonus
+
+!novohot.com
+novohot.com##.pl
+
+!grabpussy.com
+grabpussy.com##.header-content > #logo-after
+
+!deliciousbabes.org
+deliciousbabes.org##.left:style(position: absolute !important;)
+deliciousbabes.org##.right:style(position: absolute !important;)
+deliciousbabes.org##.eroded:first-child:not(.item)
+deliciousbabes.org##.mb10
+
+!join2babes.com
+join2babes.com##.header > [href]
+
+!sensualgirls.org
+sensualgirls.org##.left:style(position: absolute !important;)
+sensualgirls.org##.right:style(position: absolute !important;)
+
+!100bucksbabes.com
+100bucksbabes.com##.menu > li > [href]
