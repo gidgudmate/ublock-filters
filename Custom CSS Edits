@@ -1,0 +1,38 @@
+!Title: Custom CSS Edits
+!License: https://creativecommons.org/licenses/by-sa/4.0/
+!Homepage: https://github.com/dumbusernameidk/ublock-filters
+!Support: https://github.com/dumbusernameidk/ublock-filters/issues
+!Update: 1
+
+
+!Dark theme does not include recaptcha used by the site. 
+!Cpmlink.net 
+cpmlink.net##html:style(background-color: #191919 !important;)
+cpmlink.net##.site-main:style(background-color: #191919 !important;)
+cpmlink.net##h3:style(color: #FFF !important;)
+cpmlink.net##hr:style(border-color: #191919 !important;)
+cpmlink.net###pricing:style(background-color: #191919 !important;)
+cpmlink.net##.panel:style(background-color: #404040 !important;)
+
+
+!Fixes some styling issues when used with Github Dark Script
+!Github.com
+github.com##.d-block > p:style(color: #FFF !important;)
+github.com##.d-block > h3:style(color: #FFF !important;)
+github.com##.d-block > ul > li:style(color: #FFF !important;)
+github.com##.d-block > ol > li:style(color: #FFF !important;)
+
+
+!Ads darker color to specific class that wasn't themed apparently
+!Reddit.com
+reddit.com##.rounded:style(background-color: #343434 !important;)
+
+
+!Makes hidden links when not signed in darker because they aren't themed for whatever reason.
+!TheTechGame.com
+thetechgame.com##.hidden-link:style(background-color: #343434 !important)
+
+
+!Themes spoiler boxes because apparently they decided #FFF for the box and the text was a great idea.
+!FearlessRevolution.com
+fearlessrevolution.com##.spoiler-shown > .spoiler-body:style(background: #303030 !important;)
