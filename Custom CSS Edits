@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 1
+!Update: 1.1
 
 
 !Dark theme does not include recaptcha used by the site. 
@@ -36,3 +36,18 @@ thetechgame.com##.hidden-link:style(background-color: #343434 !important)
 !Themes spoiler boxes because apparently they decided #FFF for the box and the text was a great idea.
 !FearlessRevolution.com
 fearlessrevolution.com##.spoiler-shown > .spoiler-body:style(background: #303030 !important;)
+
+
+!Darker theme does not include site footer or navbar or recaptcha
+!fc.lc
+fc.lc##body:style(background-color: #191919 !important;)
+fc.lc##.site-content:style(background-color: #191919 !important;)
+fc.lc##.box-main:style(background-color: #191919 !important;)
+fc.lc##.box-main:style(border-top: 3px solid #191919 !important;)
+fc.lc##p:style(color: #FFF !important;)
+fc.lc##.form-group > label:style(color: #FFF !important;)
+fc.lc###name, #email, #subject, #message:style(background-color: #404040 !important;)
+fc.lc##.form-control:style(border-color: #191919 !important;)
+fc.lc###contact > .container > .text-center:style(color: #FFF !important;)
+fc.lc##strong:style(color: #FFF !important;)
+fc.lc##.text-center > .animation-fadeInQuick.text-center:style(color: #FFF !important;)
