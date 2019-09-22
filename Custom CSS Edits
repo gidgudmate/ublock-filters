@@ -39,11 +39,10 @@ fearlessrevolution.com##.spoiler-shown > .spoiler-body:style(background: #303030
 
 
 !Darker theme does not include site footer or navbar or recaptcha
-!fc.lc
+!Fc.lc
 fc.lc##body:style(background-color: #191919 !important;)
 fc.lc##.site-content:style(background-color: #191919 !important;)
-fc.lc##.box-main:style(background-color: #191919 !important;)
-fc.lc##.box-main:style(border-top: 3px solid #191919 !important;)
+fc.lc##.box-main:style(background-color: #191919 !important; border-top: 3px solid #191919 !important;)
 fc.lc##p:style(color: #FFF !important;)
 fc.lc##.form-group > label:style(color: #FFF !important;)
 fc.lc###name, #email, #subject, #message:style(background-color: #404040 !important;)
@@ -51,3 +50,19 @@ fc.lc##.form-control:style(border-color: #191919 !important;)
 fc.lc###contact > .container > .text-center:style(color: #FFF !important;)
 fc.lc##strong:style(color: #FFF !important;)
 fc.lc##.text-center > .animation-fadeInQuick.text-center:style(color: #FFF !important;)
+fc.lc###h4:style(color: #FFF !important;)
+fc.lc##.box-main > div:nth-child(5):style(color: #FFF !important;)
+fc.lc###countdown:style(color: #FFF !Important; border: 2px solid #FFF !important;)
+
+
+!Dark theme does not include same as the above.
+!Uiz.io
+uiz.io##body:style(background-color: #191919 !important;)
+uiz.io##.box-main:style(background-color: #191919 !important; border-top: 3px solid #191919 !important;)
+uiz.io##h4:style(color: #FFF !important;)
+uiz.io###link-view > div:nth-child(7):style(color: #FFF !important;)
+uiz.io##h3:style(color: #FFF !important;)
+uiz.io###countdown:style(color: #FFF !Important; border: 2px solid #FFF !important;)
+uiz.io##.features:style(background-color: #191919 !important;)
+uiz.io##.text-center > .section-title > .section-heading:style(color: #FFF !important;)
+uiz.io##.payment-methods:style(background-color: #191919 !important;)
