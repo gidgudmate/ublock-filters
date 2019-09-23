@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 1.1
+!Update: 1.2
 
 
 !Dark theme does not include recaptcha used by the site. 
@@ -61,6 +61,7 @@ uiz.io##body:style(background-color: #191919 !important;)
 uiz.io##.box-main:style(background-color: #191919 !important; border-top: 3px solid #191919 !important;)
 uiz.io##h4:style(color: #FFF !important;)
 uiz.io###link-view > div:nth-child(7):style(color: #FFF !important;)
+uiz.io##.box-main > div:nth-child(3):style(color: #FFF !important;)
 uiz.io##h3:style(color: #FFF !important;)
 uiz.io###countdown:style(color: #FFF !Important; border: 2px solid #FFF !important;)
 uiz.io##.features:style(background-color: #191919 !important;)
