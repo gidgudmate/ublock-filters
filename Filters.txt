@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 195
+!Update: 196
 
 
 !Assortment of ad/tracking servers not found in Peter Lowe's
@@ -760,6 +760,10 @@ preRoll.php$xhr
 ||nuclearads.com^
 ||eozegbfpvhasf.com^
 ||qumagee.com^
+||klsdee.com^
+||vysgpewbyfbiob.com^
+||ndjelsefd.com^
+||xxxpicup.com^
 
 !Other
 ||gstatic.com/cv/js/sender/*/cast_sender.js$script
@@ -1284,7 +1288,6 @@ thebestshemalevideos.com##[href*="/redirect"]
 ||reddit-image.s3.amazonaws.com/*.jpg$image,1p
 ||reddit.com/sw.js$script,1p
 reddit.com##.ad-container
-reddit.com##.rounded:style(background-color: #343434 !important;)
 reddit.com###chat
 reddit.com###header-bottom-right > .separator:nth-child(4)
 
@@ -1345,6 +1348,7 @@ experts-exchange.com###textComponent-id16 > .body > .section > .ctaSolutionStick
 !anon-v.com
 ||anon-v.com/service-worker.js$script,1p
 ||zagent*.h-cdn.com^$3p,xhr,websocket,domain=anon-v.com
+anon-v.com##+js(acis, document.createElement, 'script')
 anon-v.com##.opt
 anon-v.com##[href^="https://checkmy.cam/"]
 anon-v.com##.primary > li:nth-child(7)
@@ -1686,6 +1690,7 @@ sexykittenporn.com###pornplayer
 sexykittenporn.com##:xpath(/html/body/div[1]/div[3]/div[3])
 sexykittenporn.com##.menu > [href]:not([href^="/"])
 sexykittenporn.com##.notice
+sexykittenporn.com##header:style(position: absolute !important;)
 
 !girlsofdesire.org
 girlsofdesire.org##+js(aopr, document.dispatchEvent)
@@ -1739,25 +1744,27 @@ porndoo.com###linkTop
 ||silkengirl.*/banners/*$image,1p
 silkengirl.*##+js(sid, reload2)
 silkengirl.*##+js(aopr, ExoLoader.serve)
-silkengirl.*##+js(set-constant, floaderLoaded, noopFunc)
-silkengirl.*##.spots_long
+silkengirl.*##+js(set, floaderLoaded, noopFunc)
+silkengirl.*##[class^="spots_"]
 silkengirl.*###scrollUp
+silkengirl.*##.menu_holder > li > [href]:not([href^="/"]):not([href^="#"])
+silkengirl.*##.thumb33:has([href*=trcklks])
+silkengirl.*##.header:style(position: absolute !important;)
+silkengirl.*##.item_inner:has-text(Strippers)
+silkengirl.com##.menu_holder > li > .item_inner:has-text(/INTERESTING|Fuck Girls/)
+silkengirl.com##.thumb33:has([id*=ts_ad_native])
 silkengirl.com##.spots
 silkengirl.com##p:nth-child(2)
 silkengirl.com##.button_more
 silkengirl.com###thumbs_left > .thumb_aside:first-child
-silkengirl.*##.spots_middle
 silkengirl.net##.spots > .holder
-silkengirl.*##.menu_holder > li > [href]:not([href^="/"]):not([href^="#"])
-silkengirl.*##.thumb33:has([href*=trcklks])
-silkengirl.com##.thumb33:has([id*=ts_ad_native])
-silkengirl.*##.header:style(position: absolute !important;)
-silkengirl.*##.item_inner:has-text(Strippers)
 
 !babes.com
 ||project1content.com/Babes/Tour/PROMOS/*$image,domain=babes.com
-babes.com##.floating-footer.js-floating-footer
+babes.com##.floating-footer
 babes.com##.video-show-overlay
+babes.com##[color^="rgba(0, 0, 0, 0.5)"]
+babes.com###root:style(filter: blur(0px) !important;)
 
 !pleasuregirl.net
 ||pleasuregirl.net^*/banners/$image,1p
@@ -1909,6 +1916,7 @@ livejasminbabes.net##.candy
 
 !hottystop.com
 ||hottystop.com/*.mp4$media,1p
+||hottystop.com/*banner*$image,1p
 hottystop.com##+js(aopr, loadTool)
 hottystop.com##video
 hottystop.com##.thumbnail
@@ -1929,7 +1937,7 @@ shameless.com##.adv
 shameless.com##.active
 
 !thetechgame.com
-thetechgame.com##span.hidden-link:style(background-color: #343434 !important)
+||playwire.com^$domain=thetechgame.com
 thetechgame.com##.scroll-top-arrow
 
 !leakedblack.com
@@ -1981,6 +1989,7 @@ hqbabes.com###ad_hqsluts
 hqbabes.com##[href="/m/cams.menu/"], [href="/m/store.main/"]
 
 !porntrex.com
+||porntrex.com/swp.js$script,1p
 porntrex.com##.fp-embed
 porntrex.com##.table
 porntrex.com##[class*="fake-player"]
@@ -2058,10 +2067,11 @@ isselecta.com##.post-top-meta
 isselecta.com###scrolltotop
 
 !pureandsexy.org
-pureandsexy.org###box_582, #box_537, #box_557, #box_576
-pureandsexy.org##div:nth-of-type(2) > .b3c
 pureandsexy.org##.banner
 pureandsexy.org##.mz0
+pureandsexy.org##.aw
+pureandsexy.org##[id^="box"] > .b1c > .list > [href]:not([href^="/"])
+pureandsexy.org##[id^="box"][style*="font-size: 0px;"]:not(#box_590):not(#box_427)
 
 !pussystate.com
 ||pussystate.com^*/banners/$image,1p
@@ -2069,6 +2079,7 @@ pureandsexy.org##.mz0
 ||pussystate.com/*.php$script,1p
 pussystate.com##+js(aopr, ExoLoader.addZone)
 pussystate.com##+js(aopr, ExoLoader.serve)
+pussystate.com##+js(set, floaderLoaded, noopFunc)
 pussystate.com##.mz0
 pussystate.com##.owner
 pussystate.com##[class*="zone"]
@@ -2088,15 +2099,16 @@ rabbitsfun.com##.border
 rabbitsfun.com##.header-deskTopMnu__list > li > [href]:not([href^="/"]):not([href^="#"])
 
 !cherrynudes.com
-||cherrynudes.com/sponsors/*.jpg$image,1p
+||cherrynudes.com/sponsors/*$image,1p
 cherrynudes.com##.TextM
 cherrynudes.com##.ContainerLeft > h1
-cherrynudes.com##[href^="http://www.g4mz.com"], [href*="https://xromp.com/"], [href*="aj1070.online/"]
-cherrynudes.com##center:nth-of-type(4) > h1
-cherrynudes.com##center > font
+cherrynudes.com##header:style(position: absolute !important;)
+cherrynudes.com###menu > li > [href]:not([href*="cherrynudes.com"])
+cherrynudes.com##.gallD > center > [href]
+cherrynudes.com##.girlLive
 
 !babeimpact.com
-babeimpact.com^*/banners/$image,1p
+babeimpact.com^*/banners/*$image,1p
 babeimpact.com$frame,1p
 babeimpact.com##+js(set-constant, awePuShown, true)
 babeimpact.com##+js(sid, reload2)
@@ -2242,13 +2254,15 @@ novostrong.com##.aw
 
 !thousandbabes.com
 ||thousandbabes.com^*/banners/*$image,1p
-thousandbabes.com##+js(set-constant, floaderLoaded, noopFunc)
+||thousandbabes.com^*/*.gif$image,1p
+thousandbabes.com##+js(set, floaderLoaded, noopFunc)
 thousandbabes.com##.sponsorholder
 thousandbabes.com##.mz0
 thousandbabes.com##.ads
 thousandbabes.com##.two-adv
 thousandbabes.com##.menu > ul > li > [href]:not([href^="/"])
 thousandbabes.com##.aw
+thousandbabes.com##.leftside > .block > center
 
 !babesmachine.com
 ||babesmachine.com^*/banners/*$image,1p
@@ -2472,9 +2486,13 @@ pornflip.com##.add_href_jsclick
 !sexybabes.club
 sexybabes.club##+js(aopr, ExoLoader.serve)
 sexybabes.club##+js(aopr, loadTool)
+sexybabes.club##+js(set, floaderLoaded, noopFunc)
 sexybabes.club##[class*="banner"]
 sexybabes.club###backtotop
-sexybabes.club##[href="https://www.silkencams.com/"], [href*="https://trcklks.com/"], [href^="https://adultfriendfinder.com/"]
+sexybabes.club##.navigation > .item > [href]:not([href^="/"]):not([href^="#"])
+sexybabes.club###preloader
+sexybabes.club##.scroll_up
+sexybabes.club##[class^="spot_"]
 
 !pornaffected.com
 ||wurfl.io/wurfl.js$script,domain=pornaffected.com
@@ -2499,7 +2517,7 @@ toydemon.com##.cms2.pad15
 !theomegaproject.org
 ||theomegaproject.org^*/banners/*$image,1p
 ||theomegaproject.org^*/b/*$image,1p
-theomegaproject.org##+js(set-constant, floaderLoaded, noopFunc)
+theomegaproject.org##+js(set, floaderLoaded, noopFunc)
 theomegaproject.org##.ads
 theomegaproject.org##.two-adv
 theomegaproject.org##.clear
@@ -2985,12 +3003,14 @@ tubsexer.com##.video-holder > center
 tubsexer.com##.header_link
 tubsexer.com##.btn_twitt
 tubsexer.com##.btn_up
+tubsexer.com##.fp-brand
 
 !cpmlink.net
 ||cpmlink.net/assets/js/custom.php$script,1p
 ||cpmlink.net$media,1p
 cpmlink.net###contact
 cpmlink.net##iframe:not([src*="recaptcha"])
+cpmlink.net##.site-header:style(position: absolute !important;)
 
 !adbull.me
 *$3p,xhr,domain=adbull.co
@@ -3441,6 +3461,9 @@ ln435.club##.text-left
 
 !zazzybabes.com
 ||zazzybabes.com/images/vr/*$image
+||zazzybabes.com/js/popup.js$script,1p
+||zazzybabes.com/js/script.js?v=*$script,1p
+zazzybabes.com##+js(aopr, loadTool)
 zazzybabes.com##[class*="banner"]
 
 !watchfreexxx.net
@@ -3469,7 +3492,7 @@ nexusmods.com##.popup-endorsement-reminder
 nexusmods.com##.mfp-bg
 
 !uiz.io
-uiz.io^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.cloudflare.com *.googleapis.com *.google.com *.gstatic.com *.areyouabot.net
+uiz.io^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.cloudflare.com *.googleapis.com *.google.com *.gstatic.com *.areyouabot.net *.recaptcha.net
 uiz.io##+js(window.open-defuser)
 uiz.io##+js(aopr, _0x201e)
 uiz.io##+js(set-constant, blurred, false)
@@ -3607,11 +3630,11 @@ xfantasy.tv##.happy-sidebar
 xfantasy.tv##li > [class]:has-text(Live)
 xfantasy.tv##[href]:not([href^="/"]):not([href*="xfantasy.tv"])
 
-!camwhores.tv
-||camwhores.tv/*action=js_online_status$image,1p
-||nsimg.net$image,3p,domain=camwhores.tv
-@@||camwhores.tv^$csp
-camwhores.tv##.adv
+!camwhores.*
+||camwhores.*/*action=js_online_status$image,1p
+||nsimg.net$image,3p,domain=camwhores.video
+@@||wpnrtnmrewunrtok.xyz^$3p,domain=camwhores.video
+camwhores.*##.adv
 
 !wiki.fextralife.com
 wiki.fextralife.com###video-stream-container
@@ -3647,7 +3670,7 @@ luscious.net###advertisement_adhesion
 ||google.com/serviceworker.js$script,1p
 ||google.com/drive/serviceworker*.js$script,1p
 google.com##[href] > .LC20lb > .ellip:style(font-size: 18px !important;)
-google.com##[href*="/nfba.html/"], [href*=".top/"], [href*=".monster/"], [href*=".run/"], [href*=".best/"]
+google.com##[href*="/nfba.html/"], [href*=".top/"], [href*=".monster/"], [href*=".run/"], [href*=".best/"], [href*=".eu/?"]
 
 !apex.tracker.gg
 apex.tracker.gg##.trn-upsell-premium
@@ -3694,6 +3717,7 @@ ommantrameditation.com,techsyou.com##h3
 techsyou.com##.box-main > center > [href]
 
 !short.pe
+||short.pe^$frame,1p
 short.pe##+js(aopr, open)
 short.pe##.text-left
 
@@ -3721,8 +3745,6 @@ yourdailypornvideos.com##[id] > p:has-text(1$)
 yourdailypornvideos.com##.td-menu-wrap:style(position: static !important;)
 
 !javqd.com
-*$3p,frame,domain=javqd.com
-@@||embed.media^$frame,domain=javqd.com
 javqd.com##.col-md-4 > center > iframe
 
 !kingsofteens.com
@@ -3810,6 +3832,7 @@ streamsxxx.net##.header_btm:style(position: static !important;)
 
 !ashemaletube.com
 ||ashemaletube.com/banner-iframe/$frame,1p
+||ashemaletube.com/ast/www/js/script.js?*$script,1p
 ashemaletube.com##+js(aeld, chujBlokowacieDone)
 ashemaletube.com##.video-extra-wrapper
 ashemaletube.com##[class*="\31 55606"]
@@ -3874,6 +3897,7 @@ dunyanews.xyz###link-view > p
 
 !wi.cr
 wi.cr##+js(window.open-defuser)
+wi.cr##+js(aopr, _0xa500)
 wi.cr##.text-left
 
 !wikiall.org
@@ -3994,13 +4018,11 @@ clubglamour.net##.ghostStyle_1
 !sexybabesart.com
 sexybabesart.com##+js(aopr, loadTool)
 sexybabesart.com##+js(aopr, ExoLoader.serve)
-sexybabesart.com##[href="https://www.silkencams.com/"], [href*="https://trcklks.com/"], [href^="https://adultfriendfinder.com/"]
+sexybabesart.com##+js(set, floaderLoaded, noopFunc)
 sexybabesart.com##.content > .spots-box
 sexybabesart.com##.page-layout > .spots-box
 sexybabesart.com##.content-msg
-
-!fearlessrevolution.com
-fearlessrevolution.com##.spoiler-shown > .spoiler-body:style(background: #303030 !important;)
+sexybabesart.com##.h-btn-box > [href]:not([href^="https://www.sexybabesart.com/"])
 
 !uii.io
 uii.io###cookie-pop
@@ -4154,7 +4176,7 @@ pornoeggs.com##+js(aopw, pop_target)
 simplenu.com##+js(aopr, loadTool)
 simplenu.com##[class*="banner"]
 simplenu.com##.much-more-box
-simplenu.com###w2 > li > [href]:not([href^="/"])
+simplenu.com##.nav > li > [href]:not([href^="/"])
 simplenu.com##.ad
 
 !angelgals.com
@@ -4524,6 +4546,7 @@ nubilefilms.com##.form-join
 ||icutlink.com/img/*ownload*$image,1p
 ||icutlink.com/team.js$script,1p
 phillip-mellody.me,icutlink.com##+js(set-constant, blurred, false)
+icutlink.com##+js(window.open-defuser)
 phillip-mellody.me,icutlink.com##.banner
 phillip-mellody.me###mainNav > .container
 phillip-mellody.me,icutlink.com##.text-left
@@ -4540,13 +4563,6 @@ looporn.com###vjs-join-overlay-holder
 
 !github.com
 github.com##.TimelineItem-break
-
-!#if env_chromium
-github.com##.d-block > p:style(color: #FFF !important;)
-github.com##.d-block > h3:style(color: #FFF !important;)
-github.com##.d-block > ul > li:style(color: #FFF !important;)
-github.com##.d-block > ol > li:style(color: #FFF !important;)
-!#endif
 
 !digitallearn.online
 digitallearn.online##p
@@ -4579,8 +4595,8 @@ gsurl.be##p
 gsurl.be##h4
 
 !bestwomenonly.com
-bestwomenonly.com##+js(set-constant, adblock, false)
-bestwomenonly.com##+js(set-constant, writeAd, noopFunc)
+bestwomenonly.com##+js(set, adblock, false)
+bestwomenonly.com##+js(set, writeAd, noopFunc)
 
 !file555.com
 file555.com##+js(aopr, exoJsPop101)
@@ -4620,3 +4636,41 @@ bestlinks.tk##+js(popads-dummy)
 
 !filebonus.net
 filebonus.net##:xpath(//*[@id="container"]/div/div[4])
+
+!imgspice.com
+imgspice.com###frameinter
+
+!picbaron.com
+picbaron.com##.roll
+
+!nakedgirlsroom.com
+nakedgirlsroom.com##+js(set, floaderLoaded, noopFunc)
+nakedgirlsroom.com##[align^="center"][style^="width: 650px"][cellspacing^="10"][cellpadding^="10"]
+nakedgirlsroom.com###horizontalmenu > .link > [href]:not([href^="https://www.nakedgirlsroom.com"])
+
+!spicynubiles.com
+spicynubiles.com##.header-nav > li > [href]:not([href^="/"])
+
+!hustler.com
+hustler.com###warningpopup
+hustler.com##.popUpBG
+hustler.com##.creditCardOverlay
+
+!pornhdvideos.net
+pornhdvideos.net##+js(aopr, decodeURI)
+
+!upload.ac
+upload.ac##.off
+upload.ac##.fmore
+upload.ac##.boxa
+
+!milffox.com
+||milffox.com/local_*$script,frame,1p
+milffox.com##+js(aopr, _0xd6b4)
+
+!wicked.com
+wicked.com###header:style(position: static !important;)
+wicked.com#@#.cookieVisible
+
+!pornstreams.eu
+pornstreams.eu###site-navigation:style(position: absolute !important;)
