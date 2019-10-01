@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 197
+!Update: 198
 
 
 !Assortment of ad/tracking servers not found in Peter Lowe's
@@ -641,7 +641,6 @@ https://*/download/pornhub.*.apk$document
 ||dmiqfxlnf.com^
 ||vigdxlpecmv.com^
 ||sdasasyydd.com^
-||smutty.com^
 ||35.194.16.41^
 ||teaking-lughtness.com^
 ||327d49j2xt0nsr6o.pro^
@@ -765,6 +764,7 @@ preRoll.php$xhr
 ||ndjelsefd.com^
 ||xxxpicup.com^
 ||sdfsdvc.com^
+||rusenov.com^
 
 !Other
 ||gstatic.com/cv/js/sender/*/cast_sender.js$script
@@ -787,6 +787,7 @@ preRoll.php$xhr
 ##.ads
 ###catfish-banner
 ###PromoBannerOverlay
+##[href^="https://t.frtyo.com/"]
 !------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------!
 
 !adf.ly
@@ -824,13 +825,14 @@ youtube.com##[aria-label^="Play on TV"]
 youtube.com###fvdDownloader_page_button
 
 !pornhd.com
+||pornhd.com/pornhd/$badfilter
 @@||protoawe.com^$script,frame,3p,domain=pornhd.com
 pornhd.com##.live-video-zone
 pornhd.com##.inside-row
 pornhd.com##.video-thumb-ad-zone
-pornhd.com##[href^="https://www.pornhdprime.com"]
-pornhd.com##[href^="#"]
+pornhd.com##[href^="https://www.pornhdprime.com"], [href^="#"]
 pornhd.com##.under-video-zone
+pornhd.com##.outside > [href^="/cnnct/stat"]
 
 !hiqqu.xxx
 ||hiqqu.xxx/static/scripts.js$script,1p
@@ -1263,6 +1265,8 @@ chickteases.com###rightSide > div > ul > li > [href]:not(.thumb_new)
 chickteases.com##.aw
 
 !hqsluts.com
+||xme.net/info/$image,3p,domain=hqsluts.com
+||hqsluts.com/g$image,1p
 hqsluts.com###share
 hqsluts.com###c_gallery_sponsor
 hqsluts.com##.ad
@@ -1616,7 +1620,8 @@ aznude.com##.recommended:has-text(Viral Pornstar Videos)
 aznude.com###switch-ad
 
 !4chan.org
-boards.4chan.org##.warning.notification
+boards.4chan.org##.warning
+boards.4chan.org##.party-hat
 
 !adoreme.com
 adoreme.com##.dialog-collection
@@ -1714,7 +1719,7 @@ wantedbabes.com##+js(set, floaderLoaded, noopFunc)
 wantedbabes.com###scroller
 wantedbabes.com##[class*="banner"]
 wantedbabes.com##.border > [src]
-wantedbabes.com##[href*="https://trcklks.com/"]
+wantedbabes.com###main-menu > [href]:not([href^="/"]):not([href^="#"])
 
 !grabpussy.com
 ||grabpussy.com^*/b/*$image,1p
@@ -1752,6 +1757,7 @@ silkengirl.com##.spots
 silkengirl.com##p:nth-child(2)
 silkengirl.com##.button_more
 silkengirl.com###thumbs_left > .thumb_aside:first-child
+silkengirl.com##.block_sidebar:has-text(Site Friends)
 silkengirl.net##.spots > .holder
 
 !babes.com
@@ -2017,6 +2023,7 @@ fooxybabes.com###scrollUp
 fooxybabes.com##.button_help
 fooxybabes.com##.spot
 fooxybabes.com##.nav_items > li > [href]:not([href^="/"]):not([href^="#"])
+fooxybabes.com##.header:style(position: absolute !important;)
 
 !temptingangels.org
 ||temptingangels.org^*/banners/$image,1p
@@ -2319,10 +2326,8 @@ erosberry.com##.containerBanner
 erosberry.com###sidebar_l > .title_bar:first-child
 
 !pornstarsmachine.com
-pornstarsmachine.com##[src="/html/hor3.jsp"]
-pornstarsmachine.com##[src="/html/hor4.jsp"]
-pornstarsmachine.com##[href="/949100/"]
-pornstarsmachine.com##[href="/1263997/"]
+||pornstarsmachine.com/html/hor*$frame,1p
+pornstarsmachine.com##tr:nth-child(2) > td:nth-child(2) > table:first-child > tbody > tr > td:first-child > [href]:not([href^="/"]):not([href*="pornstarsmachine.com"])
 
 !exgirlfriendmarket.com
 ||exgirlfriendmarket.com^*/banners/*$image,1p
@@ -3253,6 +3258,7 @@ spankbang.com##.live-rotate
 spankbang.com##.lv_ap_re_cont > h1
 spankbang.com##[href="/live/"]
 spankbang.com##.vjs-playback-rate
+spankbang.com##.top_video_spacer
 
 !erome.com
 erome.com##+js(aopr, tia)
@@ -3976,7 +3982,8 @@ babesexy.com##.spots-box
 babesexy.com##.h-btn-box > [href]:not([href^="/"])
 
 !babepedia.com
-||babepedia.com/img/sq*.gif$image,1p
+||babepedia.com/img/*gif$image,1p
+babepedia.com###gallery > center > [href] > [src]
 
 !fitnessinsider.online
 fitnessinsider.online##center
@@ -4235,7 +4242,7 @@ lumendatabase.org##.first-time-visitor
 @@||tranny.one/js/fd.js$script,1p
 tranny.one##+js(aopr, BetterJsPop)
 tranny.one##+js(aopr, betterNameTr)
-tranny.one##+js(aopr, document.dispatchEvent)
+tranny.one##+js(acis, CustomEvent, document.dispatchEvent)
 tranny.one##.spot
 tranny.one##[style*="background: #E6E3DA;"]
 tranny.one##[class^="ads"]
@@ -4678,3 +4685,35 @@ pornstreams.eu###site-navigation:style(position: absolute !important;)
 leshdporn.com##+js(std, mdp_deblocker)
 leshdporn.com##[class*="wps-player__happy-inside--"]
 leshdporn.com###back-to-top
+
+!mexa.sh
+mexa.sh##.extend_premium
+mexa.sh##td > div
+mexa.sh##center > b
+
+!likuoo.video
+likuoo.video##+js(aopr, exoJsPop101)
+
+!porn.com
+porn.com##.abalert
+
+!pichunter.com
+pichunter.com##.navbar-fixed-top:style(position: absolute !important;)
+
+!boobshere.com
+boobshere.com##header:style(position: absolute !important;)
+
+!teenpornsite.net
+teenpornsite.net##.jw-related-shelf
+teenpornsite.net##.jw-related-more
+
+!uploadship.com
+uploadship.com##.US_F_ADS
+
+!heroero.com
+heroero.com##+js(acis, document.getElementsByTagName, "script")
+heroero.com##+js(set, popunder, noopFunc)
+heroero.com##.container > .content > .box
+
+!mommyblowsbest.com
+mommyblowsbest.com###headerWrapper:style(position: absolute !important;)
