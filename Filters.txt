@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 198
+!Update: 199
 
 
 !Assortment of ad/tracking servers not found in Peter Lowe's
@@ -926,6 +926,8 @@ txxx.com##.hYbus
 
 !twistys.com
 twistys.com###footer-banners
+twistys.com##.modal-open > #root:style(filter: blur(0px) !important;)
+twistys.com##[color^="rgba(255, 255, 255, 0.5)"]
 
 !javkitty.blogspot.com
 javkitty.blogspot.com###h237
@@ -1282,9 +1284,8 @@ camvideos.tv##.thumb-live-model
 !thebestshemalevideos.com
 ||thebestshemalevideos.com/images/visuals/*.png$image,1p
 ||thebestshemalevideos.com/images/*.gif$image,1p
-||thebestshemalevideos.com/contents/other/player/*.png$image,1p
-||thebestshemalevideos.com/contents/other/player/*Pre-Roll.mp4$media,1p
-||thebestshemalevideos.com/contents/other/player/Postroll.mp4$media,1p
+||thebestshemalevideos.com/contents/other/player/$image,1p
+||thebestshemalevideos.com/contents/other/player/$media,1p
 thebestshemalevideos.com##.table
 thebestshemalevideos.com##.bottom-adv
 thebestshemalevideos.com##[href*="/redirect"]
@@ -1503,6 +1504,7 @@ pornhub.com##.livesex
 xvideos.com##.sponsor-popup
 xvideos.com###mobile-slogan
 xvideos.com###page-go-up
+xvideos.com##.main-cat-change-alert-popup
 
 !redtube.com
 /redtube/js/common/common/service_worker_starter$xhr,important
@@ -1512,10 +1514,10 @@ redtube.com###title_filter_wrapper > div:not(.filters_wrapper)
 redtube.com##.subtxt
 redtube.com##[id*="rel_videos"]:has(.premium-video-icon)
 redtube.com##.abovePlayer
-redtube.com###content_container > div:not([id]):not(.tag_filter_wrapper):not(.channel-info-page):not(.gallery_list_container):not(.channel-page)
 redtube.com###event_row_section
 redtube.com###paid_tab_02
 redtube.com##.gallery_list_container > div
+redtube.com###content_container > .content_limit > [class]:not([class*="_"])
 
 !4tube.com
 4tube.com###\32 3403 > a[href^="/adc/4tube_b2.php"]
@@ -2164,10 +2166,7 @@ primecurves.com##.header-top:style(position: absolute !important;)
 xxxbunker.com##.spbDisabled
 
 !hellporno.*
-||hellporno.*/_a_*/s/s/*.*$script,1p
-||hellporno.*/cb/cb.xb.js$script,1p
-||hellporno.*/sw.js$script,1p
-||hellporno.net^$frame,1p
+||hellporno.*$script,frame,1p
 @@||js.helltraffic.com/fluidplayer/*$script,domain=hellporno.com|hellporno.net
 @@||js.helltraffic.com/fluidplayer/images/*$image,domain=hellporno.com|hellporno.net
 hellporno.*##.bnnrs-player
@@ -2380,7 +2379,10 @@ mentalfloss.com##.fixed-header-section
 mentalfloss.com##.ad-container
 
 !biguz.net
+||biguz.net^$script,1p
+@@||biguz.net/js/fluidplayer.min.js$script,1p
 biguz.net##+js(aopr, document.dispatchEvent)
+biguz.net##+js(aopr, ExoLoader)
 
 !efappy.com
 efappy.com##+js(aopr, document.dispatchEvent)
@@ -3037,15 +3039,13 @@ lubetube.com##.featured_ad_spot
 
 !oturl.com
 *$3p,script,domain=oturl.com
-oturl.com^$frame,1p
+||oturl.com^$frame,1p
 oturl.com##[href^="//mellowads.com"]
 oturl.com##.text-left
 
 !dcearn.com
-*$3p,xhr,frame,domain=dcearn.com
-dcearn.com##+js(noeval)
+||dcearn.com$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.google.com *.gstatic.com; child-src 'self' data: *.google.com
 dcearn.com##+js(aopr, app_vars.force_disable_adblock)
-dcearn.com##+js(nowebrtc)
 dcearn.com##+js(window.open-defuser)
 dcearn.com##+js(set, blurred, false)
 dcearn.com###link-view > font
@@ -3398,7 +3398,6 @@ nudepatch.net###DynamicBackgroundWrapper
 !ouo.io
 ||ouo.io/worker.js$script,1p
 ||ouo.io/sw*.js$script,1p
-ouo.io##+js(window.open-defuser)
 ouo.io##.text-center > div > [href]
 ouo.io##.content > div > [href]
 ouo.io##article > div > [href]
@@ -4190,10 +4189,10 @@ angelgals.com##.content-catdesc-txt
 seemomsuck.com###bannerlink
 
 !fmovies.to|ffmovies.to
-ffmovies.to##+js(window.open-defuser)
-ffmovies.to##+js(aopr, AaDetector)
-ffmovies.to##+js(acis, Math, zfgloaded)
-ffmovies.to,fmovies.to##.stream4k:not([id])
+ffmovies.*##+js(window.open-defuser)
+ffmovies.*##+js(aopr, AaDetector)
+ffmovies.*##+js(acis, Math, zfgloaded)
+ffmovies.*,fmovies.*##.stream4k:not([id])
 
 !gonewild.co|goeswild.co
 ||goeswild.co/share/embed.js$script,1p
@@ -4717,3 +4716,14 @@ heroero.com##.container > .content > .box
 
 !mommyblowsbest.com
 mommyblowsbest.com###headerWrapper:style(position: absolute !important;)
+
+!nsfw.com
+nsfw.com###ageCheck
+nsfw.com##body:style(overflow: auto !important;)
+nsfw.com##footer:style(filter: none !important;)
+nsfw.com###site-header:style(filter: none !important;)
+nsfw.com##[role^="main"]:style(filter: none !important;)
+nsfw.com##td > div > .jAd
+nsfw.com##td > div > div:first-child > span
+nsfw.com##td > div > div > [href]
+nsfw.com###join-now
