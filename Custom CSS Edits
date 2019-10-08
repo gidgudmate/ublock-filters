@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 1.3
+!Update: 1.4
 
 
 !Dark theme does not include recaptcha used by the site. 
@@ -75,3 +75,25 @@ wikiall.org##body:style(background: #191919 !important;)
 wikiall.org###timer:style(color: #FFFFFF !important; border: 2px solid #FFFFFF !important;)
 wikiall.org###link-ready:style(color: #FFFFFF !important;)
 wikiall.org###place:style(color: #FFFFFF !important;)
+
+
+!Dark Theme.
+!Ckk.ai
+ckk.ai##body:style(background: #191919 !important;)
+ckk.ai##.copyright-container:style(background-color: #404040 !important;)
+ckk.ai##.box-main:style(background: #212121 !important; border-top: 2px solid #212121 !important;)
+ckk.ai###countdown:style(color: #FFFFFF !important; border: 2px solid #FFFFFF !important;)
+
+
+!Dark Theme.
+!Shrinkearn.com
+shrinkearn.com##section:nth-child(3):style(background: #212121 !important;)
+shrinkearn.com##.step > .step-num > span:style(color: #FFFFFF !important;)
+shrinkearn.com##.features:style(background: #212121 !important;)
+shrinkearn.com##.separator:style(background-color: #212121 !important;)
+shrinkearn.com##.feature-content:style(color: #FFFFFF !important;)
+shrinkearn.com##body > .row:style(background: #212121 !important;)
+shrinkearn.com###contact:style(background-color: #212121 !important;)
+shrinkearn.com##.form-group > label:style(color: #FFFFFF !important;)
+shrinkearn.com##.form-group textarea:style(border: 1px solid #FFFFFF !important;)
+shrinkearn.com##.form-group input:style(border: 1px solid #FFFFFF !important;)
