@@ -2,11 +2,10 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 1.4
+!Update: 1.5
 
 
-!Dark theme does not include recaptcha used by the site. 
-!Cpmlink.net 
+!Dark theme does not include recaptcha used by the site.
 cpmlink.net##html:style(background-color: #191919 !important;)
 cpmlink.net##.site-main:style(background-color: #191919 !important;)
 cpmlink.net##h3:style(color: #FFF !important;)
@@ -16,7 +15,6 @@ cpmlink.net##.panel:style(background-color: #404040 !important;)
 
 
 !Fixes some styling issues when used with Github Dark Script
-!Github.com
 github.com##.d-block > p:style(color: #FFF !important;)
 github.com##.d-block > h3:style(color: #FFF !important;)
 github.com##.d-block > ul > li:style(color: #FFF !important;)
@@ -24,22 +22,18 @@ github.com##.d-block > ol > li:style(color: #FFF !important;)
 
 
 !Ads darker color to specific class that wasn't themed apparently
-!Reddit.com
 reddit.com##.rounded:style(background-color: #343434 !important;)
 
 
 !Makes hidden links when not signed in darker because they aren't themed for whatever reason.
-!TheTechGame.com
 thetechgame.com##.hidden-link:style(background-color: #343434 !important)
 
 
 !Themes spoiler boxes because apparently they decided #FFF for the box and the text was a great idea.
-!FearlessRevolution.com
 fearlessrevolution.com##.spoiler-shown > .spoiler-body:style(background: #303030 !important;)
 
 
 !Darker theme does not include site footer or navbar or recaptcha
-!Fc.lc
 fc.lc##body:style(background-color: #191919 !important;)
 fc.lc##.site-content:style(background-color: #191919 !important;)
 fc.lc##.box-main:style(background-color: #191919 !important; border-top: 3px solid #191919 !important;)
@@ -56,7 +50,6 @@ fc.lc###countdown:style(color: #FFF !Important; border: 2px solid #FFF !importan
 
 
 !Dark theme does not include same as the above.
-!Uiz.io
 uiz.io##body:style(background-color: #191919 !important;)
 uiz.io##.box-main:style(background-color: #191919 !important; border-top: 3px solid #191919 !important;)
 uiz.io##h4:style(color: #FFF !important;)
@@ -70,7 +63,6 @@ uiz.io##.payment-methods:style(background-color: #191919 !important;)
 
 
 !Darker theme for URL shortner portion on the site (does not work for the main site).
-!Wikiall.org
 wikiall.org##body:style(background: #191919 !important;)
 wikiall.org###timer:style(color: #FFFFFF !important; border: 2px solid #FFFFFF !important;)
 wikiall.org###link-ready:style(color: #FFFFFF !important;)
@@ -78,7 +70,6 @@ wikiall.org###place:style(color: #FFFFFF !important;)
 
 
 !Dark Theme.
-!Ckk.ai
 ckk.ai##body:style(background: #191919 !important;)
 ckk.ai##.copyright-container:style(background-color: #404040 !important;)
 ckk.ai##.box-main:style(background: #212121 !important; border-top: 2px solid #212121 !important;)
@@ -86,7 +77,6 @@ ckk.ai###countdown:style(color: #FFFFFF !important; border: 2px solid #FFFFFF !i
 
 
 !Dark Theme.
-!Shrinkearn.com
 shrinkearn.com##section:nth-child(3):style(background: #212121 !important;)
 shrinkearn.com##.step > .step-num > span:style(color: #FFFFFF !important;)
 shrinkearn.com##.features:style(background: #212121 !important;)
@@ -97,3 +87,12 @@ shrinkearn.com###contact:style(background-color: #212121 !important;)
 shrinkearn.com##.form-group > label:style(color: #FFFFFF !important;)
 shrinkearn.com##.form-group textarea:style(border: 1px solid #FFFFFF !important;)
 shrinkearn.com##.form-group input:style(border: 1px solid #FFFFFF !important;)
+
+
+!Dark Theme.
+jetleech.net,debrid.xyz##body:style(background: #191919 !important;)
+jetleech.net,debrid.xyz###text:style(color: #FFFFFF !important;)
+jetleech.net,debrid.xyz###text > [href]:style(color: #2554C7 !important;)
+
+!Dark Theme.
+wi.cr##.box-main:style(background: #404040 !important;)
