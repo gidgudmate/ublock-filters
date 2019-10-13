@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 200
+!Update: 201
 
 
 !Assortment of ad/tracking servers not found in Peter Lowe's
@@ -2224,6 +2224,7 @@ sexy-youtubers.com##[href]:not([href^="#"]):not([href*="sexy-youtubers"]):not([h
 
 !thothub.tv
 thothub.tv##+js(window.open-defuser)
+thothub.tv##+js(acis, document.createElement, 'script')
 thothub.tv##.g1-back-to-top
 thothub.tv##.chaturbate
 thothub.tv##.menu-item > [href]:not([href*=thothub])
@@ -2237,6 +2238,8 @@ thothub.tv##[id*="ScriptRoot"]
 thothub.tv##p > [href^="https://forum.thothub.tv/"]
 thothub.tv##.g1-row-inner > #secondary
 thothub.tv##[href="https://thothub.tv/go/adult-games"], [href="https://thothub.tv/go/free-live-cams"]
+thothub.tv##.adguy
+thothub.tv##:xpath(//*[@id]/div[1]/div[1]/div/div/div/div[2])
 
 !feet9.com
 feet9.com##.hvr-pulse
@@ -2261,6 +2264,7 @@ lustcinema.com##.exitpopnews
 
 !celebsroulette.com
 celebsroulette.com###list_videos_friends_2_items
+celebsroulette.com##.fp-ui > div > [href]
 
 !sexwinks.com
 ||sexwinks.com/f.js$script,1p
@@ -4570,7 +4574,8 @@ fuckingbreak.com##[style^="width: 650px"][align="center"][cellspacing="10"][cell
 fuckingbreak.com##.tlinks > li > [href]:not([href^="https://www.fuckingbreak.com/"])
 
 !9anime.*
-9anime.*###main > .content > .hidden-xs
+9anime.*###main > .content > [class*="hidden-"]
+9anime.*##[style^="width:728px;height:90px;display:inline-block"]
 
 !sankakucomplex.com
 sankakucomplex.com##.censored img:style(filter: blur(0px) !important;)
