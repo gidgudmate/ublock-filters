@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 1.6
+!Update: 1.7
 
 
 !Dark theme does not include recaptcha used by the site.
@@ -104,3 +104,17 @@ short.pe##body:style(background: #191919 !important;)
 short.pe##.box-main:style(background: #404040 !important; border: 2px solid #404040 !important;)
 short.pe##.copyright-container:style(background: #404040 !important;)
 short.pe###mainNav:style(background: #404040 !important;)
+
+
+!Dark Theme.
+ouo.press##.skip-container:style(background: #404040 !important;)
+
+
+!Dark Theme.
+bc.vc##.redirectSc:style(background: #404040 !important;)
+
+
+!Dark Theme.
+short.pe###link-view > p:style(color: #FFFFFF !important;)
+short.pe##.skip-ad > .text-center > span:style(color: #FFFFFF !important;)
+short.pe##.skip-ad > .text-center > .counter:style(color: #FFFFFF !important;)
