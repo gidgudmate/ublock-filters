@@ -4595,6 +4595,3 @@ mcloud.to##.jw-reset-text.jw-tooltip.jw-tooltip-captions::after
 newsteez.com###content
 newsteez.com##.header-middle
 newsteez.com##.footer-bottom
-
-!teenclubforum.pw
-teenclubforum.pw##.header:style(position: absolute !important;)
