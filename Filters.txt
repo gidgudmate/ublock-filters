@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 201
+!Update: 202
 
 
 !Assortment of ad/tracking servers not found in Peter Lowe's
@@ -590,6 +590,7 @@ preRoll.php$xhr
 ||marketgamebo.com^
 ||hrahdmon.com^
 ||bestcontentfood.top^
+||scenepass.com^
 
 !Other
 ||gstatic.com/cv/js/sender/*/cast_sender.js$script
@@ -2242,6 +2243,9 @@ thothub.tv##.adguy
 thothub.tv##:xpath(//*[@id]/div[1]/div[1]/div/div/div/div[2])
 
 !feet9.com
+feet9.com##+js(aopr, trackOutboundLink)
+feet9.com##+js(aopr, _0xe818)
+feet9.com##+js(aopr, Feet9Push)
 feet9.com##.hvr-pulse
 feet9.com##.player-right > div:has-text(Click here to watch her)
 feet9.com##.pup
@@ -2697,22 +2701,22 @@ flylink.io##.text-left
 ally.sh##.adsbygoogle
 
 !AdShort
-!buyitonline.store|yesmoviesapp.info|newskart.xyz|viralnow.xyz|iitjeemainguide.in|utimetableresult.in|geki.tech|govtsmartjob.com|clk.ink|blogginggyanbox.com|adshort.world
+!buyitonline.store|yesmoviesapp.info|newskart.xyz|viralnow.xyz|iitjeemainguide.in|utimetableresult.in|geki.tech|govtsmartjob.com|clk.ink|blogginggyanbox.com|adshort.*
 ||s3.amazonaws.com^$xhr,domain=clk.ink
 ||clk.ink/ads/tubpush.js$script,1p
-||adshort.world/sw.js$script,1p
+||adshort.*/sw.js$script,1p
 clk.ink##+js(noeval)
 clk.ink##+js(aopr, _0xbc13)
 clk.ink##+js(acis, document.createElement, 'script')
-adshort.world##+js(set, blurred, false)
-adshort.world##+js(acis, Math, zfgloaded)
-adshort.world##+js(aopr, open)
-adshort.world##+js(aopr, TID)
+adshort.*##+js(set, blurred, false)
+adshort.*##+js(aopr, open)
+adshort.*##+js(aopr, TID)
 buyitonline.store,yesmoviesapp.info,newskart.xyz,viralnow.xyz,iitjeemainguide.in,utimetableresult.in,geki.tech,govtsmartjob.com,clk.ink,blogginggyanbox.com##.box-main > center
 buyitonline.store,yesmoviesapp.info,newskart.xyz,viralnow.xyz,iitjeemainguide.in,utimetableresult.in,geki.tech,govtsmartjob.com,clk.ink,blogginggyanbox.com##.text-left
 buyitonline.store,yesmoviesapp.info,newskart.xyz,viralnow.xyz,iitjeemainguide.in,utimetableresult.in,geki.tech,govtsmartjob.com,clk.ink,blogginggyanbox.com##.banner
 buyitonline.store,yesmoviesapp.info,newskart.xyz,viralnow.xyz,iitjeemainguide.in,utimetableresult.in,geki.tech,govtsmartjob.com,clk.ink,blogginggyanbox.com##[id*="ScriptRoot"]
 clk.ink##.nav > li > [href]
+adshort.*##.box-main > .row > .col-sm-4:has-text(Sobre)
 
 !fta-fet.com
 fta-fet.com##.col-md-10
@@ -3212,14 +3216,14 @@ cuus.io##.r-bg
 cuus.io##.payments
 
 !exe.io
-!exe.io|techodrop.com|trendlouds.com|parentingss.xyz|realupdate.xyz|trendgang.info|trendpick.info|trendfaq.com|trendbars.com|craftz.xyz|fasshi.xyz|beastvila.info
-exe.io,techodrop.com,trendlouds.com,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendfaq.com,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info##+js(aopr, doFunction)
-techodrop.com,trendlouds.com,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info##+js(window.open-defuser)
-techodrop.com,trendlouds.com,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info##+js(aopr, app_vars.force_disable_adblock)
-exe.io,techodrop.com,trendlouds.com,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendfaq.com,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info##+js(set, blurred, false)
-exe.io,techodrop.com,trendlouds.com,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendfaq.com,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info##.faq
-exe.io,techodrop.com,trendlouds.com,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendfaq.com,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info##.col-md-4, .col-md-8
-exe.io,techodrop.com,trendlouds.com,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendfaq.com,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info##.content
+!exe.io|techodrop.com|trendlouds.com|parentingss.xyz|realupdate.xyz|trendgang.info|trendpick.info|trendfaq.com|trendbars.com|craftz.xyz|fasshi.xyz|beastvila.info|cobs.xyz
+exe.io,techodrop.com,trendlouds.com,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendfaq.com,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz##+js(aopr, doFunction)
+techodrop.com,trendlouds.com,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz##+js(window.open-defuser)
+techodrop.com,trendlouds.com,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz##+js(aopr, app_vars.force_disable_adblock)
+exe.io,techodrop.com,trendlouds.com,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendfaq.com,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz##+js(set, blurred, false)
+exe.io,techodrop.com,trendlouds.com,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendfaq.com,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz##.faq
+exe.io,techodrop.com,trendlouds.com,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendfaq.com,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz##.col-md-4, .col-md-8
+exe.io,techodrop.com,trendlouds.com,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendfaq.com,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz##.content
 
 !ma3lomapost.com
 ma3lomapost.com##.blog-content
@@ -3502,7 +3506,7 @@ luscious.net###advertisement_adhesion
 ||google.com/serviceworker.js$script,1p
 ||google.com/drive/serviceworker*.js$script,1p
 google.com##[href] > .LC20lb:style(font-size: 18px !important;)
-google.com##[href*="/nfba.html/"], [href*=".top/"], [href*=".monster/"], [href*=".run/"], [href*=".best/"], [href*=".eu/?"]
+google.com##[href*="/nfba.html/"], [href*=".top/?"], [href*=".monster/"], [href*=".run/"], [href*=".best/"], [href*=".eu/?"]
 
 !apex.tracker.gg
 apex.tracker.gg##.trn-upsell-premium
@@ -4565,7 +4569,6 @@ ponhub.pro##+js(aopr, exoJsPop101)
 
 !imagebam.com
 ||imagebam.com/JS/imCtrl.js$script,1p
-imagebam.com##[id^="ad-header-"]
 
 !fuckingbreak.com
 fuckingbreak.com##+js(aopr, loadTool)
@@ -4579,3 +4582,19 @@ fuckingbreak.com##.tlinks > li > [href]:not([href^="https://www.fuckingbreak.com
 
 !sankakucomplex.com
 sankakucomplex.com##.censored img:style(filter: blur(0px) !important;)
+
+!mcloud.to
+mcloud.to##.jw-reset-text.jw-tooltip.jw-tooltip-fullscreen > .jw-text
+mcloud.to##.jw-reset-text.jw-tooltip.jw-tooltip-fullscreen::after
+mcloud.to##.jw-reset-text.jw-tooltip.jw-tooltip-settings > .jw-text
+mcloud.to##.jw-reset-text.jw-tooltip.jw-tooltip-settings::after
+mcloud.to##.jw-reset-text.jw-tooltip.jw-tooltip-captions > .jw-text
+mcloud.to##.jw-reset-text.jw-tooltip.jw-tooltip-captions::after
+
+!newsteez.com
+newsteez.com###content
+newsteez.com##.header-middle
+newsteez.com##.footer-bottom
+
+!teenclubforum.pw
+teenclubforum.pw##.header:style(position: absolute !important;)
