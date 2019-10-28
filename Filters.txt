@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 203
+!Update: 204
 
 
 !Assortment of ad/tracking servers not found in Peter Lowe's
@@ -601,6 +601,7 @@ preRoll.php$xhr
 ||leadiklod.online^
 ||caligula.pro^
 ||excited.me^
+||hot-ladyhere.com^
 
 !Other
 ||gstatic.com/cv/js/sender/*/cast_sender.js$script
@@ -1322,6 +1323,7 @@ xhamster.*##[class*="-cams-widget"]
 
 !pornhub.com
 ||nsimg.net^$image,3p,domain=pornhub.com,important
+@@||phncdn.com/videos/*$popup,3p,domain=pornhub.com
 pornhub.com###EPH-scroll
 pornhub.com##.abEnabled > .sectionWrapper
 pornhub.com##.sectionWrapper > div:has(#streamMateModel)
@@ -2868,6 +2870,7 @@ tryboobs.com###videoContainer_playButton
 !tubsexer.com
 ||tubsexer.com/fe_load.js$script,1p
 ||tubsexer.com/sw.js$script,1p
+||tubsexer.com/fend_lodr.js$script,1p
 tubsexer.com##+js(aopr, _0x3bb0)
 tubsexer.com##.video-holder > center
 tubsexer.com##.header_link
@@ -3248,14 +3251,14 @@ cuus.io##.r-bg
 cuus.io##.payments
 
 !exe.io
-!exe.io|parentingss.xyz|realupdate.xyz|trendgang.info|trendpick.info|trendfaq.com|trendbars.com|craftz.xyz|fasshi.xyz|beastvila.info|cobs.xyz|travells.xyz|webify.pw|cu2.io|networkingz.xyz
-exe.io,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendfaq.com,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz,travells.xyz,webify.pw,networkingz.xyz##+js(aopr, doFunction)
-techodrop.com,trendlouds.com,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz,travells.xyz,webify.pw,networkingz.xyz##+js(window.open-defuser)
-parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz,travells.xyz,webify.pw,networkingz.xyz##+js(aopr, app_vars.force_disable_adblock)
-exe.io,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendfaq.com,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz,travells.xyz,webify.pw,cu2.io,networkingz.xyz##+js(set, blurred, false)
-exe.io,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendfaq.com,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz,travells.xyz,wwebify.pw,networkingz.xyz##.faq
-exe.io,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendfaq.com,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz,travells.xyz,webify.pw,networkingz.xyz##.col-md-4, .col-md-8
-exe.io,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendfaq.com,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz,travells.xyz,webify.pw,networkingz.xyz##.content
+!exe.io|parentingss.xyz|realupdate.xyz|trendgang.info|trendpick.info|trendfaq.com|trendbars.com|craftz.xyz|fasshi.xyz|beastvila.info|cobs.xyz|travells.xyz|webify.pw|cu2.io|networkingz.xyz|darnto.com
+exe.io,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendfaq.com,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz,travells.xyz,webify.pw,networkingz.xyz,darnto.com##+js(aopr, doFunction)
+techodrop.com,trendlouds.com,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz,travells.xyz,webify.pw,networkingz.xyz,darnto.com##+js(window.open-defuser)
+parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz,travells.xyz,webify.pw,networkingz.xyz,darnto.com##+js(aopr, app_vars.force_disable_adblock)
+exe.io,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendfaq.com,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz,travells.xyz,webify.pw,cu2.io,networkingz.xyz,darnto.com##+js(set, blurred, false)
+exe.io,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendfaq.com,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz,travells.xyz,wwebify.pw,networkingz.xyz,darnto.com##.faq
+exe.io,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendfaq.com,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz,travells.xyz,webify.pw,networkingz.xyz,darnto.com##.col-md-4, .col-md-8
+exe.io,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendfaq.com,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz,travells.xyz,webify.pw,networkingz.xyz,darnto.com##.content
 
 !ma3lomapost.com
 ma3lomapost.com##.blog-content
