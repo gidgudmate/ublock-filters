@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 4.9
+!Update: 5
 
 !silkengirl.com
 silkengirl.*##.hold > ul > li > [href]:not([href^="/"])
@@ -163,7 +163,7 @@ pornhub.com##.videoWrapper:has(.premiumIcon)
 pornhub.com###androidAppBar
 
 !babesinporn.com
-babesinporn.com###mm-m0-p0 > li:nth-child(5)
+babesinporn.com###mm-m0-p0 > li > [href]:not([href^="/"])
 
 !massage-parlor.com
 m.massage-parlor.com##.cc-floating
