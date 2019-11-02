@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 205
+!Update: 206
 
 
 !Assortment of ad/tracking servers not found in Peter Lowe's
@@ -854,6 +854,7 @@ babecentrum.com###eXo1
 babecentrum.com##td > .headline
 babecentrum.com##.headline > [href]
 babecentrum.com##.menu > li > [href]:not([href^="/"])
+babecentrum.com##.aw
 
 !dirtyyoungbitches.com
 ||dirtyyoungbitches.com^*/banners/$image,1p
@@ -1599,9 +1600,9 @@ porndoo.com##.m-b-5.p-5.media.card
 porndoo.com###linkTop
 
 !silkengirl domains
-||silkengirl.net/sw.js$script,1p
 ||silkengirl.*/banners/*$image,1p
-||silkengirl.*/backend_loader$script,1p
+||silkengirl.*$script,1p
+@@||silkengirl.*/images/$script,1p
 silkengirl.*##+js(sid, reload2)
 silkengirl.*##+js(aopr, ExoLoader.serve)
 silkengirl.*##+js(set, floaderLoaded, noopFunc)
@@ -1650,6 +1651,8 @@ novohot.com###mainMenu > li > [href]:not([href^="/"])
 
 !babesinporn.com
 ||babesinporn.com^*/banners/*$image,1p
+||babesinporn.com^$script,1p
+@@||babesinporn.com/images/$script,1p
 babesinporn.com##+js(set, floaderLoaded, noopFunc)
 babesinporn.com##+js(sid, reload2)
 babesinporn.com##[class*="banner"]
@@ -2032,7 +2035,6 @@ primecurves.com##center:nth-child(7)
 primecurves.com##.header-top:style(position: absolute !important;)
 
 !xxxbunker.com
-||xxxbunker.com/preroll/*.mp4$media
 @@||xxxbunker.com/js/functions_*.js$script,1p
 xxxbunker.com##.spbDisabled
 
@@ -2372,8 +2374,7 @@ pornflip.com##.add_href_jsclick
 
 !sexybabes.club
 ||sexybabes.club^$script,1p
-@@||*/sexybabes.club/js/main*.js$script,1p
-@@||*/sexybabes.club/js/assets.js$script,1p
+@@||sexybabes.club/images/$script,1p
 sexybabes.club##+js(aopr, ExoLoader.serve)
 sexybabes.club##+js(aopr, loadTool)
 sexybabes.club##+js(set, floaderLoaded, noopFunc)
@@ -2488,6 +2489,7 @@ wowgirlsblog.com###tpbr_topbar
 
 !babeuniversum.com
 babeuniversum.com##+js(set, floaderLoaded, noopFunc)
+babeuniversum.com##+js(set, awePuShown, true)
 babeuniversum.com##.adsense > [href]
 babeuniversum.com##.galleryad
 babeuniversum.com##.two-adv
@@ -3274,14 +3276,14 @@ cuus.io##.r-bg
 cuus.io##.payments
 
 !exe.io
-!exe.io|parentingss.xyz|realupdate.xyz|trendgang.info|trendpick.info|trendfaq.com|trendbars.com|craftz.xyz|fasshi.xyz|beastvila.info|cobs.xyz|travells.xyz|webify.pw|cu2.io|iinspire.xyz
-exe.io,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendfaq.com,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz,travells.xyz,webify.pw,iinspire.xyz##+js(aopr, doFunction)
-techodrop.com,trendlouds.com,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz,travells.xyz,webify.pw,iinspire.xyz##+js(window.open-defuser)
-parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz,travells.xyz,webify.pw,iinspire.xyz##+js(aopr, app_vars.force_disable_adblock)
-exe.io,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendfaq.com,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz,travells.xyz,webify.pw,cu2.io,iinspire.xyz##+js(set, blurred, false)
-exe.io,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendfaq.com,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz,travells.xyz,wwebify.pw,iinspire.xyz##.faq
-exe.io,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendfaq.com,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz,travells.xyz,webify.pw,iinspire.xyz##.col-md-4, .col-md-8
-exe.io,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendfaq.com,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz,travells.xyz,webify.pw,iinspire.xyz##.content
+!exe.io|parentingss.xyz|realupdate.xyz|trendgang.info|trendpick.info|trendfaq.com|trendbars.com|craftz.xyz|fasshi.xyz|beastvila.info|cobs.xyz|travells.xyz|webify.pw|cu2.io|artiicle.xyz|salee.xyz
+exe.io,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendfaq.com,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz,travells.xyz,webify.pw,artiicle.xyz,salee.xyz##+js(aopr, doFunction)
+techodrop.com,trendlouds.com,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz,travells.xyz,webify.pw,artiicle.xyz,salee.xyz##+js(window.open-defuser)
+parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz,travells.xyz,webify.pw,artiicle.xyz,salee.xyz##+js(aopr, app_vars.force_disable_adblock)
+exe.io,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendfaq.com,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz,travells.xyz,webify.pw,cu2.io,artiicle.xyz,salee.xyz##+js(set, blurred, false)
+exe.io,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendfaq.com,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz,travells.xyz,wwebify.pw,artiicle.xyz,salee.xyz##.faq
+exe.io,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendfaq.com,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz,travells.xyz,webify.pw,artiicle.xyz,salee.xyz##.col-md-4, .col-md-8
+exe.io,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendfaq.com,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz,travells.xyz,webify.pw,artiicle.xyz,salee.xyz##.content
 
 !ma3lomapost.com
 ma3lomapost.com##.blog-content
@@ -4090,6 +4092,9 @@ ffmovies.*##+js(window.open-defuser)
 ffmovies.*##+js(aopr, AaDetector)
 ffmovies.*##+js(acis, Math, zfgloaded)
 ffmovies.*,fmovies.*##.stream4k:not([id])
+ffmovies.*##.modal-scrollable
+ffmovies.*##.modal-backdrop
+ffmovies.*##body:style(overflow: auto !important;)
 
 !gonewild.co|goeswild.co
 ||goeswild.co/share/embed.js$script,1p
@@ -4715,3 +4720,7 @@ trendyporn.com##.side-bar-ad
 
 !nylondolls.com
 ||nylondolls.com^$script,1p
+
+!shorten.sh
+shorten.sh##+js(set, blurred, false)
+shorten.sh##.text-left
