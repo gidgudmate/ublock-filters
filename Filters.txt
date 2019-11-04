@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 206
+!Update: 207
 
 
 !Assortment of ad/tracking servers not found in Peter Lowe's
@@ -610,6 +610,10 @@ preRoll.php$xhr
 ||yieldmagic.com^
 ||1hy6.xyz^
 ||wereironiclee.com^
+||worldtxt.club^
+||luuming.com^
+||threedrive.su^
+||nqwiee2covdmgv.ru^
 
 !Other
 ||gstatic.com/cv/js/sender/*/cast_sender.js$script
@@ -1741,6 +1745,7 @@ sensualgirls.org##[href="/livesexchat"]
 sensualgirls.org##.live
 sensualgirls.org##[id^="box"] > .cbox_cont > div > .center > [href]
 sensualgirls.org##.cbox2_cont > div:has(h2)
+sensualgirls.org#@#a[href^="http://wct.link/"]
 
 !mainbabes.com
 ||mainbabes.com^*/banners/$image,1p
@@ -2473,6 +2478,8 @@ groobygirls.com##.rabbits > center
 
 !vidmo.org
 ||vidmo.org/*frame_*.php$frame,1p
+||vidmo.org/serviceworker.js$script,1p
+vidmo.org##+js(acis, document.createElement, 'script')
 vidmo.org###afrb
 vidmo.org##.items:nth-of-type(17)
 
@@ -3172,6 +3179,8 @@ uploadrar.com###lastnews
 
 !nakedanatomy.com
 ||nakedanatomy.com^*/banners/*$image,1p
+nakedanatomy.com###menu > ul > li > [href]:not([href^="/"])
+nakedanatomy.com###menu > ul > li:nth-child(3)
 
 !hdpornfull.com
 ||hdpornfull.com/sw.js$script,1p
@@ -3276,14 +3285,14 @@ cuus.io##.r-bg
 cuus.io##.payments
 
 !exe.io
-!exe.io|parentingss.xyz|realupdate.xyz|trendgang.info|trendpick.info|trendfaq.com|trendbars.com|craftz.xyz|fasshi.xyz|beastvila.info|cobs.xyz|travells.xyz|webify.pw|cu2.io|artiicle.xyz|salee.xyz
-exe.io,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendfaq.com,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz,travells.xyz,webify.pw,artiicle.xyz,salee.xyz##+js(aopr, doFunction)
-techodrop.com,trendlouds.com,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz,travells.xyz,webify.pw,artiicle.xyz,salee.xyz##+js(window.open-defuser)
-parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz,travells.xyz,webify.pw,artiicle.xyz,salee.xyz##+js(aopr, app_vars.force_disable_adblock)
-exe.io,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendfaq.com,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz,travells.xyz,webify.pw,cu2.io,artiicle.xyz,salee.xyz##+js(set, blurred, false)
-exe.io,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendfaq.com,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz,travells.xyz,wwebify.pw,artiicle.xyz,salee.xyz##.faq
-exe.io,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendfaq.com,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz,travells.xyz,webify.pw,artiicle.xyz,salee.xyz##.col-md-4, .col-md-8
-exe.io,parentingss.xyz,realupdate.xyz,trendgang.info,trendpick.info,cartr.xyz,trendfaq.com,trendbars.com,craftz.xyz,fasshi.xyz,beastvila.info,cobs.xyz,travells.xyz,webify.pw,artiicle.xyz,salee.xyz##.content
+!exe.io|iddeas.xyz
+exe.io,iddeas.xyz##+js(aopr, doFunction)
+iddeas.xyz##+js(window.open-defuser)
+iddeas.xyz##+js(aopr, app_vars.force_disable_adblock)
+exe.io,iddeas.xyz##+js(set, blurred, false)
+exe.io,iddeas.xyz##.faq
+exe.io,iddeas.xyz##.col-md-4, .col-md-8
+exe.io,iddeas.xyz##.content
 
 !ma3lomapost.com
 ma3lomapost.com##.blog-content
@@ -3743,10 +3752,12 @@ ashemaletv.com##.advertisement
 
 !slutdreamer.com
 ||slutdreamer.com*/banners/*$image,1p
+slutdreamer.com##.aw
 
 !juggstation.com
 ||juggstation.com*/banners/*$image,1p
 juggstation.com##.joinnow
+juggstation.com##.aw
 
 !bigboobsparadise.com
 ||bigboobsparadise.com*/banners/*$image,1p
@@ -4139,11 +4150,15 @@ lumendatabase.org##.first-time-visitor
 
 !tranny.one
 ||tranny.one/average-counter/*$script,1p
-||tranny.one/*.php$xhr,1p
+||tranny.one/$xhr,1p
 @@||tranny.one/js/fd.js$script,1p
+@@||tranny.one/?area=ajaxRelated$xhr,1p
+@@||tranny.one/?area=ajaxMovieComment$xhr,1p
 tranny.one##+js(aopr, BetterJsPop)
 tranny.one##+js(aopr, betterNameTr)
+tranny.one##+js(aopr, BetterTrPop)
 tranny.one##+js(acis, CustomEvent, document.dispatchEvent)
+tranny.one##+js(aopr, console.clear)
 tranny.one##.spot
 tranny.one##[style*="background: #E6E3DA;"]
 tranny.one##[class^="ads"]
@@ -4373,7 +4388,6 @@ floppy-tits.com##.partner_toplist
 *$3p,frame,domain=nude.hu
 ||nude.hu^*/banners/*$image,1p
 nude.hu##[href^="//secure.watchmygf.com/"]
-nude.hu##center
 
 !cnn.com
 cnn.com#@#[class*="chromecast"]
@@ -4724,3 +4738,6 @@ trendyporn.com##.side-bar-ad
 !shorten.sh
 shorten.sh##+js(set, blurred, false)
 shorten.sh##.text-left
+
+!busty-legends.com
+busty-legends.com/*/banners/$image,1p
