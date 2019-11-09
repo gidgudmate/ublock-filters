@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 207
+!Update: 208
 
 
 !Assortment of ad/tracking servers not found in Peter Lowe's
@@ -614,6 +614,9 @@ preRoll.php$xhr
 ||luuming.com^
 ||threedrive.su^
 ||nqwiee2covdmgv.ru^
+||oalselry.com^
+||palmtube.net^
+||gloussuz.com^
 
 !Other
 ||gstatic.com/cv/js/sender/*/cast_sender.js$script
@@ -1129,6 +1132,7 @@ hqsluts.com##[href="/m/cams.menu/"], [href="/m/store.main/"]
 
 !camvideos.tv
 ||camvideos.tv/images/*.gif$image,1p
+camvideos.tv##+js(acis, Math, Object.defineProperty)
 camvideos.tv##.bottom-adv
 camvideos.tv##.table
 camvideos.tv##.place
@@ -1627,10 +1631,10 @@ silkengirl.net##.spots > .holder
 
 !babes.com
 ||project1content.com/Babes/Tour/PROMOS/*$image,domain=babes.com
-babes.com##.floating-footer
-babes.com##.video-show-overlay
-babes.com##[color^="rgba(0, 0, 0, 0.5)"]
-babes.com###root:style(filter: blur(0px) !important;)
+babes.com,babesnetwork.com##.floating-footer
+babes.com,babesnetwork.com##.video-show-overlay
+babes.com,babesnetwork.com##[color^="rgba(0, 0, 0, 0.5)"]
+babes.com,babesnetwork.com###root:style(filter: blur(0px) !important;)
 
 !pleasuregirl.net
 ||pleasuregirl.net^*/banners/$image,1p
@@ -1772,8 +1776,11 @@ deliciousbabes.org##.live
 ||penthouse.com/assets/img/*.png$image
 
 !livejasminbabes.net
-||livejasminbabes.net/istripper$frame,1p
+||livejasminbabes.net^$frame,1p
+||livejasminbabes.net^$script,1p
 ||livejasminbabes.net^*/banners/*$image,1p
+@@||livejasminbabes.net/images/$script,1p
+@@||livejasminbabes.net/scripts.js$script,1p
 livejasminbabes.net##+js(aopr, ExoLoader.serve)
 livejasminbabes.net##+js(aopr, loadTool)
 livejasminbabes.net##+js(aopr, document.dispatchEvent)
@@ -2237,6 +2244,8 @@ porkjizz.com##.under-player-ad
 
 !spicybabe.net
 ||spicybabe.net^*/banners/*$image,1p
+||spicybabe.net^$script,1p
+spicybabe.net##+js(aopr, loadTool)
 spicybabe.net##.gallbox > [href*=".com"]
 spicybabe.net##.ad_reg1
 spicybabe.net##.ad_reg2 > p, .ad_reg3 > p
@@ -2771,18 +2780,24 @@ ally.sh##.adsbygoogle
 ||s3.amazonaws.com^$xhr,domain=clk.ink
 ||clk.ink/ads/tubpush.js$script,1p
 ||adshort.*/sw.js$script,1p
+||adshort.*/undefined$image,1p
 clk.ink##+js(noeval)
 clk.ink##+js(aopr, _0xbc13)
 clk.ink##+js(acis, document.createElement, 'script')
 adshort.*##+js(set, blurred, false)
 adshort.*##+js(aopr, open)
 adshort.*##+js(aopr, TID)
+adshort.*##+js(aopr, _0xbc13)
 buyitonline.store,yesmoviesapp.info,newskart.xyz,viralnow.xyz,iitjeemainguide.in,utimetableresult.in,geki.tech,govtsmartjob.com,clk.ink,blogginggyanbox.com##.box-main > center
 buyitonline.store,yesmoviesapp.info,newskart.xyz,viralnow.xyz,iitjeemainguide.in,utimetableresult.in,geki.tech,govtsmartjob.com,clk.ink,blogginggyanbox.com##.text-left
 buyitonline.store,yesmoviesapp.info,newskart.xyz,viralnow.xyz,iitjeemainguide.in,utimetableresult.in,geki.tech,govtsmartjob.com,clk.ink,blogginggyanbox.com##.banner
-buyitonline.store,yesmoviesapp.info,newskart.xyz,viralnow.xyz,iitjeemainguide.in,utimetableresult.in,geki.tech,govtsmartjob.com,clk.ink,blogginggyanbox.com##[id*="ScriptRoot"]
+buyitonline.store,yesmoviesapp.info,newskart.xyz,viralnow.xyz,iitjeemainguide.in,utimetableresult.in,geki.tech,govtsmartjob.com,clk.ink,blogginggyanbox.com,adshort.*##[id*="ScriptRoot"]
 clk.ink##.nav > li > [href]
 adshort.*##.box-main > .row > .col-sm-4:has-text(Sobre)
+adshort.*##[style^="padding: 3px; width: 25%;"]
+adshort.*##[class] > [data-name^="header"]
+adshort.org###link-view > .row > .col-sm-4:nth-child(3)
+adshort.org###go-link
 
 !fta-fet.com
 fta-fet.com##.col-md-10
@@ -2879,6 +2894,7 @@ pornburst.xxx##.advertisement
 !shrtfly.*
 ||shrtfly.*$3p,frame
 shrtfly.*##+js(set, blurred, false)
+shrtfly.*##+js(aeld, mousedown, tabUnder)
 shrtfly.*###topbar
 shrtfly.*##.banner
 shrtfly.*###frame
@@ -3172,6 +3188,7 @@ erome.com##+js(aopr, tia)
 !ouo.press
 ||ouo.press/sw*.js$script,1p
 ouo.press##+js(window.open-defuser)
+ouo.press##+js(nano-sib)
 
 !uploadrar.com
 *$3p,script,domain=uploadrar.com
@@ -3288,7 +3305,6 @@ cuus.io##.payments
 !exe.io|iddeas.xyz
 exe.io,iddeas.xyz##+js(aopr, doFunction)
 iddeas.xyz##+js(window.open-defuser)
-iddeas.xyz##+js(aopr, app_vars.force_disable_adblock)
 exe.io,iddeas.xyz##+js(set, blurred, false)
 exe.io,iddeas.xyz##.faq
 exe.io,iddeas.xyz##.col-md-4, .col-md-8
@@ -3303,6 +3319,7 @@ nudepatch.net###DynamicBackgroundWrapper
 !ouo.io
 ||ouo.io/worker.js$script,1p
 ||ouo.io/sw*.js$script,1p
+ouo.io##+js(nano-sib)
 ouo.io##.text-center > div > [href]
 ouo.io##.content > div > [href]
 ouo.io##article > div > [href]
@@ -3536,10 +3553,13 @@ xfantasy.tv##li > [class]:has-text(Live)
 xfantasy.tv##[href]:not([href^="/"]):not([href*="xfantasy.tv"])
 
 !camwhores.*
-||camwhores.*/*action=js_online_status$image,1p
+||camwhores.tv/*action=js_online_status$image,1p
 ||nsimg.net$image,3p,domain=camwhores.video
+*$script,3p,domain=camwhores.tv
 @@||wpnrtnmrewunrtok.xyz^$3p,domain=camwhores.video
 camwhores.*##.adv
+camwhores.*##.cp-webcam-gallery-container
+camwhores.*##.no-player > [src]:style(opacity: 0.5 !important;)
 
 !wiki.fextralife.com
 wiki.fextralife.com###video-stream-container
@@ -3668,11 +3688,15 @@ youngpornhd.com##noindex
 youngpornhd.com##.cs-join
 
 !pinflix.com
+pinflix.com##+js(aopr, exoJsPop101)
 pinflix.com##.phdZone
 pinflix.com###inVidZone
 pinflix.com##.webmaster-scheme-1
 pinflix.com##.main-nav > ul > li:nth-child(4)
 pinflix.com##.pfx-prnntw-h
+pinflix.com##.overlay-content
+pinflix.com##.under-video-channel-link
+pinflix.com##.live-sex
 
 !heroero.com
 heroero.com##[href^="http://tour.mrskin.com/"]
@@ -3866,7 +3890,7 @@ lubetube.com###overlay
 ally.sh##.col-md-offset-1
 
 !fc.lc
-fc.lc##+js(acis, Math, atob)
+fc.lc##+js(acis, Math, zfgloaded)
 fc.lc##+js(set, blurred, false)
 fc.lc##+js(window.open-defuser)
 fc.lc##.text-left
@@ -4255,6 +4279,7 @@ techkreative.xyz##+js(fuckadblock.js-3.2.0)
 techkreative.xyz,newsteez.com##+js(nano-sib)
 techkreative.xyz,newsteez.com##.content-sidebar-wrap
 techkreative.xyz,newsteez.com##.site-header
+newsteez.com##[id^="aswift_"]
 
 !brookelynnebriar.com
 */socket.io/*$xhr,domain=brookelynnebriar.com
@@ -4537,7 +4562,7 @@ filetitle.com##.extend_premium
 ||fileleech.net/js/propeller.js$script,1p
 
 !bc.vc
-bc.vc##+js(acis, Math, atob)
+bc.vc##+js(acis, Math, zfgloaded)
 
 !ecleneue.com
 @@||pushokey.com/ntfc.php$script,3p,domain=ecleneue.com
@@ -4667,11 +4692,11 @@ sankakucomplex.com##.censored img:style(filter: blur(0px) !important;)
 
 !mcloud.to
 mcloud.to##.jw-reset-text.jw-tooltip.jw-tooltip-fullscreen > .jw-text
-mcloud.to##.jw-reset-text.jw-tooltip.jw-tooltip-fullscreen::after
+mcloud.to##.jw-reset-text.jw-tooltip.jw-tooltip-fullscreen:after
 mcloud.to##.jw-reset-text.jw-tooltip.jw-tooltip-settings > .jw-text
-mcloud.to##.jw-reset-text.jw-tooltip.jw-tooltip-settings::after
+mcloud.to##.jw-reset-text.jw-tooltip.jw-tooltip-settings:after
 mcloud.to##.jw-reset-text.jw-tooltip.jw-tooltip-captions > .jw-text
-mcloud.to##.jw-reset-text.jw-tooltip.jw-tooltip-captions::after
+mcloud.to##.jw-reset-text.jw-tooltip.jw-tooltip-captions:after
 
 !newsteez.com
 newsteez.com###content
@@ -4701,13 +4726,6 @@ xxxmaturevideos.com##[class*="_hor"]
 
 !mylust.com
 mylust.com##.fluid-b
-
-!teencumpot.com
-teencumpot.com##+js(aopr, document.dispatchEvent)
-teencumpot.com##+js(aopr, exoJsPop101)
-teencumpot.com##+js(cookie-remover)
-teencumpot.com##[id^="right-bn-"]
-teencumpot.com##.ratovipoke
 
 !ytboob.com
 ytboob.com##+js(aopr, ExoLoader.addZone)
@@ -4741,3 +4759,30 @@ shorten.sh##.text-left
 
 !busty-legends.com
 busty-legends.com/*/banners/$image,1p
+
+!nextpink.com
+nextpink.com###container > [href] > [src]
+nextpink.com##.banner
+
+!hornystyle.com
+||hornystyle.com/gallery/sponsor/$image,1p
+hornystyle.com###sponsor-holder
+hornystyle.com###sidebar > .box:has-text(Sponsor)
+
+!latestseoupdate.com
+latestseoupdate.com##+js(acis, Math, zfgloaded)
+latestseoupdate.com##.banner-inner
+latestseoupdate.com###link-view > p
+latestseoupdate.com###link-view > ol > li
+latestseoupdate.com##h4
+latestseoupdate.com##.col-md-10 > p
+latestseoupdate.com###link-view > span
+
+!ac-mo.com
+ac-mo.com##+js(aopr, app_vars.force_disable_adblock)
+ac-mo.com##+js(window.open-defuser)
+ac-mo.com##+js(aopw, adBlockDetected)
+ac-mo.com##+js(set, blurred, false)
+
+!ventax.net
+ventax.net##+js(set, blurred, false)
