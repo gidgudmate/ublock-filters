@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 208
+!Update: 209
 
 
 !Assortment of ad/tracking servers not found in Peter Lowe's
@@ -617,6 +617,7 @@ preRoll.php$xhr
 ||oalselry.com^
 ||palmtube.net^
 ||gloussuz.com^
+||xxccdshj.com^
 
 !Other
 ||gstatic.com/cv/js/sender/*/cast_sender.js$script
@@ -2307,6 +2308,7 @@ thothub.tv##.g1-row-inner > #secondary
 thothub.tv##[href="https://thothub.tv/go/adult-games"], [href="https://thothub.tv/go/free-live-cams"]
 thothub.tv##.adguy
 thothub.tv##:xpath(//*[@id]/div[1]/div[1]/div/div/div/div[2])
+thothub.tv##.g1-collection-item:has([class*="sex-game"])
 
 !feet9.com
 feet9.com##+js(aopr, trackOutboundLink)
@@ -4070,9 +4072,13 @@ analdin.com##[id*="ScriptRootC"]
 analdin.com##.arrow-up
 
 !vipissy.com
+||vipissy.com/*promo*/$image,1p
 vipissy.com##.join_window
 vipissy.com##.offer_countdown
 vipissy.com##.navbar:style(position: static !important;)
+vipissy.com##[id$="-popup"]
+vipissy.com##[href^="//join.vipissy.com/signup/signup.php"]
+vipissy.com##.black-friday
 
 !porndig.com
 ||porndig.com/sw*.js$script,1p
