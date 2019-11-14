@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 209
+!Update: 210
 
 
 !Assortment of ad/tracking servers not found in Peter Lowe's
@@ -618,6 +618,9 @@ preRoll.php$xhr
 ||palmtube.net^
 ||gloussuz.com^
 ||xxccdshj.com^
+||realcenter-mobileapps*.com^
+||prolocoborgoricco.*^
+||givemeb33f.com^
 
 !Other
 ||gstatic.com/cv/js/sender/*/cast_sender.js$script
@@ -626,7 +629,6 @@ preRoll.php$xhr
 @@||wpnrtnmrewunrtok.xyz^$media
 @@||cbox.ws^$3p
 @@||pornoeggs.com^$popup,3p
-@@||21sextury.com^$popup,3p
 @@||pornhub.com^$popup,3p
 @@||google.com$popup,3p
 @@||awemwh.com^$media,domain=protoawe.com
@@ -680,7 +682,6 @@ youtube.com##[aria-label^="Play on TV"]
 youtube.com###fvdDownloader_page_button
 
 !pornhd.com
-||pornhd.com/pornhd/$badfilter
 @@||protoawe.com^$script,frame,3p,domain=pornhd.com
 pornhd.com##.live-video-zone
 pornhd.com##.inside-row
@@ -708,8 +709,13 @@ gotporn.com##.spnsrd
 mail.google.com#@#.ads
 
 !pornult.com
+||pornult.com/*.js$script,1p
+||pornult.com^$frame,1p
+@@||pornult.com/static/js/main.min.js$script,1p
+@@||pornult.com/player/$script,1p
 pornult.com##.pause-block
-pornult.com##.content > [class]:not([class*="-"]):not(.text):not(.headline)
+pornult.com##.block-video > .table
+pornult.com##.footer-margin
 
 !porndoe.com
 ||porndoe.com/misc/*.php
@@ -819,11 +825,11 @@ ext-twitch.tv##[class*="flyout"]
 twitch.tv##.chat-line__message > .message > span.text-fragment:style(font-size: 95% !important;)
 
 !xbabe.com
-||xbabe.com/_a_xb/a/ex/b.php$script,1p
-||xbabe.com/cb/cb.xb.js$script,1p
-||xbabe.com/_a_xb/s/s/*.php$script,frame,xhr,1p
-||xbabe.com/service-worker.js$script,1p
+||xbabe.com^$script,xhr,frame,1p
 *$3p,xhr,domain=xbabe.com
+@@||xbabe.com/fluidplayer/$script,1p
+@@||xbabe.com/js/$script,1p
+@@||xbabe.com/player/timelines.php$xhr,1p
 xbabe.com###side_col
 xbabe.com##+js(aeld, popstate)
 xbabe.com##+js(aopr, document.dispatchEvent)
@@ -877,7 +883,7 @@ dirtyyoungbitches.com###main-nav > li > [href]:not([href^="/"])
 !sexyaporno.com
 ||sexyaporno.com^*/banners/$image,1p
 ||sexyaporno.com/chat_*.js$script,1p
-||Sexyaporno.com^$frame,1p
+||sexyaporno.com^$frame,1p
 sexyaporno.com##+js(aopr, ExoLoader.addZone)
 sexyaporno.com##+js(aopr, ExoLoader.serve)
 sexyaporno.com##+js(aopr, loadTool)
@@ -891,11 +897,14 @@ sexyaporno.com###addBookmarkContainer > span
 
 !wildfanny.com
 ||fwwgo.com^*/banners/*$image,domain=wildfanny.com
+||wildfanny.com/advideo$frame,1p
 wildfanny.com##+js(aopr, loadTool)
 wildfanny.com##+js(sid, reload2)
 wildfanny.com##.block > center
 wildfanny.com##[class*="banner"]
 wildfanny.com###menu > ul > li > [href]:not([href^="/"])
+wildfanny.com##.notice
+wildfanny.com##.video-wrapper > .center:has-text(adblock)
 
 !x-art.com
 x-art.com###promo_bar
@@ -1581,6 +1590,8 @@ girlsofdesire.org##.marg2 > [href^="/live"]
 
 !wantedbabes.com
 ||wantedbabes.com^*/banners/*$image,1p
+||wantedbabes.com^$script,1p
+@@||wantedbabes.com/images/$script,1p
 wantedbabes.com##+js(aopr, loadTool)
 wantedbabes.com##+js(sid, reload2)
 wantedbabes.com##+js(set, floaderLoaded, noopFunc)
@@ -2611,7 +2622,7 @@ mofosex.com###starburst-header > div:has-text(Advert):not([class])
 mofosex.com###spankVideo > div:has-text(Close)
 
 !definebabe.com
-definebabe.com##section:first-of-type
+!definebabe.com##section:first-of-type
 
 !bustybloom.com
 ||bustybloom.com^*/banners/*$image,1p
@@ -2798,8 +2809,8 @@ clk.ink##.nav > li > [href]
 adshort.*##.box-main > .row > .col-sm-4:has-text(Sobre)
 adshort.*##[style^="padding: 3px; width: 25%;"]
 adshort.*##[class] > [data-name^="header"]
-adshort.org###link-view > .row > .col-sm-4:nth-child(3)
-adshort.org###go-link
+adshort.*###link-view > .row > .col-sm-4:nth-child(3)
+adshort.*###go-link
 
 !fta-fet.com
 fta-fet.com##.col-md-10
@@ -3266,6 +3277,7 @@ fabsdeals.com##.box-main > center
 
 !21sextury.com
 ||21sextury.com/sp-push-worker.js$script,1p
+@@||21sextury.com^$popup
 
 !daftsex.com|daxab.com
 ||daftsex.com/*sw*.js$script,1p
@@ -3304,13 +3316,13 @@ cuus.io##.r-bg
 cuus.io##.payments
 
 !exe.io
-!exe.io|iddeas.xyz
-exe.io,iddeas.xyz##+js(aopr, doFunction)
+!exe.io|iddeas.xyz|techbeast.xyz
+exe.io,iddeas.xyz,techbeast.xyz##+js(aopr, doFunction)
 iddeas.xyz##+js(window.open-defuser)
-exe.io,iddeas.xyz##+js(set, blurred, false)
-exe.io,iddeas.xyz##.faq
-exe.io,iddeas.xyz##.col-md-4, .col-md-8
-exe.io,iddeas.xyz##.content
+exe.io,iddeas.xyz,techbeast.xyz##+js(set, blurred, false)
+exe.io,iddeas.xyz,techbeast.xyz##.faq
+exe.io,iddeas.xyz,techbeast.xyz##.col-md-4, .col-md-8
+exe.io,iddeas.xyz,techbeast.xyz##.content
 
 !ma3lomapost.com
 ma3lomapost.com##.blog-content
@@ -3562,6 +3574,7 @@ xfantasy.tv##[href]:not([href^="/"]):not([href*="xfantasy.tv"])
 camwhores.*##.adv
 camwhores.*##.cp-webcam-gallery-container
 camwhores.*##.no-player > [src]:style(opacity: 0.5 !important;)
+camwhores.*##.place
 
 !wiki.fextralife.com
 wiki.fextralife.com###video-stream-container
@@ -3598,6 +3611,7 @@ luscious.net###advertisement_adhesion
 ||google.com/drive/serviceworker*.js$script,1p
 google.com##[href] > .LC20lb:style(font-size: 18px !important;)
 google.com##[href^="https://peoplessystemsystem.de"], [href^="https://yearculturalthing.today"], [href^="https://investmenthimself.xyz"], [href^="https://thingwaterevening.today"]
+google.com##c-wiz > div:has-text(Sponsored)
 
 !apex.tracker.gg
 apex.tracker.gg##.trn-upsell-premium
@@ -4697,6 +4711,7 @@ fuckingbreak.com##.tlinks > li > [href]:not([href^="https://www.fuckingbreak.com
 sankakucomplex.com##.censored img:style(filter: blur(0px) !important;)
 
 !mcloud.to
+||mcloud.to/log/$xhr,1p
 mcloud.to##.jw-reset-text.jw-tooltip.jw-tooltip-fullscreen > .jw-text
 mcloud.to##.jw-reset-text.jw-tooltip.jw-tooltip-fullscreen:after
 mcloud.to##.jw-reset-text.jw-tooltip.jw-tooltip-settings > .jw-text
@@ -4792,3 +4807,12 @@ ac-mo.com##+js(set, blurred, false)
 
 !ventax.net
 ventax.net##+js(set, blurred, false)
+
+!dirtypinks.com
+||dirtypinks.com*/banners/$image,1p
+
+!123-movies.com
+||123-movies.com/sw*.js$script,1p
+
+!viduplayer.com
+viduplayer.com##.jw-logo
