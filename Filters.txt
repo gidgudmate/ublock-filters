@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 210
+!Update: 211
 
 
 !Assortment of ad/tracking servers not found in Peter Lowe's
@@ -621,6 +621,11 @@ preRoll.php$xhr
 ||realcenter-mobileapps*.com^
 ||prolocoborgoricco.*^
 ||givemeb33f.com^
+||uqelijcu.com^
+||wxaeamianbg.com^
+||iclwy.xyz^
+||dddomainccc.com^
+||yotraff.com^
 
 !Other
 ||gstatic.com/cv/js/sender/*/cast_sender.js$script
@@ -683,6 +688,9 @@ youtube.com###fvdDownloader_page_button
 
 !pornhd.com
 @@||protoawe.com^$script,frame,3p,domain=pornhd.com
+pornhd.com##+js(aopr, exoJsPop101)
+pornhd.com##+js(set, popUnderUrl, noopFunc)
+pornhd.com##+js(aeld, popstate)
 pornhd.com##.live-video-zone
 pornhd.com##.inside-row
 pornhd.com##.video-thumb-ad-zone
@@ -2319,7 +2327,7 @@ thothub.tv##.g1-row-inner > #secondary
 thothub.tv##[href="https://thothub.tv/go/adult-games"], [href="https://thothub.tv/go/free-live-cams"]
 thothub.tv##.adguy
 thothub.tv##:xpath(//*[@id]/div[1]/div[1]/div/div/div/div[2])
-thothub.tv##.g1-collection-item:has([class*="sex-game"])
+thothub.tv##.g1-collection-item:has([class*="game"])
 
 !feet9.com
 feet9.com##+js(aopr, trackOutboundLink)
@@ -2561,6 +2569,7 @@ lesbianpornvideos.com##.wrap > center
 lesbianpornvideos.com###related_videos > div:nth-of-type(4) > center:nth-of-type(1)
 
 !lesbian8.com
+||lesbian8.com/ko/$frame,1p
 lesbian8.com##+js(aopr, BetterJsPop)
 lesbian8.com##+js(aopr, Salamo)
 lesbian8.com##+js(aopr, Samesa)
@@ -2622,7 +2631,8 @@ mofosex.com###starburst-header > div:has-text(Advert):not([class])
 mofosex.com###spankVideo > div:has-text(Close)
 
 !definebabe.com
-!definebabe.com##section:first-of-type
+definebabe.com##.channel-link > .clr
+definebabe.com##.partner-block
 
 !bustybloom.com
 ||bustybloom.com^*/banners/*$image,1p
@@ -2795,12 +2805,11 @@ ally.sh##.adsbygoogle
 ||adshort.*/sw.js$script,1p
 ||adshort.*/undefined$image,1p
 clk.ink##+js(noeval)
-clk.ink##+js(aopr, _0xbc13)
+clk.ink,adshort.*##+js(aopr, _0xbc13)
 clk.ink##+js(acis, document.createElement, 'script')
 adshort.*##+js(set, blurred, false)
 adshort.*##+js(aopr, open)
 adshort.*##+js(aopr, TID)
-adshort.*##+js(aopr, _0xbc13)
 buyitonline.store,yesmoviesapp.info,newskart.xyz,viralnow.xyz,iitjeemainguide.in,utimetableresult.in,geki.tech,govtsmartjob.com,clk.ink,blogginggyanbox.com##.box-main > center
 buyitonline.store,yesmoviesapp.info,newskart.xyz,viralnow.xyz,iitjeemainguide.in,utimetableresult.in,geki.tech,govtsmartjob.com,clk.ink,blogginggyanbox.com##.text-left
 buyitonline.store,yesmoviesapp.info,newskart.xyz,viralnow.xyz,iitjeemainguide.in,utimetableresult.in,geki.tech,govtsmartjob.com,clk.ink,blogginggyanbox.com##.banner
@@ -3198,11 +3207,6 @@ erome.com##+js(aopr, tia)
 !fapality.com
 ||fapality.com/*.jsx$script,1p
 
-!ouo.press
-||ouo.press/sw*.js$script,1p
-ouo.press##+js(window.open-defuser)
-ouo.press##+js(nano-sib)
-
 !uploadrar.com
 *$3p,script,domain=uploadrar.com
 uploadrar.com###lastnews
@@ -3316,13 +3320,13 @@ cuus.io##.r-bg
 cuus.io##.payments
 
 !exe.io
-!exe.io|iddeas.xyz|techbeast.xyz
-exe.io,iddeas.xyz,techbeast.xyz##+js(aopr, doFunction)
-iddeas.xyz##+js(window.open-defuser)
-exe.io,iddeas.xyz,techbeast.xyz##+js(set, blurred, false)
-exe.io,iddeas.xyz,techbeast.xyz##.faq
-exe.io,iddeas.xyz,techbeast.xyz##.col-md-4, .col-md-8
-exe.io,iddeas.xyz,techbeast.xyz##.content
+!exe.io|iddeas.xyz|techbeast.xyz|teaz.site|landd.xyz
+exe.io,iddeas.xyz,techbeast.xyz,teaz.site,landd.xyz##+js(aopr, doFunction)
+iddeas.xyz,teaz.site,landd.xyz##+js(window.open-defuser)
+exe.io,iddeas.xyz,techbeast.xyz,teaz.site,landd.xyz##+js(set, blurred, false)
+exe.io,iddeas.xyz,techbeast.xyz,teaz.site,landd.xyz##.faq
+exe.io,iddeas.xyz,techbeast.xyz,teaz.site,landd.xyz##.col-md-4, .col-md-8
+exe.io,iddeas.xyz,techbeast.xyz,teaz.site,landd.xyz##.content
 
 !ma3lomapost.com
 ma3lomapost.com##.blog-content
@@ -3330,13 +3334,15 @@ ma3lomapost.com##.blog-content
 !nudepatch.net
 nudepatch.net###DynamicBackgroundWrapper
 
-!ouo.io
-||ouo.io/worker.js$script,1p
-||ouo.io/sw*.js$script,1p
-ouo.io##+js(nano-sib)
-ouo.io##.text-center > div > [href]
-ouo.io##.content > div > [href]
-ouo.io##article > div > [href]
+!ouo.*
+||ouo.*/worker.js$script,1p
+||ouo.*/sw*.js$script,1p
+||ouo.*/serviceWorker.js$script,1p
+ouo.*##+js(nano-sib)
+ouo.*##+js(window.open-defuser)
+ouo.*##.text-center > div > [href]
+ouo.*##.content > div > [href]
+ouo.*##article > div > [href]
 
 !seekingalpha.com
 seekingalpha.com/service-worker.js$script,1p,important
@@ -3966,9 +3972,12 @@ clubglamour.net##center > table > tbody > tr > td:first-child
 clubglamour.net##.ghostStyle_1
 
 !sexybabesart.com
+||sexybabesart.com^$script,1p
 sexybabesart.com##+js(aopr, loadTool)
 sexybabesart.com##+js(aopr, ExoLoader.serve)
 sexybabesart.com##+js(set, floaderLoaded, noopFunc)
+sexybabesart.com##+js(aopr, ExoLoader.addZone)
+sexybabesart.com##+js(aopr, document.dispatchEvent)
 sexybabesart.com##.content > .spots-box
 sexybabesart.com##.page-layout > .spots-box
 sexybabesart.com##.content-msg
@@ -4365,6 +4374,7 @@ sexyhub.com,danejones.com,lesbea.com###root:style(filter: blur(0px) !important;)
 !leechall.*
 leechall.*##.alert
 leechall.*##.text-center > [href]
+leechall.*##.logo
 
 !vidop.icu
 vidop.icu##+js(noeval)
@@ -4408,9 +4418,6 @@ pornsexer.com##.fp-brand
 
 !twitter.com
 ||twitter.com/push_service_worker.js$script,1p
-
-!ouo.today
-||ouo.today/serviceWorker.js$script,1p
 
 !openloadporn.site
 openloadporn.site##+js(aopr, exoJsPop101)
@@ -4581,8 +4588,10 @@ filetitle.com##.extend_premium
 !fileleech.net
 ||fileleech.net/js/propeller.js$script,1p
 
-!bc.vc
-bc.vc##+js(acis, Math, zfgloaded)
+!bc.vc domains
+@@||bcvc.*/dist/js/ads.js$script,1p
+bc.vc,bcvc.*##+js(acis, Math, zfgloaded)
+bcvc.*##+js(window.open-defuser)
 
 !ecleneue.com
 @@||pushokey.com/ntfc.php$script,3p,domain=ecleneue.com
@@ -4789,6 +4798,7 @@ nextpink.com##.banner
 ||hornystyle.com/gallery/sponsor/$image,1p
 hornystyle.com###sponsor-holder
 hornystyle.com###sidebar > .box:has-text(Sponsor)
+hornystyle.com###content-slider > .box:has-text(Sponsors)
 
 !latestseoupdate.com
 latestseoupdate.com##+js(acis, Math, zfgloaded)
@@ -4816,3 +4826,13 @@ ventax.net##+js(set, blurred, false)
 
 !viduplayer.com
 viduplayer.com##.jw-logo
+
+!fastpic.ru
+fastpic.ru^$frame,1p
+fastpic.ru###bright
+fastpic.ru###bleft
+
+!hdpornz.biz
+||hdpornz.biz/banner/*$image,1p
+hdpornz.biz##+js(aopw, _pop)
+hdpornz.biz##+js(acis, Object.defineProperty, absda)
