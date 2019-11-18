@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 1.7
+!Update: 1.8
 
 
 !Dark theme does not include recaptcha used by the site.
@@ -107,7 +107,7 @@ short.pe###mainNav:style(background: #404040 !important;)
 
 
 !Dark Theme.
-ouo.press##.skip-container:style(background: #404040 !important;)
+ouo.*##.skip-container:style(background: #404040 !important;)
 
 
 !Dark Theme.
@@ -118,3 +118,24 @@ bc.vc##.redirectSc:style(background: #404040 !important;)
 short.pe###link-view > p:style(color: #FFFFFF !important;)
 short.pe##.skip-ad > .text-center > span:style(color: #FFFFFF !important;)
 short.pe##.skip-ad > .text-center > .counter:style(color: #FFFFFF !important;)
+
+
+!Dark Theme.
+leechall.*##body:style(background: #353535 !important;)
+leechall.*###unrestrict.brand-btn:style(background-color: #181818 !important; border: 2px solid #656565 !important; box-shadow: 0 0 6px #606060 !important;)
+leechall.*##.clear-btn.brand-btn:style(background-color: #181818 !important; border: 2px solid #656565 !important; box-shadow: 0 0 6px #606060 !important;)
+leechall.*##.logo
+leechall.*##.contact-icon:style(color: #FFFFFF !important;)
+leechall.*##.info-content > ul > li > span:style(color: #909090 !important;)
+leechall.*##.col-sm-8 > h3:style(color: #909090 !important;)
+leechall.*##.user-info > ul > li:style(color: #909090 !important;)
+leechall.*##.user-info > h3:style(color: #909090 !important;)
+leechall.*###generator > #link:style(background-color: #555555 !important; border: 2px solid #606060 !important; box-shadow: 0 0 6px #909090 !important;)
+leechall.*##.wrap-logo:style(background-color: transparent !important;)
+leechall.*##.download-main-content:style(background: #606060 !important; border: 2px solid #353535 !important; box-shadow: 0 0 6px #454545 !important;)
+leechall.download##.about > .row > .section-title > h2:style(color: #FFFFFF !important;)
+leechall.download##.terms > .row > .section-title > h2:style(color: #FFFFFF !important;)
+leechall.download##.terms > .row > .col-sm-9 > h3:style(color: #FFFFFF !important;)
+leechall.download##.about > .row > .col-sm-9 > h3:style(color: #FFFFFF !important;)
+leechall.download##.section-space > .row > .col-sm-9 > ul > li:style(color: #FFFFFF !important;)
+leechall.download##p:style(color: #FFFFFF !important;)
