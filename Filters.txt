@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 211
+!Update: 212
 
 
 !Assortment of ad/tracking servers not found in Peter Lowe's
@@ -626,6 +626,19 @@ preRoll.php$xhr
 ||iclwy.xyz^
 ||dddomainccc.com^
 ||yotraff.com^
+||yterxv.com^
+||bigbangbon.online^
+||montafp.top^
+||dropkickmedia.com^
+||servingmillions.com^
+||trustyfine.com^
+||jodellbrought.pro^
+||meryjane.pro^
+||bruceleadx2.com^
+||optsynch.com^
+||leadmy.pl^
+||nonamecountry*.live^
+||sdsttt.com^
 
 !Other
 ||gstatic.com/cv/js/sender/*/cast_sender.js$script
@@ -685,6 +698,8 @@ youtube.com##.ytp-fullerscreen-edu-chevron
 youtube.com##.ytp-miniplayer-button
 youtube.com##[aria-label^="Play on TV"]
 youtube.com###fvdDownloader_page_button
+youtube.com##[aria-label^="Watch later"]
+youtube.com##[aria-label^="Add to queue"]
 
 !pornhd.com
 @@||protoawe.com^$script,frame,3p,domain=pornhd.com
@@ -699,8 +714,8 @@ pornhd.com##.under-video-zone
 pornhd.com##.outside > [href^="/cnnct/stat"]
 
 !hiqqu.xxx
-||hiqqu.xxx/static/scripts.js$script,1p
 hiqqu.xxx##+js(set, adsEnabled, true)
+hiqqu.xxx##[style^="width:728px;height:90px;margin:0 auto;overflow:hidden"]
 
 !gotporn.com
 gotporn.com###floaterBanner
@@ -743,18 +758,17 @@ dailycaller.com###share-wrapper > .columns.socialbuttons
 
 !eiheispot1.blog.fc2.com
 eiheispot1.blog.fc2.com##.cAmazonFluct
-eiheispot1.blog.fc2.com##div.body3:nth-of-type(4)
 eiheispot1.blog.fc2.com##.cAccessRanking
 eiheispot1.blog.fc2.com##[class*="cSponsored_Link"]
 eiheispot1.blog.fc2.com##.headline
+eiheispot1.blog.fc2.com##.cAmazon
 
 !nudeyoga.net
 ||nudeyoga.net/player/html.php$frame,1p
 nudeyoga.net##.adv
 
 !powerbot.org
-powerbot.org###fj458
-powerbot.org###\33 434esdf
+powerbot.org##[style^="margin-bottom:3px; max-width:100%"]
 powerbot.org##[id*="maybe"]
 powerbot.org##[href^="https://discord.gg/"]
 
@@ -769,7 +783,7 @@ nudelas.com##center
 
 !camwhoreshd.com
 *$3p,websocket,domain=camvideos.org|cwtvembeds.com
-@@||camwhoreshd.com$csp
+@@||camwhoreshd.com^$csp
 camwhoreshd.com##body > div:nth-of-type(3)
 camwhoreshd.com##.spots--cards.spots
 camwhoreshd.com##.topad
@@ -790,7 +804,7 @@ txxx.com##tbody
 txxx.com##.link_light
 txxx.com##.text-center
 txxx.com##.rek-item__header
-txxx.com##.section--video > [class]:has-text(Advertisement):not(.player)
+txxx.com##[class*="video"] > [class]:has-text(Advertisement):not([class*="video-page"]):not(.left)
 txxx.com##.hYbus
 
 !twistys.com
@@ -843,6 +857,7 @@ xbabe.com##+js(aeld, popstate)
 xbabe.com##+js(aopr, document.dispatchEvent)
 
 !upornia.com
+||upornia.com/*/teo$script,1p
 upornia.com##.fel-playclose
 upornia.com##.sidebar
 upornia.com##.feedback
@@ -961,10 +976,13 @@ mpgh.net##[style^="width: 250px; float: left; padding: 5px; height: 75px;"]
 mpgh.net##[id^="aps_"]
 
 !empflix.com
+||empflix.com/combine/mew.js$script,1p
 empflix.com##.feedbackFixed
 empflix.com##.zUnderPlayer
 empflix.com##.pspBanner
 empflix.com##.pInterstitial
+empflix.com###vidPlayer > .rightBarBannersx
+empflix.com###zoneInPlayer
 
 !platinmods.com
 platinmods.com###exposeMask
@@ -1399,7 +1417,7 @@ redtube.com##.gallery_list_container > div
 redtube.com###content_container > .content_limit > [class]:not([class*="_"])
 
 !4tube.com
-4tube.com##+js(aopr, window.history)
+4tube.com##+js(json-prune)
 4tube.com###\32 3403 > a[href^="/adc/4tube_b2.php"]
 4tube.com##.la-vane-frame
 4tube.com##.footer-la-vane
@@ -1550,6 +1568,7 @@ bungie.net##.sidenav_promo
 !morazzia.com
 ||morazzia.com^$frame,1p
 morazzia.com##+js(sid, reload2)
+morazzia.com##+js(ra, href, [href^="/click/o/"])
 morazzia.com##:xpath(//*[@id="squeeze"]/div/div/div/div[1]/div/table/tbody/tr[4])
 morazzia.com##:xpath(//*[@id="squeeze"]/div/div/div/div[1]/div/table/tbody/tr[8])
 morazzia.com##:xpath(//*[@id="squeeze"]/div/div/div/div[1]/div/table/tbody/tr/td/p)
@@ -1762,6 +1781,7 @@ wikia.com,fandom.com##[class*="-sponsored-content"]
 !sensualgirls.org
 sensualgirls.org/php/*.js$script,1p
 sensualgirls.org##+js(aopr, document.dispatchEvent)
+sensualgirls.org##+js(ra, href, [href^="http://join."]
 sensualgirls.org##[class*="banner"]
 sensualgirls.org##[id^="box"]:has-text(You have Adblock enabled)
 sensualgirls.org##[style*="base64"]
@@ -1822,12 +1842,13 @@ hottystop.com##+js(aopr, loadTool)
 hottystop.com##video
 hottystop.com##.thumbnail
 hottystop.com##.Box_Large_Content > center > [href]
-hottystop.com##.Box_Large_Content > [href]
 hottystop.com##u > center > [href]:not([href*="hottystop.com"])
+hottystop.com##.Box_Large_Content > [href]:not([href^="https://www.hottystop.com/"])
 hottystop.com##.NavBarLink:has-text(LIVE)
 hottystop.com##[href*=".php"]
 hottystop.com##[style*="base64"]
 hottystop.com##.Box_Large_Content > h3:has-text(Live girls)
+hottystop.com##u > h3
 
 !shameless.com
 shameless.com##+js(aopr, ExoLoader.serve)
@@ -1892,6 +1913,7 @@ hqbabes.com##[href="/m/cams.menu/"], [href="/m/store.main/"]
 
 !porntrex.com
 ||porntrex.com/swp.js$script,1p
+||porntrex.com/images/*$image,1p
 porntrex.com##.fp-embed
 porntrex.com##.table
 porntrex.com##[class*="fake-player"]
@@ -2069,11 +2091,14 @@ primecurves.com##.header-top:style(position: absolute !important;)
 !xxxbunker.com
 @@||xxxbunker.com/js/functions_*.js$script,1p
 xxxbunker.com##.spbDisabled
+xxxbunker.com###floater
 
 !hellporno.*
 ||hellporno.*$script,frame,1p
-@@||js.helltraffic.com/fluidplayer/*$script,domain=hellporno.com|hellporno.net
-@@||js.helltraffic.com/fluidplayer/images/*$image,domain=hellporno.com|hellporno.net
+@@||hellporno.*/js/Kernel$script,1p
+@@||hellporno.*/js/assets$script,1p
+@@||hellporno.*/js/mobile$script,1p
+@@||hellporno.*/fluidplayer/$script,1p
 hellporno.*##.bnnrs-player
 hellporno.com##[class*="banner"]
 hellporno.com##.tabs
@@ -2302,35 +2327,36 @@ efappy.com##+js(aopr, document.dispatchEvent)
 
 !sexy-youtubers.com
 @@||fluidplayer.com$script,3p,domain=sexy-youtubers.com
-sexy-youtubers.com##+js(aopr, document.dispatchEvent)
 sexy-youtubers.com##+js(window.open-defuser)
 sexy-youtubers.com##+js(aopr, ExoLoader.serve)
 sexy-youtubers.com###forumcustom
 sexy-youtubers.com##.td-scroll-up
 sexy-youtubers.com##[href]:not([href^="#"]):not([href*="sexy-youtubers"]):not([href*="verystream"]):not([href^="/"]):not([href*="forums"]):not([class*="es"])
+sexy-youtubers.com##:xpath(//*[@id="td-outer-wrap"]/div[2]/div/div[2]/div[2]/div/aside[1])
+sexy-youtubers.com##:xpath(//*[@id="td-outer-wrap"]/div[2]/div/div[2]/div[2]/div/aside[2])
+sexy-youtubers.com##:xpath(//*[@id="td-outer-wrap"]/div[2]/div/div[2]/div[2]/div/aside[3])
+sexy-youtubers.com##:xpath(//*[@id="td-outer-wrap"]/div[2]/div/div[2]/div[2]/div/aside[4])
 
 !thothub.tv
+*$3p,xhr,domain=thothub.tv
 thothub.tv##+js(window.open-defuser)
 thothub.tv##+js(acis, document.createElement, 'script')
 thothub.tv##.g1-back-to-top
 thothub.tv##.chaturbate
 thothub.tv##.menu-item > [href]:not([href*=thothub])
 thothub.tv##[class$="_popup"]
-thothub.tv##[href="https://thothub.tv/support-thothub-tv/"]
-thothub.tv##[href*="join-thothubs-tshirt-design-contest-now/"]
-thothub.tv##[href="https://thothub.tv/category/uncategorized/"]
 thothub.tv##.category-uncategorized
 thothub.tv##.g1-injected-unit
 thothub.tv##[id*="ScriptRoot"]
 thothub.tv##p > [href^="https://forum.thothub.tv/"]
 thothub.tv##.g1-row-inner > #secondary
-thothub.tv##[href="https://thothub.tv/go/adult-games"], [href="https://thothub.tv/go/free-live-cams"]
+thothub.tv##[href="https://thothub.tv/go/adult-games"], [href="https://thothub.tv/go/free-live-cams"], [href="https://thothub.tv/category/uncategorized/"], [href*="join-thothubs-tshirt-design-contest-now/"], [href="https://thothub.tv/support-thothub-tv/"]
 thothub.tv##.adguy
 thothub.tv##:xpath(//*[@id]/div[1]/div[1]/div/div/div/div[2])
 thothub.tv##.g1-collection-item:has([class*="game"])
 
 !feet9.com
-feet9.com##+js(aopr, trackOutboundLink)
+feet9.com##+js(ra, trackOutboundLink)
 feet9.com##+js(aopr, _0xe818)
 feet9.com##+js(aopr, Feet9Push)
 feet9.com##.hvr-pulse
@@ -2490,9 +2516,7 @@ isea2016.info##.girl
 
 !hotxxxpussy.com
 *$3p,popup,domain=hotxxxpussy.com
-||trustyfine.com^$xhr,3p,domain=hotxxxpussy.com
 hotxxxpussy.com##+js(window.open-defuser)
-hotxxxpussy.com##+js(aeld, onbeforeunload)
 hotxxxpussy.com###divExoLayerWrapper
 hotxxxpussy.com##.ho-ba
 
@@ -2510,8 +2534,8 @@ groobygirls.com##.rabbits > center
 ||vidmo.org/*frame_*.php$frame,1p
 ||vidmo.org/serviceworker.js$script,1p
 vidmo.org##+js(acis, document.createElement, 'script')
+vidmo.org##+js(acis, console.log)
 vidmo.org###afrb
-vidmo.org##.items:nth-of-type(17)
 
 !pornjam.com
 pornjam.com##.banner-frame
@@ -3320,13 +3344,14 @@ cuus.io##.r-bg
 cuus.io##.payments
 
 !exe.io
-!exe.io|iddeas.xyz|techbeast.xyz|teaz.site|landd.xyz
-exe.io,iddeas.xyz,techbeast.xyz,teaz.site,landd.xyz##+js(aopr, doFunction)
-iddeas.xyz,teaz.site,landd.xyz##+js(window.open-defuser)
-exe.io,iddeas.xyz,techbeast.xyz,teaz.site,landd.xyz##+js(set, blurred, false)
-exe.io,iddeas.xyz,techbeast.xyz,teaz.site,landd.xyz##.faq
-exe.io,iddeas.xyz,techbeast.xyz,teaz.site,landd.xyz##.col-md-4, .col-md-8
-exe.io,iddeas.xyz,techbeast.xyz,teaz.site,landd.xyz##.content
+!exe.io|iddeas.xyz|techbeast.xyz|teaz.site|landd.xyz|eio.io
+*/img/blank*$image,1p,domain=exe.io|eio.io
+exe.io,iddeas.xyz,techbeast.xyz,teaz.site,landd.xyz,eio.io##+js(aopr, doFunction)
+iddeas.xyz,teaz.site,landd.xyz,eio.io##+js(window.open-defuser)
+exe.io,iddeas.xyz,techbeast.xyz,teaz.site,landd.xyz,eio.io##+js(set, blurred, false)
+exe.io,iddeas.xyz,techbeast.xyz,teaz.site,landd.xyz,eio.io##.faq
+exe.io,iddeas.xyz,techbeast.xyz,teaz.site,landd.xyz,eio.io##.col-md-4, .col-md-8
+exe.io,iddeas.xyz,techbeast.xyz,teaz.site,landd.xyz,eio.io##.content
 
 !ma3lomapost.com
 ma3lomapost.com##.blog-content
@@ -3616,7 +3641,7 @@ luscious.net###advertisement_adhesion
 ||google.com/serviceworker.js$script,1p
 ||google.com/drive/serviceworker*.js$script,1p
 google.com##[href] > .LC20lb:style(font-size: 18px !important;)
-google.com##[href^="https://peoplessystemsystem.de"], [href^="https://yearculturalthing.today"], [href^="https://investmenthimself.xyz"], [href^="https://thingwaterevening.today"]
+google.com##[href^="https://peoplessystemsystem.de"], [href^="https://yearculturalthing.today"], [href^="https://investmenthimself.xyz"], [href^="https://thingwaterevening.today"], [href^="https://dropshoweverstory.best"] 
 google.com##c-wiz > div:has-text(Sponsored)
 
 !apex.tracker.gg
@@ -3721,6 +3746,8 @@ pinflix.com##.under-video-channel-link
 pinflix.com##.live-sex
 
 !heroero.com
+heroero.com##+js(acis, document.createElement, "script")
+heroero.com##+js(window.open-defuser)
 heroero.com##[href^="http://tour.mrskin.com/"]
 heroero.com##.opt
 
@@ -3793,6 +3820,7 @@ ashemaletube.com##[class*="-ads-remove-bar"]
 
 !ashemaletv.com
 ||ashemaletv.com/includes/*.php$frame,1p
+ashemaletv.com##+js(aopr, decodeURI)
 ashemaletv.com###playerOverlay
 ashemaletv.com##.advertisement
 
@@ -4303,12 +4331,13 @@ jenysmith.net###valentines-gifts-popup
 ||yeapornpls.com/cdn-cgi/apps/body/*.js$script,1p
 ||facebook.*$script,frame,3p,domain=yeapornpls.com|manyvideos.xyz
 
-!techkreative.xyz|newsteez.com
+!techkreative.xyz|newsteez.com|wildzz.com|poetriart.com|myenemy.club|dares.xyz
 techkreative.xyz##+js(fuckadblock.js-3.2.0)
-techkreative.xyz,newsteez.com##+js(nano-sib)
+techkreative.xyz,newsteez.com,wildzz.com,poetriart.com,myenemy.club,dares.xyz##+js(nano-sib)
 techkreative.xyz,newsteez.com##.content-sidebar-wrap
-techkreative.xyz,newsteez.com##.site-header
-newsteez.com##[id^="aswift_"]
+techkreative.xyz,newsteez.com,wildzz.com,poetriart.com,myenemy.club,dares.xyz##[class*="site-header"]
+wildzz.com,poetriart.com,myenemy.club,dares.xyz###content
+newsteez.com,wildzz.com##[id^="aswift_"]
 
 !brookelynnebriar.com
 */socket.io/*$xhr,domain=brookelynnebriar.com
@@ -4375,6 +4404,7 @@ sexyhub.com,danejones.com,lesbea.com###root:style(filter: blur(0px) !important;)
 leechall.*##.alert
 leechall.*##.text-center > [href]
 leechall.*##.logo
+leechall.*###overly
 
 !vidop.icu
 vidop.icu##+js(noeval)
@@ -4715,6 +4745,7 @@ fuckingbreak.com##.tlinks > li > [href]:not([href^="https://www.fuckingbreak.com
 !9anime.*
 9anime.*###main > .content > [class*="hidden-"]
 9anime.*##[style^="width:728px;height:90px;display:inline-block"]
+9anime.*##.alert
 
 !sankakucomplex.com
 sankakucomplex.com##.censored img:style(filter: blur(0px) !important;)
@@ -4835,4 +4866,55 @@ fastpic.ru###bleft
 !hdpornz.biz
 ||hdpornz.biz/banner/*$image,1p
 hdpornz.biz##+js(aopw, _pop)
-hdpornz.biz##+js(acis, Object.defineProperty, absda)
+hdpornz.biz##+js(aopr, absda)
+
+!myfile.is
+||myfile.is/sw$script,1p
+
+!runemate.com
+runemate.com##.sponsored
+
+!bigvintageporn.com|bdsmsex.pro|redxxxsex.com|newpornfilms.com|xxxmomfuck.com
+*$3p,popup,domain=bigvintageporn.com|bdsmsex.pro|redxxxsex.com|newpornfilms.com|xxxmomfuck.com
+*/func.js$script,1p,domain=bigvintageporn.com|bdsmsex.pro|redxxxsex.com|newpornfilms.com|xxxmomfuck.com
+bigvintageporn.com,bdsmsex.pro,redxxxsex.com,newpornfilms.com,xxxmomfuck.com###topbar
+bigvintageporn.com##.BotBnsList
+bdsmsex.pro##.player-right-col
+bdsmsex.pro##.player-bot-b
+redxxxsex.com,xxxmomfuck.com##.ad-on-video
+redxxxsex.com##.admin-frame-wrap
+redxxxsex.com##.bot_bs
+redxxxsex.com##.video_bl_r_b
+redxxxsex.com##.video_un_pl
+newpornfilms.com##.SHVidBlockUndBn
+newpornfilms.com##.SHVidBlockR
+newpornfilms.com##.SAbnsBotBl
+xxxmomfuck.com##.ott_head_right_b
+xxxmomfuck.com##.rplayer_bnr
+xxxmomfuck.com##.mbnr
+xxxmomfuck.com##.undrplbnr
+
+!fap18.net
+fap18.net##+js(aeld, popstate)
+
+!planetsuzy.org
+planetsuzy.org##[id^="ad-header-"]
+
+!pornwhite.com
+||pornwhite.com/js/customscript.js$script,1p
+
+!hclips.com
+hclips.com##.player > [data^="desktop_underplayer"]
+
+!watchcartoon.cc
+watchcartoon.cc##.spu-bg
+
+!hothag.com
+hothag.com##[style^="width:728px;height:90px;background:#FAFAFA;margin:0 0 15px 0;"]
+hothag.com##[style^="width:300px;height:250px;background:#FAFAFA;margin:0 0 10px 0;"]
+
+!darkcategories.com
+darkcategories.com###sss
+
+!videolucah.*
+videolucah.*##+js(set, Math.random, noopFunc)
