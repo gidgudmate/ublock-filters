@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 1.8
+!Update: 1.9
 
 
 !Dark theme does not include recaptcha used by the site.
@@ -121,6 +121,7 @@ short.pe##.skip-ad > .text-center > .counter:style(color: #FFFFFF !important;)
 
 
 !Dark Theme.
+leechall.*##.col-sm-4 > h3:style(color: #909090 !important;)
 leechall.*##body:style(background: #353535 !important;)
 leechall.*###unrestrict.brand-btn:style(background-color: #181818 !important; border: 2px solid #656565 !important; box-shadow: 0 0 6px #606060 !important;)
 leechall.*##.clear-btn.brand-btn:style(background-color: #181818 !important; border: 2px solid #656565 !important; box-shadow: 0 0 6px #606060 !important;)
