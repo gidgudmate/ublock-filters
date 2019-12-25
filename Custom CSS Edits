@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 1.9
+!Update: 2
 
 
 !Dark theme does not include recaptcha used by the site.
@@ -140,3 +140,12 @@ leechall.download##.terms > .row > .col-sm-9 > h3:style(color: #FFFFFF !importan
 leechall.download##.about > .row > .col-sm-9 > h3:style(color: #FFFFFF !important;)
 leechall.download##.section-space > .row > .col-sm-9 > ul > li:style(color: #FFFFFF !important;)
 leechall.download##p:style(color: #FFFFFF !important;)
+
+
+!Dark Theme.
+pornhd.com##.desktop:style(background: #282828 !important;)
+pornhd.com##.page-header:style(background: #303030 !important; border: 2px solid #303030 !important; box-shadow: 0 0 8px #606060 !important;)
+pornhd.com##.pornnetwork-header:style(background: #323232 !important; border: 2px #323232 !important;)
+pornhd.com###searchInput:style(background-color: #252525 !important; border: 3px #252525 !important; box-shadow: 0 0 5px #404040 !important;)
+pornhd.com###footer:style(background: #282828 !important; border-top: 2px solid #606060 !important;)
+pornhd.com##html:style(background-color: #282828 !important;)
