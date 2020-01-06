@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 2
+!Update: 2.1
 
 
 !Dark theme does not include recaptcha used by the site.
@@ -74,6 +74,7 @@ ckk.ai##body:style(background: #191919 !important;)
 ckk.ai##.copyright-container:style(background-color: #404040 !important;)
 ckk.ai##.box-main:style(background: #212121 !important; border-top: 2px solid #212121 !important;)
 ckk.ai###countdown:style(color: #FFFFFF !important; border: 2px solid #FFFFFF !important;)
+ckk.ai##pre:style(color: #FFFFFF !important;)
 
 
 !Dark Theme.
@@ -104,6 +105,7 @@ short.pe##body:style(background: #191919 !important;)
 short.pe##.box-main:style(background: #404040 !important; border: 2px solid #404040 !important;)
 short.pe##.copyright-container:style(background: #404040 !important;)
 short.pe###mainNav:style(background: #404040 !important;)
+short.pe##pre:style(color: #FFFFFF !important;)
 
 
 !Dark Theme.
@@ -140,6 +142,7 @@ leechall.download##.terms > .row > .col-sm-9 > h3:style(color: #FFFFFF !importan
 leechall.download##.about > .row > .col-sm-9 > h3:style(color: #FFFFFF !important;)
 leechall.download##.section-space > .row > .col-sm-9 > ul > li:style(color: #FFFFFF !important;)
 leechall.download##p:style(color: #FFFFFF !important;)
+leechall.download##pre:style(color: #FFFFFF !important;)
 
 
 !Dark Theme.
