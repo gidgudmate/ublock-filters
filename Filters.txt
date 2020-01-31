@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 219
+!Update: 220
 
 !Badware/Malware redirects
 ||promo-bc.com
@@ -546,6 +546,8 @@ youtube.com##[aria-label^="Add to queue"]
 
 !pornhd.com
 @@||protoawe.com^$script,frame,3p,domain=pornhd.com
+@@||prtawe.com^$script,domain=pornhd.com
+@@||awemwh.com^$media,domain=prtawe.com
 @@||pornhd.com/pornhd/header/pornstar/*$image,1p
 pornhd.com##+js(aopr, exoJsPop101)
 pornhd.com##+js(set, popUnderUrl, noopFunc)
@@ -702,6 +704,7 @@ xbabe.com##+js(aeld, popstate)
 
 !upornia.com
 ||tubecup.org^$important,domain=upornia.com,badfilter
+||upornia.com/sw.js$script,1p
 @@||upornia.com/*/teo$script,1p
 upornia.com##+js(aopr, exoNoExternalUI38djdkjDDJsio96)
 upornia.com##.fel-playclose
@@ -1403,6 +1406,7 @@ youjizz.com###partnerPr
 youjizz.com##.underPlayerPr
 
 !adultdvdempire.com
+adultdvdempire.com##.navbar:style(position: absolute !important;)
 adultdvdempire.com##.breakout:has-text(Promotion)
 adultdvdempire.com##.advertisments
 adultdvdempire.com##.blog-teaser
@@ -2168,6 +2172,7 @@ spicybabe.net##.topbutton
 spicybabe.net##.shell2
 
 !hotmovs.com
+||hotmovs.com/sw.js$script,1p
 hotmovs.com###channel-video-banner
 hotmovs.com###toTop
 hotmovs.com##[class^="mjs-closeplay__"]
@@ -2453,20 +2458,13 @@ oldnavy.gap.com##.mkt-svg-overlay
 !simplemetart.com
 simplemetart.com##.banner-lg
 
-!123movieshub.com
-123movieshub.com##.gomovies_go_home_notice:first-child
-
-!porn-kino.online
-||porn-kino.online/*/dom.php$script,1p
-||porn-kino.online/block_script.php$script,1p
-porno-kino.online###age_confirm_t
-
 !lesbianpornvideos.com
 lesbianpornvideos.com##.wrap > center
 lesbianpornvideos.com###related_videos > div:nth-of-type(4) > center:nth-of-type(1)
 
 !lesbian8.com
 ||lesbian8.com/ko/$frame,1p
+||lesbian8.com/lu/$script,1p
 lesbian8.com##+js(aopr, BetterJsPop)
 lesbian8.com##+js(aopr, Salamo)
 lesbian8.com##+js(aopr, Samesa)
@@ -2558,11 +2556,6 @@ asspoint.com##.wrap > :has-text(advertisement)
 
 !wikipedia.org
 wikipedia.org##[id*=Banner]
-
-!l24g.pw/lg731.me
-l24g.pw,lg731.me##.adsbygoogle
-l24g.pw,lg731.me##.banner-inner
-l24g.pw,lg731.me##.text-left
 
 !ewa.ac
 ||s3.amazonaws.com^$xhr,domain=ewa.ac
@@ -2731,8 +2724,9 @@ fta-fet.com##.banner
 healthereview.com##.banner
 
 !celebmasta.com
-||celebmasta.com^*/superpwa-sw.js$script,1p
+||celebmasta.com/*sw.js$script,1p
 ||celebmasta.com/wp-content/themes/celeb-masta/js/ablakjo.js$script,1p
+celebmasta.com##+js(aeld, load, serviceWorker)
 celebmasta.com##+js(aopw, dataPopUnder)
 celebmasta.com##[href^="https://go.celebmasta.live/"], [href^="https://mwzxe.jump-your-bones.com/"]
 celebmasta.com###text-22, #text-35, #text-44
@@ -3164,6 +3158,7 @@ videopornoitalia.it##.thumb > a:style(background-color: transparent !important;)
 
 !porneq.com
 *$3p,xhr,domain=porneq.com
+porneq.com##+js(acis, document.createElement, 'script')
 porneq.com##.bAd
 porneq.com##.overlay:style(background: transparent !important;)
 
@@ -3483,6 +3478,7 @@ xfantasy.tv##[href]:not([href^="/"]):not([href*="xfantasy.tv"])
 ||camwhores.tv/*action=js_online_status$image,1p
 ||nsimg.net$image,3p,domain=camwhores.tv|camwhores.video
 *$script,3p,domain=camwhores.tv
+*$subdocument,domain=camwhores.tv,badfilter
 @@||camwhores.tv^$csp
 camwhores.*##.adv
 camwhores.*##.cp-webcam-gallery-container
@@ -4784,6 +4780,7 @@ xxxmomfuck.com##.mbnr
 xxxmomfuck.com##.undrplbnr
 
 !fap18.net
+fap18.net##+js(nostif, new_target)
 fap18.net##+js(aeld, popstate)
 
 !planetsuzy.org
