@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 220
+!Update: 221
 
 !Badware/Malware redirects
 ||promo-bc.com
@@ -494,6 +494,16 @@ preRoll.php$xhr
 ||goonline13.online^
 ||punosy.*^
 ||148dfe140d0f3d5e.com^
+||lucienmann.pro^
+||scuseami.net^
+||sherwoodsutton.pro^
+||ramirocampos.pro^
+||debrahinton.pro^
+||adfree.space^
+||mooo.com^
+||topbetfast.com^
+||worldmapd.online^
+||forsiteid6346.tech^
 
 !Universal DOM edits
 ##[class*="chromecast"]
@@ -1270,7 +1280,6 @@ xvideos.com##.main-cat-change-alert-popup
 /redtube/js/common/common/service_worker_starter$xhr,important
 ||redtube.com/service_worker-*.js$script,1p
 redtube.com###show_page_streamate
-redtube.com###title_filter_wrapper > div:not(.filters_wrapper)
 redtube.com##.subtxt
 redtube.com##[id*="rel_videos"]:has(.premium-video-icon)
 redtube.com##.abovePlayer
@@ -1278,6 +1287,7 @@ redtube.com###event_row_section
 redtube.com###paid_tab_02
 redtube.com##.gallery_list_container > div
 redtube.com###content_container > .content_limit > [class]:not([class*="_"])
+redtube.com#@#.clearfix:has-text(Ads)
 
 !4tube.com
 4tube.com##.la-vane-frame
@@ -1290,6 +1300,8 @@ veporn.net##.sidebar-social
 
 !tubepornclassic.com
 @@||tubepornclassic.com/*/teo$script,1p
+tubepornclassic.com##+js(set, popunder, undefined)
+tubepornclassic.com##+js(set, TCPop, noopFunc)
 tubepornclassic.com##+js(aopr, BetterJsPop)
 tubepornclassic.com##+js(aopr, exoNoExternalUI38djdkjDDJsio96)
 tubepornclassic.com##.bottom-adv
@@ -1300,6 +1312,7 @@ tubepornclassic.com##.movable-top
 tubepornclassic.com##tbody
 tubepornclassic.com##.hYbus
 tubepornclassic.com##.block-video > [class]:not(.video-holder)
+tubepornclassic.com##.__nat_box
 
 !hdvintagetube.com
 hdvintagetube.com##[src="/images/undbn.gif"]
@@ -1384,6 +1397,7 @@ aznude.com##.ad-space
 aznude.com##.jw-related-shelf-container
 aznude.com##.recommended:has-text(Viral Pornstar Videos)
 aznude.com###switch-ad
+aznude.com##.ad-box
 
 !4chan.org
 boards.4chan.org##.warning
@@ -1644,6 +1658,8 @@ wikia.com,fandom.com##.featured-video__wrapper
 wikia.com,fandom.com##.top-bar
 wikia.com,fandom.com###mixed-content-footer
 wikia.com,fandom.com##[class*="-sponsored-content"]
+fandom.com##.banner-notifications-placeholder
+fandom.com###floating-scrollbar:style(position: absolute !important;)
 
 !sensualgirls.org
 ||sensualgirls.org/php/*.js$script,1p
@@ -2192,10 +2208,12 @@ mentalfloss.com##.ad-container
 
 !biguz.net
 ||biguz.net^$script,1p
+||biguz.net/vasttest.php$xhr,1p
 @@||biguz.net/js/fluidplayer.min.js$script,1p
 biguz.net##+js(aopr, document.dispatchEvent)
 biguz.net##+js(aopr, ExoLoader)
 biguz.net##+js(aopr, exoJsPop101)
+biguz.net##+js(aopr, XMLHttpRequest)
 
 !efappy.com
 efappy.com##+js(aopr, document.dispatchEvent)
@@ -2210,9 +2228,11 @@ sexy-youtubers.com##.widget:not(:has-text(/([A-Z])\w+)):not(:has(a[href*="sexy-y
 sexy-youtubers.com##.notices
 
 !thothub.tv
+||dropkickmedia.com^$xhr,domain=thothub.tv
 thothub.tv##+js(window.open-defuser)
 thothub.tv##+js(acis, document.createElement, 'script')
 thothub.tv##+js(set, adBlockDetected, true)
+thothub.tv##+js(aopr, XMLHttpRequest)
 thothub.tv##.g1-back-to-top
 thothub.tv##.chaturbate
 thothub.tv##[class$="_popup"]
@@ -2227,6 +2247,7 @@ thothub.tv##[class*="g1-collection-item-"]:has(a[href*="giveaway"])
 thothub.tv##[id^="menu-item-"]:has(a[href*="/go"])
 thothub.tv##[href*="theporndude"]
 thothub.tv##p > [href="https://forum.thothub.tv/index.php"]
+thothub.tv##[href^="https://t."]
 
 !feet9.com
 feet9.com##+js(aopr, trackOutboundLink)
@@ -2475,6 +2496,7 @@ lesbian8.com###player_logo_image
 ||biqle.ru/swp.js$script,1p
 biqle.ru##.message-container
 biqle.ru##.extension
+biqle.ru###barcode
 dxb.to##.videoplayer_ext
 
 !mrskin.com
@@ -2606,6 +2628,7 @@ cyahealth.com##.col-md-10
 
 !tubedupe.com
 ||tubedupe.com/*.php$image,1p
+tubedupe.com##+js(aopr, httpGetAsyncPp)
 
 !911asians.com
 ||911asians.com^$frame,1p
@@ -3095,6 +3118,7 @@ spankbang.com##.vjs-playback-rate
 spankbang.com##.top_video_spacer > [class]
 spankbang.com##.vjs-timeline-positions
 spankbang.com##.ttaa2v3
+spankbang.com##.live-item
 
 !erome.com
 erome.com##+js(aopr, tia)
@@ -3404,9 +3428,12 @@ imgtaxi.com##.if
 !proporn.com
 @@||protoawe.com$script,frame,domain=proporn.com
 proporn.com##+js(window.open-defuser)
-proporn.com##.contain:nth-child(10)
+proporn.com##+js(aopr, _0x586a)
 proporn.com#@#.c-meddenomination-output
+proporn.com##.contain:nth-child(10)
 proporn.com##.thr-rcol:has-text(Advertising)
+proporn.com##.it-download
+porporn.com##.contain:has-text(live cams)
 
 !pornalized.com
 pornalized.com##+js(aopw, __htapop)
@@ -4704,7 +4731,7 @@ shorten.sh##+js(window.open-defuser)
 shorten.sh##.text-left
 
 !busty-legends.com
-busty-legends.com/*/banners/$image,1p
+||busty-legends.com/*/banners/$image,1p
 
 !nextpink.com
 nextpink.com###container > [href] > [src]
@@ -4976,10 +5003,8 @@ pornbimbo.com##.fp-player > div:nth-child(5) > [src]
 fetish-bb.com##+js(aopr, exoJsPop101)
 
 !chomikuj.pl
-chomikuj.pl###adultModalOverlay
-chomikuj.pl###acceptChomikujTermsOverlay
-chomikuj.pl###acceptChomikujTermsContainer
-chomikuj.pl###adultModalContainer
+chomikuj.pl##[id^="adultModal"]
+chomikuj.pl##[id^="acceptChomikujTerms"]
 
 !pixhost.to
 pixhost.to##+js(aopr, exoJsPop101)
@@ -4989,3 +5014,21 @@ shon.xyz##.col-md-offset-3
 
 !pornbox.cc
 pornbox.cc##+js(aopr, exoJsPop101)
+
+!thepirate.top
+thepirate.top##+js(aopr, exoDocumentProtocol)
+
+!mirrored.to
+mirrored.to##+js(acis, document.createElement, "script")
+
+!laidhub.com
+laidhub.com##+js(window.open-defuser)
+laidhub.com##+js(aopw, OpenPopUnder)
+
+!slutmesh.com
+||slutmesh.com/wp-content/uploads/*.gif$image,1p
+slutmesh.com##[id^="banner"]
+
+!ivi-video.com
+||ivi-video.com/block_script.php$script,1p
+ivi-video.com##+js(window.open-defuser)
