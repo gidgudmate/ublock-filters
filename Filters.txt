@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 221
+!Update: 222
 
 !Badware/Malware redirects
 ||promo-bc.com
@@ -504,6 +504,17 @@ preRoll.php$xhr
 ||topbetfast.com^
 ||worldmapd.online^
 ||forsiteid6346.tech^
+||robjamguy.club^
+||puntoenun.site^
+||gwxpv.com^
+||aahvz.top^
+||tmozs.com^
+||aelphotog.pro^
+||suitemovies.com^$3p,script
+||anlcld.com^
+
+!Whitelist
+@@||click.linksynergy.com^
 
 !Universal DOM edits
 ##[class*="chromecast"]
@@ -562,13 +573,16 @@ youtube.com##[aria-label^="Add to queue"]
 pornhd.com##+js(aopr, exoJsPop101)
 pornhd.com##+js(set, popUnderUrl, noopFunc)
 pornhd.com##+js(aeld, popstate)
-pornhd.com##.live-video-zone
+pornhd.com##.live-sex
 pornhd.com##.inside-row
 pornhd.com##.video-thumb-ad-zone
 pornhd.com##.under-video-zone
 pornhd.com##li:has(.prime-video-thumb)
 pornhd.com##.remove-ad-block
-pornhd.com##.page-header:style(position: absolute !important;)
+pornhd.com###header:style(position: absolute !important;)
+pornhd.com##.hide-on-mobile
+pornhd.com##.pornhd-prime-ad
+pornhd.com##.video-list-corner-ad
 
 !hiqqu.xxx
 hiqqu.xxx##+js(set, adsEnabled, true)
@@ -1383,6 +1397,7 @@ tube8.com###main-nav-wrapper:style(position: absolute !important;)
 !facebook.com
 facebook.com##.e_1710e1xp16.pagelet > ._1-ia > ._4-u8._20os._2tyk._1-ib._4-u2
 facebook.com##div[id^=hyperfeed_story_id_]:has(a[role^=button]:has(> span:has([data-content="S"]):not(:has([data-content="1"])):not(:has([data-content="2"])):not(:has([data-content="3"])):not(:has([data-content="4"])):not(:has([data-content="5"])):not(:has([data-content="6"])):not(:has([data-content="7"])):not(:has([data-content="8"])):not(:has([data-content="9"])):not(:has([data-content="w"]))))
+facebook.com##[id^="u_fetchstream_"] > .userContentWrapper:has-text(Suggested for You)
 
 !aznude.com
 ||aznude.com/worker.js$script,1p
@@ -1988,6 +2003,8 @@ xxxbunker.com###floater
 @@||hellporno.*/js/assets$script,1p
 @@||hellporno.*/js/mobile$script,1p
 @@||hellporno.*/fluidplayer/$script,1p
+@@||hellporno.*/2.0/js/main$script,1p
+@@||hellporno.*/bravoplayer/$script,1p
 hellporno.*##.bnnrs-player
 hellporno.com##[class*="banner"]
 hellporno.com##.tabs
@@ -2213,7 +2230,6 @@ mentalfloss.com##.ad-container
 biguz.net##+js(aopr, document.dispatchEvent)
 biguz.net##+js(aopr, ExoLoader)
 biguz.net##+js(aopr, exoJsPop101)
-biguz.net##+js(aopr, XMLHttpRequest)
 
 !efappy.com
 efappy.com##+js(aopr, document.dispatchEvent)
@@ -2232,7 +2248,6 @@ sexy-youtubers.com##.notices
 thothub.tv##+js(window.open-defuser)
 thothub.tv##+js(acis, document.createElement, 'script')
 thothub.tv##+js(set, adBlockDetected, true)
-thothub.tv##+js(aopr, XMLHttpRequest)
 thothub.tv##.g1-back-to-top
 thothub.tv##.chaturbate
 thothub.tv##[class$="_popup"]
@@ -2248,6 +2263,8 @@ thothub.tv##[id^="menu-item-"]:has(a[href*="/go"])
 thothub.tv##[href*="theporndude"]
 thothub.tv##p > [href="https://forum.thothub.tv/index.php"]
 thothub.tv##[href^="https://t."]
+thothub.tv##.g1-collection-item:has-text(PROJEKTMELODY)
+thothub.tv##.g1-collection-item:has(.category-webcam)
 
 !feet9.com
 feet9.com##+js(aopr, trackOutboundLink)
@@ -3687,6 +3704,8 @@ nuvid.com##.video-options > div > span
 !eroticbeauties.net
 ||eroticbeauties.net^$frame,1p
 ||eroticbeauties.net^$xhr,1p
+||eroticbeauties.net/js/models_v2.js$script,1p
+eroticbeauties.net##+js(aopr, loadTool)
 eroticbeauties.net##.sponsor-feature
 eroticbeauties.net##.quality-sites
 eroticbeauties.net##.cams
@@ -5032,3 +5051,24 @@ slutmesh.com##[id^="banner"]
 !ivi-video.com
 ||ivi-video.com/block_script.php$script,1p
 ivi-video.com##+js(window.open-defuser)
+
+!filtercams.com
+||filtercams.com*/banners/*$image,1p
+filtercams.com##.table
+
+!gomo.to
+gomo.to##+js(aopr, glxopen)
+
+!pornwatchers.com
+pornwatchers.com##.fluid_nonLinear_bottom
+
+!pimpandhost.com
+*$3p,script,domain=pimpandhost.com
+pimpandhost.com##+js(window.open-defuser)
+
+!zteenporn.com
+||zteenporn.com/worker.js$script,1p
+||zteenporn.com/*.php$script,1p
+zteenporn.com##.side_spot
+zteenporn.com##.heading
+zteenporn.com##.pause-holder:style(min-height: 0 !important;)
