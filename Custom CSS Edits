@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 2.2
+!Update: 2.3
 
 
 !Dark theme does not include recaptcha used by the site.
@@ -153,3 +153,6 @@ pornhd.com###searchInput:style(background-color: #252525 !important; border: 3px
 pornhd.com###footer:style(background: #282828 !important; border-top: 2px solid #606060 !important;)
 pornhd.com##html:style(background-color: #282828 !important;)
 pornhd.com###app:style(background: #282828 !important;)
+
+
+reddit.com##.tagline a:hover:style(color: rgb(106, 152, 175) !important;)
