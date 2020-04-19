@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 223
+!Update: 224
 
 !Badware/Malware redirects
 ||promo-bc.com
@@ -520,6 +520,11 @@ preRoll.php$xhr
 ||tiounioritycle.info^
 ||yajeaumd.com^
 ||bilrtklg.com^
+||2track.info^
+||psvgnczo.com^
+||kjrjvvxcg.com^
+||myemailtracking.com^
+||dombnrs.com^
 
 !Whitelist
 @@||click.linksynergy.com^
@@ -796,6 +801,7 @@ dirtyyoungbitches.com###main-nav > li > [href]:not([href^="/"])
 sexyaporno.com##+js(aopr, ExoLoader.addZone)
 sexyaporno.com##+js(aopr, ExoLoader.serve)
 sexyaporno.com##+js(aopr, loadTool)
+sexyaporno.com##+js(nosiif, reload2)
 sexyaporno.com##.adcontainer
 sexyaporno.com##.sponsorlist
 sexyaporno.com##.nat-top
@@ -1137,6 +1143,7 @@ anon-v.com##.opt
 anon-v.com##[href^="https://checkmy.cam/"]
 anon-v.com##.primary > li:nth-child(7)
 anon-v.com##.network
+anon-v.com##.container > center:has([src*="https:"])
 
 !vg247.com
 vg247.com##[id^="sp_message_id"]
@@ -1269,6 +1276,7 @@ pornhub.com###hd-rightColVideoPage > .streamatesModelsContainer
 pornhub.com##.livesex
 pornhub.com##.tooltipPromo
 pornhub.com###videoSearchResult > .alpha, #hotVideosSection > .alpha
+pornhub.com##.video-box-playlist > li:has(.privateThumb)
 
 !xvideos.com
 xvideos.com##.sponsor-popup
@@ -1276,6 +1284,7 @@ xvideos.com###mobile-slogan
 xvideos.com###page-go-up
 xvideos.com##.main-cat-change-alert-popup
 xvideos.com##.remove-ads
+xvideos.com##.bg-red
 
 !redtube.com
 /redtube/js/common/common/service_worker_starter$xhr,important
@@ -1484,6 +1493,7 @@ girlsofdesire.org#@#a[href^="http://refer.ccbill.com/"]
 girlsofdesire.org##[class*="banner"]
 girlsofdesire.org##[style*="base64"]
 girlsofdesire.org##.marg2 > [href^="/live"]
+girlsofdesire.org##.middleContent > .wide_boxtop, .middleContent > .wide_boxbottom
 
 !8boobs.com
 ||8boobs.com^*/banners/*$image,1p
@@ -1826,6 +1836,7 @@ decorativemodels.com##.block > .block
 decorativemodels.com##.contentbanner
 decorativemodels.com###menu > [href]:not([href^="/"])
 decorativemodels.com##nav > [href]:not([href^="/"])
+decorativemodels.com##.banners
 
 !fooxybabes.com
 ||fooxybabes.com^*/banners/$image,1p
@@ -2153,6 +2164,8 @@ passion-hd.com##.sale-special-container
 bravoerotica.com##.review_scr
 
 !erosberry.com
+||erosberry.com/adblock$frame,1p
+erosberry.com##+js(aopr, loadTool)
 erosberry.com##.containerBanner
 erosberry.com###sidebar_l > .title_bar:first-child
 
@@ -3551,6 +3564,7 @@ luscious.net###advertisement_adhesion
 @@||google.com^$popup,popunder,3p
 google.com##[href] > .LC20lb:style(font-size: 18px !important;)
 google.com##c-wiz > div:has-text(Sponsored)
+google.com###taw:has([id*="google-ad"])
 
 !apex.tracker.gg
 apex.tracker.gg##.trn-upsell-premium
@@ -5057,6 +5071,7 @@ pornwatchers.com##.fluid_nonLinear_bottom
 !pimpandhost.com
 *$3p,script,domain=pimpandhost.com
 pimpandhost.com##+js(window.open-defuser)
+pimpandhost.com##.ano_po
 
 !zteenporn.com
 ||zteenporn.com/worker.js$script,1p
@@ -5099,3 +5114,6 @@ top123movies.com##+js(acis, Math, zfgloaded)
 
 !mydreamfuck.com
 mydreamfuck.com##.kt-api-btn-start
+
+!incestflix.com
+incestflix.com##+js(aopr, popjs)
