@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 224
+!Update: 225
 
 !Badware/Malware redirects
 ||promo-bc.com
@@ -525,6 +525,7 @@ preRoll.php$xhr
 ||kjrjvvxcg.com^
 ||myemailtracking.com^
 ||dombnrs.com^
+||pophahwot.com^
 
 !Whitelist
 @@||click.linksynergy.com^
@@ -669,8 +670,8 @@ nudelas.com###to_top_scrollup
 nudelas.com##center
 
 !camwhoreshd.com
-*$3p,websocket,domain=camvideos.org|cwtvembeds.com
-@@*$media,3p,domain=camvideos.org|cwtvembeds.com
+*$3p,websocket,domain=camvideos.org
+@@*$media,3p,domain=camvideos.org
 camwhoreshd.com##.spots--cards.spots
 camwhoreshd.com##.topad
 camwhoreshd.com##[src*="http://www.camsoda1.com/promos/iframe/cw.php"]
@@ -1285,6 +1286,7 @@ xvideos.com###page-go-up
 xvideos.com##.main-cat-change-alert-popup
 xvideos.com##.remove-ads
 xvideos.com##.bg-red
+xvideos.com##.videoad-title-txt
 
 !redtube.com
 /redtube/js/common/common/service_worker_starter$xhr,important
@@ -5117,3 +5119,16 @@ mydreamfuck.com##.kt-api-btn-start
 
 !incestflix.com
 incestflix.com##+js(aopr, popjs)
+
+!123movies.*
+123movies.*##.content-kuss
+
+!cwtvembeds.com
+||cwtvembeds.com/player/html.php$frame,1p
+||cwtvembeds.com/player/stats.php$image,1p
+*$3p,websocket,domain=cwtvembeds.com
+
+!newsextv.com
+newsextv.com##+js(nostif, window.location.href)
+newsextv.com###s-title 
+newsextv.com###s-container
