@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 5.4
+!Update: 5.5
 
 !silkengirl.com
 silkengirl.*##.hold > ul > li > [href]:not([href^="/"])
@@ -53,7 +53,7 @@ babesandbitches.net###content > [href]:not([href^="/"])
 babesandbitches.net###mainnav > .nav > li > [href]:not([href^="/"])
 
 !girlsofdesire.org
-girlsofdesire.org###content > .block:not(:has(.galleries))
+girlsofdesire.org###content > .block:not(:has(.galleries)):not(#picture)
 girlsofdesire.org##.left:style(position: absolute !important;)
 girlsofdesire.org##.right:style(position: absolute !important;)
 
@@ -221,7 +221,7 @@ deliciousbabes.org##.mb10
 join2babes.com##.header > [href]
 
 !sensualgirls.org
-sensualgirls.org###content > .block:not(:has(.galleries))
+sensualgirls.org###content > .block:not(:has(.galleries)):not(#picture)
 sensualgirls.org##.left:style(position: absolute !important;)
 sensualgirls.org##.right:style(position: absolute !important;)
 
