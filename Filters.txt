@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 225
+!Update: 226
 
 !Badware/Malware redirects
 ||promo-bc.com
@@ -1397,6 +1397,7 @@ tube8.com##[id^="boxVideo"]:has-text(/Blacked|Black|BLACKED|BLACK|BBC|bbc/)
 facebook.com##.e_1710e1xp16.pagelet > ._1-ia > ._4-u8._20os._2tyk._1-ib._4-u2
 facebook.com##div[id^=hyperfeed_story_id_]:has(a[role^=button]:has(> span:has([data-content="S"]):not(:has([data-content="1"])):not(:has([data-content="2"])):not(:has([data-content="3"])):not(:has([data-content="4"])):not(:has([data-content="5"])):not(:has([data-content="6"])):not(:has([data-content="7"])):not(:has([data-content="8"])):not(:has([data-content="9"])):not(:has([data-content="w"]))))
 facebook.com##[id^="u_fetchstream_"] > .userContentWrapper:has-text(Suggested for You)
+facebook.com##[data-pagelet^="FeedUnit_0"]:has-text(People You May Know)
 
 !aznude.com
 ||aznude.com/worker.js$script,1p
@@ -2577,12 +2578,17 @@ bustybloom.com###nat_top
 bustybloom.com##.nat-top
 bustybloom.com###toTop
 bustybloom.com##.text
-bustybloom.com##[href*="click/o/"]
 bustybloom.com##[href="https://www.porndiscounts.co.uk/"]
 bustybloom.com##[href*="cams.bustybloom.com"]
 bustybloom.com###share
 bustybloom.com##[id^="partnerpromo_"]
 bustybloom.com##.candy
+
+!#if env_chromium
+!#if env_firefox
+bustybloom.com##[href*="click/o/"]
+!#endif
+!#endif
 
 !asspoint.com
 asspoint.com##.wrap > :has-text(advertisement)
@@ -5121,6 +5127,9 @@ mydreamfuck.com##.kt-api-btn-start
 incestflix.com##+js(aopr, popjs)
 
 !123movies.*
+*$3p,script,domain=123movies.hospital
+@@||disqus.com^$domain=123movies.hospital
+@@||disquscdn.com^$domain=123movies.hospital
 123movies.*##.content-kuss
 
 !cwtvembeds.com
