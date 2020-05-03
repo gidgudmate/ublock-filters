@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 227
+!Update: 228
 
 !Badware/Malware redirects
 ||promo-bc.com
@@ -532,6 +532,7 @@ preRoll.php$xhr
 ||curmaphow.club^
 ||c3t-system-err.club^
 ||82448dceaaa13034.com^
+||sefsdvc.com^
 
 !Whitelist
 @@||click.linksynergy.com^
@@ -580,12 +581,12 @@ youtube.com###enhancer-for-youtube-toolbar
 youtube.com##.efy-ytp-keyboard-shortcuts
 youtube.com##.ytp-fullerscreen-edu-chevron
 youtube.com##.ytp-miniplayer-button
-youtube.com##[aria-label^="Play on TV"]
+youtube.com##[title^="Play on TV"]
 youtube.com###fvdDownloader_page_button
-youtube.com##[aria-label^="Watch later"]
-youtube.com##[aria-label^="Add to queue"]
+youtube.com##[title^="Watch later"]
+youtube.com##[title^="Add to queue"]
 youtube.com###clarify-box
-youtube.com##[aria-label^="Next (SHIFT+n)"]
+youtube.com##[title^="Next (SHIFT+n)"]
 
 !pornhd.com
 @@||protoawe.com^$script,frame,3p,domain=pornhd.com
@@ -736,7 +737,6 @@ retrosexporn.com##.player-spots
 ||twitch.tv/service-worker.js$script,1p
 ext-twitch.tv##[class*="flyout"]
 ext-twitch.tv##.prime-extension-root
-!twitch.tv##.chat-line__message > .message > span.text-fragment:style(font-size: 95% !important;)
 
 !xbabe.com
 ||xbabe.com^$script,xhr,frame,1p
@@ -780,6 +780,7 @@ yourporn.sexy,sxyprn.com##.rotate
 
 !babecentrum.com
 ||babecentrum.com^*/b/*$image,1p
+||babecentrum.com^*/banners/*$image,1p
 babecentrum.com##+js(aopr, ExoLoader.addZone)
 babecentrum.com##+js(aopr, ExoLoader.serve)
 babecentrum.com###eXo1
@@ -1292,6 +1293,7 @@ xvideos.com##.main-cat-change-alert-popup
 xvideos.com##.remove-ads
 xvideos.com##.bg-red
 xvideos.com##.videoad-title-txt
+xvideos.com##.related-vids
 
 !redtube.com
 /redtube/js/common/common/service_worker_starter$xhr,important
@@ -1403,6 +1405,8 @@ facebook.com##.e_1710e1xp16.pagelet > ._1-ia > ._4-u8._20os._2tyk._1-ib._4-u2
 facebook.com##div[id^=hyperfeed_story_id_]:has(a[role^=button]:has(> span:has([data-content="S"]):not(:has([data-content="1"])):not(:has([data-content="2"])):not(:has([data-content="3"])):not(:has([data-content="4"])):not(:has([data-content="5"])):not(:has([data-content="6"])):not(:has([data-content="7"])):not(:has([data-content="8"])):not(:has([data-content="9"])):not(:has([data-content="w"]))))
 facebook.com##[id^="u_fetchstream_"] > .userContentWrapper:has-text(Suggested for You)
 facebook.com##[data-pagelet^="FeedUnit_"]:has-text(People You May Know)
+facebook.com##div[data-pagelet^="FeedUnit"]:has(a[role^=link]:has(> span > span:matches-css(position: relative):has-text(S):not(:has-text(1)):not(:has-text(2)):not(:has-text(3)):not(:has-text(4)):not(:has-text(5)):not(:has-text(6)):not(:has-text(7)):not(:has-text(8)):not(:has-text(9)):not(:has-text(w))))
+facebook.com##div[data-pagelet^="FeedUnit"]:has(div[role^="button"]:has(> span > span:matches-css(position: relative):has-text(S):not(:has-text(1)):not(:has-text(2)):not(:has-text(3)):not(:has-text(4)):not(:has-text(5)):not(:has-text(6)):not(:has-text(7)):not(:has-text(8)):not(:has-text(9)):not(:has-text(w))))
 
 !aznude.com
 ||aznude.com/worker.js$script,1p
@@ -1438,6 +1442,7 @@ youjizz.com##[href^="//syndication.dynsrvtbg.com/"]
 youjizz.com##.hd
 youjizz.com###partnerPr
 youjizz.com##.underPlayerPr
+youjizz.com##.bottom_pr
 
 !adultdvdempire.com
 adultdvdempire.com##.navbar:style(position: absolute !important;)
@@ -1645,42 +1650,40 @@ strategywiki.org###mw-panel
 socialbuckets.com###right-pannal > .image_title
 socialbuckets.com###right-pannal
 
-!fandom.com / wikia.com
+!fandom.com
 fandom.com##+js(nowebrtc)
 fandom.com##+js(aopw, _sp_)
-wikia.com,fandom.com###WikiaBar
-wikia.com,fandom.com###msg_5104
-wikia.com,fandom.com###RECIRCULATION_RAIL > .recirculation-unit.module.recirculation-rail
-wikia.com,fandom.com###CommunityPageBenefitsModal
-wikia.com,fandom.com###CommunityPageBenefitsModal > section
-wikia.com,fandom.com###CommunityPageBenefitsModal > section > .community-page-benefits-image
-wikia.com,fandom.com###msg_4190
-wikia.com,fandom.com##.module.community-page-entry-point-module
-wikia.com,fandom.com##.oo-state-screen-selectable
-wikia.com,fandom.com##.oo-animate-fade.oo-fading-underlay
-wikia.com,fandom.com##.oo-pause-screen.oo-state-screen
-wikia.com,fandom.com##.oo-player-skin
-wikia.com,fandom.com###ooyala-plugins-element
-wikia.com,fandom.com###ooyala-inner-wrapper-y8ei
-wikia.com,fandom.com###ooyala-article-video
-wikia.com,fandom.com##.video-container
-wikia.com,fandom.com###article-video
-wikia.com,fandom.com##.wikia-bar-anon.wikia-bar
-wikia.com,fandom.com##.custom > div
-wikia.com,fandom.com##.jw-reset.jw-video
-wikia.com,fandom.com##.jw-reset.jw-media
-wikia.com,fandom.com##.jw-reset.jw-aspect
-wikia.com,fandom.com##.featured-video__label
-wikia.com,fandom.com##.featured-video__details
-wikia.com,fandom.com##.featured-video__player-container
-wikia.com,fandom.com##.featured-video
-wikia.com,fandom.com##.cta-banner
-wikia.com,fandom.com##.featured-video__wrapper
-wikia.com,fandom.com##.top-bar
-wikia.com,fandom.com###mixed-content-footer
-wikia.com,fandom.com##[class*="-sponsored-content"]
+fandom.com###WikiaBar
+fandom.com###msg_5104
+fandom.com###RECIRCULATION_RAIL > .recirculation-unit.module.recirculation-rail
+fandom.com###CommunityPageBenefitsModal
+fandom.com###CommunityPageBenefitsModal > section
+fandom.com###CommunityPageBenefitsModal > section > .community-page-benefits-image
+fandom.com###msg_4190
+fandom.com##.module.community-page-entry-point-module
+fandom.com##.oo-state-screen-selectable
+fandom.com##.oo-animate-fade.oo-fading-underlay
+fandom.com##.oo-pause-screen.oo-state-screen
+fandom.com##.oo-player-skin
+fandom.com###ooyala-plugins-element
+fandom.com###ooyala-inner-wrapper-y8ei
+fandom.com###ooyala-article-video
+fandom.com##.video-container
+fandom.com###article-video
+fandom.com##.wikia-bar-anon.wikia-bar
+fandom.com##.custom > div
+fandom.com##.jw-reset.jw-video
+fandom.com##.jw-reset.jw-media
+fandom.com##.jw-reset.jw-aspect
+fandom.com##[class^="featured-video"]
+fandom.com##.cta-banner
+fandom.com##.featured-video__wrapper
+fandom.com##.top-bar
+fandom.com###mixed-content-footer
+fandom.com##[class*="-sponsored-content"]
 fandom.com##.banner-notifications-placeholder
 fandom.com###floating-scrollbar:style(position: absolute !important;)
+fandom.com##.SearchAdsTopWrapper
 
 !sensualgirls.org
 ||sensualgirls.org/php/*.js$script,1p
@@ -3581,6 +3584,8 @@ luscious.net###advertisement_adhesion
 google.com##[href] > .LC20lb:style(font-size: 18px !important;)
 google.com##c-wiz > div:has-text(Sponsored)
 google.com###taw:has([id*="google-ad"])
+google.com##[data-id] + [jscontroller]:has(span):has-text(Related searches)
+google.com##.sh-sr__shop-result-group:has-text(Sponsored)
 
 !apex.tracker.gg
 apex.tracker.gg##.trn-upsell-premium
@@ -3892,7 +3897,7 @@ babepedia.com###gallery > center > [href] > [src]
 fitnessinsider.online##center
 fitnessinsider.online##.banner
 fitnessinsider.online##.text-left
-fitnessin,er.online##.fb_iframe_widget
+fitnessinsider.online##.fb_iframe_widget
 
 !sunporno.com
 sunporno.com##+js(aopr, SUN_XERShowBannerFooter)
@@ -5159,3 +5164,18 @@ amazon.com##body:style(overflow: auto !important;)
 
 !camvideos.org
 *$3p,websocket,domain=camvideos.org
+
+!xxxvogue.net
+||xxxvogue.net/jss/cp01.js$script,1p
+||xxxvogue.net/s/js/sf.js$script,1p
+xxxvogue.net###parrot
+xxxvogue.net##[title^="Generate a QR Code with the current page URL"]
+xxxvogue.net##.banner
+xxxvogue.net###embed-overlay
+xxxvogue.net##.social-buttons
+
+!40svintageporn.com
+||40svintageporn.com^$script,1p
+||sexyxxx.biz/j/*$script
+40svintageporn.com##+js(set, open noopFunc)
+40svintageporn.com##+js(acis, document.createElement, 'script')
