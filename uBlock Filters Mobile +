@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 5.5
+!Update: 5.6
 
 !silkengirl.com
 silkengirl.*##.hold > ul > li > [href]:not([href^="/"])
@@ -233,3 +233,12 @@ babesaround.com##.selectnav-holder > center
 
 !livejasminbabes.net
 livejasminbabes.net##.item:has-text(FREE Download)
+
+!ifunny.co
+ifunny.co##[class^="js-app-"]
+ifunny.co##.js-popup-active
+ifunny.co##body.is-disabled:style(overflow-y: scroll !important;)
+ifunny.co##body.is-fixed:style(position: inherit !important;)
+
+!tubepornclassic.com
+tubepornclassic.com##[class^="__"]:has(#header_mobile)
