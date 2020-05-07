@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 228
+!Update: 229
 
 !Badware/Malware redirects
 ||promo-bc.com
@@ -290,7 +290,6 @@ https://*/download/pornhub.*.apk$document
 ||infloots.pro^
 ||apprefaculty.pro^
 ||startintenselyprogressiveproduct.icu^
-||stripe.com^
 ||etyxitxlvqp.com^
 ||fzmogmfqh.com^
 ||dmiqfxlnf.com^
@@ -1332,6 +1331,8 @@ tubepornclassic.com##tbody
 tubepornclassic.com##.hYbus
 tubepornclassic.com##.block-video > [class]:not(.video-holder)
 tubepornclassic.com##.__nat_box
+tubepornclassic.com##.LoDu3
+tubepornclassic.com##.block-video > .video-holder > [class^="underplayer-container"]
 
 !hdvintagetube.com
 hdvintagetube.com##[src="/images/undbn.gif"]
@@ -2282,6 +2283,7 @@ thothub.tv##p > [href="https://forum.thothub.tv/index.php"]
 thothub.tv##[href^="https://t."]
 thothub.tv##.g1-collection-item:has-text(/PROJEKTMELODY|PROJEKT MELODY/)
 thothub.tv##.g1-collection-item:has(.category-webcam)
+thothub.tv##.g1-sticky-top-wrapper:style(position: static !important;)
 
 !feet9.com
 feet9.com##+js(aopr, trackOutboundLink)
@@ -3298,6 +3300,7 @@ seekingalpha.com/service-worker.js$script,1p,important
 !myxvids.com
 myxvids.com##+js(noeval)
 myxvids.com##.header:style(position: static !important;)
+myxvids.com##.under-player-desktop
 
 !nesaporn.com
 nesaporn.com##td:has-text(Advertising)
@@ -3329,8 +3332,8 @@ bonuserotic.com##+js(set, awePuShown, true)
 ||fwwgo.com^$image,domain=stockingparadise.com
 ||stockingparadise.com^*/banners/*$image,1p
 
-!residentevilmodding.boards.net
-residentevilmodding.boards.net##[id^="ad"]
+!boards.net
+boards.net##+js(aopr, pbjs)
 
 !loverslab.com
 loverslab.com##.ac-overlay
@@ -3529,7 +3532,6 @@ xfantasy.tv,xfantazy.com##[href]:not([href^="/"]):not([href*="xfantasy.tv"])
 ||camwhores.tv/*action=js_online_status$image,1p
 ||nsimg.net$image,3p,domain=camwhores.tv|camwhores.video
 *$script,3p,domain=camwhores.tv
-*$subdocument,domain=camwhores.tv,badfilter
 @@||camwhores.tv^$csp
 camwhores.*##.adv
 camwhores.*##.cp-webcam-gallery-container
@@ -4026,6 +4028,7 @@ watchmygf.xxx##.spot
 
 !camuploads.com
 camuploads.com##.opt
+camuploads.com##.margin-fix > .place
 
 !tubous.com
 ||tubous.com/*.php$script,1p
@@ -4183,10 +4186,8 @@ lumendatabase.org##.first-time-visitor
 
 !tranny.one
 ||tranny.one/average-counter/*$script,1p
-||tranny.one/$xhr,1p
+||tranny.one/?area=ajaxGeo$xhr,1p
 @@||tranny.one/js/fd.js$script,1p
-@@||tranny.one/?area=ajaxRelated$xhr,1p
-@@||tranny.one/?area=ajaxMovieComment$xhr,1p
 tranny.one##+js(aopr, BetterJsPop)
 tranny.one##+js(aopr, betterNameTr)
 tranny.one##+js(aopr, BetterTrPop)
@@ -4199,6 +4200,9 @@ tranny.one##.chaTab
 tranny.one###videoContainer_playButton
 tranny.one##.shareIcons
 tranny.one##.top-player-link
+tranny.one##.chat-bar
+tranny.one###fposts
+tranny.one###goTop
 
 !perfectgirls.net
 perfectgirls.net##.pornhat
@@ -5139,7 +5143,7 @@ top123movies.com##+js(acis, Math, zfgloaded)
 mydreamfuck.com##.kt-api-btn-start
 
 !incestflix.com
-incestflix.com##+js(aopr, popjs)
+incestflix.com##+js(acis, String.fromCharChode, 'shift')
 
 !123movies.*
 *$3p,script,domain=123movies.hospital
@@ -5177,5 +5181,10 @@ xxxvogue.net##.social-buttons
 !40svintageporn.com
 ||40svintageporn.com^$script,1p
 ||sexyxxx.biz/j/*$script
-40svintageporn.com##+js(set, open noopFunc)
+40svintageporn.com##+js(aeld, , window.open)
 40svintageporn.com##+js(acis, document.createElement, 'script')
+
+!pornl.com
+||pornl.com/sw.js$script,1p
+pornl.com##+js(acis, document.createElement, 'script')
+pornl.com##+js(aopr, document.head.appendChild)
