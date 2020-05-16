@@ -538,7 +538,7 @@ preRoll.php$xhr
 
 !Whitelist
 @@||click.linksynergy.com^
-@@||history^$popundunder,popup
+@@||history^$popunder,popup
 
 !Universal DOM edits
 ##[class*="chromecast"]
