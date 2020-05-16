@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 229
+!Update: 230
 
 !Badware/Malware redirects
 ||promo-bc.com
@@ -532,9 +532,13 @@ preRoll.php$xhr
 ||c3t-system-err.club^
 ||82448dceaaa13034.com^
 ||sefsdvc.com^
+||hpyrdr.com^$3p
+||briggbrought.pro^
+||bngpt.com^
 
 !Whitelist
 @@||click.linksynergy.com^
+@@||history^$popundunder,popup
 
 !Universal DOM edits
 ##[class*="chromecast"]
@@ -700,8 +704,10 @@ txxx.com##.hYbus
 
 !twistys.com
 */P*TOUR/*$image,domain=twistys.com
+@@*/*Banner$image,domain=twistys.com
 twistys.com###footer-banners
 twistys.com###root > div > [class]:nth-child(7)
+twistys.com##div:has([color^="rgba(0, 0, 0, 0.5)"]):has([class])
 
 !javkitty.blogspot.com
 javkitty.blogspot.com###h237
@@ -918,6 +924,7 @@ you.tubetitties.com##.panel.vid-live-promo
 
 !unknowncheats.me
 ||unknowncheats.me/forum/images/ez/*.gif$image,1p
+unknowncheats.me##+js(set, adsample, true)
 unknowncheats.me###hmmk > table
 
 !forums.pcsx2.net
@@ -1293,6 +1300,7 @@ xvideos.com##.remove-ads
 xvideos.com##.bg-red
 xvideos.com##.videoad-title-txt
 xvideos.com##.related-vids
+xvideos.com##[id*="x-messages-"]
 
 !redtube.com
 /redtube/js/common/common/service_worker_starter$xhr,important
@@ -1406,7 +1414,6 @@ facebook.com##.e_1710e1xp16.pagelet > ._1-ia > ._4-u8._20os._2tyk._1-ib._4-u2
 facebook.com##div[id^=hyperfeed_story_id_]:has(a[role^=button]:has(> span:has([data-content="S"]):not(:has([data-content="1"])):not(:has([data-content="2"])):not(:has([data-content="3"])):not(:has([data-content="4"])):not(:has([data-content="5"])):not(:has([data-content="6"])):not(:has([data-content="7"])):not(:has([data-content="8"])):not(:has([data-content="9"])):not(:has([data-content="w"]))))
 facebook.com##[id^="u_fetchstream_"] > .userContentWrapper:has-text(Suggested for You)
 facebook.com##[data-pagelet^="FeedUnit_"]:has-text(People You May Know)
-facebook.com##div[data-pagelet^="FeedUnit"]:has(a[role^=link]:has(> span > span:matches-css(position: relative):has-text(S):not(:has-text(1)):not(:has-text(2)):not(:has-text(3)):not(:has-text(4)):not(:has-text(5)):not(:has-text(6)):not(:has-text(7)):not(:has-text(8)):not(:has-text(9)):not(:has-text(w))))
 facebook.com##div[data-pagelet^="FeedUnit"]:has(div[role^="button"]:has(> span > span:matches-css(position: relative):has-text(S):not(:has-text(1)):not(:has-text(2)):not(:has-text(3)):not(:has-text(4)):not(:has-text(5)):not(:has-text(6)):not(:has-text(7)):not(:has-text(8)):not(:has-text(9)):not(:has-text(w))))
 
 !aznude.com
@@ -1824,6 +1831,7 @@ hqbabes.com##[href="/m/cams.menu/"], [href="/m/store.main/"]
 !porntrex.com
 ||porntrex.com/swp.js$script,1p
 ||porntrex.com/images/*$image,1p
+*$3p,websocket,domain=porntrex.com
 porntrex.com##.fp-embed
 porntrex.com##.table
 porntrex.com##[class*="fake-player"]
@@ -2176,9 +2184,13 @@ bravoerotica.com##.review_scr
 
 !erosberry.com
 ||erosberry.com/adblock$frame,1p
+||erosberry.com/*/banners/$image,1p
 erosberry.com##+js(aopr, loadTool)
 erosberry.com##.containerBanner
 erosberry.com###sidebar_l > .title_bar:first-child
+erosberry.com##.title_bar:has-text(Hot Deal)
+erosberry.com###sidebar_r > div:has-text(Recommended sites)
+erosberry.com##[href^="https://juicyads.in/tab.php"]
 
 !pornstarsmachine.com
 ||pornstarsmachine.com/html/hor*$frame,1p
@@ -2260,6 +2272,7 @@ sexy-youtubers.com##.notices
 sexy-youtubers.com##.td-social-icon-wrap
 sexy-youtubers.com###td-header-search-button > .td-icon-search
 sexy-youtubers.com##[href^="https://go.hpyrdr.com"]
+sexy-youtubers.com##[href^="https://super-route.com/"]
 
 !thothub.tv
 ||dropkickmedia.com^$xhr,domain=thothub.tv
@@ -4112,7 +4125,7 @@ playvids.com,pornflip.com###mediaPlayerSponsored
 pornflip.com##.banner-top
 pornflip.com##.horiz-content > .a-label
 pornflip.com##.highBanner
-pornflip.com##.add_href_jsclick
+pornflip.com,playvids.com##.add_href_jsclick
 
 !simplenu.com
 ||simplenu.com/js/td*.js$script,1p
@@ -5165,6 +5178,9 @@ newsextv.com###s-container
 amazon.com##.a-modal-scroller:not(:has([id^="a-popover-"]))
 amazon.com###a-popover-lgtbox
 amazon.com##body:style(overflow: auto !important;)
+amazon.com##.rush-component > .s-border-bottom
+amazon.com##.sg-col-inner::before:style(display: none !important;)
+amazon.com##[data-cel-widget*="Banner"]
 
 !camvideos.org
 *$3p,websocket,domain=camvideos.org
@@ -5188,3 +5204,24 @@ xxxvogue.net##.social-buttons
 ||pornl.com/sw.js$script,1p
 pornl.com##+js(acis, document.createElement, 'script')
 pornl.com##+js(aopr, document.head.appendChild)
+
+!pornotits.org
+||pornotits.org/*.php$script,1p
+
+!pornokink.com
+||pornokink.com/*.php$script,1p
+
+!chaturbate.com
+||chaturbate.com/jsi18n/*$script,1p
+
+!porn-monkey.com
+porn-monkey.com##img[alt^="watermark"][src^="/static"]
+
+!webcamsbabe.com
+webcamsbabe.com##.block-video > .table
+
+!momsbangteens.com
+*/Tour/*$domain=momsbangteens.com,image
+momsbangteens.com###root > div > [class]:nth-child(9)
+momsbangteens.com###root > div > [class]:has([class]):has-text(Enter)
+momsbangteens.com##div:has([color^="rgba(0, 0, 0, 0.5)"]):has([class])
