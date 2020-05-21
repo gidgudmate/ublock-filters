@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 230
+!Update: 231
 
 !Badware/Malware redirects
 ||promo-bc.com
@@ -535,6 +535,7 @@ preRoll.php$xhr
 ||hpyrdr.com^$3p
 ||briggbrought.pro^
 ||bngpt.com^
+||feeohmchi.com^
 
 !Whitelist
 @@||click.linksynergy.com^
@@ -2017,7 +2018,7 @@ xxxbunker.com##.spbDisabled
 xxxbunker.com###floater
 
 !hellporno.*
-||hellporno.*$script,frame,1p
+||hellporno.*$script,frame,xhr,1p
 @@||hellporno.*/js/Kernel$script,1p
 @@||hellporno.*/js/assets$script,1p
 @@||hellporno.*/js/mobile$script,1p
@@ -2213,6 +2214,7 @@ exgirlfriendmarket.com###freetour
 exgirlfriendmarket.com###asidetopcandy
 
 !temp-mail.org
+*/banners/*$domain=temp-mail.org,image
 temp-mail.org##.block-control:style(position: sticky !important;)
 temp-mail.org##.chromePluginInlineInstall
 
@@ -3551,6 +3553,8 @@ camwhores.*##.cp-webcam-gallery-container
 camwhores.*##.no-player > [src]:style(opacity: 0.5 !important;)
 camwhores.*##.place
 camwhores.*##.chatbro_header
+camwhores.*##.primary > li:has([href]):not(:has([href*="camwhores.tv"]))
+camwhores.*##.list-comments p:style(font-size: 16px !important; font-style: normal !important; line-height: 30px !important;)
 
 !wiki.fextralife.com
 wiki.fextralife.com###video-stream-container
@@ -5032,7 +5036,7 @@ pornmobile.online##+js(aopr, exoJsPop101)
 @@||blankrefer.com^
 
 !my-fetish.net|sinx.com|fullyclothedsex.com
-my-fetish.net,sinx.com,fullyclothedsex.com##body.block-content:before
+my-fetish.net,sinx.com,fullyclothedsex.com##body.block-content::before
 sinx.com##.js-cookie-notification
 sinx.com##.banner
 
@@ -5050,7 +5054,6 @@ webcamsdolls.com##.newplace
 jetleech.net##[href] > img
 
 !adoreme.com
-@@||stripe.com^$script,domain=adoreme.com
 adoreme.com##.am-nav-wrapper:style(position: absolute !important;)
 adoreme.com##am-block:nth-child(n):has([href*="elite"])
 
@@ -5159,7 +5162,7 @@ mydreamfuck.com##.kt-api-btn-start
 incestflix.com##+js(acis, String.fromCharChode, 'shift')
 
 !123movies.*
-*$3p,script,domain=123movies.hospital
+||123movies.hospital/*.php$xhr,1p
 @@||disqus.com^$domain=123movies.hospital
 @@||disquscdn.com^$domain=123movies.hospital
 123movies.*##.content-kuss
@@ -5195,10 +5198,8 @@ xxxvogue.net###embed-overlay
 xxxvogue.net##.social-buttons
 
 !40svintageporn.com
+*$3p,script,domain=40svintageporn.com
 ||40svintageporn.com^$script,1p
-||sexyxxx.biz/j/*$script
-40svintageporn.com##+js(aeld, , window.open)
-40svintageporn.com##+js(acis, document.createElement, 'script')
 
 !pornl.com
 ||pornl.com/sw.js$script,1p
@@ -5225,3 +5226,15 @@ webcamsbabe.com##.block-video > .table
 momsbangteens.com###root > div > [class]:nth-child(9)
 momsbangteens.com###root > div > [class]:has([class]):has-text(Enter)
 momsbangteens.com##div:has([color^="rgba(0, 0, 0, 0.5)"]):has([class])
+
+!ricoysuave.com
+ricoysuave.com##+js(aopr, pum_vars.pum_popups)
+
+!yourfreepantyhosegalleries.com
+yourfreepantyhosegalleries.com##.widgetarea > ul:has-text(ADVERTISEMENT)
+yourfreepantyhosegalleries.com##.single-banner
+yourfreepantyhosegalleries.com##[id^="sideadvwidget-"]
+
+!streamapi.xyz
+||streamapi.xyz^
+@@streamapi.xyz$frame
