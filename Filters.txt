@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 231
+!Update: 232
 
 !Badware/Malware redirects
 ||promo-bc.com
@@ -536,6 +536,10 @@ preRoll.php$xhr
 ||briggbrought.pro^
 ||bngpt.com^
 ||feeohmchi.com^
+||chaturbate.com^$frame,3p,important
+||schjmp.com^
+||8po6fdwjsym3.com^
+||bbom2b434493.com^
 
 !Whitelist
 @@||click.linksynergy.com^
@@ -1062,13 +1066,15 @@ hqsluts.com##[href="/m/cams.menu/"], [href="/m/store.main/"]
 !camvideos.*
 ||camvideos.*/images/*.gif$image,1p
 ||camvideos.*/contents/other/player/embed/$image,1p
-@@||camvideos.*/embed/$frame,3p
+||chaturbate.com^$frame,domain=camvideos.org,important
+@@||camvideos.*/embed/$frame,domain=camvideos.org
 camvideos.*##+js(acis, Math, Object.defineProperty)
 camvideos.*##+js(aopr, loadTool)
 camvideos.*##.bottom-adv
 camvideos.*##.table
 camvideos.*##.place
 camvideos.*##.thumb-live-model
+camvideos.*##.topad
 
 !thebestshemalevideos.com
 ||thebestshemalevideos.com/images/visuals/*.png$image,1p
@@ -1151,12 +1157,14 @@ experts-exchange.com###textComponent-id16 > .body > .section > .ctaSolutionStick
 *$3p,script,domain=anon-v.com
 anon-v.com##+js(acis, document.createElement, 'script')
 anon-v.com##+js(set, console.clear, noopFunc)
-anon-v.com##+js(acis, _bullionloadingparameters)
+anon-v.com##+js(aopr, _bullionloadingparameters)
 anon-v.com##.opt
 anon-v.com##[href^="https://checkmy.cam/"]
 anon-v.com##.primary > li:nth-child(7)
 anon-v.com##.network
 anon-v.com##.container > center:has([src*="https:"])
+anon-v.com##.container > div:has(.embed-container)
+anon-v.com##.margin-fix > .place
 
 !vg247.com
 vg247.com##[id^="sp_message_id"]
@@ -1268,6 +1276,7 @@ xhamster.*##.wig-static-banner
 xhamster.*##.wih-banner-container
 xhamster.*##.wih-spl-text
 xhamster.*##.full-download
+xhamster.*##.wih-spot-container
 
 !pornhub.com
 ||nsimg.net^$image,3p,domain=pornhub.com,important
@@ -3163,7 +3172,10 @@ spankbang.com##.ttaa2v3
 spankbang.com##.live-item
 
 !erome.com
+||erome.com^$script,1p
+@@||erome.com/js/$script,1p
 erome.com##+js(aopr, tia)
+erome.com##+js(acis, document.createElement, "script")
 
 !fapality.com
 ||fapality.com/*.jsx$script,1p
@@ -3547,7 +3559,8 @@ xfantasy.tv,xfantazy.com##[href]:not([href^="/"]):not([href*="xfantasy.tv"])
 ||camwhores.tv/*action=js_online_status$image,1p
 ||nsimg.net$image,3p,domain=camwhores.tv|camwhores.video
 *$script,3p,domain=camwhores.tv
-@@||camwhores.tv^$csp
+@@||camwhores.*^$csp
+@@||camvideos.org/embed/*$frame,domain=camwhores.tv
 camwhores.*##.adv
 camwhores.*##.cp-webcam-gallery-container
 camwhores.*##.no-player > [src]:style(opacity: 0.5 !important;)
@@ -4776,6 +4789,7 @@ xxxmaturevideos.com##[class*="_hor"]
 mylust.com##.fluid-b
 
 !ytboob.com
+||ytboob.com/long-limit$script,1p
 ytboob.com##+js(aopr, ExoLoader.addZone)
 ytboob.com##.happy-under-player
 ytboob.com##.video-archive-ad
@@ -4989,6 +5003,8 @@ private-shows.net##+js(aopr, _bullionloadingparameters)
 private-shows.net##.embed-container
 
 !cambro.tv
+||chaturbate.com^$frame,domain=cambro.tv,important
+cambro.tv##+js(aopr, crakPopInParams.url)
 cambro.tv##.fp-logo
 cambro.tv##.fp-brand
 cambro.tv##.player-holder > [class]:not(.player-wrap)
@@ -5238,3 +5254,14 @@ yourfreepantyhosegalleries.com##[id^="sideadvwidget-"]
 !streamapi.xyz
 ||streamapi.xyz^
 @@streamapi.xyz$frame
+
+!highwebmedia.com
+||highwebmedia.com/CACHE/js/output$script
+
+!nobodyhome.tv
+nobodyhome.tv##.jGrowl .jGrowl-notification.jgrowl_error:style(background: #000000 !important; border: 1px solid #000000 !important; color: #FFFFFF !important)
+
+!cloudysexy.com
+cloudysexy.com##+js(aopr, _0x168f)
+cloudysexy.com##+js(aopr, _0x2f53)
+cloudysexy.com##+js(acis, document.querySelector, contentOpen)
