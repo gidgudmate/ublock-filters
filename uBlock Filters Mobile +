@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 5.6
+!Update: 6
 
 !silkengirl.com
 silkengirl.*##.hold > ul > li > [href]:not([href^="/"])
@@ -242,3 +242,6 @@ ifunny.co##body.is-fixed:style(position: inherit !important;)
 
 !tubepornclassic.com
 tubepornclassic.com##[class^="__"]:has(#header_mobile)
+
+!twistys.com
+twistys.com###root > div > [class]:nth-child(8)
