@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 232
+!Update: 233
 
 !Badware/Malware redirects
 ||promo-bc.com
@@ -711,8 +711,16 @@ txxx.com##.hYbus
 */P*TOUR/*$image,domain=twistys.com
 @@*/*Banner$image,domain=twistys.com
 twistys.com###footer-banners
+
+!#if env_chromium
 twistys.com###root > div > [class]:nth-child(7)
 twistys.com##div:has([color^="rgba(0, 0, 0, 0.5)"]):has([class])
+!#endif
+
+!#if env_firefox
+twistys.com###root > div > [class]:nth-child(7)
+twistys.com##div:has([color^="rgba(0, 0, 0, 0.5)"]):has([class])
+!#endif
 
 !javkitty.blogspot.com
 javkitty.blogspot.com###h237
@@ -1066,7 +1074,6 @@ hqsluts.com##[href="/m/cams.menu/"], [href="/m/store.main/"]
 !camvideos.*
 ||camvideos.*/images/*.gif$image,1p
 ||camvideos.*/contents/other/player/embed/$image,1p
-||chaturbate.com^$frame,domain=camvideos.org,important
 @@||camvideos.*/embed/$frame,domain=camvideos.org
 camvideos.*##+js(acis, Math, Object.defineProperty)
 camvideos.*##+js(aopr, loadTool)
@@ -1418,6 +1425,7 @@ tube8.com##.try-premium-logo-link
 tube8.com##.auto
 tube8.com##.video_box:has(.icon-star-full)
 tube8.com##[id^="boxVideo"]:has-text(/Blacked|Black|BLACKED|BLACK|BBC|bbc/)
+tube8.com###videopagedblock
 
 !facebook.com
 facebook.com##.e_1710e1xp16.pagelet > ._1-ia > ._4-u8._20os._2tyk._1-ib._4-u2
@@ -1425,6 +1433,7 @@ facebook.com##div[id^=hyperfeed_story_id_]:has(a[role^=button]:has(> span:has([d
 facebook.com##[id^="u_fetchstream_"] > .userContentWrapper:has-text(Suggested for You)
 facebook.com##[data-pagelet^="FeedUnit_"]:has-text(People You May Know)
 facebook.com##div[data-pagelet^="FeedUnit"]:has(div[role^="button"]:has(> span > span:matches-css(position: relative):has-text(S):not(:has-text(1)):not(:has-text(2)):not(:has-text(3)):not(:has-text(4)):not(:has-text(5)):not(:has-text(6)):not(:has-text(7)):not(:has-text(8)):not(:has-text(9)):not(:has-text(w))))
+facebook.com##[role^="main"] > div:has-text(/Log in|sign up/)
 
 !aznude.com
 ||aznude.com/worker.js$script,1p
@@ -2282,8 +2291,8 @@ sexy-youtubers.com##.widget:not(:has-text(/([A-Z])\w+)):not(:has(a[href*="sexy-y
 sexy-youtubers.com##.notices
 sexy-youtubers.com##.td-social-icon-wrap
 sexy-youtubers.com###td-header-search-button > .td-icon-search
-sexy-youtubers.com##[href^="https://go.hpyrdr.com"]
-sexy-youtubers.com##[href^="https://super-route.com/"]
+sexy-youtubers.com##[id^="menu-item-"]:has([href]):not(:has([href*="youtubers.com"]))
+sexy-youtubers.com##.p-nav-list > li:has([href]):not(:has-text(/Blog|forums|What's new|Downloads|Members/))
 
 !thothub.tv
 ||dropkickmedia.com^$xhr,domain=thothub.tv
@@ -2619,9 +2628,11 @@ bustybloom.com##[id^="partnerpromo_"]
 bustybloom.com##.candy
 
 !#if env_chromium
-!#if env_firefox
 bustybloom.com##[href*="click/o/"]
 !#endif
+
+!#if env_firefox
+bustybloom.com##[href*="click/o/"]
 !#endif
 
 !asspoint.com
@@ -3559,6 +3570,7 @@ xfantasy.tv,xfantazy.com##[href]:not([href^="/"]):not([href*="xfantasy.tv"])
 ||camwhores.tv/*action=js_online_status$image,1p
 ||nsimg.net$image,3p,domain=camwhores.tv|camwhores.video
 *$script,3p,domain=camwhores.tv
+*$websocket,3p,domain=camwhores.video
 @@||camwhores.*^$csp
 @@||camvideos.org/embed/*$frame,domain=camwhores.tv
 camwhores.*##.adv
@@ -3568,6 +3580,7 @@ camwhores.*##.place
 camwhores.*##.chatbro_header
 camwhores.*##.primary > li:has([href]):not(:has([href*="camwhores.tv"]))
 camwhores.*##.list-comments p:style(font-size: 16px !important; font-style: normal !important; line-height: 30px !important;)
+camwhores.*##.list-sort > [href*="/live/"]
 
 !wiki.fextralife.com
 wiki.fextralife.com###video-stream-container
@@ -4124,15 +4137,7 @@ wupfile.com##.block-pricing
 upvid.mobi##[id*="ScriptRoot"]
 
 !pornoeggs.com|peekvids.com|playvids.com|pornflip.com
-!#if env_mobile
-pornoeggs.com,peekvids.com,playvids.com,pornflip.com##+js(aopw, pop_target)
-!#endif
-
-!#if env_chromium
-pornoeggs.com,peekvids.com,playvids.com,pornflip.com##+js(aopw, pop_target)
-!#endif
-
-pornoeggs.com,peekvids.com,playvids.com##.block-advert
+pornoeggs.com,peekvids.com,playvids.com,pornflip.com##.block-advert
 peekvids.com##.invideoBlock
 peekvids.com,playvids.com##.container > .row > .col-lg-auto.col-12
 peekvids.com,playvids.com,pornflip.com##.share
@@ -5003,7 +5008,6 @@ private-shows.net##+js(aopr, _bullionloadingparameters)
 private-shows.net##.embed-container
 
 !cambro.tv
-||chaturbate.com^$frame,domain=cambro.tv,important
 cambro.tv##+js(aopr, crakPopInParams.url)
 cambro.tv##.fp-logo
 cambro.tv##.fp-brand
@@ -5265,3 +5269,17 @@ nobodyhome.tv##.jGrowl .jGrowl-notification.jgrowl_error:style(background: #0000
 cloudysexy.com##+js(aopr, _0x168f)
 cloudysexy.com##+js(aopr, _0x2f53)
 cloudysexy.com##+js(acis, document.querySelector, contentOpen)
+
+!fapnado.com
+fapnado.com##+js(set, flashvars.popunderurl, undefined)
+fapnado.com##.box-video > .spot-vertical
+fapnado.com##.spot-horizontal-img
+fapnado.com###pause-ads
+fapnado.com##.fp-logo
+fapnado.com##.spot-horizontal
+fapnado.com##.fp-brand
+fapnado.com##.container > .spot-outer
+fapnado.com###list_videos_related_videos > center
+
+!4archive.org
+4archive.org##+js(acis, document.querySelectorAll, popMagic)
