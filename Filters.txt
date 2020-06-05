@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 233
+!Update: 234
 
 !Badware/Malware redirects
 ||promo-bc.com
@@ -540,6 +540,16 @@ preRoll.php$xhr
 ||schjmp.com^
 ||8po6fdwjsym3.com^
 ||bbom2b434493.com^
+||2266608.com^
+||skyprivate.com^$3p,frame
+||easy2cnjuh34jb.com^
+||76a7doiet256.com^
+||roujaufu.net^
+||madsoks.com^
+||pornopizza.it/lander/*$frame,3p
+||shqbsdjatunl.com^
+||d3mzokty951c5w.cloudfront.net^
+||bestcontentjob.top^
 
 !Whitelist
 @@||click.linksynergy.com^
@@ -1002,6 +1012,7 @@ knowyourmeme.com##.tb-toggle
 
 !gyazo.com
 gyazo.com##[class*="popup"]
+gyazo.com##.upper-ad-box
 
 !pastebin.com
 pastebin.com###float-box-2
@@ -1322,6 +1333,7 @@ xvideos.com##[id*="x-messages-"]
 !redtube.com
 /redtube/js/common/common/service_worker_starter$xhr,important
 ||redtube.com/service_worker-*.js$script,1p
+redtube.com#@#.clearfix:has-text(Ads)
 redtube.com###show_page_streamate
 redtube.com##.subtxt
 redtube.com##[id*="rel_videos"]:has(.premium-video-icon)
@@ -1330,7 +1342,7 @@ redtube.com###event_row_section
 redtube.com###paid_tab_02
 redtube.com##.gallery_list_container > div
 redtube.com###content_container > .content_limit > [class]:not([class*="_"])
-redtube.com#@#.clearfix:has-text(Ads)
+redtube.com##.sb-link
 
 !4tube.com
 4tube.com##.la-vane-frame
@@ -1433,7 +1445,6 @@ facebook.com##div[id^=hyperfeed_story_id_]:has(a[role^=button]:has(> span:has([d
 facebook.com##[id^="u_fetchstream_"] > .userContentWrapper:has-text(Suggested for You)
 facebook.com##[data-pagelet^="FeedUnit_"]:has-text(People You May Know)
 facebook.com##div[data-pagelet^="FeedUnit"]:has(div[role^="button"]:has(> span > span:matches-css(position: relative):has-text(S):not(:has-text(1)):not(:has-text(2)):not(:has-text(3)):not(:has-text(4)):not(:has-text(5)):not(:has-text(6)):not(:has-text(7)):not(:has-text(8)):not(:has-text(9)):not(:has-text(w))))
-facebook.com##[role^="main"] > div:has-text(/Log in|sign up/)
 
 !aznude.com
 ||aznude.com/worker.js$script,1p
@@ -1564,6 +1575,7 @@ wantedbabes.com###main-menu > [href]:not([href^="/"]):not([href^="#"])
 ||grabpussy.com^*/b/*$image,1p
 grabpussy.com##+js(set, floaderLoaded, noopFunc)
 grabpussy.com##+js(aopw, aweOLEmbedConfig)
+grabpussy.com##+js(aopr, exoJsPop101)
 grabpussy.com##.c-bl-b-before
 grabpussy.com##.two-adv
 grabpussy.com##.ban-bl
@@ -1829,6 +1841,7 @@ rossoporn.com##h1:has-text(WATCH FREE CAM)
 !pbabes.com
 pbabes.com^*/b/*$image,1p
 pbabes.com##+js(set, floaderLoaded, noopFunc)
+pbabes.com##+js(aopr, exoJsPop101)
 pbabes.com##.banner
 pbabes.com###box_613
 pbabes.com##h1
@@ -3581,6 +3594,7 @@ camwhores.*##.chatbro_header
 camwhores.*##.primary > li:has([href]):not(:has([href*="camwhores.tv"]))
 camwhores.*##.list-comments p:style(font-size: 16px !important; font-style: normal !important; line-height: 30px !important;)
 camwhores.*##.list-sort > [href*="/live/"]
+camwhores.*##.navigation
 
 !wiki.fextralife.com
 wiki.fextralife.com###video-stream-container
@@ -5050,7 +5064,9 @@ paladins.guru###paladins_horizontal_atf
 paladins.guru###paladins_vertical_atf
 
 !pornmobile.online
-pornmobile.online##+js(aopr, exoJsPop101)
+||pornmobile.online//scripts/vtt.js$script,1p
+pornmobile.online##+js(acis, document.querySelectorAll, popMagic)
+pornmobile.online##+js(acis, Math, Object.defineProperty)
 
 !blankrefer.com
 @@||blankrefer.com^
@@ -5140,6 +5156,7 @@ pornwatchers.com##.fluid_nonLinear_bottom
 *$3p,script,domain=pimpandhost.com
 pimpandhost.com##+js(window.open-defuser)
 pimpandhost.com##.ano_po
+pimpandhost.com##[id^="ad"]
 
 !zteenporn.com
 ||zteenporn.com/worker.js$script,1p
@@ -5234,6 +5251,7 @@ pornl.com##+js(aopr, document.head.appendChild)
 
 !chaturbate.com
 ||chaturbate.com/jsi18n/*$script,1p
+chaturbate.com##+js(acis, document.getElementById, entrance_terms)
 
 !porn-monkey.com
 porn-monkey.com##img[alt^="watermark"][src^="/static"]
@@ -5248,6 +5266,7 @@ momsbangteens.com###root > div > [class]:has([class]):has-text(Enter)
 momsbangteens.com##div:has([color^="rgba(0, 0, 0, 0.5)"]):has([class])
 
 !ricoysuave.com
+ricoysuave.com##+js(aopr, _0x16f4)
 ricoysuave.com##+js(aopr, pum_vars.pum_popups)
 
 !yourfreepantyhosegalleries.com
@@ -5260,7 +5279,7 @@ yourfreepantyhosegalleries.com##[id^="sideadvwidget-"]
 @@streamapi.xyz$frame
 
 !highwebmedia.com
-||highwebmedia.com/CACHE/js/output$script
+||highwebmedia.com/CACHE/js/output.d45f7d7e7bd0.js$script
 
 !nobodyhome.tv
 nobodyhome.tv##.jGrowl .jGrowl-notification.jgrowl_error:style(background: #000000 !important; border: 1px solid #000000 !important; color: #FFFFFF !important)
@@ -5283,3 +5302,46 @@ fapnado.com###list_videos_related_videos > center
 
 !4archive.org
 4archive.org##+js(acis, document.querySelectorAll, popMagic)
+
+!sleazyneasy.com
+sleazyneasy.com###after-adv
+sleazyneasy.com##.text_adv
+sleazyneasy.com##.nav > li:has([href]):not(:has([href*="sleazyneasy"])):not(:has([href^="/"]))
+
+!sindrive.com
+sindrive.com##body.block-content::before:style(background: none !important; position: absolute !important; content: none !important;)
+
+!watchmygf.me
+watchmygf.me##+js(set, flashvars.adv_pre_url, undefined)
+watchmygf.me##+js(set, flashvars.adv_pre_skip_duration, undefined)
+
+!yandex.com
+||yandex.com/clck/jclck/$ping,1p
+yandex.com##.incut_inserted_yes
+yandex.com##.MMRelatedImages-DirectIncut
+
+!webcam-archiver.com
+webcam-archiver.com###description > .panel > .panel-heading:has-text(Sponsored)
+
+!alotporn.com
+alotporn.com##+js(aopr, _0x16f4)
+alotporn.com##.table
+alotporn.com##[id$="_fluid_html_on_pause"]
+
+!camgirlsteam.com
+camgirlsteam.com##+js(aopr, adBlockDetected)
+camgirlsteam.com##+js(window.open-defuser)
+
+!mypornhere.com
+||mypornhere.com/sw.js$script,1p
+mypornhere.com##+js(aopr, console.log)
+mypornhere.com###ex_pop_iframe
+mypornhere.com##.table
+
+!pornone.com
+pornone.com##+js(aopr, node.appendChild(adn))
+pornone.com##+js(acis, document.createElement, "script")
+pornone.com##.video-add
+pornone.com##[class*="banner"]
+pornone.com##.adholder
+pornone.com###video-advert
