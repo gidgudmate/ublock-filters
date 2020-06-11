@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 234
+!Update: 235
 
 !Badware/Malware redirects
 ||promo-bc.com
@@ -565,6 +565,7 @@ preRoll.php$xhr
 ##[href^="https://t.frtyo.com/"]
 ##.ad
 ##[id*="cookie-notification"]
+##[href^="https://t.hrtya.com"]
 
 !------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------!
 
@@ -704,6 +705,8 @@ camwhoreshd.com###back-to-top
 camwhoreshd.com##.trailer__row
 camwhoreshd.com##.top
 camwhoreshd.com##.page__header > :nth-child(2)
+camwhoreshd.com###camsoda-embed
+camwhoreshd.com##.container > .link
 
 !txxx.com
 *$3p,frame,domain=txxx.com
@@ -1449,7 +1452,7 @@ facebook.com##div[data-pagelet^="FeedUnit"]:has(div[role^="button"]:has(> span >
 !aznude.com
 ||aznude.com/worker.js$script,1p
 ||aznude.com/js/skel-*.js$script,1p
-aznude.com##+js(aopr, _0x5dc4)
+aznude.com##+js(aeld, , _0x)
 aznude.com##+js(window.open-defuser)
 aznude.com##+js(nostif, isScrollTimeout, 80)
 aznude.com##[href^="http://linktrack.info"]
@@ -2333,7 +2336,7 @@ thothub.tv##.g1-sticky-top-wrapper:style(position: static !important;)
 
 !feet9.com
 feet9.com##+js(aopr, trackOutboundLink)
-feet9.com##+js(aopr, _0xe818)
+feet9.com##+js(aeld, , _0x)
 feet9.com##+js(aopr, Feet9Push)
 feet9.com##.hvr-pulse
 feet9.com##.player-right > div:has-text(Click here to watch her)
@@ -2535,7 +2538,7 @@ hotbabeswanted.com##.menu > [href]:not([href^="/"])
 
 !collectionofbestporn.com
 *$3p,frame,domain=collectionofbestporn.com
-collectionofbestporn.com##+js(aopr, _0xc530)
+collectionofbestporn.com##+js(aeld, , _0x)
 collectionofbestporn.com###lower-ads
 collectionofbestporn.com##.banner-mobile-header
 collectionofbestporn.com##.btn-share
@@ -2797,7 +2800,7 @@ ally.sh##.adsbygoogle
 ||adshort.*/lockercontent.js$script,1p
 ||adshort.*$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.google.com *.gstatic.com *.recaptcha.net; child-src 'self' data: *.google.com
 clk.ink##+js(noeval)
-clk.ink,adshort.*##+js(aopr, _0xbc13)
+clk.ink,adshort.*##+js(aeld, , _0x)
 clk.ink##+js(acis, document.createElement, 'script')
 adshort.*##+js(set, blurred, false)
 adshort.*##+js(aopr, open)
@@ -2940,7 +2943,7 @@ tryboobs.com###videoContainer_playButton
 ||tubsexer.com/fe_load.js$script,1p
 ||tubsexer.com/sw.js$script,1p
 ||tubsexer.com/fend_lodr.js$script,1p
-tubsexer.com##+js(aopr, _0x3bb0)
+tubsexer.com##+js(aeld, , _0x)
 tubsexer.com##.video-holder > center
 tubsexer.com##.header_link
 tubsexer.com##.btn_twitt
@@ -3507,7 +3510,7 @@ imgtaxi.com##.if
 !proporn.com
 @@||protoawe.com$script,frame,domain=proporn.com
 proporn.com##+js(window.open-defuser)
-proporn.com##+js(aopr, _0x586a)
+proporn.com##+js(aeld, , _0x)
 proporn.com#@#.c-meddenomination-output
 proporn.com##.contain:nth-child(10)
 proporn.com##.thr-rcol:has-text(Advertising)
@@ -3645,6 +3648,7 @@ google.com##c-wiz > div:has-text(Sponsored)
 google.com###taw:has([id*="google-ad"])
 google.com##[data-id] + [jscontroller]:has(span):has-text(Related searches)
 google.com##.sh-sr__shop-result-group:has-text(Sponsored)
+google.com##.BUooTd:has(span):has([aria-label^="Click for product information"])
 
 !apex.tracker.gg
 apex.tracker.gg##.trn-upsell-premium
@@ -3862,7 +3866,7 @@ dunyanews.xyz###link-view > p
 
 !wi.cr
 wi.cr##+js(window.open-defuser)
-wi.cr##+js(aopr, _0xa500)
+wi.cr##+js(aeld, , _0x)
 wi.cr##.text-left
 
 !wikiall.org
@@ -4208,14 +4212,16 @@ veblink.com##.banner
 veblink.com##.text-left
 
 !megatube.xxx
-megatube.xxx##+js(aopr, _0x248f)
+megatube.xxx##+js(aeld, , _0x)
 megatube.xxx###sponsor-widget
 megatube.xxx##.header-panel-1
 megatube.xxx##.place
 
 !shemalestube.com
 ||shemalestube.com/service-worker.js*$script,1p
+||shemalestube.com/templates/dark/js/pop/script.js$script,1p
 shemalestube.com##.news-line
+shemalestube.com##.video-item:has(.premium)
 
 !fulltrannyporn.com
 *$3p,popup,domain=fulltrannyporn.com
@@ -4640,7 +4646,7 @@ bcvc.*##+js(window.open-defuser)
 
 !ecleneue.com
 @@||pushokey.com/ntfc.php$script,3p,domain=ecleneue.com
-ecleneue.com##+js(aopr, _0x2964)
+ecleneue.com##+js(aeld, , _0x)
 
 !y2mate.com
 y2mate.com##.extension
@@ -4687,7 +4693,7 @@ upload.ac##.boxa
 
 !milffox.com
 ||milffox.com/local_*$script,frame,1p
-milffox.com##+js(aopr, _0xd6b4)
+milffox.com##+js(aeld, , _0x)
 
 !wicked.com
 wicked.com###header:style(position: static !important;)
@@ -5266,7 +5272,7 @@ momsbangteens.com###root > div > [class]:has([class]):has-text(Enter)
 momsbangteens.com##div:has([color^="rgba(0, 0, 0, 0.5)"]):has([class])
 
 !ricoysuave.com
-ricoysuave.com##+js(aopr, _0x16f4)
+ricoysuave.com##+js(aeld, , _0x)
 ricoysuave.com##+js(aopr, pum_vars.pum_popups)
 
 !yourfreepantyhosegalleries.com
@@ -5285,8 +5291,7 @@ yourfreepantyhosegalleries.com##[id^="sideadvwidget-"]
 nobodyhome.tv##.jGrowl .jGrowl-notification.jgrowl_error:style(background: #000000 !important; border: 1px solid #000000 !important; color: #FFFFFF !important)
 
 !cloudysexy.com
-cloudysexy.com##+js(aopr, _0x168f)
-cloudysexy.com##+js(aopr, _0x2f53)
+cloudysexy.com##+js(aeld, , _0x)
 cloudysexy.com##+js(acis, document.querySelector, contentOpen)
 
 !fapnado.com
@@ -5324,13 +5329,17 @@ yandex.com##.MMRelatedImages-DirectIncut
 webcam-archiver.com###description > .panel > .panel-heading:has-text(Sponsored)
 
 !alotporn.com
-alotporn.com##+js(aopr, _0x16f4)
+||alotporn.com^$frame,1p
+alotporn.com##+js(aeld, , _0x)
 alotporn.com##.table
 alotporn.com##[id$="_fluid_html_on_pause"]
+alotporn.com##.sponsor
 
 !camgirlsteam.com
+*$popunder,popup,domain=camgirlsteam.com
+*$3p,frame,domain=camgirlsteam.com
 camgirlsteam.com##+js(aopr, adBlockDetected)
-camgirlsteam.com##+js(window.open-defuser)
+camgirlsteam.com##.iframe-view
 
 !mypornhere.com
 ||mypornhere.com/sw.js$script,1p
@@ -5345,3 +5354,13 @@ pornone.com##.video-add
 pornone.com##[class*="banner"]
 pornone.com##.adholder
 pornone.com###video-advert
+
+!ups.com
+ups.com##.ups-tracking_banner
+ups.com###ups-alertsWrap
+
+!manyvids.com
+manyvids.com##.announcement-banner
+
+!camsoda.com
+||camsoda.com^$frame,3p
