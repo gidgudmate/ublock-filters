@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 236
+!Update: 237
 
 !Badware/Malware redirects
 ||promo-bc.com
@@ -559,6 +559,18 @@ preRoll.php$xhr
 ||huffson-delivery.com^
 ||snowdayonline.xyz^
 ||p9oqu.com^
+||protawe.com^$frame,3p
+||awprt.com^$script,3p
+||bate.cum-shows.net^
+||fabrouter.com^
+||bdwafx.com^
+||camsredirect.com^
+||webxl.info^
+||findyourpleasure4.life^
+||imlive.com^
+||pc20160301.com^
+||pc180101.com^
+*/js/popit.js$script,1p
 
 !Whitelist
 @@||click.linksynergy.com^
@@ -576,6 +588,7 @@ preRoll.php$xhr
 ##[id*="cookie-notification"]
 ##[href^="https://t.hrtya.com"]
 ##[href^="https://a.bestcontentfood.top/"]
+##[href^="https://giveladieslove.com/"]
 !------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------!
 
 !adf.ly
@@ -672,7 +685,10 @@ porndoe.com##.yellow-bar
 porndoe.com##.fly-in-content
 
 !realitykings.com
-realitykings.com##.blur:style(filter: none !important;)
+*/catfish.png$image,3p,domain=realitykings.com
+realitykings.com###root > div > [class]:has([alt^="locked"])
+realitykings.com##[class]:style(backdrop-filter: blur(0) !important;)
+realitykings.com##.iUPzUp:style(background-color: transparent !important; z-index: -9999 !important;)
 
 !puremature.com
 puremature.com##.epoch-box
@@ -1311,7 +1327,6 @@ xhamster.*##.wih-banner-container
 xhamster.*##.wih-spl-text
 xhamster.*##.full-download
 xhamster.*##.wih-spot-container
-xhamster.*##[class$="-banner"]
 xhamster.*##.wih-spb
 
 !pornhub.com
@@ -1960,6 +1975,7 @@ tnaflix.com##.mainVidTtl
 tnaflix.com##.darkSwitcher:style(position: absolute !important;)
 tnaflix.com##.pVideoPipBlock
 tnaflix.com##.withRightBar > span
+tnaflix.com###zoneInPlayer
 
 !isselecta.co
 isselecta.com###top-message-wrapper
@@ -2306,7 +2322,7 @@ mentalfloss.com##.ad-container
 
 !biguz.net
 ||biguz.net^$script,1p
-||biguz.net/vast*$xhr
+||biguz.net/vast$xhr,1p
 @@||biguz.net/js/fluidplayer.min.js$script,1p
 biguz.net##+js(aopr, document.dispatchEvent)
 biguz.net##+js(aopr, ExoLoader)
@@ -4180,6 +4196,7 @@ wupfile.com##.block-pricing
 upvid.mobi##[id*="ScriptRoot"]
 
 !pornoeggs.com|peekvids.com|playvids.com|pornflip.com
+||peekvids.com/*_promo/$image,1p
 pornoeggs.com,peekvids.com,playvids.com,pornflip.com##.block-advert
 peekvids.com##.invideoBlock
 peekvids.com,playvids.com##.container > .row > .col-lg-auto.col-12
@@ -4191,6 +4208,7 @@ pornflip.com##.banner-top
 pornflip.com##.horiz-content > .a-label
 pornflip.com##.highBanner
 pornflip.com,playvids.com##.add_href_jsclick
+peekvids.com###mediaPlayerSponsored
 
 !simplenu.com
 ||simplenu.com/js/td*.js$script,1p
@@ -5049,13 +5067,15 @@ private-shows.net##+js(aopr, _bullionloadingparameters)
 private-shows.net##.embed-container
 
 !cambro.tv
-cambro.tv##+js(aopr, crakPopInParams.url)
+cambro.tv##+js(set, crakPopInParams, undefined)
+cambro.tv##+js(aopr, ptInitFakePromoPlayer)
 cambro.tv##.fp-logo
 cambro.tv##.fp-brand
 cambro.tv##.player-holder > [class]:not(.player-wrap)
 cambro.tv##.hdrlnk
 cambro.tv##[href="https://theporndude.com/"], [href^="https://go.strpjmp.com"], [href^="https://t.frtyi.com/"]
 cambro.tv##.network
+cambro.tv##.cbchat
 
 !sonpornmomincestsex.com
 *$3p,frame,domain=sonpornmomincestsex.com
@@ -5311,6 +5331,7 @@ yourfreepantyhosegalleries.com##[id^="sideadvwidget-"]
 
 !nobodyhome.tv
 nobodyhome.tv##.jGrowl .jGrowl-notification.jgrowl_error:style(background: #000000 !important; border: 1px solid #000000 !important; color: #FFFFFF !important)
+nobodyhome.tv##[id^="post"]:not(:has-text(/cwbot|stinkogaming/))
 
 !cloudysexy.com
 cloudysexy.com##+js(aeld, , _0x)
@@ -5404,7 +5425,7 @@ sexy-egirls.com##+js(aopr, console.log)
 ||camhoes.tv/player/html.php$frame,1p
 camhoes.tv##+js(aopr, onload)
 camhoes.tv##+js(set, crakPopInParams, undefined)
-camhoes.tv##+js(set, flashvars.popunder_url, '')
+camhoes.tv##+js(set, flashvars.popunder_url, undefined)
 camhoes.tv##.fp-logo
 camhoes.tv##.fp-brand
 
@@ -5422,3 +5443,18 @@ alphaporno.com##.advertising-side
 !babesrater.com
 ||babesrater.com/Content/*banner$image,1p
 babesrater.com##.mainGalleryDiv > div:has([href^="https:"]):has([src])
+
+!webcamvideo.tv
+||webcamvideo.tv/scripts/pop.js$script,1p
+
+!webcamsrip.com
+||webcamsrip.com^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.googleapis.com *.jquery.com *.bootstrapcdn.com *.cloudflare.com *.google.com *.gstatic.com;
+
+!sexwebvideo.net
+||sexwebvideo.net/images/sample/sample-*$image,1p
+sexwebvideo.net##+js(set, flashvars.popunder_url, undefined)
+sexwebvideo.net##[href^="http://www.sexwebvideo.net/link/"]
+
+!xpornplease.com
+*$3p,script,domain=xpornplease.com
+xpornplease.com##+js(acis, Math, zfgloaded)
