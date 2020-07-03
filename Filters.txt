@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 237
+!Update: 238
 
 !Badware/Malware redirects
 ||promo-bc.com
@@ -571,6 +571,8 @@ preRoll.php$xhr
 ||pc20160301.com^
 ||pc180101.com^
 */js/popit.js$script,1p
+||fhgh9sd.com^
+||quickdates8.com^
 
 !Whitelist
 @@||click.linksynergy.com^
@@ -773,6 +775,7 @@ porntube.com##.ugc.transparent-button
 porntube.com##.related-kodplayer
 porntube.com##.hidden-xs-down.video-added
 porntube.com##.vjs-autonext-ad-container
+porntube.com##.vjs-picture-in-picture-control
 
 !cliphunter.com
 ||cliphunter.com/superscript.php$script,1p
@@ -1382,6 +1385,7 @@ redtube.com##.sb-link
 4tube.com##.footer-la-vane
 4tube.com##.vjs-paused video:style(opacity: 1 !important;)
 4tube.com###autonext_ad
+4tube.com###listingBanner
 
 !veporn.net
 veporn.net##.sidebar-social
@@ -1976,6 +1980,7 @@ tnaflix.com##.darkSwitcher:style(position: absolute !important;)
 tnaflix.com##.pVideoPipBlock
 tnaflix.com##.withRightBar > span
 tnaflix.com###zoneInPlayer
+tnaflix.com##[class*="Banners"]
 
 !isselecta.co
 isselecta.com###top-message-wrapper
@@ -3684,11 +3689,11 @@ luscious.net###advertisement_adhesion
 ||google.com/drive/serviceworker*.js$script,1p
 @@||google.com^$popup,popunder,3p
 google.com##[href] > .LC20lb:style(font-size: 18px !important;)
-google.com##c-wiz > div:has-text(Sponsored)
 google.com###taw:has([id*="google-ad"])
 google.com##[data-id] + [jscontroller]:has(span):has-text(Related searches)
 google.com##.sh-sr__shop-result-group:has-text(Sponsored)
 google.com##.BUooTd:has(span):has([aria-label^="Click for product information"])
+google.com###islmp > div > div > div > div > div > div > div:has-text(Sponsored)
 
 !apex.tracker.gg
 apex.tracker.gg##.trn-upsell-premium
@@ -3944,10 +3949,12 @@ keezmovies.com##.small_resolution:not([class*=bl])
 keezmovies.com##.js-cookie-policy
 
 !extremetube.com
+extremetube.com##+js(set, HTMLElement.prototype.attachShadow, null)
 extremetube.com##[id*=lead]
 extremetube.com##.backToTop
 extremetube.com##[style^="float:right; width: 49.9%; height: 534px;"]
 extremetube.com##[style^="margin: auto;  height: 302px; overflow: hidden; width:951px;"]
+extremetube.com###video-box > div:has([style]) > [id]:not(:has([id^="vid"]))
 
 !deviantart.com
 deviantart.com##.ad-wrapper
@@ -5055,6 +5062,7 @@ xxxsexteen.com###videojs_video_wrapper_video-id:style(position: absolute !import
 
 !incestporn.cc
 incestporn.cc##+js(aopr, exoJsPop101)
+incestporn.cc##+js(acis, Math, Object.defineProperty)
 
 !gounlimited.to
 ||gounlimited.to/js/tabber.js$script,1p
@@ -5458,3 +5466,10 @@ sexwebvideo.net##[href^="http://www.sexwebvideo.net/link/"]
 !xpornplease.com
 *$3p,script,domain=xpornplease.com
 xpornplease.com##+js(acis, Math, zfgloaded)
+
+!alohatube.xyz
+alohatube.xyz##+js(nostif, window.open)
+alohatube.xyz##+js(aopr, popit)
+
+!daringbikinibabes.com
+daringbikinibabes.com##.bottomadsW
