@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 238
+!Update: 239
 
 !Badware/Malware redirects
 ||promo-bc.com
@@ -573,6 +573,12 @@ preRoll.php$xhr
 */js/popit.js$script,1p
 ||fhgh9sd.com^
 ||quickdates8.com^
+||mnytrk.com^
+||moneypunchstep.online^
+||webpinp.com^
+||mavenlohi.com^
+||donstick.com^
+||remonti.org^
 
 !Whitelist
 @@||click.linksynergy.com^
@@ -591,6 +597,7 @@ preRoll.php$xhr
 ##[href^="https://t.hrtya.com"]
 ##[href^="https://a.bestcontentfood.top/"]
 ##[href^="https://giveladieslove.com/"]
+##[href^="http://xrclimbers.com/"]
 !------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------!
 
 !adf.ly
@@ -799,6 +806,7 @@ retrosexporn.com##.player-spots
 ||twitch.tv/service-worker.js$script,1p
 ext-twitch.tv##[class*="flyout"]
 ext-twitch.tv##.prime-extension-root
+twitch.tv##.ffz--player-pip
 
 !xbabe.com
 ||xbabe.com^$script,xhr,frame,1p
@@ -1080,6 +1088,7 @@ spankwire.com##.trafficByInfo
 spankwire.com###titleSponsorBox
 spankwire.com##.detach_container_sponsor-link
 spankwire.com###sw-footer-cookie-policy
+spankwire.com##.vjs-paused.vjs-show-inplayer-ads > [data-class=vjs-inplayer-overlay]
 
 !pron.tv
 pron.tv###stickyfloater > ins > iframe
@@ -1331,6 +1340,7 @@ xhamster.*##.wih-spl-text
 xhamster.*##.full-download
 xhamster.*##.wih-spot-container
 xhamster.*##.wih-spb
+xhamster15.*##.xplayer-banner-bottom
 
 !pornhub.com
 ||nsimg.net^$image,3p,domain=pornhub.com,important
@@ -1396,6 +1406,7 @@ tubepornclassic.com##+js(set, popunder, undefined)
 tubepornclassic.com##+js(set, TCPop, noopFunc)
 tubepornclassic.com##+js(aopr, BetterJsPop)
 tubepornclassic.com##+js(aopr, exoNoExternalUI38djdkjDDJsio96)
+tubepornclassic.com#@#+js(aopr, RegExp.prototype.toString)
 tubepornclassic.com##.bottom-adv
 tubepornclassic.com##.tpc-footer--ban
 tubepornclassic.com##.SimneSD
@@ -1460,6 +1471,8 @@ vqporn.com##.st-btn
 !tube8.com
 ||tube8.com/service-worker.js$script,1p
 ||tube8.com/workbox-sw.prod.*$script,1p
+@@||polyfill.io^$script,3p,domain=tube8.com
+@@||t8cdn.com^$script,3p,domain=tube8.com
 tube8.com##.float-right.e8d6e24b
 tube8.com##[class*="Banner"]
 tube8.com##[class*="adblock"]
@@ -1697,6 +1710,7 @@ babesinporn.com###header:style(position: absolute !important;)
 destinytracker.com##+js(aopr, checkSiteNotifications)
 destinytracker.com##+js(aopw, adBlockDetected)
 destinytracker.com##.ad-box
+destinytracker.com##.site-container > .bordered-ad
 
 !nudogram.com
 nudogram.com##[src="https://nudogram.com/graphics/banned.png"]
@@ -2290,6 +2304,7 @@ exgirlfriendmarket.com###asidetopcandy
 */banners/*$domain=temp-mail.org,image
 temp-mail.org##.block-control:style(position: sticky !important;)
 temp-mail.org##.chromePluginInlineInstall
+temp-mail.org##.headerSeoLink
 
 !porkjizz.com
 porkjizz.com##.happy-header-mobile
@@ -2413,8 +2428,9 @@ sexwinks.com##+js(aopr, document.dispatchEvent)
 sexwinks.com##+js(window.open-defuser)
 sexwinks.com##.navbar-fixed-top
 
-!anybunny.com
-anybunny.com##table:nth-of-type(2) > tbody > tr > td:nth-of-type(2)
+!anybunny.*
+||anybunny.*/js/top.ch.js$script,1p
+||anybunny.*/js/tekierozs.js$script,1p
 anybunny.com##.scrollToTop
 
 !wcdem2015.org
@@ -3248,6 +3264,7 @@ spankbang.com##.ptgncdn_holder
 @@||erome.com/js/$script,1p
 erome.com##+js(aopr, tia)
 erome.com##+js(acis, document.createElement, "script")
+erome.com##[href^="https://rapid-trk.com/"]
 
 !fapality.com
 ||fapality.com/*.jsx$script,1p
@@ -3402,6 +3419,7 @@ myxvids.com##.header:style(position: static !important;)
 myxvids.com##.under-player-desktop
 
 !nesaporn.com
+nesaporn.com##+js(acis, document.querySelectorAll, popMagic)
 nesaporn.com##td:has-text(Advertising)
 
 !gamerevolution.com
@@ -4975,7 +4993,11 @@ planetsuzy.org##[id^="ad-header-"]
 ||pornwhite.com/js/customscript.js$script,1p
 
 !hclips.com
+||hclips.com/sw.js$script,1p
+hclips.com##+js(aopr, window.parent.postMessage)
+hclips.com##.video-page__content > .right
 hclips.com##.player > [data^="desktop_underplayer"]
+hclips.com##.iRx9
 
 !watchcartoon.cc
 watchcartoon.cc##.spu-bg
@@ -5409,6 +5431,8 @@ ups.com###ups-alertsWrap
 
 !manyvids.com
 manyvids.com##.announcement-banner
+manyvids.com##.sf-post__crush-lock
+manyvids.com##.show-multi-video
 
 !camsoda.com
 ||camsoda.com^$frame,3p
@@ -5447,6 +5471,7 @@ v-anal.org##+js(set, flashvars.adv_pre_vast, '')
 
 !alphaporno.com
 alphaporno.com##.advertising-side
+alphaporno.com##.desktop-banner
 
 !babesrater.com
 ||babesrater.com/Content/*banner$image,1p
@@ -5468,8 +5493,83 @@ sexwebvideo.net##[href^="http://www.sexwebvideo.net/link/"]
 xpornplease.com##+js(acis, Math, zfgloaded)
 
 !alohatube.xyz
-alohatube.xyz##+js(nostif, window.open)
 alohatube.xyz##+js(aopr, popit)
 
 !daringbikinibabes.com
 daringbikinibabes.com##.bottomadsW
+
+!shacknews.com
+shacknews.com##.takeover-skin
+shacknews.com##body:style(background-color: #202020 !important;)
+
+! 7/6/2020 https://reddflix.com
+||reddflix.com/banner/$frame,1p
+reddflix.com##.spot-block-item
+
+!pornflix.stream
+||pornflix.stream/banner/*$frame,1p
+
+!heavy-r.com
+||adultgamepass.com/$subdocument
+
+!javhub.net
+javhub.net##.fel-playclose
+
+!brandytube.com
+brandytube.com##+js(nostif, href, 50)
+brandytube.com###s-container
+brandytube.com###s-title
+
+!hdprn.com
+hdprn.com##+js(nowoif)
+
+!bravoporn.com
+||bravoporn.com/*.php$frame,script,xhr,1p
+||bravoporn.com*/service*worker.js$script,1p
+||bravoporn.com/pusher/subscribe.js$script,1p
+||bravoporn.com/feederdev/feeder.js$script,1p
+||bravoporn.com/v/js/adframe.js$script,1p
+||bravoporn.com/v/js/ads.js$script,1p
+||bravoporn.com/pp/s/s/js/ssu.v2.js$script,1p
+bravoporn.com##.inplb
+bravoporn.com##.under-video2
+bravoporn.com##.spot
+bravoporn.com##.content > .wrap > .box-left
+bravoporn.com##.brazzers
+
+!crocotube.com
+||crocotube.com/*.php$frame,xhr,script,1p
+||crocotube.com/feeder/feeder.js$script,1p
+||crocotube.com/adframe.js$script,1p
+||crocotube.com/cb/cb.ta.js$script,1p
+||crocotube.com/_*.js$script,1p
+crocotube.com##.bnnrs-player
+crocotube.com##.ct-video-ntv
+crocotube.com##.ct-video-ntvs-title
+crocotube.com##.ct-video-title-sponsor-link
+crocotube.com##.ct-holder.ct-advertising-footer
+
+!tubewolf.com
+||tubewolf.com/*.php$script,xhr,frame,1p
+||tubewolf.com/feederdev/feeder.js$script,1p
+||tubewolf.com/adframe.js$script,1p
+||tubewolf.com/_*.js$script,1p
+tubewolf.com##.bottom-banners
+tubewolf.com##.block-banner > strong
+tubewolf.com##.sponsor
+
+! 7/20/2020 https://freemilfs.porn
+||freemilfs.porn/myvids/click/click.js$script,1p
+||freemilfs.porn/myvids/rek/multiload.js$script,1p
+freemilfs.porn##.prefix-player-promo-item
+freemilfs.porn##iframe.mult.resizable
+freemilfs.porn##.prefixse-player-promo-col
+
+!streamxxxtube.com
+streamxxxtube.com##+js(acis, document.querySelectorAll, popMagic)
+streamxxxtube.com##+js(acis, decodeURI, decodeURIComponent)
+
+!camflow.tv
+camflow.tv##+js(set, flashvars.popunder_url, undefined)
+camflow.tv##+js(aopr, onload)
+camflow.tv##+js(aopr, crakPopInParams)
