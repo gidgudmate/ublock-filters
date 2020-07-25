@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 239
+!Update: 240
 
 !Badware/Malware redirects
 ||promo-bc.com
@@ -60,7 +60,6 @@
 ||system-alter.*.top^
 ||locknloader.com^
 ||installsaitopweb.*^
-||bestcontentindustry.top^
 ||ppndr.net^
 ||pushlat.com^
 ||kt5850pjz0.com^
@@ -421,7 +420,6 @@ preRoll.php$xhr
 ||rusenov.com^
 ||marketgamebo.com^
 ||hrahdmon.com^
-||bestcontentfood.top^
 ||scenepass.com^
 ||ctzs.pw^
 ||isboost.co.jp^
@@ -549,7 +547,6 @@ preRoll.php$xhr
 ||pornopizza.it/lander/*$frame,3p
 ||shqbsdjatunl.com^
 ||d3mzokty951c5w.cloudfront.net^
-||bestcontentjob.top^
 ||bangthatmilf.net^
 ||bapsel.com^
 ||truesweb.com^
@@ -579,7 +576,7 @@ preRoll.php$xhr
 ||mavenlohi.com^
 ||donstick.com^
 ||remonti.org^
-||bestcontent/(A-Z)+/g.top^
+||bestcontent*.top^
 
 !Whitelist
 @@||click.linksynergy.com^
@@ -5457,10 +5454,11 @@ sexy-egirls.com##+js(aopr, console.log)
 !camhoes.tv
 ||camhoes.tv/player/html.php$frame,1p
 camhoes.tv##+js(aopr, onload)
-camhoes.tv##+js(set, crakPopInParams, undefined)
+camhoes.tv##+js(aopr, crakPopInParams)
 camhoes.tv##+js(set, flashvars.popunder_url, undefined)
 camhoes.tv##.fp-logo
 camhoes.tv##.fp-brand
+camhoes.tv###object_container
 
 !xxxvintagesex.com
 *$script,3p,domain=xxxvintagesex.com
