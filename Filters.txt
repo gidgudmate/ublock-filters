@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 240
+!Update: 241
 
 !Badware/Malware redirects
 ||promo-bc.com
@@ -577,8 +577,9 @@ preRoll.php$xhr
 ||donstick.com^
 ||remonti.org^
 ||bestcontent*.top^
+||pkhhyool.com^
 
-!Whitelist
+!Whiteli0st
 @@||click.linksynergy.com^
 @@||history^$popunder,popup
 
@@ -2303,15 +2304,13 @@ exgirlfriendmarket.com###asidetopcandy
 temp-mail.org##.block-control:style(position: sticky !important;)
 temp-mail.org##.chromePluginInlineInstall
 temp-mail.org##.headerSeoLink
-
-!porkjizz.com
-porkjizz.com##.happy-header-mobile
-porkjizz.com##.under-player-ad
+temp-mail.org##.topStickyBanner
 
 !spicybabe.net
 ||spicybabe.net^*/banners/*$image,1p
 ||spicybabe.net^$script,1p
 spicybabe.net##+js(aopr, loadTool)
+spicybabe.net##+js(nosiif, reload2)
 spicybabe.net##.gallbox > [href*=".com"]
 spicybabe.net##.ad_reg1
 spicybabe.net##.ad_reg2 > p, .ad_reg3 > p
@@ -2328,10 +2327,8 @@ hotmovs.com##[class^="in-video-"]
 hotmovs.com##[id^="hm_footer_"]
 
 !yespornplease.com
-@@||yespornplease.com^$ghide
-yespornplease.com##.exclusive-link
-yespornplease.com##.hta3rdpOverlay
-yespornplease.com##[href="/v/52922775"]
+@@||porngo.com^$ghide
+porngo.com###player > .video-side:has-text(Advertisement)
 
 !mentalfloss.com
 @@||quora.com$script,domain=mentalfloss.com
@@ -2558,6 +2555,7 @@ groobygirls.com##.rabbits > center
 ||vidmo.org/serviceworker.js$script,1p
 vidmo.org##+js(acis, document.createElement, 'script')
 vidmo.org##+js(aopr, console.log)
+vidmo.org##+js(aopr, onload)
 vidmo.org###afrb
 
 !pornjam.com
@@ -3135,12 +3133,12 @@ vev.*##.vjs-marker.ad
 ||fpo.xxx/player/*$xhr,1p
 
 !dl.free.fr
-dl.free.fr###colgauche > h1
+dl.free.fr##h1:has-text(Antivirus)
+dl.free.fr##[style^="align: center; text-align: center;"]
+dl.free.fr##h1:has([href]):has-text(dl.free.fr)
 dl.free.fr##small
-dl.free.fr##p:nth-child(n)
-dl.free.fr###colgauche > div:nth-child(11)
-dl.free.fr###colgauche > div:has(a[href])
-dl.free.fr###header
+dl.free.fr###colgauche > h1:first-child
+dl.free.fr##p
 
 !li-nkz.com
 li-nkz.com##.text-left
@@ -3896,8 +3894,10 @@ nakedplaymates.com##.promos
 !slutload.com
 ||slutload.com/*/camsoda/$frame,1p
 ||slutload.com/spots/*$frame,1p
+slutload.com##+js(set, flashvars.adv_pre_src, '')
 slutload.com##.opt
 slutload.com##.table
+slutload.com##.video-footer
 
 !leakedpie.com
 leakedpie.com##+js(aopw, dataPopUnder)
@@ -5392,6 +5392,7 @@ sindrive.com##body.block-content::before:style(background: none !important; posi
 ||yandex.com/clck/jclck/$ping,1p
 yandex.com##.incut_inserted_yes
 yandex.com##.MMRelatedImages-DirectIncut
+yandex.com##[class^="ImagesViewerApp-"]:not(.ImagesViewerApp-FooterContent)
 
 !webcam-archiver.com
 webcam-archiver.com###description > .panel > .panel-heading:has-text(Sponsored)
@@ -5448,8 +5449,9 @@ amateurscrush.com###chathead
 amateurscrush.com###neko-to-top
 
 !sexy-egirls.com
-sexy-egirls.com##+js(aopr, AdBlocked)
+||sexy-egirls.com/js/index-aff.js$script,1p
 sexy-egirls.com##+js(aopr, console.log)
+sexy-egirls.com##[id^="aff-container-"]
 
 !camhoes.tv
 ||camhoes.tv/player/html.php$frame,1p
@@ -5527,9 +5529,8 @@ hdprn.com##+js(nowoif)
 ||bravoporn.com*/service*worker.js$script,1p
 ||bravoporn.com/pusher/subscribe.js$script,1p
 ||bravoporn.com/feederdev/feeder.js$script,1p
-||bravoporn.com/v/js/adframe.js$script,1p
-||bravoporn.com/v/js/ads.js$script,1p
-||bravoporn.com/pp/s/s/js/ssu.v2.js$script,1p
+||bravoporn.com/v/js/$script,1p
+||bravoporn.com/pp/$script,1p
 bravoporn.com##.inplb
 bravoporn.com##.under-video2
 bravoporn.com##.spot
@@ -5557,7 +5558,7 @@ tubewolf.com##.bottom-banners
 tubewolf.com##.block-banner > strong
 tubewolf.com##.sponsor
 
-! 7/20/2020 https://freemilfs.porn
+!freemilfs.porn
 ||freemilfs.porn/myvids/click/click.js$script,1p
 ||freemilfs.porn/myvids/rek/multiload.js$script,1p
 freemilfs.porn##.prefix-player-promo-item
@@ -5572,3 +5573,6 @@ streamxxxtube.com##+js(acis, decodeURI, decodeURIComponent)
 camflow.tv##+js(set, flashvars.popunder_url, undefined)
 camflow.tv##+js(aopr, onload)
 camflow.tv##+js(aopr, crakPopInParams)
+
+!menta.orz.hm
+menta.orz.hm##+js(nofab)
