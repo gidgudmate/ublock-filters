@@ -579,7 +579,7 @@ preRoll.php$xhr
 ||bestcontent*.top^
 ||pkhhyool.com^
 
-!Whiteli0st
+!Whitelist
 @@||click.linksynergy.com^
 @@||history^$popunder,popup
 
