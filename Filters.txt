@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 242
+!Update: 243
 
 !Badware/Malware redirects
 ||promo-bc.com
@@ -594,6 +594,14 @@ preRoll.php$xhr
 ||mobile-global-apps-store.life^
 ||prizedea*.info^
 ||safebrowsdv.com^
+||q8ntfhfngm.com^
+||scarceagitationwry.com^
+||tts1.site^
+||idiafix.com^
+||asgclickkl.com^
+||fitgirlrepacks.co^
+||faromen.online^
+||hpyjmp.com^
 
 !Whitelist
 @@||click.linksynergy.com^
@@ -614,6 +622,8 @@ preRoll.php$xhr
 ##[href^="https://giveladieslove.com/"]
 ##[href^="http://xrclimbers.com/"]
 ##.bordered-ad
+##.pausedView
+##.onlineIndicator
 
 !------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------!
 
@@ -837,6 +847,7 @@ xbabe.com##+js(aeld, popstate)
 ||upornia.com/sw.js$script,1p
 @@||upornia.com/*/teo$script,1p
 upornia.com##+js(aopr, exoNoExternalUI38djdkjDDJsio96)
+upornia.com##+js(acis, document.createElement, 'script')
 upornia.com##.fel-playclose
 upornia.com##.sidebar
 upornia.com##.feedback
@@ -851,6 +862,7 @@ upornia.com###toTop
 upornia.com##.adv-name-small
 upornia.com##.player-holder > [class]
 upornia.com###holder > [class^="___"]
+upornia.com###channel-video-banner
 
 !drugabuse.com
 drugabuse.com##.cr-stickybar > .container-fluid
@@ -3658,6 +3670,7 @@ camwhores.*##.navigation
 camwhores.*##.message
 camwhores.*##.item.private .thumb:style(background: transparent; !important; opacity: 1 !important;)
 camwhores.*##.block-album .images span.item:style(opacity: 1 !important;)
+camwhores.*##.search-cloud
 
 !wiki.fextralife.com
 wiki.fextralife.com###video-stream-container
@@ -3828,6 +3841,7 @@ drtuber.com##.drt-sponsor-block
 drtuber.com##.holder > h3
 drtuber.com###sticker:style(position: absolute !important;)
 drtuber.com##.livebox_item
+drtuber.com##.drt-spot-box
 
 !hdpornfull.com
 ||hdpornfull.com^$xhr,1p
@@ -4836,7 +4850,6 @@ fuckingbreak.com##.tlinks > li > [href]:not([href^="https://www.fuckingbreak.com
 
 !9anime.*
 @@||9anime.*/cdn-cgi/scripts/cf.$script,1p
-9anime.*##+js(nowoif)
 9anime.*###main > .content > [class*="hidden-"]
 9anime.*##[style^="width:728px;height:90px;display:inline-block"]
 9anime.*##.alert
@@ -5004,6 +5017,8 @@ hclips.com##+js(aopr, window.parent.postMessage)
 hclips.com##.video-page__content > .right
 hclips.com##.player > [data^="desktop_underplayer"]
 hclips.com##.iRx9
+hclips.com##.chan_banner
+hclips.com##.video-page__item
 
 !watchcartoon.cc
 watchcartoon.cc##.spu-bg
@@ -5618,9 +5633,9 @@ javbangers.com##.table
 
 !taboolesbiantube.com
 ||taboolesbiantube.com/cam.php$frame,1p
+taboolesbiantube.com##+js(nowoif)
 taboolesbiantube.com###xx18
 taboolesbiantube.com##.floating
-taboolesbiantube.com##+js(nowoif)
 
 !romirain.com
 romirain.com###offline-notifications-message
@@ -5660,3 +5675,27 @@ camseek.tv##.content > [style^="padding: 6px;width: 100%;overflow: hidden;height
 !epornstore.com
 epornstore.com##+js(acis, document.querySelectorAll, popMagic)
 epornstore.com##+js(set, document.oncontextmenu, trueFunc)
+
+!myredditporn.com
+myredditporn.com##+js(set, xyz, false)
+myredditporn.com##+js(nowoif)
+myredditporn.com##.rc
+myredditporn.com##.lb
+
+! 2020-08-26 http://hqpornstream.com
+hqpornstream.com##.spot
+hqpornstream.com##.spot-block
+hqpornstream.com##.lds-hourglass
+
+!mrporngeek.com
+mrporngeek.com##+js(ra, href, [href*="https://exporder-patuility.com/"])
+mrporngeek.com##.lazyloaded:not(.img-thumb)
+
+!cambay.tv
+||cambay.tv/player/html.php$frame,1p
+cambay.tv##+js(aopr, onload)
+cambay.tv##+js(aopr, crakPopInParams)
+cambay.tv##+js(set, flashvars.popunder_url, undefined)
+cambay.tv###object_container
+cambay.tv##.fp-logo
+cambay.tv##.fp-brand
