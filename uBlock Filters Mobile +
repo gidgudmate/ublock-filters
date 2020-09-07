@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 6.1
+!Update: 6.2
 
 !silkengirl.com
 silkengirl.*##.hold > ul > li > [href]:not([href^="/"])
@@ -147,7 +147,6 @@ nightdreambabe.com##center
 
 !babesbang.com
 babesbang.com###content-top-menu > [href]
-babesbang.com###mainmenu > ul > li > [href]:not([href^="/"])
 babesbang.com###mainmenu > ul > li:nth-child(n):has-text(Live)
 babesbang.com##.header-content > div > [href]
 babesbang.com##.swiper-bonus
