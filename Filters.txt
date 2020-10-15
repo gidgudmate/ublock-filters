@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 245
+!Update: 246
 
 !Badware/Malware redirects
 ||promo-bc.com
@@ -1648,6 +1648,7 @@ sexykittenporn.com##header:style(position: absolute !important;)
 
 !girlsofdesire.org
 girlsofdesire.org##+js(aopr, document.dispatchEvent)
+girlsofdesire.org##+js(ra, href, [href*="refer."])
 girlsofdesire.org#@#a[href^="http://refer.ccbill.com/"]
 girlsofdesire.org##[class*="banner"]
 girlsofdesire.org##[style*="base64"]
@@ -2023,6 +2024,7 @@ temptingangels.org##+js(aopr, ExoLoader.addZone)
 temptingangels.org##+js(set, floaderLoaded, noopFunc)
 temptingangels.org##+js(set, awePuShown, true)
 temptingangels.org##+js(aopw, aweOLEmbedConfig)
+temptingangels.org##+js(aeld, /^(?:load|click)$/, popMagic)
 temptingangels.org##.b4b
 temptingangels.org##.banner
 temptingangels.org##.aw
@@ -2065,6 +2067,7 @@ isselecta.com###scrolltotop
 !pureandsexy.org
 ||pureandsexy.org/*/banners/$image,1p
 pureandsexy.org##+js(aopw, aweOLEmbedConfig)
+pureandsexy.org##+js(aeld, /^(?:load|click)$/, popMagic)
 pureandsexy.org##.banner
 pureandsexy.org##.mz0
 pureandsexy.org##.aw
@@ -5800,3 +5803,6 @@ camsclips.net##.private
 !mp4porn.space
 mp4porn.space##+js(nostif, popTime, 1000)
 mp4porn.space##+js(aeld, /^(?:load|click)$/, popMagic)
+
+!manga1000.com
+manga1000.com##+js(aopw, __cfRLUnblockHandlers)
