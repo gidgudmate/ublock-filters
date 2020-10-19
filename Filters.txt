@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 246
+!Update: 247
 
 !Badware/Malware redirects
 ||promo-bc.com
@@ -622,6 +622,10 @@ preRoll.php$xhr
 ||rejcinews.pro^
 ||go.*jmp.com^$3p
 ||wautoosa.net^
+||keyboardinvolvedspacious.com^
+||h3helgf2g7k8.com^
+||iwhugaul.com^
+||bl1mp.com^
 
 !Whitelist
 @@||click.linksynergy.com^
@@ -1424,6 +1428,7 @@ xvideos.com##.bg-red
 xvideos.com##.videoad-title-txt
 xvideos.com##.related-vids
 xvideos.com##[id*="x-messages-"]
+xvideos.com##.xv-cams-block
 
 !redtube.com
 */redtube/js/common/common/service_worker_starter$xhr,important
@@ -5365,7 +5370,6 @@ newsextv.com###s-container
 amazon.com##.a-modal-scroller:not(:has([id^="a-popover-"]))
 amazon.com###a-popover-lgtbox
 amazon.com##body:style(overflow: auto !important;)
-amazon.com##.rush-component > .s-border-bottom
 amazon.com##.sg-col-inner::before:style(display: none !important;)
 amazon.com##[data-cel-widget*="Banner"]
 amazon.com##.recsWidgetContainer > .a-row:has-text(/Sponsored/)
@@ -5470,7 +5474,9 @@ webcam-archiver.com###description > .panel > .panel-heading:has-text(Sponsored)
 
 !alotporn.com
 ||alotporn.com^$frame,1p
+*$script,3p,domain=alotporn.com
 alotporn.com##+js(aeld, , _0x)
+alotporn.com##+js()
 alotporn.com##.table
 alotporn.com##[id$="_fluid_html_on_pause"]
 alotporn.com##.sponsor
@@ -5806,3 +5812,12 @@ mp4porn.space##+js(aeld, /^(?:load|click)$/, popMagic)
 
 !manga1000.com
 manga1000.com##+js(aopw, __cfRLUnblockHandlers)
+
+famousinternetgirls.com##+js(aeld, /^(?:load|click)$/, popMagic)
+famousinternetgirls.com##[id^="menu-item-"]:has(a[href]):not(:has(a[href*="famousinternetgirls"]))
+famousinternetgirls.com##[id^="menu-item-"]:has(a[href]):has-text(Gamer Girls)
+
+!hentaiarena.com
+hentaiarena.com##.custom-html-widget
+hentaiarena.com##.widget-area
+hentaiarena.com##.menu-item:has(a[href]):not(:has(a[href*="hentaiarena"]))
