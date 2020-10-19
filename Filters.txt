@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 247
+!Update: 247.1
 
 !Badware/Malware redirects
 ||promo-bc.com
@@ -5476,7 +5476,6 @@ webcam-archiver.com###description > .panel > .panel-heading:has-text(Sponsored)
 ||alotporn.com^$frame,1p
 *$script,3p,domain=alotporn.com
 alotporn.com##+js(aeld, , _0x)
-alotporn.com##+js()
 alotporn.com##.table
 alotporn.com##[id$="_fluid_html_on_pause"]
 alotporn.com##.sponsor
