@@ -1,0 +1,17 @@
+!Stylish Dark Theme For Github Fixes
+!License: https://creativecommons.org/licenses/by-sa/4.0/
+!Homepage: https://github.com/dumbusernameidk/ublock-filters
+!Support: https://github.com/dumbusernameidk/ublock-filters/issues
+!Update 0.1
+
+
+
+
+!github.com
+github.com##.write-selected:style(background: #181818 !important;)
+github.com##.js-upload-markdown-image:style(background: #181818 !important;)
+github.com##.UnderlineNav-item:style(color: #FFF !important;)
+github.com##.UnderlineNav .Counter:style(color: #CDCDCDCD !important;)
+github.com##[type^="button"][class^="btn-link"][tabindex^="0"]:style(color: #AFAFAF !important;)
+github.com##[type^="button"][class^="btn-link"][aria-current^="true"]:style(color: #AFAFAF !important;)
+github.com##.js-previewable-comment-form:style(background: #181818 !important;)
