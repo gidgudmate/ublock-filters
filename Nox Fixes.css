@@ -1301,7 +1301,7 @@ body {
 }
 
 .nowPlayingColumn-2sl4cE .wrapper-3D2qGf .inset-3sAvek {
-    background: var(--nox-level1) !important`;
+    background: var(--nox-level1) !important;
 }
 
 .button-3HqqDX,
@@ -1441,7 +1441,7 @@ body {
 }
 
 .loading-1lSwpg {
-    background-image: linear-gradient(90deg,#282828,#303030,#202020);
+    background-image: linear-gradient(90deg, #282828, #303030, #202020);
 }
 
 .theme-dark .partyMemberOverflow-lXnzvu {
@@ -1478,4 +1478,48 @@ body {
 .viewAll-2RLt-n:hover .viewAllBackground-3Bn1vh,
 .viewAllInspected-FsmJHj .viewAllBackground-3Bn1vh {
     background-color: var(--nox-level2);
+}
+
+.background-1QDuV2 {
+    background-color: var(--nox-level3);
+}
+
+.fieldList-21DyL8 {
+    background-color: var(--nox-level1);
+}
+
+.scroller-9moviB {
+    background-color: var(--nox-level1);
+}
+
+.nowPlayingColumn-2sl4cE .wrapper-3D2qGf .inset-3sAvek {
+    background-color: var(--nox-level1) !important;
+}
+
+.accountList-33MS45 {
+    background-color: var(--nox-level1);
+}
+
+.connectionHeader-2MDqhu {
+    background: var(--nox-level3);
+}
+
+.connection-1fbD7X {
+    background-color: var(--nox-level1);
+}
+
+.integration-3kMeY4 {
+    background: var(--nox-level2);
+}
+
+.popoutLoadingForeground-2mZT61 {
+    background-image: linear-gradient(90deg, #202020, #282828, #303030);
+}
+
+.popoutContainer-1MXdqN {
+    background-color: var(--nox-level3);
+}
+
+.container-3-pyIM > .iconContainer-3GkGRf > .icon-2Po-VO[style] {
+    background-image: none !important;
 }
