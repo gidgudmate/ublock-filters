@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 248
+!Update: 249
 
 !Badware/Malware redirects
 ||promo-bc.com
@@ -626,6 +626,9 @@ preRoll.php$xhr
 ||iwhugaul.com^
 ||bl1mp.com^
 ||gravityrd-services.com^$script,3p
+||cosochyxi.pro^
+||emoticon104gh.ml^
+||domnlk.com^$3p
 
 !Whitelist
 @@||click.linksynergy.com^
@@ -1608,9 +1611,7 @@ adultdvdempire.com##.sticky-tagline
 wifiondemand.xfinity.com##.notificationArea
 
 !pinterest.com
-pinterest.com##body > div:nth-of-type(2) > div > div > div > div > div:nth-of-type(3) > div
-pinterest.com##div > div > .active.noButtonStyles
-pinterest.com##._j._4q._z6._h._76._75._4k._4j._4g._37._2y._13
+pinterest.com##[data-test-id*="Signup"][class] > [style]
 
 !avgle.com
 @@||avgle.com/video/*$popup,1p
@@ -1647,7 +1648,6 @@ sexykittenporn.com##+js(aopr, loadTool)
 sexykittenporn.com##+js(nosiif, reload2)
 sexykittenporn.com##[class*="banner"]
 sexykittenporn.com###pornplayer
-sexykittenporn.com##:xpath(/html/body/div[1]/div[3]/div[3])
 sexykittenporn.com##.menu > [href]:not([href^="/"])
 sexykittenporn.com##.notice
 sexykittenporn.com##header:style(position: absolute !important;)
@@ -2134,6 +2134,9 @@ babeimpact.com##.block:nth-child(4)
 babeimpact.com##[href^="https://istri.it"]
 babeimpact.com###menu > .external
 babeimpact.com##.more
+babeimpact.com##.list > .center:has([class])
+babeimpact.com##[href="/tag//"]
+babeimpact.com##.blockheader
 
 !novoglam.com
 novoglam.com##+js(nosiif, reload2)
@@ -4351,6 +4354,7 @@ veblink.com##.text-left
 
 !megatube.xxx
 megatube.xxx##+js(aeld, , _0x)
+megatube.xxx##+js(nowoif)
 megatube.xxx###sponsor-widget
 megatube.xxx##.header-panel-1
 megatube.xxx##.place
@@ -4957,13 +4961,15 @@ mylust.com##.fluid-b
 
 !ytboob.com
 ||ytboob.com/long-limit$script,1p
+ytboob.com#@#+js(aopr, document.dispatchEvent)
 ytboob.com##+js(aopr, ExoLoader.addZone)
 ytboob.com##.happy-under-player
 ytboob.com##.video-archive-ad
 ytboob.com###back-to-top
+ytboob.com##.happy-footer
 
 !picbaron.com
-picbaron.com#@#+js(abort-on-property-read, open)
+picbaron.com#@#+js(aopr, open)
 picbaron.com##+js(aopr, exoJsPop101)
 
 !analdin.com
@@ -5852,3 +5858,25 @@ mealip.com##+js(aopr, app_vars.force_disable_adblock)
 mealip.com##+js(set, blurred, false)
 mealip.com,pslfive.com##p
 mealip.com,pslfive.com##.faq
+
+!girlgossips.com
+||girlgossips.com/banner/*$frame,1p
+girlgossips.com##.boxzilla-overlay
+girlgossips.com##.boxzilla
+girlgossips.com##.sidebar > .sidebar-content > .widget_text
+girlgossips.com##[id^="divFLR"]
+
+!mywebgirls.tv
+mywebgirls.tv##.table
+
+!camsclips.org
+camsclips.org##+js(nostif, innerText, 2000)
+
+!camsexvideo.net
+camsexvideo.net##+js(set, flashvars.popunder_url, '')
+camsexvideo.net##.trailer-sidebar
+camsexvideo.net##.sponsor
+camsexvideo.net##.uk-block
+
+!beta.sankakucomplex.com
+||beta.sankakucomplex.com/service-worker.js$script,1p
