@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update 0.6
+!Update 0.7
 
 
 
@@ -18,3 +18,4 @@ github.com##.js-previewable-comment-form:style(background: #181818 !important;)
 github.com##.blankslate > p:style(color: #AFAFAF !important;)
 github.com##.signed-commit-badge:style(background: #242424 !important;)
 github.com##.flash:style(background-color: #202020 !important; color: #FFFFFF !important; background-image: linear-gradient(0deg, #282828, #181818) !important; border-color: #343434 !important;)
+github.com##.Popover-message.Box:style(background-color: #181818 !important;)
