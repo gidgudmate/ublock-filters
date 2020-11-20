@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 249
+!Update: 250
 
 !Badware/Malware redirects
 ||promo-bc.com
@@ -629,6 +629,7 @@ preRoll.php$xhr
 ||cosochyxi.pro^
 ||emoticon104gh.ml^
 ||domnlk.com^$3p
+||hot-girl-want-play*^
 
 !Whitelist
 @@||click.linksynergy.com^
@@ -655,6 +656,7 @@ preRoll.php$xhr
 ##[data-plyr*="googlecast"]
 ##[href^="https://www.stankyrich.com/"]
 ##[href^="https://name0fbestway.com"]
+##._ln-floater
 !------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------!
 
 !adf.ly
@@ -1557,10 +1559,11 @@ tube8.*##[data-esp-node^="under_player_ad"]
 
 !facebook.com
 facebook.com##[data-pagelet^="FeedUnit"]:has-text(People You May Know)
-facebook.com##div[data-pagelet^="FeedUnit_"] > [class]:has([data-testid]):has-text(Suggested for You)
+facebook.com##div[data-pagelet^="FeedUnit_"] > [class]:has-text(Suggested for You)
 facebook.com##div[data-pagelet^="FeedUnit_"]:has([data-testid]):has-text((COVID-19))
 facebook.com##div[data-pagelet^="FeedUnit"]:has([class]:has-text(Sponsored))
 facebook.com##div[data-pagelet^="FeedUnit_"]:has(span > [id]):has([aria-label^="Sponsored"]):has(span > [aria-labelledby]) > [class]:has([style*="em"]:has-text(/S|s/)):not(:has-text(i/0)):not(:has-text(i/1)):not(:has-text(i/2)):not(:has-text(i/3)):not(:has-text(i/4)):not(:has-text(i/5)):not(:has-text(i/6)):not(:has-text(i/7)):not(:has-text(i/8)):not(:has-text(i/9))
+facebook.com##div[data-pagelet^="RightRail"] > div:has-text(Sponsored)
 
 !aznude.com
 ||aznude.com/worker.js$script,1p
@@ -1761,6 +1764,7 @@ novohot.com##.thumb180x270:not([rel])
 novohot.com###rightSide:has-text(/Sponsors|Friends/)
 novohot.com###mainMenu > li > [href]:not([href^="/"])
 novohot.com##.aw
+novohot.com##.pl
 
 !babesinporn.com
 ||babesinporn.com^*/banners/*$image,1p
@@ -2461,12 +2465,14 @@ taxi69.com##.productor_info
 lustcinema.com##.exitpopnews
 
 !celebsroulette.com
-celebsroulette.com##+js(aopr, _bullionloadingparameters)
+celebsroulette.com##+js(set, flashvars.popunder_url, '')
+celebsroulette.com##+js(set, flashvars.adv_pre_html, '')
 celebsroulette.com###list_videos_friends_2_items
 celebsroulette.com##.fp-ui > div > [href]
 celebsroulette.com##.place
 celebsroulette.com##.table
 celebsroulette.com##.sponsor
+celebsroulette.com##.container > .content > .box
 
 !sexwinks.com
 ||sexwinks.com/f.js$script,1p
@@ -3343,8 +3349,12 @@ youx.xxx##[class*=banner]
 
 !xxxdessert.com
 ||xxxdessert.com/*.php$script,1p
+||xxxdessert.com/tube/player/html.php?$frame,1p
 xxxdessert.com##[class*="banner"]
-xxxdessert.com##.content:nth-child(6)
+xxxdessert.com##.content:has-text(Free XXX Sites)
+xxxdessert.com##.gallery-thumb
+xxxdessert.com##.xrotator-thumbs-item-x1:has([style^="height:"])
+xxxdessert.com##.trade_top
 
 !novojoy.com
 ||novojoy.com^*/b/*$image,1p
@@ -5215,6 +5225,7 @@ xxxdan.com##+js(nostif, nrScript.setAttribute, 2000)
 xxxdan.com##+js(acis, $, NativeAdMod)
 xxxdan.com##.rzx1
 xxxdan.com##.zx1p
+xxxdan.com###scrollTarget
 
 !vip-girls.tv
 ||vip-girls.tv/clicunder.js$script,1p
@@ -5798,7 +5809,9 @@ sexe-libre.org##[href^="https://go.rdrjmp.com/"]
 @@||runescape.com^$script,1p
 
 !elitebabes.com
-||hwcdn.net/wp-content/themes/rwd/creatives/*$image,3p
+||hwcdn.net/wp-content/themes/rwd/creatives/*$image,3p,denyallow=elitebabes.com
+elitebabes.com##[href*=".com/splash.php"]
+elitebabes.com##.w300
 
 !guardian.gg
 guardian.gg##.whitelist
@@ -5846,8 +5859,9 @@ mobileporn.cam##+js(aeld, /^(?:load|click)$/, popMagic)
 !eroprofile.com
 eroprofile.com##+js(aeld, /^(?:load|click)$/, popMagic)
 
-!thotbook.tv
-thotbook.tv##.adace-slot
+!thotbook.*
+thotbook.*##+js(aeld, /^(?:load|click)$/, popMagic)
+thotbook.*##.adace-slot
 
 !tii.ai
 tii.ai##p
@@ -5861,8 +5875,7 @@ mealip.com,pslfive.com##.faq
 
 !girlgossips.com
 ||girlgossips.com/banner/*$frame,1p
-girlgossips.com##.boxzilla-overlay
-girlgossips.com##.boxzilla
+girlgossips.com##[class^="boxzilla"]
 girlgossips.com##.sidebar > .sidebar-content > .widget_text
 girlgossips.com##[id^="divFLR"]
 
@@ -5880,3 +5893,34 @@ camsexvideo.net##.uk-block
 
 !beta.sankakucomplex.com
 ||beta.sankakucomplex.com/service-worker.js$script,1p
+
+!pornsavant.com
+||pornsavant.com/clientscript/pop*.js$script,1p
+pornsavant.com##+js(aopr, loadTool)
+
+!bxum.com
+bxum.com##+js(aeld, /^(?:load|click)$/, popMagic)
+bxum.com##[title^="Generate a QR Code with the current page URL"]
+bxum.com##.fixed-side
+
+!vintage-erotica-forum.com
+vintage-erotica-forum.com##+js(aost, Math.random)
+
+!scandalplanet.com
+scandalplanet.com###get-full-access
+
+!pornalin.com
+||pornalin.com/*.php$script,1p
+pornalin.com##.banner
+pornalin.com##.block_spots
+pornalin.com##.section_spot
+pornalin.com##.thumb:has(:scope > span)
+pornalin.com##.aside_spots
+
+!leaknudes.com
+||leaknudes.com/ba/sir.php$image,1p
+leaknudes.com##+js(aeld, /^(?:load|click)$/, popMagic)
+leaknudes.com##.simulatorbut
+
+!ebay.com
+ebay.com##.similar-item:has-text(SPONSORED)
