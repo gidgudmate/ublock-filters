@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 250
+!Update: 251
 
 !Badware/Malware redirects
 ||promo-bc.com
@@ -630,6 +630,7 @@ preRoll.php$xhr
 ||emoticon104gh.ml^
 ||domnlk.com^$3p
 ||hot-girl-want-play*^
+||runetracker.com^
 
 !Whitelist
 @@||click.linksynergy.com^
@@ -657,6 +658,8 @@ preRoll.php$xhr
 ##[href^="https://www.stankyrich.com/"]
 ##[href^="https://name0fbestway.com"]
 ##._ln-floater
+##[href="https://cambb.xxx/"]
+##[href*="jmp.com/"]
 !------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------!
 
 !adf.ly
@@ -864,6 +867,7 @@ ext-twitch.tv##[class*="flyout"]
 ext-twitch.tv##.prime-extension-root
 twitch.tv##.ffz--player-pip
 twitch.tv##.side-nav-section:nth-child(2):not(.online-friends)
+twitch.tv##.extension-view__iframe
 
 !xbabe.com
 ||xbabe.com^$script,xhr,frame,1p
@@ -1188,6 +1192,7 @@ hqsluts.com##[href="/m/cams.menu/"], [href="/m/store.main/"]
 !camvideos.*
 ||camvideos.*/images/*.gif$image,1p
 ||camvideos.*/contents/other/player/embed/$image,1p
+*$popup,domain=camvideos.org
 @@||camvideos.*/embed/$frame,domain=camvideos.org
 camvideos.*##+js(acis, Math, Object.defineProperty)
 camvideos.*##+js(aopr, loadTool)
@@ -1391,12 +1396,14 @@ xhamster.*##[href^="https://go.xhamsterlive.com/"]
 xhamster.*##.xplayer-overlay-menu
 xhamster.*##.overlay-menu-opened video:style(filter: blur(0px) !important;)
 xhamster.*##.dyltv-container
-xhamster.*##[class*="-cams-widget"]
+xhamster.*##[class*="cams-widget"]
 xhamster.*##.wih-spl-text
 xhamster.*##.full-download
 xhamster.*##[class*="-banner"]:not(.thumb-list--banner)
 xhamster.*##[class*="-spb"]
-xhamster.*##[class*="-right-rectangle"]
+xhamster.*##[class*="right-rectangle"]
+xhamster.*##.video-thumb:has(.live-badge)
+xhamster.*##[class^="wio"]
 
 !pornhub.com
 ||nsimg.net^$image,3p,domain=pornhub.com,important
@@ -1911,6 +1918,7 @@ livejasminbabes.net##.dividerlink
 livejasminbabes.net###back-to-top
 livejasminbabes.net##[id^="partnerpromo_"]
 livejasminbabes.net##.candy
+livejasminbabes.net##.subheader
 
 !hottystop.com
 ||hottystop.com/*.mp4$media,1p
@@ -1926,6 +1934,7 @@ hottystop.com##[href*=".php"]
 hottystop.com##[style*="base64"]
 hottystop.com##.Box_Large_Content > h3:has-text(Live girls)
 hottystop.com##u > h3
+hottystop.com##.NavBarRed
 
 !shameless.com
 shameless.com##+js(aopr, ExoLoader.serve)
@@ -2427,7 +2436,6 @@ mentalfloss.com##.ad-container
 ||biguz.net^$script,1p
 ||biguz.net/vast$xhr,1p
 @@||biguz.net/js/fluidplayer.min.js$script,1p
-biguz.net##+js(aopr, document.dispatchEvent)
 biguz.net##+js(aopr, ExoLoader)
 biguz.net##+js(aopr, exoJsPop101)
 biguz.net###under
@@ -4521,7 +4529,7 @@ hdpornstarz.com##[href="https://theporndude.com/"], [href^="http://gotpd.me/"]
 onlinexxx.cc###back-to-top
 
 !hotpornfile.org
-*$xhr,1p,domain=hotpornfile.org
+!*$xhr,1p,domain=hotpornfile.org
 ||hotpornfile.org*/push/js/*$script,1p
 ||hotpornfile.org/v*/pixel.js$script,1p
 
@@ -5456,6 +5464,7 @@ yourfreepantyhosegalleries.com##[id^="sideadvwidget-"]
 !nobodyhome.tv
 nobodyhome.tv##.jGrowl .jGrowl-notification.jgrowl_error:style(background: #000000 !important; border: 1px solid #000000 !important; color: #FFFFFF !important)
 nobodyhome.tv##[id^="post"]:not(:has-text(/cwbot|poopymanguy123/))
+nobodyhome.tv##.post:has([href*="/user-2"]):not(:has-text(poopymanguy123))
 
 !cloudysexy.com
 cloudysexy.com##+js(aeld, , _0x)
@@ -5860,6 +5869,7 @@ mobileporn.cam##+js(aeld, /^(?:load|click)$/, popMagic)
 eroprofile.com##+js(aeld, /^(?:load|click)$/, popMagic)
 
 !thotbook.*
+||thotbook.*/superpwa-sw.js$script,1p
 thotbook.*##+js(aeld, /^(?:load|click)$/, popMagic)
 thotbook.*##.adace-slot
 
@@ -5924,3 +5934,38 @@ leaknudes.com##.simulatorbut
 
 !ebay.com
 ebay.com##.similar-item:has-text(SPONSORED)
+
+!digitalfoundry.net
+digitalfoundry.net#@#.accept-cookie-container
+
+!app.destinyitemmanager.com
+app.destinyitemmanager.com##._1-6Cj
+
+!thecambabes.com
+||thecambabes.com/images/Banners/*$image,1p
+||thecambabes.com/js/mypop*.js$script,1p
+thecambabes.com##.opt
+thecambabes.com##.head_ifr:has(.box)
+thecambabes.com##.place
+
+!caminspector.net
+caminspector.net##+js(acis, onload)
+caminspector.net##+js(aopr, crakPopInParams)
+
+!camgirlbang.com
+||camgirlbang.com/$script,1p
+@@||camgirlbang.com/wp-*/$script,1p
+
+!aparat.cam
+aparat.cam##[href="https://rlstop.net"]
+
+!exe.app
+||exe.app/sw.js^$script,1p
+||exe.app/js/scripts/*$script,1p
+||exe.app/vulaj_theme/js/vendor/popper.min.js$script,1p
+exe.app##+js(acis, document.createElement, 'script')
+exe.app##+js(aopr, app_vars.force_disable_adblock)
+exe.app##+js(set, blurred, false)
+exe.app##+js(aeld, /^(?:load|click)$/, popMagic)
+exe.app##+js(nowoif, !adshort)
+exe.app##.faq
