@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 251
+!Update: 252
 
 !Badware/Malware redirects
 ||promo-bc.com
@@ -631,6 +631,15 @@ preRoll.php$xhr
 ||domnlk.com^$3p
 ||hot-girl-want-play*^
 ||runetracker.com^
+||goawayn0w.com^
+||admjmp.com^
+||codeopensource.*^
+||stopstopone.*^
+||lywyjashu.pro^
+||178.128.83.219^
+||creative.*jmp.com/*
+||rozamimo9za10.com^
+||sink-brush-lips-women.xyz^
 
 !Whitelist
 @@||click.linksynergy.com^
@@ -701,6 +710,7 @@ youtube.com###clarify-box
 youtube.com##[title^="Next (SHIFT+n)"]
 youtube.com##[aria-label^="Add to queue"]
 youtube.com##[aria-label^="Watch later"]
+youtube.com###scroll-container > .yt-chip-cloud-renderer.style-scope
 
 !pornhd.com
 @@||protoawe.com^$script,frame,3p,domain=pornhd.com
@@ -823,6 +833,11 @@ txxx.com##.rek-item__header
 txxx.com##.underplayer > div:has-text(Advertisement)
 txxx.com##.video-page__content > .right:has-text(Advertisement)
 txxx.com##.hYbus
+txxx.com##.jw-wrapper ~ [id][style^="display:"] > [class]
+txxx.com##.video-content > [class] > div > [class]:not([class*="v"])
+txxx.com##.video-content > [class] > div > [class]:not(:has(div))
+txxx.com##.__nat_box
+txxx.com##.page-video > [class]:not([class*="wrapper"])
 
 !twistys.com
 */catfish.png$image,3p,domain=twistys.com
@@ -1217,6 +1232,7 @@ thebestshemalevideos.com##[href*="/redirect"]
 reddit.com##.ad-container
 reddit.com###chat
 reddit.com###header-bottom-right > .separator:nth-child(4)
+old.reddit.com##.footer:style(background: linear-gradient(-75deg, #000000, #313131) !important;)
 
 !ztod.com
 ztod.com##.box-join
@@ -1470,10 +1486,6 @@ veporn.net##.sidebar-social
 
 !tubepornclassic.com
 @@||tubepornclassic.com/*/teo$script,1p
-tubepornclassic.com##+js(set, popunder, undefined)
-tubepornclassic.com##+js(set, TCPop, noopFunc)
-tubepornclassic.com##+js(aopr, BetterJsPop)
-tubepornclassic.com##+js(aopr, exoNoExternalUI38djdkjDDJsio96)
 tubepornclassic.com##.bottom-adv
 tubepornclassic.com##.tpc-footer--ban
 tubepornclassic.com##.SimneSD
@@ -1516,6 +1528,7 @@ ddfnetwork.com,ddfbusty.com,hotlegsandfeet.com,houseoftaboo.com,eurogirlsongirls
 eurogirlsongirls.com##.cam-banner
 
 !youporn.com
+youporn.*##+js(aopr, absda)
 youporn.com###EYP-scroll
 youporn.com##.adLinkText
 youporn.com##.ad-wrapper
@@ -1571,6 +1584,7 @@ facebook.com##div[data-pagelet^="FeedUnit_"]:has([data-testid]):has-text((COVID-
 facebook.com##div[data-pagelet^="FeedUnit"]:has([class]:has-text(Sponsored))
 facebook.com##div[data-pagelet^="FeedUnit_"]:has(span > [id]):has([aria-label^="Sponsored"]):has(span > [aria-labelledby]) > [class]:has([style*="em"]:has-text(/S|s/)):not(:has-text(i/0)):not(:has-text(i/1)):not(:has-text(i/2)):not(:has-text(i/3)):not(:has-text(i/4)):not(:has-text(i/5)):not(:has-text(i/6)):not(:has-text(i/7)):not(:has-text(i/8)):not(:has-text(i/9))
 facebook.com##div[data-pagelet^="RightRail"] > div:has-text(Sponsored)
+facebook.com##div[role="feed"] > div[data-pagelet^="FeedUnit"] div:last-child > span:first-child > span:only-child > a[role*="n"] > span:only-child:upward(div[role="feed"] > [data-pagelet^="FeedUnit"])
 
 !aznude.com
 ||aznude.com/worker.js$script,1p
@@ -2072,6 +2086,7 @@ celebrity-leaks.net##.code-block-4.code-block > center
 celebrity-leaks.net##.code-block-5.code-block > center
 
 !tnaflix.com
+||tnaflix.*/*.php$script,1p
 tnaflix.com##.feedbackFixed
 tnaflix.com###flixPlayer > .pVideoBlock > .nvNav
 tnaflix.com##.mainVidTtl
@@ -2080,6 +2095,9 @@ tnaflix.com##.pVideoPipBlock
 tnaflix.com##.withRightBar > span
 tnaflix.com###zoneInPlayer
 tnaflix.com##[class*="Banners"]
+tnaflix.*##.mewBlock
+tnaflix.*##.withRightBar > span
+tnaflix.*##.pInVistix
 
 !isselecta.co
 isselecta.com###top-message-wrapper
@@ -2136,8 +2154,8 @@ cherrynudes.com##.gallD > center > [href]
 cherrynudes.com##.girlLive
 
 !babeimpact.com
-babeimpact.com^*/banners/*$image,1p
-babeimpact.com$frame,1p
+||babeimpact.com^*/banners/*$image,1p
+||babeimpact.com$frame,1p
 babeimpact.com##+js(set, awePuShown, true)
 babeimpact.com##+js(nosiif, reload2)
 babeimpact.com##[class*="banner"]
@@ -2447,6 +2465,9 @@ efappy.com##+js(aopr, document.dispatchEvent)
 !socialmediagirls.com
 socialmediagirls.com##+js(aeld, /^(?:load|click)$/, popMagic)
 socialmediagirls.com##.menu-item-type-custom:not(:has([href*="socialmediagirls"]))
+socialmediagirls.com##.widget:not(:has(a[href*="socialmediagirls.com/"]))
+socialmediagirls.com##.samCustomSize
+socialmediagirls.com##[data-nav-id^="sexgames"], [data-nav-id^="meetfuck"], [data-nav-id^="freepornsites"]
 
 !feet9.com
 feet9.com##+js(aopr, trackOutboundLink)
@@ -2715,6 +2736,8 @@ gtaforums.com##.gtaforums-ad-horizontal
 
 !recorded-webcams.com
 recorded-webcams.com##.embed-container
+recorded-webcams.com##.table
+recorded-webcams.com##.place
 
 !fashionyip.info
 fashionyip.info###fh5co-author > .container > .row > .col-md-offset-2.col-md-8 > div.animated-fast.fadeInUp.animate-box.text-center.col-md-4
@@ -3481,10 +3504,11 @@ nudepatch.net###DynamicBackgroundWrapper
 ||ouo.*/*sw$script,1p
 ||ouo.*/serviceWorker.js$script,1p
 ouo.*##+js(nano-sib)
-ouo.*##+js(window.open-defuser)
+ouo.*##+js(nowoif)
 ouo.*##.text-center > div > [href]
 ouo.*##.content > div > [href]
 ouo.*##article > div > [href]
+ouo.*##.text-center > span:has-text(Sponsered)
 
 !seekingalpha.com
 seekingalpha.com/service-worker.js$script,1p,important
@@ -3786,6 +3810,7 @@ luscious.net###advertisement_adhesion
 ||google.com/drive/serviceworker*.js$script,1p
 @@||google.com^$popup,popunder,3p
 google.com##[href] > .LC20lb:style(font-size: 18px !important;)
+google.com##[href] > .LC20lb > .ellip > span:style(font-family: sans-serif !important;)
 google.com###taw:has([id*="google-ad"])
 google.com##[data-id] + [jscontroller]:has(span:has-text(Related searches))
 google.com##.sh-sr__shop-result-group:has-text(Sponsored)
@@ -4032,6 +4057,7 @@ nakedbabes.club###backtotop
 
 !letmejerk.com
 letmejerk.com/*.php$script,1p
+letmejerk.com#@#+js(aopr, document.dispatchEvent)
 letmejerk.com##+js(aopr, exoJsPop101)
 letmejerk.com##.clearfix > [class]:not([id]):not([class*=cont]):not([class*=video])
 letmejerk.com##.container > .nav-main > li:has-text(/Live|Laid/)
@@ -4304,6 +4330,9 @@ arba7-online.com,w-rajem.com,malom3tkom.com##.text-left
 !smutr.com
 smutr.com###bu_backfill
 smutr.com##.link-spot
+smutr.com##.fp-ui-block
+smutr.com##.vast-info
+smutr.com##.spots
 
 !wupfile.com
 wupfile.com##.block-pricing
@@ -5741,6 +5770,7 @@ cloudygirls.com##+js(aeld, , _0x)
 
 !hotntubes.com
 hotntubes.com##+js(acis, document.querySelectorAll, popMagic)
+hotntubes.com##.container > table > tbody > tr > :nth-child(2):has-text(Advertising:)
 
 !camhub.cc
 camhub.cc##.table
@@ -5796,6 +5826,7 @@ cambay.tv##.fp-brand
 onlinefetishporn.cc##+js(aopr, absda)
 
 !motherless.com
+||motherless.com/*/*/desktop_header.mp4$media,1p
 motherless.com##.text-right
 motherless.com##.above-footer-banners
 
@@ -5818,7 +5849,7 @@ sexe-libre.org##[href^="https://go.rdrjmp.com/"]
 @@||runescape.com^$script,1p
 
 !elitebabes.com
-||hwcdn.net/wp-content/themes/rwd/creatives/*$image,3p,denyallow=elitebabes.com
+||hwcdn.net/wp-content/themes/rwd/creatives/*$image,3p,domain=elitebabes.com
 elitebabes.com##[href*=".com/splash.php"]
 elitebabes.com##.w300
 
@@ -5914,7 +5945,8 @@ bxum.com##[title^="Generate a QR Code with the current page URL"]
 bxum.com##.fixed-side
 
 !vintage-erotica-forum.com
-vintage-erotica-forum.com##+js(aost, Math.random)
+*$3p,xhr,domain=vintage-erotica-forum.com
+vintage-erotica-forum.com##+js(acis, jQuery, window)
 
 !scandalplanet.com
 scandalplanet.com###get-full-access
@@ -5953,6 +5985,7 @@ caminspector.net##+js(acis, onload)
 caminspector.net##+js(aopr, crakPopInParams)
 
 !camgirlbang.com
+*$3p,script,domain=camgirlbang.com
 ||camgirlbang.com/$script,1p
 @@||camgirlbang.com/wp-*/$script,1p
 
@@ -5964,8 +5997,49 @@ aparat.cam##[href="https://rlstop.net"]
 ||exe.app/js/scripts/*$script,1p
 ||exe.app/vulaj_theme/js/vendor/popper.min.js$script,1p
 exe.app##+js(acis, document.createElement, 'script')
-exe.app##+js(aopr, app_vars.force_disable_adblock)
-exe.app##+js(set, blurred, false)
 exe.app##+js(aeld, /^(?:load|click)$/, popMagic)
-exe.app##+js(nowoif, !adshort)
 exe.app##.faq
+
+!theyarehuge.com
+theyarehuge.com##.dm-overlay
+theyarehuge.com##.adv
+theyarehuge.com###ntvtable
+theyarehuge.com##.fp-brand
+theyarehuge.com##.download_item > .twt
+theyarehuge.com##.button_cams
+theyarehuge.com##.red
+
+!its.porn
+*$3p,media,xhr,domain=its.porn
+||its.porn/*.php$script,frame,1p
+@@||cdn*.com^$xhr,media,domain=its.porn
+its.porn##aside
+its.porn##.swipe-hint
+
+!yuvutu.com
+yuvutu.com##.jwdockbuttons > button
+yuvutu.com###bg_player_location_display_button
+yuvutu.com###bg_player_location_controlbar
+
+!ibradome.com
+||ibradome.com/*.php^$script,1p
+ibradome.com##+js(aeld, /^(?:load|click)$/, popMagic)
+
+!instapornvideos.com
+instapornvideos.com##+js(nostif, location.replace, 0)
+instapornvideos.com##.container-sts-bl
+
+!imagevenue.com
+imagevenue.com##+js(nowoif, /^/, 1)
+
+!jav688.com
+jav688.com##+js(acis, decodeURI, decodeURIComponent)
+
+!camslib.com
+camslib.com##+js(acis, onload)
+camslib.com##.modal
+camslib.com##.show
+
+!pornzog.com
+pornzog.com##.video-ntv-list
+pornzog.com##.video-ntv > .block-title > .title-line
