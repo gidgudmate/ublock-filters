@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 252
+!Update: 253
 
 !Badware/Malware redirects
 ||promo-bc.com
@@ -640,6 +640,8 @@ preRoll.php$xhr
 ||creative.*jmp.com/*
 ||rozamimo9za10.com^
 ||sink-brush-lips-women.xyz^
+*/amvn.js$script
+||apttrk.com^
 
 !Whitelist
 @@||click.linksynergy.com^
@@ -996,6 +998,7 @@ eporner.com###ad-top-2
 eporner.com##[class^="ad"]
 eporner.com###btasd
 eporner.com###top2:style(position: absolute !important;)
+eporner.com###cppbandesk
 
 !thirdage.com
 ||thirdage-assets.thirdage.com/field/image/*.png$image
@@ -1462,6 +1465,7 @@ xvideos.com##.xv-cams-block
 !redtube.com
 */redtube/js/common/common/service_worker_starter$xhr,important
 ||redtube.com/service_worker-*.js$script,1p
+
 redtube.com#@#.clearfix:has-text(Ads)
 redtube.com###show_page_streamate
 redtube.com##.subtxt
@@ -1581,14 +1585,12 @@ tube8.*##[data-esp-node^="under_player_ad"]
 facebook.com##[data-pagelet^="FeedUnit"]:has-text(People You May Know)
 facebook.com##div[data-pagelet^="FeedUnit_"] > [class]:has-text(Suggested for You)
 facebook.com##div[data-pagelet^="FeedUnit_"]:has([data-testid]):has-text((COVID-19))
-facebook.com##div[data-pagelet^="FeedUnit"]:has([class]:has-text(Sponsored))
-facebook.com##div[data-pagelet^="FeedUnit_"]:has(span > [id]):has([aria-label^="Sponsored"]):has(span > [aria-labelledby]) > [class]:has([style*="em"]:has-text(/S|s/)):not(:has-text(i/0)):not(:has-text(i/1)):not(:has-text(i/2)):not(:has-text(i/3)):not(:has-text(i/4)):not(:has-text(i/5)):not(:has-text(i/6)):not(:has-text(i/7)):not(:has-text(i/8)):not(:has-text(i/9))
-facebook.com##div[data-pagelet^="RightRail"] > div:has-text(Sponsored)
 facebook.com##div[role="feed"] > div[data-pagelet^="FeedUnit"] div:last-child > span:first-child > span:only-child > a[role*="n"] > span:only-child:upward(div[role="feed"] > [data-pagelet^="FeedUnit"])
 
 !aznude.com
 ||aznude.com/worker.js$script,1p
 ||aznude.com/js/skel-*.js$script,1p
+@@||aznude.com/*$image,media,1p
 aznude.com##+js(aeld, , _0x)
 aznude.com##+js(nowoif)
 aznude.com##+js(nostif, isScrollTimeout, 80)
@@ -1610,6 +1612,7 @@ adoreme.com##.dialog-collection
 adoreme.com##.ng-isolate-scope.ng-scope.dialog-s.dialog
 
 !youjizz.com
+||yjo.youjizz.com/*$media,1p
 youjizz.com##.row
 youjizz.com###onPausePr
 youjizz.com###onPausePrContainer > .text-white
@@ -1659,9 +1662,10 @@ morazzia.com##.resizable-ads
 
 !babesandgirls.com
 ||babesandgirls.com^*/banners/$image,1p
-babesandgirls.com##+js(nosiif, reload2)
+babesandgirls.com##+js(norafif, loadMore)
 babesandgirls.com###block-block-6 > .content > div
 babesandgirls.com##.owner
+babesandgirls.com##.resizable-ads
 
 !sexykittenporn.com
 ||sexykittenporn.com^$frame,1p
@@ -2087,6 +2091,8 @@ celebrity-leaks.net##.code-block-5.code-block > center
 
 !tnaflix.com
 ||tnaflix.*/*.php$script,1p
+tnaflix.com##+js(aopw, historyCookie)
+!tnaflix.com##+js(aopr, getCookie)
 tnaflix.com##.feedbackFixed
 tnaflix.com###flixPlayer > .pVideoBlock > .nvNav
 tnaflix.com##.mainVidTtl
@@ -4136,6 +4142,7 @@ babesexy.com##.h-btn-box > [href]:not([href^="/"])
 !babepedia.com
 ||babepedia.com/img/*gif$image,1p
 babepedia.com###gallery > center > [href] > [src]
+babepedia.com##[href^="https://pb-track.com/"]
 
 !fitnessinsider.online
 fitnessinsider.online##center
@@ -4342,6 +4349,7 @@ upvid.mobi##[id*="ScriptRoot"]
 
 !pornoeggs.com|peekvids.com|playvids.com|pornflip.com
 ||peekvids.com/*_promo/$image,1p
+playvids.com##+js(set, window.pop_target, '')
 pornoeggs.com,peekvids.com,playvids.com,pornflip.com##.block-advert
 peekvids.com##.invideoBlock
 peekvids.com,playvids.com##.container > .row > .col-lg-auto.col-12
@@ -4650,7 +4658,7 @@ pornsexer.com##.fp-brand
 !twitter.com
 ||twitter.com/push_service_worker.js$script,1p
 ||twitter.com/sw.js$script,1p
-twitter.com##[id^="layers"] > [class^="css-"]:has([dir^="auto"]):has(a[href^="/"]):has-text(/Log in|Sign Up/i)
+twitter.com##[id^="layers"] > [class^="css-"]:has([dir^="auto"]):not(:has([aria-expanded])):has(a[href^="/"]):has-text(/Log in|Sign Up/i)
 
 !openloadporn.site
 openloadporn.site##+js(aopr, exoJsPop101)
@@ -6043,3 +6051,10 @@ camslib.com##.show
 !pornzog.com
 pornzog.com##.video-ntv-list
 pornzog.com##.video-ntv > .block-title > .title-line
+
+!camporn.tube
+camporn.tube##+js(acis, onload)
+camporn.tube##+js(aopr, crakPopInParams)
+
+!pornowatch.net
+pornowatch.net##+js(acis, decodeURI, decodeURIComponent)
