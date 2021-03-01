@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 253
+!Update: 254
 
 !Badware/Malware redirects
 ||promo-bc.com
@@ -642,6 +642,22 @@ preRoll.php$xhr
 ||sink-brush-lips-women.xyz^
 */amvn.js$script
 ||apttrk.com^
+||wazazu.com^$3p
+||ilohfbiph.com^
+||xcsypkknp.com^
+||lismcanalys.fun^
+||cleanhistoryeraser.com^
+||lgpumcja.com^
+||tfzznclztl.com^
+||go.*.com/i?campaignId=*$frame,3p
+||baresi.xyz^$all
+||b2xfgh.s3.amazonaws.com^
+||dropkickmedia.com^$xhr,3p
+||elitistrawirresistible.com^
+||neverbe.xyz^
+*/js/mew.js*$script
+||all-ti-cod.com^
+||bfedjdecaejcddhjej.ru^
 
 !Whitelist
 @@||click.linksynergy.com^
@@ -671,6 +687,7 @@ preRoll.php$xhr
 ##._ln-floater
 ##[href="https://cambb.xxx/"]
 ##[href*="jmp.com/"]
+##[href="https://teenselfies.com"]
 !------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------!
 
 !adf.ly
@@ -713,6 +730,8 @@ youtube.com##[title^="Next (SHIFT+n)"]
 youtube.com##[aria-label^="Add to queue"]
 youtube.com##[aria-label^="Watch later"]
 youtube.com###scroll-container > .yt-chip-cloud-renderer.style-scope
+youtube.com##[aria-label^="Search with your voice"]
+youtube.com##[id^="efyt"]
 
 !pornhd.com
 @@||protoawe.com^$script,frame,3p,domain=pornhd.com
@@ -1465,7 +1484,6 @@ xvideos.com##.xv-cams-block
 !redtube.com
 */redtube/js/common/common/service_worker_starter$xhr,important
 ||redtube.com/service_worker-*.js$script,1p
-
 redtube.com#@#.clearfix:has-text(Ads)
 redtube.com###show_page_streamate
 redtube.com##.subtxt
@@ -1575,7 +1593,7 @@ tube8.*###videopagedblock
 tube8.*##[class$="_4k"]:has-text(Traffic Junky)
 tube8.*###pb_block
 tube8.*##.gridList > [class]:has-text(/Banner|banner|B4n3r|B4nn3r|B4nner|b4n3r|b4nn3r|b4nner|/):not([class*="wrapper"]):not([id]):not(.channel-box)
-tube8.*##.clearfix > [class]:has-text(/Banner|banner|B4n3r|B4nn3r|B4nner|b4n3r|b4nn3r|b4nner|/):not([class*="wrapper"]):not([id]):not(.channel-box):not(.user-nav):not(.section):not(.logo-box):not(.reset):not(.sidebar):not(.content)
+tube8.*##.clearfix > [class]:has-text(/Banner|banner|B4n3r|B4nn3r|B4nner|b4n3r|b4nn3r|b4nner|/):not([class*="wrapper"]):not([id]):not(.channel-box):not(.user-nav):not(.section):not(.logo-box):not(.reset):not(.sidebar):not(.content):not(.video_column_left)
 tube8.*##[data-esp-node^="catfish"]
 tube8.*##[data-esp-node*="banner"]
 tube8.*##.banner-container
@@ -1659,6 +1677,7 @@ morazzia.com##[align^="center"][style^="text"]
 morazzia.com##.item-list > ul > li > [href]:not([href^="?from="])
 morazzia.com##[title="Todays Trending"]
 morazzia.com##.resizable-ads
+morazzia.com##.tags-link
 
 !babesandgirls.com
 ||babesandgirls.com^*/banners/$image,1p
@@ -1720,6 +1739,7 @@ wantedbabes.com###main-menu > [href]:not([href^="/"]):not([href^="#"])
 grabpussy.com##+js(set, floaderLoaded, noopFunc)
 grabpussy.com##+js(aopw, aweOLEmbedConfig)
 grabpussy.com##+js(aopr, exoJsPop101)
+grabpussy.com##+js(norafif, loadMore)
 grabpussy.com##.c-bl-b-before
 grabpussy.com##.two-adv
 grabpussy.com##.ban-bl
@@ -1877,6 +1897,7 @@ fandom.com##[class*="-sponsored-content"]
 fandom.com##.banner-notifications-placeholder
 fandom.com###floating-scrollbar:style(position: absolute !important;)
 fandom.com##.SearchAdsTopWrapper
+fandom.com##.unified-search__community
 
 !sensualgirls.org
 ||sensualgirls.org/php/*.js$script,1p
@@ -2092,7 +2113,6 @@ celebrity-leaks.net##.code-block-5.code-block > center
 !tnaflix.com
 ||tnaflix.*/*.php$script,1p
 tnaflix.com##+js(aopw, historyCookie)
-!tnaflix.com##+js(aopr, getCookie)
 tnaflix.com##.feedbackFixed
 tnaflix.com###flixPlayer > .pVideoBlock > .nvNav
 tnaflix.com##.mainVidTtl
@@ -2104,6 +2124,7 @@ tnaflix.com##[class*="Banners"]
 tnaflix.*##.mewBlock
 tnaflix.*##.withRightBar > span
 tnaflix.*##.pInVistix
+tnaflix.*###vidPlayer > .rbsd
 
 !isselecta.co
 isselecta.com###top-message-wrapper
@@ -2194,6 +2215,7 @@ baberoad.com##+js(nosiif, reload2)
 baberoad.com##tr:style(background: transparent !important;)
 baberoad.com###leftcol
 baberoad.com##body > div > table > tbody > tr:first-child > td:nth-child(2) > [href]
+baberoad.com##[colspan]
 
 !cocogals.com
 cocogals.com##.thumbs:nth-of-type(4), .item:nth-of-type(9)
@@ -2281,11 +2303,10 @@ babesbang.com##.side-title:not(:has-text(/Tags|Friend's Babes|hot babes!|Top Ref
 babesbang.com###eXTReMe
 
 !novoporn.com
-||novoporn.com^*/banners/*$image,1p
 ||novoporn.com^*/b/*$image,1p
 ||novoporn.com/worker.js$script,1p
 novoporn.com##+js(aopw, aweOLEmbedConfig)
-novoporn.com##+js(aopr, exoJsPop101)
+novoporn.com##+js(norafif, loadMore)
 novoporn.com##.banner-block
 novoporn.com##.owner
 novoporn.com##.two-adv
@@ -2312,14 +2333,10 @@ glam0ur.com##.footer > ul:has([href])
 
 !novostrong.com
 ||novostrong.com^*/banners/*$image,1p
+||novostrong.com^*/b/*$image,1p
 novostrong.com##+js(nosiif, reload2)
 novostrong.com##+js(aopw, aweOLEmbedConfig)
 novostrong.com##+js(aeld, /^(?:load|click)$/, popMagic)
-novostrong.com##.owner
-novostrong.com##.gallery_images_background > center
-novostrong.com##.topheader_background
-novostrong.com##.bestsites
-novostrong.com##.aw
 
 !thousandbabes.com
 ||thousandbabes.com^*/banners/*$image,1p
@@ -2345,6 +2362,7 @@ babesmachine.com##nav > [href]:not([href^="/galleries"]):not([href^="/models"])
 ||babesaround.com^*/b/*$image,1p
 babesaround.com##+js(set, floaderLoaded, noopFunc)
 babesaround.com##+js(set, awePuShown, true)
+babesaround.com##+js(norafif, loadMore)
 babesaround.com##.top_banner
 babesaround.com##.adsense
 babesaround.com##.hbg_padd > p > [href]:not([href^="javascript"])
@@ -2460,6 +2478,7 @@ mentalfloss.com##.ad-container
 ||biguz.net^$script,1p
 ||biguz.net/vast$xhr,1p
 @@||biguz.net/js/fluidplayer.min.js$script,1p
+||biguz.net/vast*.php$xhr
 biguz.net##+js(aopr, ExoLoader)
 biguz.net##+js(aopr, exoJsPop101)
 biguz.net###under
@@ -2530,6 +2549,7 @@ nextdoordolls.com##.smart-page-loader
 
 !babesandbitches.net
 ||babesandbitches.net^*/b/*$image,1p
+babesandbitches.net##+js(norafif, loadMore)
 babesandbitches.net##.owner
 babesandbitches.net###gallery-text
 babesandbitches.net##.aw
@@ -3357,6 +3377,7 @@ spankbang.com##.vjs-timeline-positions
 spankbang.com##.ttaa2v3
 spankbang.com##.live-item
 spankbang.com##.ptgncdn_holder
+spankbang.com##[src*="channel_id"]
 
 !erome.com
 ||erome.com^$script,1p
@@ -3754,6 +3775,7 @@ xfantasy.tv,xfantazy.com##[href]:not([href^="/"]):not([href*="xfantasy.tv"])
 !camwhores.*
 ||camwhores.tv/*action=js_online_status$image,1p
 ||nsimg.net$image,3p,domain=camwhores.tv|camwhores.video
+*$frame,3p,domain=camwhores.tv
 *$script,3p,domain=camwhores.tv
 @@||camwhores.*^$csp
 @@||camvideos.org/embed/*$frame,domain=camwhores.tv
@@ -4325,6 +4347,7 @@ vipissy.com##.black-friday
 ||porndig.com/sw*.js$script,1p
 porndig.com##.top_webcams
 porndig.com##.scroll_top_btn
+porndig.com##.js_footer_partner_container_wrapper
 
 !fapxl.com
 ||fapxl.com/lib/external/tx/out.php$frame,1p
@@ -4427,7 +4450,7 @@ fulltrannyporn.com##.header-open-cookie:style(position: absolute !important;)
 fulltrannyporn.com##[href*="/out.php"]
 
 !celebsnudeworld.com
-celebsnudeworld.com##+js(aeld, click, native code)
+celebsnudeworld.com##+js(aopr, exoJsPop101)
 celebsnudeworld.com###player-advertising
 
 !evilangel.com
@@ -5340,7 +5363,8 @@ pixhost.to##+js(aopr, exoJsPop101)
 shon.xyz##.col-md-offset-3
 
 !pornbox.cc
-pornbox.cc##+js(aopr, exoJsPop101)
+pornbox.cc##+js(aopr, absda)
+pornbox.cc##+js(aeld, /^(?:load|click)$/, popMagic)
 
 !thepirate.top
 thepirate.top##+js(aopr, exoDocumentProtocol)
@@ -6058,3 +6082,33 @@ camporn.tube##+js(aopr, crakPopInParams)
 
 !pornowatch.net
 pornowatch.net##+js(acis, decodeURI, decodeURIComponent)
+
+!hqporner.top
+hqporner.top##+js(aeld, load, setTimeout)
+hqporner.top##+js(aeld, /^(?:load|click)$/, popMagic)
+
+!aebn.net
+aebn.net##+js(nowoif)
+
+!xxxfiles.com
+*$script,3p,domain=xxxfiles.com,denyallow=jsdelivr.net|cloudflare.com|zencdn.net|unpkg.com
+xxxfiles.com##+js(acis, $, function)
+
+!fapfappy.com
+||fapfappy.com/*.php$script,1p
+
+!zthots.com
+zthots.com##+js(aeld, /^(?:load|click)$/, popMagic)
+
+!comicx.org
+comicx.org##+js(aeld, /^(?:load|click)$/, popMagic)
+
+!xxxhub.cc
+xxxhub.cc##+js(aeld, /^(?:load|click)$/, popMagic)
+xxxhub.cc##+js(aopr, decodeURI)
+xxxhub.cc##[style^="z-index: 999999;"]
+
+!pornhex.com
+pornhex.com##+js(aeld, /^(?:load|click)$/, popMagic)
+pornhex.com##+js(acis, Math, String.fromCharcode)
+||pornhex.com/*.php$script,1p
