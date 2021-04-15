@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 254
+!Update: 255
 
 !Badware/Malware redirects
 ||promo-bc.com
@@ -658,6 +658,9 @@ preRoll.php$xhr
 */js/mew.js*$script
 ||all-ti-cod.com^
 ||bfedjdecaejcddhjej.ru^
+||funfuckdolls.com^
+||joxhvjnlpb.com^
+||zugktahvdngk.com^
 
 !Whitelist
 @@||click.linksynergy.com^
@@ -787,6 +790,7 @@ porndoe.com##.yellow-bar
 porndoe.com##.fly-in-content
 porndoe.com###sponsored-ticker-scroll
 porndoe.com##.news-ticker
+porndoe.com##.modal-regular
 
 !realitykings.com
 */catfish.png$image,3p,domain=realitykings.com
@@ -1604,6 +1608,7 @@ facebook.com##[data-pagelet^="FeedUnit"]:has-text(People You May Know)
 facebook.com##div[data-pagelet^="FeedUnit_"] > [class]:has-text(Suggested for You)
 facebook.com##div[data-pagelet^="FeedUnit_"]:has([data-testid]):has-text((COVID-19))
 facebook.com##div[role="feed"] > div[data-pagelet^="FeedUnit"] div:last-child > span:first-child > span:only-child > a[role*="n"] > span:only-child:upward(div[role="feed"] > [data-pagelet^="FeedUnit"])
+facebook.com##[class] > div > span > div > [class]:has-text(S):only-child
 
 !aznude.com
 ||aznude.com/worker.js$script,1p
@@ -2215,7 +2220,7 @@ baberoad.com##+js(nosiif, reload2)
 baberoad.com##tr:style(background: transparent !important;)
 baberoad.com###leftcol
 baberoad.com##body > div > table > tbody > tr:first-child > td:nth-child(2) > [href]
-baberoad.com##[colspan]
+baberoad.com##[colspan]:not([colspan^="3"])
 
 !cocogals.com
 cocogals.com##.thumbs:nth-of-type(4), .item:nth-of-type(9)
@@ -3792,6 +3797,7 @@ camwhores.*##.message
 camwhores.*##.item.private .thumb:style(background: transparent; !important; opacity: 1 !important;)
 camwhores.*##.block-album .images span.item:style(opacity: 1 !important;)
 camwhores.*##.search-cloud
+camwhores.*##.private
 
 !wiki.fextralife.com
 wiki.fextralife.com###video-stream-container
@@ -5591,6 +5597,10 @@ pornone.com##.video-add
 pornone.com##[class*="banner"]
 pornone.com##.adholder
 pornone.com###video-advert
+pornone.com##.livejasmin-videos-heading
+pornone.com##.video-live
+pornone.com##[title^="Show More Girls"]:upward(1)
+pornone.com##.dropdown ~ span
 
 !ups.com
 ups.com##.ups-tracking_banner
@@ -5934,6 +5944,7 @@ eroprofile.com##+js(aeld, /^(?:load|click)$/, popMagic)
 !thotbook.*
 ||thotbook.*/superpwa-sw.js$script,1p
 thotbook.*##+js(aeld, /^(?:load|click)$/, popMagic)
+thotbook.*##+js(acis, document.createElement, 'script')
 thotbook.*##.adace-slot
 
 !tii.ai
@@ -6109,6 +6120,37 @@ xxxhub.cc##+js(aopr, decodeURI)
 xxxhub.cc##[style^="z-index: 999999;"]
 
 !pornhex.com
-pornhex.com##+js(aeld, /^(?:load|click)$/, popMagic)
-pornhex.com##+js(acis, Math, String.fromCharcode)
+||pornhex.com/nb/*$script,1p
 ||pornhex.com/*.php$script,1p
+pornhex.com##+js(aeld, /^(?:load|click)$/, popMagic)
+pornhex.com##+js(aopr, decodeURI)
+
+!wetransfer.com
+||backgrounds.wetransfer.net/*$frame,3p
+wetransfer.com##.banner__container
+
+!charlieintel.com
+charlieintel.com##[id^="custom"]
+charlieintel.com##.position-sticky:style(position: static !important;)
+
+!hoastie.com
+hoastie.com##+js(aopr, app_vars.force_disable_adblock)
+hoastie.com##+js(aopr, open)
+hoastie.com##+js(set, blurred, false)
+hoastie.com##.banner
+hoastie.com##.text-left
+
+!psnprofiles.com
+*$script,3p,domain=psnprofiles.com
+
+!shyexgirlfriend.com
+||shyexgirlfriend.com*/banners/*$image,1p
+shyexgirlfriend.com##+js(nosiif, reload2)
+shyexgirlfriend.com##.vporn
+
+!milf.dk
+milf.dk##+js(nostif, postscribe, 0)
+
+!influencersgonewild.com
+influencersgonewild.com##+js(aopw, loadjscssfile)
+influencersgonewild.com##+js(acis, onload)
