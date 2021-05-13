@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 255
+!Update: 256
 
 !Badware/Malware redirects
 ||promo-bc.com
@@ -649,7 +649,7 @@ preRoll.php$xhr
 ||cleanhistoryeraser.com^
 ||lgpumcja.com^
 ||tfzznclztl.com^
-||go.*.com/i?campaignId=*$frame,3p
+||*.com/*campaignId=*$frame,3p
 ||baresi.xyz^$all
 ||b2xfgh.s3.amazonaws.com^
 ||dropkickmedia.com^$xhr,3p
@@ -661,6 +661,10 @@ preRoll.php$xhr
 ||funfuckdolls.com^
 ||joxhvjnlpb.com^
 ||zugktahvdngk.com^
+||rtbsuperhub.com^
+||srv*.com$frame,3p
+||rkyijdrys.com^
+||eoemyywmjx.com^
 
 !Whitelist
 @@||click.linksynergy.com^
@@ -1446,6 +1450,7 @@ xhamster.*##[class*="-spb"]
 xhamster.*##[class*="right-rectangle"]
 xhamster.*##.video-thumb:has(.live-badge)
 xhamster.*##[class^="wio"]
+xhamster.*##a[href^="https://xhamster.com/faphouse/out"]
 
 !pornhub.com
 ||nsimg.net^$image,3p,domain=pornhub.com,important
@@ -1554,6 +1559,7 @@ ddfnetwork.com,ddfbusty.com,hotlegsandfeet.com,houseoftaboo.com,eurogirlsongirls
 eurogirlsongirls.com##.cam-banner
 
 !youporn.com
+@@||youporn.com/js/eht.js?site_id=$script
 youporn.*##+js(aopr, absda)
 youporn.com###EYP-scroll
 youporn.com##.adLinkText
@@ -1596,8 +1602,6 @@ tube8.*##[id^="boxVideo"]:has-text(/Blacked|Black|BLACKED|BLACK|BBC|bbc/)
 tube8.*###videopagedblock
 tube8.*##[class$="_4k"]:has-text(Traffic Junky)
 tube8.*###pb_block
-tube8.*##.gridList > [class]:has-text(/Banner|banner|B4n3r|B4nn3r|B4nner|b4n3r|b4nn3r|b4nner|/):not([class*="wrapper"]):not([id]):not(.channel-box)
-tube8.*##.clearfix > [class]:has-text(/Banner|banner|B4n3r|B4nn3r|B4nner|b4n3r|b4nn3r|b4nner|/):not([class*="wrapper"]):not([id]):not(.channel-box):not(.user-nav):not(.section):not(.logo-box):not(.reset):not(.sidebar):not(.content):not(.video_column_left)
 tube8.*##[data-esp-node^="catfish"]
 tube8.*##[data-esp-node*="banner"]
 tube8.*##.banner-container
@@ -1607,8 +1611,8 @@ tube8.*##[data-esp-node^="under_player_ad"]
 facebook.com##[data-pagelet^="FeedUnit"]:has-text(People You May Know)
 facebook.com##div[data-pagelet^="FeedUnit_"] > [class]:has-text(Suggested for You)
 facebook.com##div[data-pagelet^="FeedUnit_"]:has([data-testid]):has-text((COVID-19))
-facebook.com##div[role="feed"] > div[data-pagelet^="FeedUnit"] div:last-child > span:first-child > span:only-child > a[role*="n"] > span:only-child:upward(div[role="feed"] > [data-pagelet^="FeedUnit"])
-facebook.com##[class] > div > span > div > [class]:has-text(S):only-child
+facebook.com##div[role="complementary"] > div > div > div > div > div > span
+facebook.com##[role=feed] div > span > span > a > span >:not(:has-text(/^[^A-z]$/)):upward(div[role=feed] > div)
 
 !aznude.com
 ||aznude.com/worker.js$script,1p
@@ -1903,6 +1907,7 @@ fandom.com##.banner-notifications-placeholder
 fandom.com###floating-scrollbar:style(position: absolute !important;)
 fandom.com##.SearchAdsTopWrapper
 fandom.com##.unified-search__community
+fandom.com##[class^="aff-"]
 
 !sensualgirls.org
 ||sensualgirls.org/php/*.js$script,1p
@@ -2219,8 +2224,7 @@ novoglam.com###left > .links
 baberoad.com##+js(nosiif, reload2)
 baberoad.com##tr:style(background: transparent !important;)
 baberoad.com###leftcol
-baberoad.com##body > div > table > tbody > tr:first-child > td:nth-child(2) > [href]
-baberoad.com##[colspan]:not([colspan^="3"])
+baberoad.com##[target^="_blank"]:upward([colspan])
 
 !cocogals.com
 cocogals.com##.thumbs:nth-of-type(4), .item:nth-of-type(9)
@@ -2297,6 +2301,7 @@ sexynakeds.com##.aw
 babesbang.com##+js(set, floaderLoaded, noopFunc)
 babesbang.com##+js(aopr, exoJsPop101)
 babesbang.com##+js(nowoif)
+babesbang.com##+js(norafif, loadMore)
 babesbang.com##.block-center > [href]
 babesbang.com##.ownerbanner
 babesbang.com##.ads
@@ -2735,6 +2740,11 @@ lesbianpornvideos.com###related_videos > div:nth-of-type(4) > center:nth-of-type
 lesbian8.com##+js(aopr, BetterJsPop)
 lesbian8.com##+js(aopr, Salamo)
 lesbian8.com##+js(aopr, Samesa)
+lesbian8.com##+js(nostif, #ageverify, 10)
+lesbian8.com##.sponsor
+lesbian8.com##a[href^="https://www.lesbian8.com/link/"]:upward(.top2)
+lesbian8.com##div > .title:first-of-type:upward([id])
+lesbian8.com##.top-links
 lesbian8.com##.right > .content
 lesbian8.com###player_logo_image
 
@@ -4093,7 +4103,6 @@ nakedbabes.club###backtotop
 letmejerk.com/*.php$script,1p
 letmejerk.com#@#+js(aopr, document.dispatchEvent)
 letmejerk.com##+js(aopr, exoJsPop101)
-letmejerk.com##.clearfix > [class]:not([id]):not([class*=cont]):not([class*=video])
 letmejerk.com##.container > .nav-main > li:has-text(/Live|Laid/)
 letmejerk.com##.cams-widget
 letmejerk.com##.goup
@@ -5820,14 +5829,14 @@ camhub.cc##center:has-text(**NOTICE**)
 camhub.cc##.embed-container
 camhub.cc##.place
 
-!camclips.tv
-camclips.tv##+js(aopr, crakPopInParams)
-camclips.tv##+js(set, flashvars.mlogo, '')
-camclips.tv##+js(set, flashvars.logo_url, undefined)
-camclips.tv##+js(set, flashvars.mlogo_link, undefined)
-camclips.tv##.cbchat
-camclips.tv##.table
-camclips.tv##.fp-logo
+!camclips.*
+camclips.*##+js(aopr, crakPopInParams)
+camclips.*##+js(set, flashvars.mlogo, '')
+camclips.*##+js(set, flashvars.logo_url, undefined)
+camclips.*##+js(set, flashvars.mlogo_link, undefined)
+camclips.*##.cbchat
+camclips.*##.table
+camclips.*##.fp-logo
 
 !camseek.tv
 camseek.tv##.container > .box
@@ -6086,6 +6095,7 @@ camslib.com##.show
 !pornzog.com
 pornzog.com##.video-ntv-list
 pornzog.com##.video-ntv > .block-title > .title-line
+pornzog.com##.adv-block-container
 
 !camporn.tube
 camporn.tube##+js(acis, onload)
@@ -6154,3 +6164,43 @@ milf.dk##+js(nostif, postscribe, 0)
 !influencersgonewild.com
 influencersgonewild.com##+js(aopw, loadjscssfile)
 influencersgonewild.com##+js(acis, onload)
+
+!porntn.com
+porntn.com##+js(acis, atob, decodeURIComponent)
+porntn.com##div:upward(.top-links)
+
+!gofile.io
+gofile.io##.swal2-backdrop-show
+gofile.io##body:style(overflow: auto !important;)
+
+! 2021-04-29 https://intimatelesbians.com
+intimatelesbians.com###floatingBanner
+
+! 2021-04-29 https://rule34.paheal.net
+rule34.paheal.net##.tnc_bg
+rule34.paheal.net##.tnc
+
+!tubebrother.com
+||tubebrother.com/wp-content/plugins/popunderpro/*$script,1p
+
+!nousdecor.com
+nousdecor.com##+js(noeval)
+nousdecor.com##+js(set, blurred, false)
+nousdecor.com##center > .text-center > p
+nousdecor.com##.text-center > .text-center
+nousdecor.com###content > p
+nousdecor.com###content > .text-center
+
+!exey.io
+exey.io##+js(set, blurred, false)
+exey.io###content > p
+exey.io###content > .text-center
+
+!thothub.*
+thothub.*##+js(acis, onload)
+
+!camsclips.*
+camsclips.*##+js(nostif, #ageverify, 10)
+
+!camwhorescloud.com
+camwhorescloud.com##.table
