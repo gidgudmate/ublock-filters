@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 256
+!Update: 257
 
 !Badware/Malware redirects
 ||promo-bc.com
@@ -665,6 +665,7 @@ preRoll.php$xhr
 ||srv*.com$frame,3p
 ||rkyijdrys.com^
 ||eoemyywmjx.com^
+||benonblkd.xyz^
 
 !Whitelist
 @@||click.linksynergy.com^
@@ -1135,12 +1136,8 @@ pcsteps.com###snp-bld-step-1
 pcsteps.com##.top-fade-out.top-is-visible.to-top
 
 !speedrun.com
-speedrun.com###maincontainer > div:nth-of-type(1)
-speedrun.com###sidebar > div:has-text(Advertisement)
-speedrun.com##.col-xs-12 > .visible-sm.visible-xs
-speedrun.com###main > .visible-sm.visible-xs
-speedrun.com##.curse-wide
 speedrun.com###extrabar
+speedrun.com##.malediction
 
 !theclassicporn.com
 theclassicporn.com##.pl_showtime1
@@ -1429,6 +1426,7 @@ private.com##.free-content
 ||xhcdn.com/xh-mobile/js/*.pop.js$script,3p
 ||xhamsterpremium.com^$3p
 ||xhamsterlive.com^$3p
+||stripst.com^$xhr,redirect=nooptext,domain=xhamster.com
 xhamster.*##[class^="player-ad-"]
 xhamster.*##.top-video-block--banner
 xhamster.*##.wrapper
@@ -1451,6 +1449,7 @@ xhamster.*##[class*="right-rectangle"]
 xhamster.*##.video-thumb:has(.live-badge)
 xhamster.*##[class^="wio"]
 xhamster.*##a[href^="https://xhamster.com/faphouse/out"]
+xhamster.*##[class^="xplayer-ads-label__"]
 
 !pornhub.com
 ||nsimg.net^$image,3p,domain=pornhub.com,important
@@ -1835,12 +1834,14 @@ babesinporn.com##.item:has(a[href*="/out/"])
 babesinporn.com###header:style(position: absolute !important;)
 
 !destinytracker.com
+||destinytracker.com/dist/service-worker.js$script,1p
 destinytracker.com##+js(aopr, checkSiteNotifications)
 destinytracker.com##+js(aopw, adBlockDetected)
 destinytracker.com##.ad-box
 destinytracker.com##.site-container > .bordered-ad
 destinytracker.com##.notifications
 destinytracker.com##.ad-container
+destinytracker.com##.pwa-upsell
 
 !nudogram.com
 nudogram.com##[src="https://nudogram.com/graphics/banned.png"]
@@ -2554,8 +2555,9 @@ wcdem2015.org##.banner
 
 !nextdoordolls.com
 nextdoordolls.com##+js(aopr, anOptions)
-nextdoordolls.com##.slxnHLXpBxmG
 nextdoordolls.com##.smart-page-loader
+nextdoordolls.com##.adx-ls:upward(div)
+nextdoordolls.com##.channel-link
 
 !babesandbitches.net
 ||babesandbitches.net^*/b/*$image,1p
@@ -3860,6 +3862,7 @@ google.com##[data-id] + [jscontroller]:has(span:has-text(Related searches))
 google.com##.sh-sr__shop-result-group:has-text(Sponsored)
 google.com###islmp > div > div > div > div > div > div > div:has-text(Sponsored)
 google.com##[data-id^="Carousel"]:has(span:has-text(Ads))
+google.com##[id^="eob_"]
 
 !apex.tracker.gg
 apex.tracker.gg##.trn-upsell-premium
@@ -5955,6 +5958,7 @@ eroprofile.com##+js(aeld, /^(?:load|click)$/, popMagic)
 thotbook.*##+js(aeld, /^(?:load|click)$/, popMagic)
 thotbook.*##+js(acis, document.createElement, 'script')
 thotbook.*##.adace-slot
+thotbook.*##[src*="?spot="]:upward([style] + [class])
 
 !tii.ai
 tii.ai##p
@@ -6173,13 +6177,6 @@ porntn.com##div:upward(.top-links)
 gofile.io##.swal2-backdrop-show
 gofile.io##body:style(overflow: auto !important;)
 
-! 2021-04-29 https://intimatelesbians.com
-intimatelesbians.com###floatingBanner
-
-! 2021-04-29 https://rule34.paheal.net
-rule34.paheal.net##.tnc_bg
-rule34.paheal.net##.tnc
-
 !tubebrother.com
 ||tubebrother.com/wp-content/plugins/popunderpro/*$script,1p
 
@@ -6204,3 +6201,6 @@ camsclips.*##+js(nostif, #ageverify, 10)
 
 !camwhorescloud.com
 camwhorescloud.com##.table
+
+!camthots.tv
+||camthots.tv/contents/other/player/*_V*_*VO_WithOverlay_*.mp4$media,1p
