@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 257
+!Update: 258
 
 !Badware/Malware redirects
 ||promo-bc.com
@@ -666,6 +666,9 @@ preRoll.php$xhr
 ||rkyijdrys.com^
 ||eoemyywmjx.com^
 ||benonblkd.xyz^
+||thederati.com^
+||gepsuzogra.com^
+||phejajagy.com^
 
 !Whitelist
 @@||click.linksynergy.com^
@@ -696,6 +699,8 @@ preRoll.php$xhr
 ##[href="https://cambb.xxx/"]
 ##[href*="jmp.com/"]
 ##[href="https://teenselfies.com"]
+##.gms-ad
+
 !------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------!
 
 !adf.ly
@@ -1449,7 +1454,7 @@ xhamster.*##[class*="right-rectangle"]
 xhamster.*##.video-thumb:has(.live-badge)
 xhamster.*##[class^="wio"]
 xhamster.*##a[href^="https://xhamster.com/faphouse/out"]
-xhamster.*##[class^="xplayer-ads-label__"]
+xhamster.*##[class^="xplayer-ads-"]
 
 !pornhub.com
 ||nsimg.net^$image,3p,domain=pornhub.com,important
@@ -1652,6 +1657,7 @@ youjizz.com##.underPlayerPr
 youjizz.com##.bottom_pr
 
 !adultdvdempire.com
+||imgs1cdn.adultempire.com/res/*/*-*-Item-Page-Promo-*.jpg$image,3p
 adultdvdempire.com##.navbar:style(position: absolute !important;)
 adultdvdempire.com##.breakout:has-text(Promotion)
 adultdvdempire.com##.advertisments
@@ -1842,6 +1848,7 @@ destinytracker.com##.site-container > .bordered-ad
 destinytracker.com##.notifications
 destinytracker.com##.ad-container
 destinytracker.com##.pwa-upsell
+destinytracker.com##.trials-banner
 
 !nudogram.com
 nudogram.com##[src="https://nudogram.com/graphics/banned.png"]
@@ -2136,6 +2143,7 @@ tnaflix.*##.mewBlock
 tnaflix.*##.withRightBar > span
 tnaflix.*##.pInVistix
 tnaflix.*###vidPlayer > .rbsd
+tnaflix.*##.zPlayerRight
 
 !isselecta.co
 isselecta.com###top-message-wrapper
@@ -3115,6 +3123,7 @@ shrtfly.*##.col-md-12 > [href*=".xyz"]
 shrtfly.*##.text-left
 stfly.*###link-view > center
 stfly.*###link-view > div:not([class])
+stfly.*##.text-center
 
 !tuberel.com
 tuberel.com##+js(noeval)
@@ -4660,6 +4669,7 @@ leechall.*##.alert
 leechall.*##.text-center > [href]
 leechall.*##.logo
 leechall.*###overly
+leechall.*##.center-block
 
 !vidop.icu
 vidop.icu##+js(noeval)
@@ -4817,6 +4827,7 @@ looporn.com###vjs-join-overlay-holder
 
 !github.com
 github.com##.TimelineItem-break
+github.com##.soft-wrap .blob-code:style(padding-left: 50px !important;)
 
 !digitallearn.online
 digitallearn.online##p
@@ -5963,6 +5974,7 @@ thotbook.*##[src*="?spot="]:upward([style] + [class])
 !tii.ai
 tii.ai##p
 tii.ai##h3
+tii.ai##.td-container-wrap
 
 !mealip.com|pslfive.com
 mealip.com##+js(aopr, app_vars.force_disable_adblock)
@@ -6092,9 +6104,9 @@ imagevenue.com##+js(nowoif, /^/, 1)
 jav688.com##+js(acis, decodeURI, decodeURIComponent)
 
 !camslib.com
-camslib.com##+js(acis, onload)
 camslib.com##.modal
-camslib.com##.show
+camslib.com##[data-src]:upward(1)
+camslib.com##.fa-lock:upward(.thumb-item)
 
 !pornzog.com
 pornzog.com##.video-ntv-list
@@ -6183,6 +6195,9 @@ gofile.io##body:style(overflow: auto !important;)
 !nousdecor.com
 nousdecor.com##+js(noeval)
 nousdecor.com##+js(set, blurred, false)
+nousdecor.com##+js(nano-sib, counter, 1500, 0.02)
+nousdecor.com##+js(nano-sib, counter, 2000, 0.02)
+nousdecor.com##+js(nano-sib, , *, 0)
 nousdecor.com##center > .text-center > p
 nousdecor.com##.text-center > .text-center
 nousdecor.com###content > p
@@ -6204,3 +6219,76 @@ camwhorescloud.com##.table
 
 !camthots.tv
 ||camthots.tv/contents/other/player/*_V*_*VO_WithOverlay_*.mp4$media,1p
+
+!onizatop.net
+onizatop.net##+js(adfly-defuser)
+
+!nbyts.*
+nbyts.*##p
+nbyts.*##h2
+
+!kiemlua.com|pennbookcenter.com|rodjulian.com
+kiemlua.com,pennbookcenter.com,rodjulian.com##p
+kiemlua.com,pennbookcenter.com,rodjulian.com##.text-center > .text-center
+kiemlua.com,pennbookcenter.com,rodjulian.com###content > .text-center
+
+!gameinfinitus.com
+gameinfinitus.com##.vm-placement:upward(1)
+
+!pornoxxx.*
+pornoxxx.*##.place
+pornoxxx.*##.table
+pornoxxx.*##.popunder-opener
+
+!link1s.com
+link1s.com##+js(set, blurred, false)
+link1s.com##.banner-img-promotion
+
+! 2021-05-29 https://forum.cheatengine.org
+forum.cheatengine.org##.code:style(color: #202020 !important;)
+
+!zlut.com
+||zlut.com/_ad$frame,1p
+zlut.com##.player > .hide
+zlut.com##.video-r
+zlut.com##[title*="QR"]
+zlut.com##.add-bottom
+zlut.com###niche-tabs
+
+!sexofilm.co
+sexofilm.co##+js(acis, decodeURI, decodeURIComponent)
+
+!go.adslinkfly.online
+go.adslinkfly.online##.r-bg
+
+!downphanmem.com
+downphanmem.com##+js(noeval)
+downphanmem.com##.text-content
+downphanmem.com##.uk-clearfix
+downphanmem.com##.text-center
+downphanmem.com##.single_post
+downphanmem.com##.post-content
+
+!expertvn.com
+expertvn.com##+js(noeval)
+expertvn.com##.text-center
+expertvn.com##.uk-clearfix
+expertvn.com##.grecaptcha-badge
+expertvn.com##.text-content
+expertvn.com##.clearfix
+expertvn.com##.entry-content
+expertvn.com##.post-info
+expertvn.com##.post-content
+!tny.so
+||tny.so/sw-$script,1p
+
+!informaxonline.com
+informaxonline.com##.gmr-single
+
+!makemoneywithurl.com
+makemoneywithurl.com##.content-area
+makemoneywithurl.com##.widget-area
+makemoneywithurl.com###footer-container
+
+!regecish.net
+regecish.net##+js(adfly-defuser)
