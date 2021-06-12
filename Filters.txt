@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 259
+!Update: 259.1
 
 !Badware/Malware redirects
 ||promo-bc.com
@@ -6303,9 +6303,6 @@ makemoneywithurl.com###footer-container
 
 !regecish.net
 regecish.net##+js(adfly-defuser)
-
-! 2021-06-05 http://snapcamz.cc
-snapcamz.cc##[href]:has-text(/dropmyfiles.com|kshared.com|jumploads.com|secretfile.net/):upward(3)
 
 !camwhorespy.com
 camwhorespy.com##+js(acis, onload)
