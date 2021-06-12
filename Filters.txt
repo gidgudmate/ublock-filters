@@ -2,7 +2,7 @@
 !License: https://creativecommons.org/licenses/by-sa/4.0/
 !Homepage: https://github.com/dumbusernameidk/ublock-filters
 !Support: https://github.com/dumbusernameidk/ublock-filters/issues
-!Update: 258
+!Update: 259
 
 !Badware/Malware redirects
 ||promo-bc.com
@@ -669,6 +669,14 @@ preRoll.php$xhr
 ||thederati.com^
 ||gepsuzogra.com^
 ||phejajagy.com^
+||muchotrust.com^
+||neictryziiogg.com^
+||wpyjkfcucjpuwh.com^
+||mtlkwvaybo.com^
+||yyltlwtic.com^
+||jxxcedyaazm.com^
+||fastandslut.com^
+||njnxhh.com^
 
 !Whitelist
 @@||click.linksynergy.com^
@@ -1013,6 +1021,7 @@ wildfanny.com##.video-wrapper > .center:has-text(adblock)
 x-art.com###promo_bar
 x-art.com##.mute
 x-art.com##.btn-tour
+x-art.com##.promo-bar
 
 !veronicca.com
 veronicca.com##.undervideo_banner
@@ -1431,7 +1440,7 @@ private.com##.free-content
 ||xhcdn.com/xh-mobile/js/*.pop.js$script,3p
 ||xhamsterpremium.com^$3p
 ||xhamsterlive.com^$3p
-||stripst.com^$xhr,redirect=nooptext,domain=xhamster.com
+||str*pst.com^$xhr,redirect=nooptext,domain=xhamster.com
 xhamster.*##[class^="player-ad-"]
 xhamster.*##.top-video-block--banner
 xhamster.*##.wrapper
@@ -1685,6 +1694,7 @@ bungie.net##.sidenav_promo
 
 !morazzia.com
 ||morazzia.com^$frame,1p
+||morazzia.com/images/*/banners/*$image,1p
 morazzia.com##+js(norafif, loadMore)
 morazzia.com##+js(ra, href, [href^="/click/o/"])
 morazzia.com##[align^="center"][style^="text"]
@@ -1849,6 +1859,8 @@ destinytracker.com##.notifications
 destinytracker.com##.ad-container
 destinytracker.com##.pwa-upsell
 destinytracker.com##.trials-banner
+destinytracker.com##.medals-container > .value-table > div.value-row > .value-stats > .stat:style(padding-right: 8px !important;)
+destinytracker.com##.announcement
 
 !nudogram.com
 nudogram.com##[src="https://nudogram.com/graphics/banned.png"]
@@ -3386,6 +3398,7 @@ shesfreaky.com##.prefooter
 ||nohchipress.info/sw.js$script,1p
 
 !spankbang.com
+spankbang.com##+js(set, canRunAds, true)
 ||spankbang.com/get*=mobile_*$frame,1p
 ||spankbang.com/sw$script,1p
 ||spankbang.com^$ping,1p
@@ -4908,6 +4921,7 @@ bestlinks.tk##+js(popads-dummy)
 
 !imgtown.net
 @@||imgtown.net/?fld_hash=*=gallery&per_page=*&page=*$popunder,domain=imgtown.pw
+imgtown.pw##div > center:not(:has-text(Comment))
 
 !filebonus.net
 filebonus.net##:xpath(//*[@id="container"]/div/div[4])
@@ -6094,7 +6108,7 @@ yuvutu.com###bg_player_location_controlbar
 ibradome.com##+js(aeld, /^(?:load|click)$/, popMagic)
 
 !instapornvideos.com
-instapornvideos.com##+js(nostif, location.replace, 0)
+||instapornvideos.com/*.js^$script,1p
 instapornvideos.com##.container-sts-bl
 
 !imagevenue.com
@@ -6177,10 +6191,6 @@ shyexgirlfriend.com##.vporn
 !milf.dk
 milf.dk##+js(nostif, postscribe, 0)
 
-!influencersgonewild.com
-influencersgonewild.com##+js(aopw, loadjscssfile)
-influencersgonewild.com##+js(acis, onload)
-
 !porntn.com
 porntn.com##+js(acis, atob, decodeURIComponent)
 porntn.com##div:upward(.top-links)
@@ -6192,16 +6202,16 @@ gofile.io##body:style(overflow: auto !important;)
 !tubebrother.com
 ||tubebrother.com/wp-content/plugins/popunderpro/*$script,1p
 
-!nousdecor.com
-nousdecor.com##+js(noeval)
-nousdecor.com##+js(set, blurred, false)
-nousdecor.com##+js(nano-sib, counter, 1500, 0.02)
-nousdecor.com##+js(nano-sib, counter, 2000, 0.02)
-nousdecor.com##+js(nano-sib, , *, 0)
-nousdecor.com##center > .text-center > p
-nousdecor.com##.text-center > .text-center
-nousdecor.com###content > p
-nousdecor.com###content > .text-center
+!nousdecor.com|staaker.com
+nousdecor.com,staaker.com##+js(noeval)
+nousdecor.com,staaker.com##+js(set, blurred, false)
+nousdecor.com,staaker.com##+js(nano-sib, counter, 1500, 0.02)
+nousdecor.com,staaker.com##+js(nano-sib, counter, 2000, 0.02)
+nousdecor.com,staaker.com##+js(nano-sib, , *, 0)
+nousdecor.com,staaker.com##center > .text-center > p
+nousdecor.com,staaker.com##.text-center > .text-center
+nousdecor.com,staaker.com###content > p
+nousdecor.com,staaker.com###content > .text-center
 
 !exey.io
 exey.io##+js(set, blurred, false)
@@ -6279,6 +6289,7 @@ expertvn.com##.clearfix
 expertvn.com##.entry-content
 expertvn.com##.post-info
 expertvn.com##.post-content
+
 !tny.so
 ||tny.so/sw-$script,1p
 
@@ -6292,3 +6303,19 @@ makemoneywithurl.com###footer-container
 
 !regecish.net
 regecish.net##+js(adfly-defuser)
+
+! 2021-06-05 http://snapcamz.cc
+snapcamz.cc##[href]:has-text(/dropmyfiles.com|kshared.com|jumploads.com|secretfile.net/):upward(3)
+
+!camwhorespy.com
+camwhorespy.com##+js(acis, onload)
+
+!crownimg.com
+*$script,3p,domain=crownimg.com
+crownimg.com##+js(disable-newtab-links)
+crownimg.com##.zmm:style(height: 30px !important; line-height: 30px !important; z-index: 5 !important;)
+crownimg.com##.zmm:before:style(font-size: 15px !important;)
+
+!broncs.net
+||broncs.net/pub/pop_min.js$script,1p
+||broncs.net/images/bonga/*.gif$image,1p
